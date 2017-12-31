@@ -1,8 +1,67 @@
 # fhir-simple-schemas
-FHIR Resources implemented with node-simple-schemas  
+FHIR Resources implemented with node-simple-schemas.    
 
 
+#### Installation  
 
+```bash
+npm install -save fhir-simple-schemas
+```
+
+#### Usage    
+
+```js
+import { PatientSchema } from 'fhir-simple-schemas';
+
+var patient = {
+    "name": {
+        "family": 'Doe',
+        "given": ['Jane']
+    },
+    "identifier": [{
+        "value": 123
+    }]
+};
+
+isValid = PatientSchema.namedContext("myContext").validate(patientobj);
+```
+
+#### Datatypes      
+
+**Base**  
+**CodeableConcept**  
+**Code**  
+**Coding**  
+**Conformance**  
+**ContactPoint**  
+**DomainResource**  
+**Group**  
+**HumanName**  
+**Identifier**  
+**Meta**  
+**Narrative**  
+**Period**  
+**Quantity**  
+**Range**  
+**Ratio**  
+**Reference**  
+**SampledData**  
+**Signature**  
+**Timing**  
+
+#### Schemas   
+
+**AuditEvent**  
+**CarePlan**  
+**Device**  
+**Endpoint**  
+**Location**  
+**Medication**  
+**Organization**  
+**Patient**  
+**Practitioner**  
+**Questionnaire**  
+**QuestionnaireResponse**  
 
 #### Notes & References (Delete Eventually)    
 https://www.npmjs.com/package/node-simple-schema  

@@ -1,0 +1,43 @@
+{
+    "author": {
+      "name": "Abigail Watson",
+      "email": "abigail@symptomatic.io",
+      "url": "http://symptomatic.io"
+    },
+    "bugs": {
+      "url": "https://github.com/clinical-meteor/fhir-simple-schemas/issues",
+      "email": "support@symptomatic.io"
+    },
+    "dependencies": {
+      "node-simple-schema": "0.0.4"
+    },
+    "description": "node-simple-schemas for Fast Healthcare Interoperability Resources.",
+    "devDependencies": {
+      "gulp": "^3.9.1"
+    },
+    "homepage": "https://github.com/clinical-meteor/fhir-simple-schemas",
+    "keywords": [
+      "node-simple-schema",
+      "meteor",
+      "collection2",
+      "fast healthcare interoperability resources",
+      "fhir",
+      "hl7",
+      "interoperability"
+    ],
+    "license": "MIT",
+    "main": "./index.js",
+    "name": "fhir-simple-schemas",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/clinical-meteor/fhir-simple-schemas.git"
+    },
+    "scripts": {
+      "build": "cross-env NODE_ENV=production gulp",
+      "clean": "rimraf ./lib",
+      "prepublish": "yarn run build",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "version": "0.0.1"
+  }
+  
