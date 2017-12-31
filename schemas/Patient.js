@@ -1,17 +1,17 @@
-import { AddressSchema } from '../datatypes/Address';
-import { AnnotationSchema } from '../datatypes/Annotation';
-import { BaseSchema } from '../datatypes/Base';
-import { Code } from '../datatypes/Code';
-import { CodingSchema } from '../datatypes/Coding';
-import { CodeableConcept } from '../datatypes/CodableConcept';
-import { ContactPointSchema } from '../datatypes/ContactPoint';
-import { DomainResourceSchema } from '../datatypes/DomainResource';
-import { HumanNameSchema } from '../datatypes/HumanName';
-import { IdentifierSchema } from '../datatypes/Identifier';
-import { PeriodSchema } from '../datatypes/Period';
-import { QuantitySchema } from '../datatypes/Quantity';
-import { ReferenceSchema } from '../datatypes/Reference';
-import { TimingSchema } from '../datatypes/Timing';
+import { AddressSchema } from '../data"type"s/Address';
+import { AnnotationSchema } from '../data"type"s/Annotation';
+import { BaseSchema } from '../data"type"s/Base';
+import { Code } from '../data"type"s/Code';
+import { CodingSchema } from '../data"type"s/Coding';
+import { CodeableConcept } from '../data"type"s/CodableConcept';
+import { ContactPointSchema } from '../data"type"s/ContactPoint';
+import { DomainResourceSchema } from '../data"type"s/DomainResource';
+import { HumanNameSchema } from '../data"type"s/HumanName';
+import { IdentifierSchema } from '../data"type"s/Identifier';
+import { PeriodSchema } from '../data"type"s/Period';
+import { QuantitySchema } from '../data"type"s/Quantity';
+import { ReferenceSchema } from '../data"type"s/Reference';
+import { TimingSchema } from '../data"type"s/Timing';
 
 
 export default PatientSchema = new SimpleSchema([
@@ -19,133 +19,157 @@ export default PatientSchema = new SimpleSchema([
   DomainResourceSchema,
   {
   "resourceType" : {
-    type: String,
-    defaultValue: "Patient"
+    "label": "This is a Patient resource",
+    "type": String,
+    "defaultValue": "Patient",
   },
   "identifier" : {
-    optional: true,
-    type: [ IdentifierSchema ]
+    "label": "An identifier for this patient.",
+    "optional": true,
+    "type": [ IdentifierSchema ]
     },
   "active" : {
-    type: Boolean,
-    optional: true,
-    defaultValue: true
+    "label": "Whether this patient record is in active use.",
+    "type": Boolean,
+    "optional": true,
+    "defaultValue": true
     },
   "name" : {
-    optional: true,
-    type: [ HumanNameSchema ]
+    "label": "A name associated with the individual.",
+    "optional": true,
+    "type": [ HumanNameSchema ]
     },
   "telecom" : {
-    optional: true,
-    type: [ ContactPointSchema ]
+    "optional": true,
+    "type": [ ContactPointSchema ]
     },
   "gender" : {
-    optional: true,
-    allowedValues: ['male', 'female', 'other', 'unknown'],
-    type: String
+    "label": "Administrative Gender - the gender that the patient is considered to have for administration and record keeping purposes.",          
+    "optional": true,
+    "allowedValues": ['male', 'female', 'other', 'unknown'],
+    "type": String
     },
   "birthDate" : {
-    optional: true,
-    type: Date
+    "label": "The date of birth for the individual.",
+    "optional": true,
+    "type": Date
     },
   "deceasedBoolean" : {
-    optional: true,
-    type: Boolean
+    "label": "Indicates if the individual is deceased or not.",
+    "optional": true,
+    "type": Boolean
     },
   "deceasedDateTime" : {
-    optional: true,
-    type: Date
+    "label": "Indicates if the individual is deceased or not.",
+    "optional": true,
+    "type": Date
     },
   "address" : {
-    optional: true,
-    type: [ AddressSchema ]
+    "label": "Addresses for the individual.",
+    "optional": true,
+    "type": [ AddressSchema ]
     },
   "maritalStatus" : {
-    optional: true,
-    type: CodeableConceptSchema
+    "label": "This field contains a patient's most recent marital (civil) status.",          
+    "optional": true,
+    "type": CodeableConceptSchema
     },
   "multipleBirthBoolean" : {
-    optional: true,
-    type: Boolean
+    "label": "Indicates whether the patient is part of a multiple (bool) or indicates the actual birth order (integer).",
+    "optional": true,
+    "type": Boolean
     },
   "multipleBirthInteger" : {
-    optional: true,
-    type: Number
+    "label": "Indicates whether the patient is part of a multiple (bool) or indicates the actual birth order (integer).",
+    "optional": true,
+    "type": Number
     },
   "photo" : {
-    optional: true,
-    type: [ AttachmentSchema ]
+    "label": "Image of the patient.",
+    "optional": true,
+    "type": [ AttachmentSchema ]
     },
   "contact.$.relationship" : {
-    optional: true,
-    type: [ CodeableConceptSchema ]
+    "label": "The nature of the relationship between the patient and the contact person.",            
+    "optional": true,
+    "type": [ CodeableConceptSchema ]
     },
   "contact.$.name" : {
-    optional: true,
-    type: HumanNameSchema
+    "label": "A name associated with the contact person.",
+    "optional": true,
+    "type": HumanNameSchema
     },
   "contact.$.telecom" : {
-    optional: true,
-    type: [ ContactPointSchema ]
+    "label": "A contact detail for the person, e.g. a telephone number or an email address.",
+    "optional": true,
+    "type": [ ContactPointSchema ]
     },
   "contact.$.address" : {
-    optional: true,
-    type: [ AddressSchema ]
+    "label": "Address for the contact person.",
+    "optional": true,
+    "type": [ AddressSchema ]
     },
   "contact.$.gender" : {
-    optional: true,
-    allowedValues: ['male', 'female', 'other', 'unknown'],
-    type: Code
+    "label": "Administrative Gender - the gender that the contact person is considered to have for administration and record keeping purposes.",
+    "optional": true,
+    "allowedValues": ['male', 'female', 'other', 'unknown'],
+    "type": Code
     },
   "contact.$.organization" : {
-    optional: true,
-    type: String
+    "label": "Organization on behalf of which the contact is acting or for which the contact is working.",            
+    "optional": true,
+    "type": String
     },
   "contact.$.period" : {
-    optional: true,
-    type: PeriodSchema
+    "label": "The period during which this contact person or organization is valid to be contacted relating to this patient.",
+    "optional": true,
+    "type": PeriodSchema
     },
   "animal.species" : {
-    optional: true,
-    type: String
-    //type: CodeableConceptSchema
+    "label": "Identifies the high level taxonomic categorization of the kind of animal.",
+    "optional": true,
+    "type": String
     },
   "animal.breed" : {
-    optional: true,
-    type: CodeableConceptSchema
+    "label": "Identifies the detailed categorization of the kind of animal.",
+    "optional": true,
+    "type": CodeableConceptSchema
     },
   "animal.genderStatus" : {
-    optional: true,
-    type: CodeableConceptSchema
+    "label": "Indicates the current state of the animal's reproductive organs.",
+    "optional": true,
+    "type": CodeableConceptSchema
     },
   "communication.$.language" : {
-    optional: true,
-    type: CodeableConceptSchema
+    "label": "The ISO-639-1 alpha 2 code in lower case for the language, optionally followed by a hyphen and the ISO-3166-1 alpha 2 code for the region in upper case; e.g. \"en\" for English, or \"en-US\" for American English versus \"en-EN\" for England English.",
+    "optional": true,
+    "type": CodeableConceptSchema
     },
   "communication.$.preferred" : {
-    optional: true,
-    type: Boolean
+    "label": "Indicates whether or not the patient prefers this language (over other languages he masters up a certain level).",
+    "optional": true,
+    "type": Boolean
     },
   "generalPractitioner" : {
-    optional: true,
-    type: [ ReferenceSchema ]
+    "label": "Patient's nominated care provider.",
+    "optional": true,
+    "type": [ ReferenceSchema ]
     },
   "managingOrganization" : {
-    optional: true,
-    type: ReferenceSchema
+    "label": "Organization that is the custodian of the patient record.",
+    "optional": true,
+    "type": ReferenceSchema
     },
   "link.$.other" : {
-    optional: true,
-    type: ReferenceSchema
+    "label": "The other patient resource that the link refers to.",                
+    "optional": true,
+    "type": ReferenceSchema
     },
   "link.$.type" : {
-    optional: true,
-    allowedValues: ['replaced-by', 'replaces', 'refer', 'seealso'],
-    type: Code
-    },
-  "test" : {
-    optional: true,
-    type: Boolean
+    "label": "The 'type' of link between this patient resource and another patient resource.",                
+    "optional": true,
+    "allowedValues": ['replaced-by', 'replaces', 'refer', 'seealso'],
+    "type": Code
     }
   }
 ]);
