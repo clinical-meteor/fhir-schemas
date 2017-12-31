@@ -23,7 +23,7 @@ var patient = {
     }]
 };
 
-isValid = PatientSchema.namedContext("myContext").validate(patientobj);
+var isValid = PatientSchema.namedContext("myContext").validate(patientobj);
 ```
 
 #### Datatypes      
