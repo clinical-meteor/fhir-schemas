@@ -61,3 +61,4 @@ exports.ParameterDefinitionSchema = require('./fhir.schema.json/ParameterDefinit
 exports.TriggerDefinitionSchema = require('./fhir.schema.json/TriggerDefinition.schema.json');
 
 exports.ResourceListSchema = require('./fhir.schema.json/ResourceList.schema.json');
+exports.AccountSchema = require('./fhir.schema.json/Account.schema.json');
