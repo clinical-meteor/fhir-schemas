@@ -45,3 +45,4 @@ exports.CountSchema = require('./fhir.schema.json/Count.schema.json');
 exports.MoneySchema = require('./fhir.schema.json/Money.schema.json');
 exports.AgeSchema = require('./fhir.schema.json/Age.schema.json');
 exports.RangeSchema = require('./fhir.schema.json/Range.schema.json');
+exports.RatioSchema = require('./fhir.schema.json/Ratio.schema.json');
