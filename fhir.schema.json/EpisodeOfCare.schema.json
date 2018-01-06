@@ -66,11 +66,11 @@
             },
             "patient": {
               "description": "The patient who is the focus of this episode of care.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "managingOrganization": {
               "description": "The organization that has assumed the specific responsibilities for the specified duration.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "period": {
               "description": "The interval during which the managing organization assumes the defined responsibility.",
@@ -80,25 +80,25 @@
               "description": "Referral Request(s) that are fulfilled by this EpisodeOfCare, incoming referrals.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "careManager": {
               "description": "The practitioner that is the care manager/care co-ordinator for this patient.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "team": {
               "description": "The list of practitioners that may be facilitating this episode of care for specific purposes.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "account": {
               "description": "The set of accounts that may be used for billing for this EpisodeOfCare.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             }
           },
@@ -155,7 +155,7 @@
           "properties": {
             "condition": {
               "description": "A list of conditions/problems/diagnoses that this episode of care is intended to be providing care for.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "role": {
               "description": "Role that this diagnosis has within the episode of care (e.g. admission, billing, discharge …).",

@@ -110,17 +110,17 @@
             },
             "managingOrganization": {
               "description": "The organization responsible for the provisioning and upkeep of the location.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "partOf": {
               "description": "Another Location which this Location is physically part of.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "endpoint": {
               "description": "Technical endpoints providing access to services operated for the location.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             }
           },

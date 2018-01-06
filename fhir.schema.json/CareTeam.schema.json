@@ -58,11 +58,11 @@
             },
             "subject": {
               "description": "Identifies the patient or group whose intended care is handled by the team.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "context": {
               "description": "The encounter or episode of care that establishes the context for this care team.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "period": {
               "description": "Indicates when the team did (or is intended to) come into effect and end.",
@@ -86,14 +86,14 @@
               "description": "Condition(s) that this care team addresses.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "managingOrganization": {
               "description": "The organization responsible for the care team.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "note": {
@@ -124,11 +124,11 @@
             },
             "member": {
               "description": "The specific person or organization who is participating/expected to participate in the care team.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "onBehalfOf": {
               "description": "The organization of the practitioner.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "period": {
               "description": "Indicates when the specific member or organization did (or is intended to) come into effect and end.",

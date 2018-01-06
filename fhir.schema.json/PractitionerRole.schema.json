@@ -40,11 +40,11 @@
             },
             "practitioner": {
               "description": "Practitioner that is able to provide the defined services for the organation.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "organization": {
               "description": "The organization where the Practitioner performs the roles associated.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "code": {
               "description": "Roles which this practitioner is authorized to perform for the organization.",
@@ -64,14 +64,14 @@
               "description": "The location(s) at which this practitioner provides care.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "healthcareService": {
               "description": "The list of healthcare services that this worker provides for this role\u0027s Organization/Location(s).",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "telecom": {
@@ -107,7 +107,7 @@
               "description": "Technical endpoints providing access to services operated for the practitioner with this role.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             }
           },

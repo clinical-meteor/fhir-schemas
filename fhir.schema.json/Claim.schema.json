@@ -62,7 +62,7 @@
             },
             "patient": {
               "description": "Patient Resource.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "billablePeriod": {
               "description": "The billable period for which charges are being submitted.",
@@ -79,19 +79,19 @@
             },
             "enterer": {
               "description": "Person who created the invoice/claim/pre-determination or pre-authorization.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "insurer": {
               "description": "The Insurer who is target of the request.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "provider": {
               "description": "The provider which is responsible for the bill, claim pre-determination, pre-authorization.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "organization": {
               "description": "The organization which is responsible for the bill, claim pre-determination, pre-authorization.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "priority": {
               "description": "Immediate (STAT), best effort (NORMAL), deferred (DEFER).",
@@ -110,11 +110,11 @@
             },
             "prescription": {
               "description": "Prescription to support the dispensing of Pharmacy or Vision products.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "originalPrescription": {
               "description": "Original prescription which has been superceded by this prescription to support the dispensing of pharmacy services, medications or products. For example, a physician may prescribe a medication which the pharmacy determines is contraindicated, or for which the patient has an intolerance, and therefor issues a new precription for an alternate medication which has the same theraputic intent. The prescription from the pharmacy becomes the \u0027prescription\u0027 and that from the physician becomes the \u0027original prescription\u0027.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "payee": {
               "description": "The party to be reimbursed for the services.",
@@ -122,11 +122,11 @@
             },
             "referral": {
               "description": "The referral resource which lists the date, practitioner, reason and other supporting information.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "facility": {
               "description": "Facility where the services were provided.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "careTeam": {
               "description": "The members of the team who provided the overall service as well as their role and whether responsible and qualifications.",
@@ -203,7 +203,7 @@
           "properties": {
             "claim": {
               "description": "Other claims which are related to this claim such as prior claim versions or for related services.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "relationship": {
               "description": "For example prior or umbrella.",
@@ -235,7 +235,7 @@
             },
             "party": {
               "description": "Party to be reimbursed: Subscriber, provider, other.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [
@@ -263,7 +263,7 @@
             },
             "provider": {
               "description": "Member of the team who provided the overall service.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "responsible": {
               "description": "The party who is billing and responsible for the claimed good or service rendered to the patient.",
@@ -344,7 +344,7 @@
             },
             "valueReference": {
               "description": "Additional data or information such as resources, documents, images etc. including references to the data or the actual inclusion of the data.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "reason": {
               "description": "For example, provides the reason for: the additional stay, or missing tooth or any other situation where a reason code is required in addition to the content.",
@@ -380,7 +380,7 @@
             },
             "diagnosisReference": {
               "description": "The diagnosis.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "type": {
               "description": "The type of the Diagnosis, for example: admitting, primary, secondary, discharge.",
@@ -429,7 +429,7 @@
             },
             "procedureReference": {
               "description": "The procedure code.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           }
         }
@@ -462,7 +462,7 @@
             },
             "coverage": {
               "description": "Reference to the program or plan identification, underwriter or payor.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "businessArrangement": {
               "description": "The contract number of a business agreement which describes the terms and conditions.",
@@ -488,7 +488,7 @@
             },
             "claimResponse": {
               "description": "The Coverages adjudication details.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [
@@ -524,7 +524,7 @@
             },
             "locationReference": {
               "description": "Accident Place.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           }
         }
@@ -656,7 +656,7 @@
             },
             "locationReference": {
               "description": "Where the service was provided.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "quantity": {
               "description": "The number of repetitions of a service or product.",
@@ -683,7 +683,7 @@
               "description": "List of Unique Device Identifiers associated with this line item.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "bodySite": {
@@ -701,7 +701,7 @@
               "description": "A billed item may include goods or services provided in multiple encounters.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "detail": {
@@ -783,7 +783,7 @@
               "description": "List of Unique Device Identifiers associated with this line item.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "subDetail": {
@@ -865,7 +865,7 @@
               "description": "List of Unique Device Identifiers associated with this line item.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             }
           }

@@ -37,7 +37,7 @@
             },
             "request": {
               "description": "Original request resource reference.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "outcome": {
               "description": "Processing status: error, complete.",
@@ -62,15 +62,15 @@
             },
             "organization": {
               "description": "The Insurer who produced this adjudicated response.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "requestProvider": {
               "description": "The practitioner who is responsible for the services rendered to the patient.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "requestOrganization": {
               "description": "The organization which is responsible for the services rendered to the patient.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [

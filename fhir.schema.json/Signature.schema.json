@@ -37,7 +37,7 @@
             },
             "whoReference": {
               "description": "A reference to an application-usable description of the identity that signed  (e.g. the signature used their private key).",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "onBehalfOfUri": {
               "description": "A reference to an application-usable description of the identity that is represented by the signature.",
@@ -49,7 +49,7 @@
             },
             "onBehalfOfReference": {
               "description": "A reference to an application-usable description of the identity that is represented by the signature.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "contentType": {
               "description": "A mime type that indicates the technical format of the signature. Important mime types are application/signature+xml for X ML DigSig, application/jwt for JWT, and image/* for a graphical image of a signature, etc.",

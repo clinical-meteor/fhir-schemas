@@ -673,7 +673,7 @@
             },
             "defaultValueReference": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "defaultValueSampledData": {
               "description": "A value to use if there is no existing value in the source object.",

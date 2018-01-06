@@ -30,21 +30,21 @@
               "description": "Protocol or definition followed by this request. For example: The proposed act must be performed if the indicated conditions occur, e.g.., shortness of breath, SpO2 less than x%.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "basedOn": {
               "description": "Plan/proposal/order fulfilled by this request.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "priorRequest": {
               "description": "The request takes the place of the referenced completed or terminated request(s).",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "groupIdentifier": {
@@ -75,7 +75,7 @@
             },
             "codeReference": {
               "description": "The details of the device to be used.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "codeCodeableConcept": {
               "description": "The details of the device to be used.",
@@ -83,11 +83,11 @@
             },
             "subject": {
               "description": "The patient who will use the device.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "context": {
               "description": "An encounter that provides additional context in which this request is made.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "occurrenceDateTime": {
               "description": "The timing schedule for the use of the device. The Schedule data type allows many different expressions, for example. \"Every 8 hours\"; \"Three times a day\"; \"1/2 an hour before breakfast for 10 days from 23-Dec 2011:\"; \"15 Oct 2013, 17 Oct 2013 and 1 Nov 2013\".",
@@ -125,7 +125,7 @@
             },
             "performer": {
               "description": "The desired perfomer for doing the diagnostic testing.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "reasonCode": {
               "description": "Reason or justification for the use of this device.",
@@ -138,14 +138,14 @@
               "description": "Reason or justification for the use of this device.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "supportingInfo": {
               "description": "Additional clinical information about the patient that may influence the request fulfilment.  For example, this may includes body where on the subject\u0027s the device will be used ( i.e. the target site).",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "note": {
@@ -159,7 +159,7 @@
               "description": "Key events in the history of the request.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             }
           },
@@ -181,11 +181,11 @@
           "properties": {
             "agent": {
               "description": "The device, practitioner, etc. who initiated the request.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "onBehalfOf": {
               "description": "The organization the device or practitioner was acting on behalf of.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [

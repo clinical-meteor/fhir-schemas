@@ -27,14 +27,14 @@
               "description": "A plan, proposal or order that is fulfilled in whole or in part by this event.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "partOf": {
               "description": "A larger event of which this particular event is a component or step.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "status": {
@@ -53,7 +53,7 @@
             },
             "patient": {
               "description": "A link to a resource representing the person whom the delivered item is for.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "type": {
               "description": "Indicates the type of dispensing event that is performed. Examples include: Trial Fill, Completion of Trial, Partial Fill, Emergency Fill, Samples, etc.",
@@ -82,17 +82,17 @@
             },
             "supplier": {
               "description": "The individual responsible for dispensing the medication, supplier or device.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "destination": {
               "description": "Identification of the facility/location where the Supply was shipped to, as part of the dispense event.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "receiver": {
               "description": "Identifies the person who picked up the Supply.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             }
           },
@@ -120,7 +120,7 @@
             },
             "itemReference": {
               "description": "Identifies the medication, substance or device being dispensed. This is either a link to a resource representing the details of the item or a code that identifies the item from a known list.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           }
         }

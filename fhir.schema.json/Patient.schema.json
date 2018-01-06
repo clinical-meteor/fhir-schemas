@@ -145,12 +145,12 @@
               "description": "Patient\u0027s nominated care provider.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "managingOrganization": {
               "description": "Organization that is the custodian of the patient record.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "link": {
               "description": "Link to another patient resource that concerns the same actual patient.",
@@ -212,7 +212,7 @@
             },
             "organization": {
               "description": "Organization on behalf of which the contact is acting or for which the contact is working.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "period": {
               "description": "The period during which this contact person or organization is valid to be contacted relating to this patient.",
@@ -286,7 +286,7 @@
           "properties": {
             "other": {
               "description": "The other patient resource that the link refers to.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "type": {
               "description": "The type of link between this patient resource and another patient resource.",

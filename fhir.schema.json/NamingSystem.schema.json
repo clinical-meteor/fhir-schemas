@@ -129,7 +129,7 @@
             },
             "replacedBy": {
               "description": "For naming systems that are retired, indicates the naming system that should be used in their place (if any).",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [

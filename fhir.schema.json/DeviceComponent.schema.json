@@ -37,11 +37,11 @@
             },
             "source": {
               "description": "The link to the source Device that contains administrative device information such as manufacture, serial number, etc.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "parent": {
               "description": "The link to the parent resource. For example: Channel is linked to its VMD parent.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "operationalStatus": {
               "description": "The current operational status of the device. For example: On, Off, Standby, etc.",

@@ -141,20 +141,20 @@
             },
             "base": {
               "description": "The MessageDefinition that is the basis for the contents of this resource.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "parent": {
               "description": "Identifies a protocol or workflow that this MessageDefinition represents a step in.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "replaces": {
               "description": "A MessageDefinition that is superseded by this definition.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "event": {
@@ -219,7 +219,7 @@
             },
             "profile": {
               "description": "A profile that reflects constraints for the focal resource (and potentially for related resources).",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "min": {
               "description": "Identifies the minimum number of resources of this type that must be pointed to by a message in order for it to be valid against this MessageDefinition.",
@@ -252,7 +252,7 @@
           "properties": {
             "message": {
               "description": "A reference to the message definition that must be adhered to by this supported response.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "situation": {
               "description": "Provides a description of the circumstances in which this response should be used (as opposed to one of the alternative responses).",

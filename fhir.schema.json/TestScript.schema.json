@@ -168,7 +168,7 @@
               "description": "Reference to the profile to be used for validation.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "variable": {
@@ -399,7 +399,7 @@
             },
             "capabilities": {
               "description": "Minimum capabilities required of server for test script to execute successfully.   If server does not meet at a minimum the referenced capability statement, then all tests in this script are skipped.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [
@@ -434,7 +434,7 @@
             },
             "resource": {
               "description": "Reference to the resource (containing the contents of the resource needed for operations).",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           }
         }
@@ -527,7 +527,7 @@
           "properties": {
             "resource": {
               "description": "Reference to the resource (containing the contents of the rule needed for assertions).",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "param": {
               "description": "Each rule template can take one or more parameters for rule evaluation.",
@@ -581,7 +581,7 @@
           "properties": {
             "resource": {
               "description": "Reference to the resource (containing the contents of the ruleset needed for assertions).",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "rule": {
               "description": "The referenced rule within the external ruleset template.",

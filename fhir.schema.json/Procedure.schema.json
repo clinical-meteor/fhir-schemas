@@ -30,21 +30,21 @@
               "description": "A protocol, guideline, orderset or other definition that was adhered to in whole or in part by this procedure.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "basedOn": {
               "description": "A reference to a resource that contains details of the request for this procedure.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "partOf": {
               "description": "A larger event of which this particular procedure is a component or step.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "status": {
@@ -78,11 +78,11 @@
             },
             "subject": {
               "description": "The person, animal or group on which the procedure was performed.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "context": {
               "description": "The encounter during which the procedure was performed.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "performedDateTime": {
               "description": "The date(time)/period over which the procedure was performed. Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured.",
@@ -106,7 +106,7 @@
             },
             "location": {
               "description": "The location where the procedure actually happened.  E.g. a newborn at home, a tracheostomy at a restaurant.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "reasonCode": {
               "description": "The coded reason why the procedure was performed. This may be coded entity of some type, or may simply be present as text.",
@@ -119,7 +119,7 @@
               "description": "The condition that is the reason why the procedure was performed.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "bodySite": {
@@ -137,7 +137,7 @@
               "description": "This could be a histology result, pathology report, surgical report, etc..",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "complication": {
@@ -151,7 +151,7 @@
               "description": "Any complications that occurred during the procedure, or in the immediate post-performance period.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "followUp": {
@@ -179,7 +179,7 @@
               "description": "Identifies medications, devices and any other substance used as part of the procedure.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "usedCode": {
@@ -211,11 +211,11 @@
             },
             "actor": {
               "description": "The practitioner who was involved in the procedure.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "onBehalfOf": {
               "description": "The organization the device or practitioner was acting on behalf of.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [
@@ -238,7 +238,7 @@
             },
             "manipulated": {
               "description": "The device that was manipulated (changed) during the procedure.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [

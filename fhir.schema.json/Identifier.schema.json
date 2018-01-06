@@ -52,7 +52,7 @@
             },
             "assigner": {
               "description": "Organization that issued/manages the identifier.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           }
         }

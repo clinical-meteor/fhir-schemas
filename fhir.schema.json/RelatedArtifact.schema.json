@@ -60,7 +60,7 @@
             },
             "resource": {
               "description": "The related resource, such as a library, value set, profile, or other knowledge resource.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           }
         }

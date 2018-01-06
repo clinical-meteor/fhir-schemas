@@ -49,11 +49,11 @@
             },
             "patient": {
               "description": "The patient who either received or did not receive the immunization.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "encounter": {
               "description": "The visit or admission or other contact between patient and health care provider the immunization was performed as part of.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "date": {
               "description": "Date vaccine administered or was to be administered.",
@@ -78,11 +78,11 @@
             },
             "location": {
               "description": "The service delivery location where the vaccine administration occurred.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "manufacturer": {
               "description": "Name of vaccine manufacturer.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "lotNumber": {
               "description": "Lot number of the  vaccine product.",
@@ -168,7 +168,7 @@
             },
             "actor": {
               "description": "The device, practitioner, etc. who performed the action.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [
@@ -222,7 +222,7 @@
             },
             "detail": {
               "description": "Details of the reaction.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "reported": {
               "description": "Self-reported indicator.",
@@ -263,7 +263,7 @@
             },
             "authority": {
               "description": "Indicates the authority who published the protocol.  E.g. ACIP.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "series": {
               "description": "One possible path to achieve presumed immunity against a disease - within the context of an authority.",

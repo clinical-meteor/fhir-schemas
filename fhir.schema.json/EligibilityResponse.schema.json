@@ -46,15 +46,15 @@
             },
             "requestProvider": {
               "description": "The practitioner who is responsible for the services rendered to the patient.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "requestOrganization": {
               "description": "The organization which is responsible for the services rendered to the patient.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "request": {
               "description": "Original request resource reference.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "outcome": {
               "description": "Transaction status: error, complete.",
@@ -70,7 +70,7 @@
             },
             "insurer": {
               "description": "The Insurer who produced this adjudicated response.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "inforce": {
               "description": "Flag indicating if the coverage provided is inforce currently  if no service date(s) specified or for the whole duration of the service dates.",
@@ -115,11 +115,11 @@
           "properties": {
             "coverage": {
               "description": "A suite of updated or additional Coverages from the Insurer.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "contract": {
               "description": "The contract resource which may provide more detailed information.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "benefitBalance": {
               "description": "Benefits and optionally current balances by Category.",

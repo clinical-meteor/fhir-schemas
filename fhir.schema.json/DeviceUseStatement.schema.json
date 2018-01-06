@@ -44,7 +44,7 @@
             },
             "subject": {
               "description": "The patient who used the device.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "whenUsed": {
               "description": "The time period over which the device was used.",
@@ -78,11 +78,11 @@
             },
             "source": {
               "description": "Who reported the device was being used by the patient.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "device": {
               "description": "The details of the device used.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "indication": {
               "description": "Reason or justification for the use of the device.",

@@ -76,7 +76,7 @@
             },
             "managingOrganization": {
               "description": "The organization that is the custodian of the person record.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "active": {
               "description": "Whether this person\u0027s record is in active use.",
@@ -110,7 +110,7 @@
           "properties": {
             "target": {
               "description": "The resource to which this actual person is associated.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "assurance": {
               "description": "Level of assurance that this link is actually associated with the target resource.",

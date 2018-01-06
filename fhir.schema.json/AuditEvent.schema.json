@@ -127,7 +127,7 @@
             },
             "reference": {
               "description": "Direct reference to a resource that identifies the agent.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "userId": {
               "description": "Unique identifier for the user actively participating in the event.",
@@ -159,7 +159,7 @@
             },
             "location": {
               "description": "Where the event occurred.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "policy": {
               "description": "The policy or plan that authorized the activity being recorded. Typically, a single activity may have multiple applicable policies, such as patient consent, guarantor funding, etc. The policy would also indicate the security token used.",
@@ -277,7 +277,7 @@
             },
             "reference": {
               "description": "Identifies a specific instance of the entity. The reference should be version specific.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "type": {
               "description": "The type of the object that was involved in this audit event.",

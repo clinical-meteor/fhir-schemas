@@ -100,11 +100,11 @@
             },
             "patient": {
               "description": "Patient information, If the device is affixed to a person.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "owner": {
               "description": "An organization that is responsible for the provision and ongoing maintenance of the device.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "contact": {
               "description": "Contact details for an organization or a particular human that is responsible for the device.",
@@ -115,7 +115,7 @@
             },
             "location": {
               "description": "The place where the device can be found.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "url": {
               "description": "A network address on which the device may be contacted directly.",

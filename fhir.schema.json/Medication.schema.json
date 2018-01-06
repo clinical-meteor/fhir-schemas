@@ -54,7 +54,7 @@
             },
             "manufacturer": {
               "description": "Describes the details of the manufacturer of the medication product.  This is not intended to represent the distributor of a medication product.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "form": {
               "description": "Describes the form of the item.  Powder; tablets; capsule.",
@@ -99,7 +99,7 @@
             },
             "itemReference": {
               "description": "The actual ingredient - either a substance (simple ingredient) or another medication.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "isActive": {
               "description": "Indication of whether this ingredient affects the therapeutic action of the drug.",
@@ -161,7 +161,7 @@
             },
             "itemReference": {
               "description": "Identifies one of the items in the package.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "amount": {
               "description": "The amount of the product that is in the package.",

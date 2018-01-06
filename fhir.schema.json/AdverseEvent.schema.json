@@ -41,7 +41,7 @@
             },
             "subject": {
               "description": "This subject or group impacted by the event.  With a prospective adverse event, there will be no subject as the adverse event was prevented.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "date": {
               "description": "The date (and perhaps time) when the adverse event occurred.",
@@ -56,12 +56,12 @@
               "description": "Includes information about the reaction that occurred as a result of exposure to a substance (for example, a drug or a chemical).",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "location": {
               "description": "The information about where the adverse event occurred.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "seriousness": {
               "description": "Describes the seriousness or severity of the adverse event.",
@@ -73,11 +73,11 @@
             },
             "recorder": {
               "description": "Information on who recorded the adverse event.  May be the patient or a practitioner.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "eventParticipant": {
               "description": "Parties that may or should contribute or have contributed information to the Act. Such information includes information leading to the decision to perform the Act and how to perform the Act (e.g. consultant), information that the Act itself seeks to reveal (e.g. informant of clinical history), or information about what Act was performed (e.g. informant witness).",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "description": {
               "description": "Describes the adverse event in text.",
@@ -98,21 +98,21 @@
               "description": "AdverseEvent.subjectMedicalHistory.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "referenceDocument": {
               "description": "AdverseEvent.referenceDocument.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "study": {
               "description": "AdverseEvent.study.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             }
           },
@@ -132,7 +132,7 @@
           "properties": {
             "instance": {
               "description": "Identifies the actual instance of what caused the adverse event.  May be a substance, medication, medication administration, medication statement or a device.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "causality": {
               "description": "causality1 | causality2.",
@@ -164,7 +164,7 @@
             },
             "causalityAuthor": {
               "description": "AdverseEvent.suspectEntity.causalityAuthor.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "causalityResult": {
               "description": "result1 | result2.",

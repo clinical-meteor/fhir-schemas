@@ -30,7 +30,7 @@
               "description": "A procedure that is fulfilled in whole or in part by the creation of this media.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "type": {
@@ -56,11 +56,11 @@
             },
             "subject": {
               "description": "Who/What this Media is a record of.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "context": {
               "description": "The encounter or episode of care that establishes the context for this media.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "occurrenceDateTime": {
               "description": "The date and time(s) at which the media was collected.",
@@ -77,7 +77,7 @@
             },
             "operator": {
               "description": "The person who administered the collection of the image.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "reasonCode": {
               "description": "Describes why the event occurred in coded or textual form.",
@@ -92,7 +92,7 @@
             },
             "device": {
               "description": "The device used to collect the media.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "height": {
               "description": "Height of the image in pixels (photo/video).",

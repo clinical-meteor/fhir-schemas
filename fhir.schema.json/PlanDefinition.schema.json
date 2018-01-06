@@ -201,7 +201,7 @@
               "description": "A reference to a Library resource containing any formal logic used by the plan definition.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "goal": {
@@ -524,11 +524,11 @@
             },
             "definition": {
               "description": "A reference to an ActivityDefinition that describes the action to be taken in detail, or a PlanDefinition that describes a series of actions to be taken.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "transform": {
               "description": "A reference to a StructureMap resource that defines a transform that can be executed to produce the intent resource using the ActivityDefinition instance as the input.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "dynamicValue": {
               "description": "Customizations that should be applied to the statically defined resource. For example, if the dosage of a medication must be computed based on the patient\u0027s weight, a customization would be used to specify an expression that calculated the weight, and the path on the resource that would contain the result.",

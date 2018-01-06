@@ -158,7 +158,7 @@
             },
             "base": {
               "description": "Indicates that this operation definition is a constraining profile on the base.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "resource": {
               "description": "The types on which this operation can be executed.",
@@ -303,7 +303,7 @@
             },
             "profile": {
               "description": "A profile the specifies the rules that this parameter must conform to.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "binding": {
               "description": "Binds to a value set if this parameter is coded (code, Coding, CodeableConcept).",
@@ -352,7 +352,7 @@
             },
             "valueSetReference": {
               "description": "Points to the value set or external definition (e.g. implicit value set) that identifies the set of codes to be used.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           }
         }

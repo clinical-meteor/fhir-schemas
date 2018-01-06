@@ -37,11 +37,11 @@
             },
             "patient": {
               "description": "A link to a resource representing the person to whom the vision products will be supplied.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "encounter": {
               "description": "A link to a resource that identifies the particular occurrence of contact between patient and health care provider.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "dateWritten": {
               "description": "The date (and perhaps time) when the prescription was written.",
@@ -54,7 +54,7 @@
             },
             "prescriber": {
               "description": "The healthcare professional responsible for authorizing the prescription.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "reasonCodeableConcept": {
               "description": "Can be the reason or the indication for writing the prescription.",
@@ -62,7 +62,7 @@
             },
             "reasonReference": {
               "description": "Can be the reason or the indication for writing the prescription.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "dispense": {
               "description": "Deals with details of the dispense part of the supply specification.",

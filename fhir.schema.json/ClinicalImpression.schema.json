@@ -53,11 +53,11 @@
             },
             "subject": {
               "description": "The patient or group of individuals assessed as part of this record.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "context": {
               "description": "The encounter or episode of care this impression was created as part of.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "effectiveDateTime": {
               "description": "The point in time or period over which the subject was assessed.",
@@ -83,17 +83,17 @@
             },
             "assessor": {
               "description": "The clinician performing the assessment.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "previous": {
               "description": "A reference to the last assesment that was conducted bon this patient. Assessments are often/usually ongoing in nature; a care provider (practitioner or team) will make new assessments on an ongoing basis as new data arises or the patient\u0027s conditions changes.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "problem": {
               "description": "This a list of the relevant problems/conditions for a patient.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "investigation": {
@@ -143,14 +143,14 @@
               "description": "RiskAssessment expressing likely outcome.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "action": {
               "description": "Action taken as part of assessment procedure.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "note": {
@@ -184,7 +184,7 @@
               "description": "A record of a specific investigation that was undertaken.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             }
           },
@@ -208,7 +208,7 @@
             },
             "itemReference": {
               "description": "Specific text, code or reference for finding or diagnosis, which may include ruled-out or resolved conditions.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "basis": {
               "description": "Which investigations support finding or diagnosis.",

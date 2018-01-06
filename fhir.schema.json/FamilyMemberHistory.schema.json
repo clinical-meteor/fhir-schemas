@@ -30,7 +30,7 @@
               "description": "A protocol or questionnaire that was adhered to in whole or in part by this event.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "status": {
@@ -61,7 +61,7 @@
             },
             "patient": {
               "description": "The person who this history concerns.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "date": {
               "description": "The date (and possibly time) when the family member history was taken.",
@@ -187,7 +187,7 @@
               "description": "Indicates a Condition, Observation, AllergyIntolerance, or QuestionnaireResponse that justifies this family member history event.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "note": {

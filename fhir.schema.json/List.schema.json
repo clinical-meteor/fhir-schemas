@@ -66,11 +66,11 @@
             },
             "subject": {
               "description": "The common subject (or patient) of the resources that are in the list, if there is one.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "encounter": {
               "description": "The encounter that is the context in which this list was created.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "date": {
               "description": "The date that the list was prepared.",
@@ -83,7 +83,7 @@
             },
             "source": {
               "description": "The entity responsible for deciding what the contents of the list were. Where the list was created by a human, this is the same as the author of the list.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "orderedBy": {
               "description": "What order applies to the items in the list.",
@@ -145,7 +145,7 @@
             },
             "item": {
               "description": "A reference to the actual resource from which data was derived.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [

@@ -161,7 +161,7 @@
           "properties": {
             "entity": {
               "description": "A reference to the entity that is a member of the group. Must be consistent with Group.type.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "period": {
               "description": "The period that the member was in the group, if known.",

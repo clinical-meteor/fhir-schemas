@@ -51,11 +51,11 @@
             },
             "measure": {
               "description": "A reference to the Measure that was evaluated to produce this report.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "patient": {
               "description": "Optional Patient if the report was requested for a single patient.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "date": {
               "description": "The date this measure report was generated.",
@@ -68,7 +68,7 @@
             },
             "reportingOrganization": {
               "description": "Reporting Organization.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "period": {
               "description": "The reporting period for which the report was calculated.",
@@ -83,7 +83,7 @@
             },
             "evaluatedResources": {
               "description": "A reference to a Bundle containing the Resources that were used in the evaluation of this report.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [
@@ -163,7 +163,7 @@
             },
             "patients": {
               "description": "This element refers to a List of patient level MeasureReport resources, one for each patient in this population.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           }
         }
@@ -255,7 +255,7 @@
             },
             "patients": {
               "description": "This element refers to a List of patient level MeasureReport resources, one for each patient in this population in this stratum.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           }
         }

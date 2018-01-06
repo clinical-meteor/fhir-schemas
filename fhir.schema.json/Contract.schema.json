@@ -49,28 +49,28 @@
               "description": "The target entity impacted by or of interest to parties to the agreement.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "topic": {
               "description": "The matter of concern in the context of this agreement.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "authority": {
               "description": "A formally or informally recognized grouping of people, principals, organizations, or jurisdictions formed for the purpose of achieving some form of collective action such as the promulgation, administration and enforcement of contracts and policies.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "domain": {
               "description": "Recognized governance framework or system operating with a circumscribed scope in accordance with specified principles, policies, processes or procedures for managing rights, actions, or behaviors of parties or principals relative to resources.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "type": {
@@ -147,7 +147,7 @@
             },
             "bindingReference": {
               "description": "Legally binding Contract: This is the signed and legally recognized representation of the Contract, which is considered the \"source of truth\" and which would be the basis for legal action related to enforcement of this Contract.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "friendly": {
               "description": "The \"patient friendly language\" versionof the Contract in whole or in parts. \"Patient friendly language\" means the representation of the Contract and Contract Provisions in a manner that is readily accessible and understandable by a layperson in accordance with best practices for communication styles that ensure that those agreeing to or signing the Contract understand the roles, actions, obligations, responsibilities, and implication of the agreement.",
@@ -187,7 +187,7 @@
           "properties": {
             "actor": {
               "description": "Who or what parties are assigned roles in this Contract.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "role": {
               "description": "Role type of agent assigned roles in this Contract.",
@@ -217,7 +217,7 @@
             },
             "party": {
               "description": "Party which is a signator to this Contract.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "signature": {
               "description": "Legally binding Contract DSIG signature contents in Base64.",
@@ -249,7 +249,7 @@
             },
             "entityReference": {
               "description": "Specific type of Contract Valued Item that may be priced.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "identifier": {
               "description": "Identifies a Contract Valued Item instance.",
@@ -335,7 +335,7 @@
               "description": "The matter of concern in the context of this provision of the agrement.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "action": {
@@ -402,7 +402,7 @@
           "properties": {
             "actor": {
               "description": "The agent assigned a role in this Contract Provision.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "role": {
               "description": "Role played by the agent assigned this role in the execution of this Contract Provision.",
@@ -432,7 +432,7 @@
             },
             "entityReference": {
               "description": "Specific type of Contract Provision Valued Item that may be priced.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "identifier": {
               "description": "Identifies a Contract Provision Valued Item instance.",
@@ -495,7 +495,7 @@
             },
             "contentReference": {
               "description": "Human readable rendering of this Contract in a format and representation intended to enhance comprehension and ensure understandability.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           }
         }
@@ -515,7 +515,7 @@
             },
             "contentReference": {
               "description": "Contract legal text in human renderable form.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           }
         }
@@ -535,7 +535,7 @@
             },
             "contentReference": {
               "description": "Computable Contract conveyed using a policy rule language (e.g. XACML, DKAL, SecPal).",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           }
         }

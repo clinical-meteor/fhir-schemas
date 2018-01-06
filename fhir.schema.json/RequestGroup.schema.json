@@ -30,21 +30,21 @@
               "description": "A protocol, guideline, orderset or other definition that is adhered to in whole or in part by this request.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "basedOn": {
               "description": "A plan, proposal or order that is fulfilled in whole or in part by this request.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "replaces": {
               "description": "Completed or terminated request(s) whose function is taken by this new request.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "groupIdentifier": {
@@ -80,11 +80,11 @@
             },
             "subject": {
               "description": "The subject for which the request group was created.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "context": {
               "description": "Describes the context of the request group, if any.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "authoredOn": {
               "description": "Indicates when the request group was created.",
@@ -97,7 +97,7 @@
             },
             "author": {
               "description": "Provides a reference to the author of the request group.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "reasonCodeableConcept": {
               "description": "Indicates the reason the request group was created. This is typically provided as a parameter to the evaluation and echoed by the service, although for some use cases, such as subscription- or event-based scenarios, it may provide an indication of the cause for the response.",
@@ -105,7 +105,7 @@
             },
             "reasonReference": {
               "description": "Indicates the reason the request group was created. This is typically provided as a parameter to the evaluation and echoed by the service, although for some use cases, such as subscription- or event-based scenarios, it may provide an indication of the cause for the response.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "note": {
               "description": "Provides a mechanism to communicate additional information about the response.",
@@ -225,7 +225,7 @@
               "description": "The participant that should perform or be responsible for this action.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "type": {
@@ -279,7 +279,7 @@
             },
             "resource": {
               "description": "The resource that is the target of the action (e.g. CommunicationRequest).",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "action": {
               "description": "Sub actions.",

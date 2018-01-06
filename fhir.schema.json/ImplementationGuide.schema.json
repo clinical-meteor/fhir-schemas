@@ -294,11 +294,11 @@
             },
             "sourceReference": {
               "description": "Where this resource is found.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "exampleFor": {
               "description": "Another resource that this resource is an example for. This is mostly used for resources that are included as examples of StructureDefinitions.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           }
         }
@@ -323,7 +323,7 @@
             },
             "profile": {
               "description": "A reference to the profile that all instances must conform to.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [

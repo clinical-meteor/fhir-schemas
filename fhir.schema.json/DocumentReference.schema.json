@@ -62,7 +62,7 @@
             },
             "subject": {
               "description": "Who or what the document is about. The document can be about a person, (patient or healthcare practitioner), a device (e.g. a machine) or even a group of subjects (such as a document about a herd of farm animals, or a set of patients that share a common exposure).",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "created": {
               "description": "When the document was created.",
@@ -85,16 +85,16 @@
               "description": "Identifies who is responsible for adding the information to the document.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "authenticator": {
               "description": "Which person or organization authenticates that this document is valid.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "custodian": {
               "description": "Identifies the organization or group who is responsible for ongoing maintenance of and access to the document.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "relatesTo": {
               "description": "Relationships that this document has with other document references that already exist.",
@@ -162,7 +162,7 @@
             },
             "target": {
               "description": "The target document of this relationship.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [
@@ -204,7 +204,7 @@
           "properties": {
             "encounter": {
               "description": "Describes the clinical encounter or type of care that the document content is associated with.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "event": {
               "description": "This list of codes represents the main clinical acts, such as a colonoscopy or an appendectomy, being documented. In some cases, the event is inherent in the typeCode, such as a \"History and Physical Report\" in which the procedure being documented is necessarily a \"History and Physical\" act.",
@@ -227,7 +227,7 @@
             },
             "sourcePatientInfo": {
               "description": "The Patient Information as known when the document was published. May be a reference to a version specific, or contained.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "related": {
               "description": "Related identifiers or resources associated with the DocumentReference.",
@@ -254,7 +254,7 @@
             },
             "ref": {
               "description": "Related Resource to this DocumentReference. If both id and ref are present they shall refer to the same thing.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           }
         }

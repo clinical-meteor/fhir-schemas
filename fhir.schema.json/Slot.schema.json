@@ -50,7 +50,7 @@
             },
             "schedule": {
               "description": "The schedule resource that this slot defines an interval of status information.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "status": {
               "description": "busy | free | busy-unavailable | busy-tentative | entered-in-error.",

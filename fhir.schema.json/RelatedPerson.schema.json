@@ -36,7 +36,7 @@
             },
             "patient": {
               "description": "The patient this person is related to.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "relationship": {
               "description": "The nature of the relationship between a patient and the related person.",

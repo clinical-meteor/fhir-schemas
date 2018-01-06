@@ -75,11 +75,11 @@
             },
             "subject": {
               "description": "Indicates the patient or group who the condition record is associated with.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "context": {
               "description": "Encounter during which the condition was first asserted.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "onsetDateTime": {
               "description": "Estimated or actual date or date-time  the condition began, in the opinion of the clinician.",
@@ -158,7 +158,7 @@
             },
             "asserter": {
               "description": "Individual who is making the condition statement.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "stage": {
               "description": "Clinical stage or grade of a condition. May include formal severity assessments.",
@@ -202,7 +202,7 @@
               "description": "Reference to a formal record of the evidence on which the staging assessment is based.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             }
           }
@@ -228,7 +228,7 @@
               "description": "Links to other relevant information, including pathology reports.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             }
           }

@@ -62,7 +62,7 @@
             },
             "patient": {
               "description": "The person to which the body site belongs.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [

@@ -315,7 +315,7 @@
             },
             "options": {
               "description": "A reference to a value set containing a list of codes representing permitted answers for a \"choice\" or \"open-choice\" question.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "option": {
               "description": "One of the permitted answers for a \"choice\" or \"open-choice\" question.",
@@ -407,7 +407,7 @@
             },
             "initialReference": {
               "description": "The value that should be defaulted when initially rendering the questionnaire for user input.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "item": {
               "description": "Text, questions and other groups to be nested beneath a question or group.",
@@ -527,7 +527,7 @@
             },
             "answerReference": {
               "description": "An answer that the referenced question must match in order for the item to be enabled.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           }
         }

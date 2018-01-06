@@ -36,7 +36,7 @@
             },
             "providedBy": {
               "description": "The organization that provides this healthcare service.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "category": {
               "description": "Identifies the broad category of service being performed or delivered.",
@@ -60,7 +60,7 @@
               "description": "The location(s) where this healthcare service may be provided.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "name": {
@@ -102,7 +102,7 @@
               "description": "The location(s) that this service is available to (not where the service is provided).",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "serviceProvisionCode": {
@@ -186,7 +186,7 @@
               "description": "Technical endpoints providing access to services operated for the specific healthcare services defined at this resource.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             }
           },

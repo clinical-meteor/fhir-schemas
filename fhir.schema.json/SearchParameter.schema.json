@@ -304,7 +304,7 @@
           "properties": {
             "definition": {
               "description": "The definition of the search parameter that describes this part.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "expression": {
               "description": "A sub-expression that defines how to extract values for this component from the output of the main SearchParameter.expression.",

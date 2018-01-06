@@ -197,7 +197,7 @@
               "description": "A reference to a Library resource containing the formal logic used by the measure.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "disclaimer": {

@@ -66,7 +66,7 @@
             },
             "subject": {
               "description": "Identifies the patient, group or organization for whom the goal is being established.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "startDate": {
               "description": "The date or event after which the goal should begin being pursued.",
@@ -104,13 +104,13 @@
             },
             "expressedBy": {
               "description": "Indicates whose goal this is - patient goal, practitioner goal, etc.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "addresses": {
               "description": "The identified conditions and other health record elements that are intended to be addressed by the goal.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "note": {
@@ -131,7 +131,7 @@
               "description": "Details of what\u0027s changed (or not changed).",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             }
           },

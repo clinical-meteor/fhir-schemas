@@ -32,7 +32,7 @@
             },
             "subject": {
               "description": "Identifies the patient, practitioner, device or any other resource that is the \"focus\" of this resource.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "created": {
               "description": "Identifies when the resource was first created.",
@@ -45,7 +45,7 @@
             },
             "author": {
               "description": "Indicates who was responsible for creating the resource instance.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [

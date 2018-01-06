@@ -51,7 +51,7 @@
             },
             "patient": {
               "description": "Indicates the patient whose record the detected issue is associated with.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "date": {
               "description": "The date or date-time when the detected issue was initially identified.",
@@ -64,13 +64,13 @@
             },
             "author": {
               "description": "Individual or device responsible for the issue being raised.  For example, a decision support application or a pharmacist conducting a medication review.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "implicated": {
               "description": "Indicates the resource representing the current activity or proposed activity that is potentially problematic.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "detail": {
@@ -126,7 +126,7 @@
             },
             "author": {
               "description": "Identifies the practitioner who determined the mitigation and takes responsibility for the mitigation step occurring.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [

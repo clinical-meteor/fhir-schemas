@@ -76,20 +76,20 @@
             },
             "subject": {
               "description": "The patient ro group present at the encounter.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "episodeOfCare": {
               "description": "Where a specific encounter should be classified as a part of a specific episode(s) of care this field should be used. This association can facilitate grouping of related encounters together for a specific purpose, such as government reporting, issue tracking, association via a common problem.  The association is recorded on the encounter as these are typically created after the episode of care, and grouped on entry rather than editing the episode of care to append another encounter to it (the episode of care could span years).",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "incomingReferral": {
               "description": "The referral request this encounter satisfies (incoming referral).",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "participant": {
@@ -101,7 +101,7 @@
             },
             "appointment": {
               "description": "The appointment that scheduled this encounter.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "period": {
               "description": "The start and end time of the encounter.",
@@ -129,7 +129,7 @@
               "description": "The set of accounts that may be used for billing for this Encounter.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "hospitalization": {
@@ -145,11 +145,11 @@
             },
             "serviceProvider": {
               "description": "An organization that is in charge of maintaining the information of this Encounter (e.g. who maintains the report or the master service catalog item, etc.). This MAY be the same as the organization on the Patient record, however it could be different. This MAY not be not the Service Delivery Location\u0027s Organization.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "partOf": {
               "description": "Another Encounter of which this encounter is a part of (administratively or in time).",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [
@@ -241,7 +241,7 @@
             },
             "individual": {
               "description": "Persons involved in the encounter other than the patient.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           }
         }
@@ -257,7 +257,7 @@
           "properties": {
             "condition": {
               "description": "Reason the encounter takes place, as specified using information from another resource. For admissions, this is the admission diagnosis. The indication will typically be a Condition (with other resources referenced in the evidence.detail), or a Procedure.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "role": {
               "description": "Role that this diagnosis has within the encounter (e.g. admission, billing, discharge …).",
@@ -293,7 +293,7 @@
             },
             "origin": {
               "description": "The location from which the patient came before admission.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "admitSource": {
               "description": "From where patient was admitted (physician referral, transfer).",
@@ -326,7 +326,7 @@
             },
             "destination": {
               "description": "Location to which the patient is discharged.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "dischargeDisposition": {
               "description": "Category or kind of location after discharge.",
@@ -346,7 +346,7 @@
           "properties": {
             "location": {
               "description": "The location where the encounter takes place.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "status": {
               "description": "The status of the participants\u0027 presence at the specified location during the period specified. If the participant is is no longer at the location, then the period will have an end date/time.",

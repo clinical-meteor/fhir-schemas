@@ -48,7 +48,7 @@
             },
             "testScript": {
               "description": "Ideally this is an absolute URL that is used to identify the version-specific TestScript that was executed, matching the `TestScript.url`.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "result": {
               "description": "The overall result from the execution of the TestScript.",

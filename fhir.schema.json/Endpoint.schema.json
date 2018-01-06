@@ -56,7 +56,7 @@
             },
             "managingOrganization": {
               "description": "The organization that manages this endpoint (even if technically another organisation is hosting this in the cloud, it is the organisation associated with the data).",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "contact": {
               "description": "Contact details for a human to contact about the subscription. The primary use of this for system administrator troubleshooting.",

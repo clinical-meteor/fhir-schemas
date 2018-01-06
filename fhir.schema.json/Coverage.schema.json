@@ -41,11 +41,11 @@
             },
             "policyHolder": {
               "description": "The party who \u0027owns\u0027 the insurance policy,  may be an individual, corporation or the subscriber\u0027s employer.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "subscriber": {
               "description": "The party who has signed-up for or \u0027owns\u0027 the contractual relationship to the policy or to whom the benefit of the policy for services rendered to them or their family is due.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "subscriberId": {
               "description": "The insurer assigned ID for the Subscriber.",
@@ -57,7 +57,7 @@
             },
             "beneficiary": {
               "description": "The party who benefits from the insurance coverage., the patient when services are provided.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "relationship": {
               "description": "The relationship of beneficiary (patient) to the subscriber.",
@@ -71,7 +71,7 @@
               "description": "The program or plan underwriter or payor including both insurance and non-insurance agreements, such as patient-pay agreements. May provide multiple identifiers such as insurance company identifier or business identifier (BIN number).",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "grouping": {
@@ -115,7 +115,7 @@
               "description": "The policy(s) which constitute this insurance coverage.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             }
           },

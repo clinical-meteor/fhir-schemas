@@ -264,7 +264,7 @@
             },
             "valueReference": {
               "description": "If the parameter is a data type.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "valueSampledData": {
               "description": "If the parameter is a data type.",

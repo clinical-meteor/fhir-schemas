@@ -79,7 +79,7 @@
             },
             "partOf": {
               "description": "The organization of which this organization forms a part.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "contact": {
               "description": "Contact for the organization for a certain purpose.",
@@ -92,7 +92,7 @@
               "description": "Technical endpoints providing access to services operated for the organization.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             }
           },

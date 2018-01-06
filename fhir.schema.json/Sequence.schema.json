@@ -50,19 +50,19 @@
             },
             "patient": {
               "description": "The patient whose sequencing results are described by this resource.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "specimen": {
               "description": "Specimen used for sequencing.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "device": {
               "description": "The method for sequencing, for example, chip information.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "performer": {
               "description": "The organization or lab that should be responsible for this result.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "quantity": {
               "description": "The number of copies of the seqeunce of interest. (RNASeq).",
@@ -114,7 +114,7 @@
               "description": "Pointer to next atomic sequence which at most contains one variant.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             }
           },
@@ -150,7 +150,7 @@
             },
             "referenceSeqPointer": {
               "description": "A Pointer to another Sequence entity as reference sequence.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "referenceSeqString": {
               "description": "A string like \"ACGT\".",
@@ -243,7 +243,7 @@
             },
             "variantPointer": {
               "description": "A pointer to an Observation containing variant information.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           }
         }

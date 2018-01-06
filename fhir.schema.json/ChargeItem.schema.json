@@ -58,7 +58,7 @@
               "description": "ChargeItems can be grouped to larger ChargeItems covering the whole set.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "code": {
@@ -67,11 +67,11 @@
             },
             "subject": {
               "description": "The individual or set of individuals the action is being or was performed on.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "context": {
               "description": "The encounter or episode of care that establishes the context for this event.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "occurrenceDateTime": {
               "description": "Date/time(s) or duration when the charged service was applied.",
@@ -99,11 +99,11 @@
             },
             "performingOrganization": {
               "description": "The organization requesting the service.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "requestingOrganization": {
               "description": "The organization performing the service.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "quantity": {
               "description": "Quantity of which the charge item has been serviced.",
@@ -139,7 +139,7 @@
             },
             "enterer": {
               "description": "The device, practitioner, etc. who entered the charge item.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "enteredDate": {
               "description": "Date the charge item was entered.",
@@ -161,14 +161,14 @@
               "description": "Indicated the rendered service that caused this charge.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "account": {
               "description": "Account into which this ChargeItems belongs.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "note": {
@@ -182,7 +182,7 @@
               "description": "Further information supporting the this charge.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             }
           },
@@ -208,7 +208,7 @@
             },
             "actor": {
               "description": "The device, practitioner, etc. who performed or participated in the service.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [

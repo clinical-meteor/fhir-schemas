@@ -209,7 +209,7 @@
             },
             "operationDefinition": {
               "description": "A reference to the operation that is used to invoke this service.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [

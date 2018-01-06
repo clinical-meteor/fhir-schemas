@@ -50,7 +50,7 @@
             },
             "subject": {
               "description": "Where the specimen came from. This may be from the patient(s) or from the environment or a device.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "receivedTime": {
               "description": "Time when specimen was received for processing or testing.",
@@ -65,14 +65,14 @@
               "description": "Reference to the parent (source) specimen which is used when the specimen was either derived from or a component of another specimen.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "request": {
               "description": "Details concerning a test or procedure request that required a specimen to be collected.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "collection": {
@@ -118,7 +118,7 @@
           "properties": {
             "collector": {
               "description": "Person who collected the specimen.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "collectedDateTime": {
               "description": "Time when specimen was collected from subject - the physiologically relevant time.",
@@ -173,7 +173,7 @@
               "description": "Material used in the processing step.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "timeDateTime": {
@@ -234,7 +234,7 @@
             },
             "additiveReference": {
               "description": "Introduced substance to preserve, maintain or enhance the specimen. Examples: Formalin, Citrate, EDTA.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           }
         }

@@ -28,7 +28,7 @@
             },
             "appointment": {
               "description": "Appointment that this response is replying to.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "start": {
               "description": "Date/Time that the appointment is to take place, or requested new start time.",
@@ -55,7 +55,7 @@
             },
             "actor": {
               "description": "A Person, Location/HealthcareService or Device that is participating in the appointment.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "participantStatus": {
               "description": "Participation status of the participant. When the status is declined or tentative if the start/end times are different to the appointment, then these times should be interpreted as a requested time change. When the status is accepted, the times can either be the time of the appointment (as a confirmation of the time) or can be empty.",

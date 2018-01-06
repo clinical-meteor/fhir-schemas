@@ -104,7 +104,7 @@
             },
             "patient": {
               "description": "The patient who has the allergy or intolerance.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "onsetDateTime": {
               "description": "Estimated or actual date,  date-time, or age when allergy or intolerance was identified.",
@@ -146,11 +146,11 @@
             },
             "recorder": {
               "description": "Individual who recorded the record and takes responsibility for its content.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "asserter": {
               "description": "The source of the information about the allergy that is recorded.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "lastOccurrence": {
               "description": "Represents the date and/or time of the last known occurrence of a reaction event.",

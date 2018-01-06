@@ -45,11 +45,11 @@
             },
             "study": {
               "description": "Reference to the study the subject is participating in.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "individual": {
               "description": "The record of the person or animal who is involved in the study.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "assignedArm": {
               "description": "The name of the arm in the study the subject is expected to follow as part of this study.",
@@ -69,7 +69,7 @@
             },
             "consent": {
               "description": "A record of the patient\u0027s informed agreement to participate in the study.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [

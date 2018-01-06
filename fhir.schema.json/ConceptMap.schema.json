@@ -149,7 +149,7 @@
             },
             "sourceReference": {
               "description": "The source value set that specifies the concepts that are being mapped.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "targetUri": {
               "description": "The target value set provides context to the mappings. Note that the mapping is made between concepts, not between value sets, but the value set provides important context about how the concept mapping choices are made.",
@@ -161,7 +161,7 @@
             },
             "targetReference": {
               "description": "The target value set provides context to the mappings. Note that the mapping is made between concepts, not between value sets, but the value set provides important context about how the concept mapping choices are made.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "group": {
               "description": "A group of mappings that all have the same source and target system.",

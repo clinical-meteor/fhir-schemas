@@ -29,7 +29,7 @@
             },
             "author": {
               "description": "Identifies the user or organization responsible for asserting the linkages and who establishes the context for evaluating the nature of each linkage.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "item": {
               "description": "Identifies one of the records that is considered to refer to the same real-world occurrence as well as how the items hould be evaluated within the collection of linked items.",
@@ -69,7 +69,7 @@
             },
             "resource": {
               "description": "The resource instance being linked as part of the group.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [

@@ -66,7 +66,7 @@
             },
             "profile": {
               "description": "If specified, this indicates a profile that the input data must conform to, or that the output data will conform to.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           }
         }

@@ -30,28 +30,28 @@
               "description": "Identifies the protocol, questionnaire, guideline or other specification the care plan should be conducted in accordance with.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "basedOn": {
               "description": "A care plan that is fulfilled in whole or in part by this care plan.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "replaces": {
               "description": "Completed or terminated care plan whose function is taken by this new care plan.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "partOf": {
               "description": "A larger care plan of which this particular care plan is a component or step.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "status": {
@@ -110,11 +110,11 @@
             },
             "subject": {
               "description": "Identifies the patient or group whose intended care is described by the plan.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "context": {
               "description": "Identifies the original context in which this particular CarePlan was created.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "period": {
               "description": "Indicates when the plan did (or is intended to) come into effect and end.",
@@ -124,35 +124,35 @@
               "description": "Identifies the individual(s) or ogranization who is responsible for the content of the care plan.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "careTeam": {
               "description": "Identifies all people and organizations who are expected to be involved in the care envisioned by this plan.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "addresses": {
               "description": "Identifies the conditions/problems/concerns/diagnoses/etc. whose management and/or mitigation are handled by this plan.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "supportingInfo": {
               "description": "Identifies portions of the patient\u0027s record that specifically influenced the formation of the plan.  These might include co-morbidities, recent procedures, limitations, recent assessments, etc.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "goal": {
               "description": "Describes the intended objective(s) of carrying out the care plan.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "activity": {
@@ -196,7 +196,7 @@
               "description": "Details of the outcome or action resulting from the activity.  The reference to an \"event\" resource, such as Procedure or Encounter or Observation, is the result/outcome of the activity itself.  The activity can be conveyed using CarePlan.activity.detail OR using the CarePlan.activity.reference (a reference to a “request” resource).",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "progress": {
@@ -208,7 +208,7 @@
             },
             "reference": {
               "description": "The details of the proposed activity represented in a specific resource.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "detail": {
               "description": "A simple summary of a planned activity suitable for a general care plan system (e.g. form driven) that doesn\u0027t know about specific resources such as procedure etc.",
@@ -232,7 +232,7 @@
             },
             "definition": {
               "description": "Identifies the protocol, questionnaire, guideline or other specification the planned activity should be conducted in accordance with.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "code": {
               "description": "Detailed description of the type of planned activity; e.g. What lab test, what procedure, what kind of encounter.",
@@ -249,14 +249,14 @@
               "description": "Provides the health condition(s) that drove the inclusion of this particular activity as part of the plan.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "goal": {
               "description": "Internal reference that identifies the goals that this activity is intended to contribute towards meeting.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "status": {
@@ -310,13 +310,13 @@
             },
             "location": {
               "description": "Identifies the facility where the activity will occur; e.g. home, hospital, specific clinic, etc.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "performer": {
               "description": "Identifies who\u0027s expected to be involved in the activity.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "productCodeableConcept": {
@@ -325,7 +325,7 @@
             },
             "productReference": {
               "description": "Identifies the food, drug or other product to be consumed or supplied in the activity.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "dailyAmount": {
               "description": "Identifies the quantity expected to be consumed in a given day.",

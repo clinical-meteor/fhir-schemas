@@ -51,7 +51,7 @@
             },
             "target": {
               "description": "The organization which is the target of the request.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "created": {
               "description": "The date when this resource was created.",
@@ -64,19 +64,19 @@
             },
             "provider": {
               "description": "The practitioner who is responsible for the action specified in this request.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "organization": {
               "description": "The organization which is responsible for the action speccified in this request.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "request": {
               "description": "Reference of resource which is the target or subject of this action.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "response": {
               "description": "Reference of a prior response to resource which is the target or subject of this action.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "nullify": {
               "description": "If true remove all history excluding audit.",

@@ -131,7 +131,7 @@
             },
             "issuer": {
               "description": "Organization that regulates and issues the qualification.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             }
           },
           "required": [

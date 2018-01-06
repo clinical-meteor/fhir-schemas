@@ -25,11 +25,11 @@
             },
             "basedOn": {
               "description": "A reference to the request that is fulfilled by this risk assessment.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "parent": {
               "description": "A reference to a resource that this risk assessment is part of, such as a Procedure.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "status": {
               "description": "The status of the RiskAssessment, using the same statuses as an Observation.",
@@ -50,11 +50,11 @@
             },
             "subject": {
               "description": "The patient or group the risk assessment applies to.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "context": {
               "description": "The encounter where the assessment was performed.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "occurrenceDateTime": {
               "description": "The date (and possibly time) the risk assessment was performed.",
@@ -71,11 +71,11 @@
             },
             "condition": {
               "description": "For assessments or prognosis specific to a particular condition, indicates the condition being assessed.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "performer": {
               "description": "The provider or software application that performed the assessment.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "reasonCodeableConcept": {
               "description": "The reason the risk assessment was performed.",
@@ -83,13 +83,13 @@
             },
             "reasonReference": {
               "description": "The reason the risk assessment was performed.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "basis": {
               "description": "Indicates the source data considered as part of the assessment (FamilyHistory, Observations, Procedures, Conditions, etc.).",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "prediction": {

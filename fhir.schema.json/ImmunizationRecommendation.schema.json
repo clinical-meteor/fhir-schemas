@@ -28,7 +28,7 @@
             },
             "patient": {
               "description": "The patient the recommendations are for.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "recommendation": {
               "description": "Vaccine administration recommendations.",
@@ -99,14 +99,14 @@
               "description": "Immunization event history that supports the status and recommendation.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "supportingPatientInformation": {
               "description": "Patient Information that supports the status and recommendation.  This includes patient observations, adverse reactions and allergy/intolerance information.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             }
           },
@@ -171,7 +171,7 @@
             },
             "authority": {
               "description": "Indicates the authority who published the protocol.  For example, ACIP.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "series": {
               "description": "One possible path to achieve presumed immunity against a disease - within the context of an authority.",

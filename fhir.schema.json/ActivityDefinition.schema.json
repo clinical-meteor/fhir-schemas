@@ -197,7 +197,7 @@
               "description": "A reference to a Library resource containing any formal logic used by the asset.",
               "type": "array",
               "items": {
-                "$ref": "Reference.schema.json#/definitions/Reference"
+                "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
               }
             },
             "kind": {
@@ -236,7 +236,7 @@
             },
             "location": {
               "description": "Identifies the facility where the activity will occur; e.g. home, hospital, specific clinic, etc.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "participant": {
               "description": "Indicates who should participate in performing the action described.",
@@ -247,7 +247,7 @@
             },
             "productReference": {
               "description": "Identifies the food, drug or other product being consumed or supplied in the activity.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "productCodeableConcept": {
               "description": "Identifies the food, drug or other product being consumed or supplied in the activity.",
@@ -273,7 +273,7 @@
             },
             "transform": {
               "description": "A reference to a StructureMap resource that defines a transform that can be executed to produce the intent resource using the ActivityDefinition instance as the input.",
-              "$ref": "Reference.schema.json#/definitions/Reference"
+              "$ref": "http://hl7.org/fhir/json-schema/Reference#/definitions/Reference"
             },
             "dynamicValue": {
               "description": "Dynamic values that will be evaluated to produce values for elements of the resulting resource. For example, if the dosage of a medication must be computed based on the patient\u0027s weight, a dynamic value would be used to specify an expression that calculated the weight, and the path on the intent resource that would contain the result.",
