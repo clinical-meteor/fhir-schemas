@@ -165,7 +165,7 @@
             },
             "amount": {
               "description": "The amount of the product that is in the package.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             }
           }
         }

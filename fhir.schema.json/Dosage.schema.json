@@ -78,7 +78,7 @@
             },
             "doseSimpleQuantity": {
               "description": "Amount of medication per dose.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "maxDosePerPeriod": {
               "description": "Upper limit on medication per unit of time.",
@@ -86,11 +86,11 @@
             },
             "maxDosePerAdministration": {
               "description": "Upper limit on medication per administration.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "maxDosePerLifetime": {
               "description": "Upper limit on medication per lifetime of the patient.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "rateRatio": {
               "description": "Amount of medication per unit of time.",
@@ -102,7 +102,7 @@
             },
             "rateSimpleQuantity": {
               "description": "Amount of medication per unit of time.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             }
           }
         }

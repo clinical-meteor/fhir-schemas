@@ -103,7 +103,7 @@
             },
             "quantity": {
               "description": "The amount of the substance.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             }
           }
         }

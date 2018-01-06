@@ -403,7 +403,7 @@
             },
             "initialQuantity": {
               "description": "The value that should be defaulted when initially rendering the questionnaire for user input.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "initialReference": {
               "description": "The value that should be defaulted when initially rendering the questionnaire for user input.",
@@ -523,7 +523,7 @@
             },
             "answerQuantity": {
               "description": "An answer that the referenced question must match in order for the item to be enabled.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "answerReference": {
               "description": "An answer that the referenced question must match in order for the item to be enabled.",

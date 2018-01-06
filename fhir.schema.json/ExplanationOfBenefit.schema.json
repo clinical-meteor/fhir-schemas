@@ -335,7 +335,7 @@
             },
             "valueQuantity": {
               "description": "Additional data or information such as resources, documents, images etc. including references to the data or the actual inclusion of the data.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "valueAttachment": {
               "description": "Additional data or information such as resources, documents, images etc. including references to the data or the actual inclusion of the data.",
@@ -671,7 +671,7 @@
             },
             "quantity": {
               "description": "The number of repetitions of a service or product.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "unitPrice": {
               "description": "If the item is a node then this is the fee for the product or service, otherwise this is the total of the fees for the children of the group.",
@@ -833,7 +833,7 @@
             },
             "quantity": {
               "description": "The number of repetitions of a service or product.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "unitPrice": {
               "description": "If the item is a node then this is the fee for the product or service, otherwise this is the total of the fees for the children of the group.",
@@ -944,7 +944,7 @@
             },
             "quantity": {
               "description": "The number of repetitions of a service or product.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "unitPrice": {
               "description": "The fee for an addittional service or product or charge.",

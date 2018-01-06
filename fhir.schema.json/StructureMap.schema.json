@@ -633,7 +633,7 @@
             },
             "defaultValueQuantity": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "defaultValueDuration": {
               "description": "A value to use if there is no existing value in the source object.",
@@ -641,7 +641,7 @@
             },
             "defaultValueSimpleQuantity": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "defaultValueDistance": {
               "description": "A value to use if there is no existing value in the source object.",

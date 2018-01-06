@@ -236,7 +236,7 @@
             },
             "valueQuantity": {
               "description": "The answer (or one of the answers) provided by the respondent to the question.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "valueReference": {
               "description": "The answer (or one of the answers) provided by the respondent to the question.",

@@ -460,7 +460,7 @@
             },
             "valueQuantity": {
               "description": "The value of the input parameter as a basic type.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "valueDuration": {
               "description": "The value of the input parameter as a basic type.",
@@ -468,7 +468,7 @@
             },
             "valueSimpleQuantity": {
               "description": "The value of the input parameter as a basic type.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "valueDistance": {
               "description": "The value of the input parameter as a basic type.",
@@ -770,7 +770,7 @@
             },
             "valueQuantity": {
               "description": "The value of the Output parameter as a basic type.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "valueDuration": {
               "description": "The value of the Output parameter as a basic type.",
@@ -778,7 +778,7 @@
             },
             "valueSimpleQuantity": {
               "description": "The value of the Output parameter as a basic type.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "valueDistance": {
               "description": "The value of the Output parameter as a basic type.",

@@ -112,7 +112,7 @@
           "properties": {
             "quantity": {
               "description": "The amount of supply that has been dispensed. Includes unit of measure.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "itemCodeableConcept": {
               "description": "Identifies the medication, substance or device being dispensed. This is either a link to a resource representing the details of the item or a code that identifies the item from a known list.",

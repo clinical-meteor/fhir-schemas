@@ -179,7 +179,7 @@
             },
             "amount": {
               "description": "The quantity of the specified nutrient to include in diet.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             }
           }
         }
@@ -234,7 +234,7 @@
             },
             "quantity": {
               "description": "The amount of the nutritional supplement to be given.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "instruction": {
               "description": "Free text or additional instructions or information pertaining to the oral supplement.",
@@ -282,7 +282,7 @@
             },
             "caloricDensity": {
               "description": "The amount of energy (calories) that the formula should provide per specified volume, typically per mL or fluid oz.  For example, an infant may require a formula that provides 24 calories per fluid ounce or an adult may require an enteral formula that provides 1.5 calorie/mL.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "routeofAdministration": {
               "description": "The route or physiological path of administration into the patient\u0027s gastrointestinal  tract for purposes of providing the formula feeding, e.g. nasogastric tube.",
@@ -297,7 +297,7 @@
             },
             "maxVolumeToDeliver": {
               "description": "The maximum total quantity of formula that may be administered to a subject over the period of time, e.g. 1440 mL over 24 hours.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "administrationInstruction": {
               "description": "Free text formula administration, feeding instructions or additional instructions or information.",
@@ -325,11 +325,11 @@
             },
             "quantity": {
               "description": "The volume of formula to provide to the patient per the specified administration schedule.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "rateSimpleQuantity": {
               "description": "The rate of administration of formula via a feeding pump, e.g. 60 mL per hour, according to the specified schedule.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "rateRatio": {
               "description": "The rate of administration of formula via a feeding pump, e.g. 60 mL per hour, according to the specified schedule.",

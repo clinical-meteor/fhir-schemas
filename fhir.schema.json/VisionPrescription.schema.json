@@ -190,7 +190,7 @@
             },
             "duration": {
               "description": "The recommended maximum wear period for the lens.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "color": {
               "description": "Special color or pattern.",

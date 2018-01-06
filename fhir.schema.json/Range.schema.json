@@ -14,11 +14,11 @@
           "properties": {
             "low": {
               "description": "The low limit. The boundary is inclusive.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "high": {
               "description": "The high limit. The boundary is inclusive.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             }
           }
         }

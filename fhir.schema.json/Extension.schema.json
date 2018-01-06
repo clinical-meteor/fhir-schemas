@@ -205,7 +205,7 @@
             },
             "valueQuantity": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "valueDuration": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
@@ -213,7 +213,7 @@
             },
             "valueSimpleQuantity": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "valueDistance": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",

@@ -266,7 +266,7 @@
             },
             "quantity": {
               "description": "Specifies the units by which the Contract Valued Item is measured or counted, and quantifies the countable or measurable Contract Valued Item instances.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "unitPrice": {
               "description": "A Contract Valued Item unit valuation measure.",
@@ -449,7 +449,7 @@
             },
             "quantity": {
               "description": "Specifies the units by which the Contract Provision Valued Item is measured or counted, and quantifies the countable or measurable Contract Term Valued Item instances.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "unitPrice": {
               "description": "A Contract Provision Valued Item unit valuation measure.",

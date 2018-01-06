@@ -96,11 +96,11 @@
             },
             "quantity": {
               "description": "The amount of medication that has been dispensed. Includes unit of measure.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "daysSupply": {
               "description": "The amount of medication expressed as a timing amount.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "whenPrepared": {
               "description": "The time when the dispensed product was packaged and reviewed.",

@@ -14,7 +14,7 @@
           "properties": {
             "origin": {
               "description": "The base quantity that a measured value of zero represents. In addition, this provides the units of the entire measurement series.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "period": {
               "description": "The length of time between sampling times, measured in milliseconds.",

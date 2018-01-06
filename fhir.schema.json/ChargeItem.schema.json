@@ -107,7 +107,7 @@
             },
             "quantity": {
               "description": "Quantity of which the charge item has been serviced.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "bodysite": {
               "description": "The anatomical location where the related service has been applied.",

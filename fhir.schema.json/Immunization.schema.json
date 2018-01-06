@@ -111,7 +111,7 @@
             },
             "doseQuantity": {
               "description": "The quantity of vaccine product that was administered.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "practitioner": {
               "description": "Indicates who or what performed the event.",

@@ -255,7 +255,7 @@
             },
             "quantity": {
               "description": "Identifies the quantity expected to be consumed at once (per dose, per meal, etc.).",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "dosage": {
               "description": "Provides detailed dosage instructions in the same way that they are described for MedicationRequest resources.",

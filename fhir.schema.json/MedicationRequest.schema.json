@@ -242,7 +242,7 @@
             },
             "quantity": {
               "description": "The amount that is to be dispensed for one fill.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "expectedSupplyDuration": {
               "description": "Identifies the period time over which the supplied product is expected to be used, or the length of time the dispense is expected to last.",

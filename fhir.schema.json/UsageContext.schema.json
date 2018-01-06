@@ -22,7 +22,7 @@
             },
             "valueQuantity": {
               "description": "A value that defines the context specified in this context of use. The interpretation of the value is defined by the code.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "valueRange": {
               "description": "A value that defines the context specified in this context of use. The interpretation of the value is defined by the code.",

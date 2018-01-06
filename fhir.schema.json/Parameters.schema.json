@@ -224,7 +224,7 @@
             },
             "valueQuantity": {
               "description": "If the parameter is a data type.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "valueDuration": {
               "description": "If the parameter is a data type.",
@@ -232,7 +232,7 @@
             },
             "valueSimpleQuantity": {
               "description": "If the parameter is a data type.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "valueDistance": {
               "description": "If the parameter is a data type.",

@@ -126,7 +126,7 @@
             },
             "valueQuantity": {
               "description": "The value of the trait that holds (or does not hold - see \u0027exclude\u0027) for members of the group.",
-              "$ref": "Quantity.schema.json#/definitions/Quantity"
+              "$ref": "http://hl7.org/fhir/json-schema/Quantity#/definitions/Quantity"
             },
             "valueRange": {
               "description": "The value of the trait that holds (or does not hold - see \u0027exclude\u0027) for members of the group.",
