@@ -1,7 +1,7 @@
 var BaseSchema = require('../datatypes/Base');
 var CodingSchema = require('../datatypes/Coding');
 var DomainResourceSchema = require('../datatypes/DomainResource');
-var CodeableConcept = require('../datatypes/CodableConcept');
+var CodeableConcept = require('../datatypes/CodeableConcept');
 var IdentifierSchema = require('../datatypes/Identifier');
 var ReferenceSchema = require('../datatypes/Reference');
 
