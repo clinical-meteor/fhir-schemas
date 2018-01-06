@@ -23,7 +23,7 @@
               "description": "Unique code or number identifying the location to its users.",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "status": {

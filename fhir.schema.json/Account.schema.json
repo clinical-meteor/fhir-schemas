@@ -23,7 +23,7 @@
               "description": "Unique identifier used to reference the account.  May or may not be intended for human use (e.g. credit card number).",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "status": {

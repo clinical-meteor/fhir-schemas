@@ -23,7 +23,7 @@
               "description": "Unique instance identifiers assigned to a device by manufacturers other organizations or owners.",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "udi": {

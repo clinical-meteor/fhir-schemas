@@ -21,7 +21,7 @@
             },
             "identifier": {
               "description": "Identifiers assigned to this event performer or other systems.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "definition": {
               "description": "References the source of pricing information, rules of application for the code this ChargeItem uses.",

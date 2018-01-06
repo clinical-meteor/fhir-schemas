@@ -23,7 +23,7 @@
               "description": "The main (and possibly only) identifier for the coverage - often referred to as a Member Id, Certificate number, Personal Health Number or Case ID. May be constructed as the concatination of the Coverage.SubscriberID and the Coverage.dependant.",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "status": {

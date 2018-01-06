@@ -23,7 +23,7 @@
               "description": "A unique identifier for this particular sequence instance. This is a FHIR-defined id.",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "type": {

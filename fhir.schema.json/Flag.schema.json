@@ -23,7 +23,7 @@
               "description": "Identifier assigned to the flag for external use (outside the FHIR environment).",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "status": {

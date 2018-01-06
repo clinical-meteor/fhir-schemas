@@ -31,7 +31,7 @@
               "description": "A formal identifier that is used to identify this measure when it is represented in other formats, or referenced in a specification, model, design or an instance.",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "version": {
@@ -324,7 +324,7 @@
           "properties": {
             "identifier": {
               "description": "A unique identifier for the group. This identifier will used to report data for the group in the measure report.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "name": {
               "description": "Optional name or short description of this group.",
@@ -373,7 +373,7 @@
           "properties": {
             "identifier": {
               "description": "A unique identifier for the population criteria. This identifier is used to report data against this criteria within the measure report.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "code": {
               "description": "The type of population criteria.",
@@ -417,7 +417,7 @@
           "properties": {
             "identifier": {
               "description": "The identifier for the stratifier used to coordinate the reported data back to this stratifier.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "criteria": {
               "description": "The criteria for the stratifier. This must be the name of an expression defined within a referenced library.",
@@ -449,7 +449,7 @@
           "properties": {
             "identifier": {
               "description": "An identifier for the supplemental data.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "usage": {
               "description": "An indicator of the intended usage for the supplemental data element. Supplemental data indicates the data is additional information requested to augment the measure information. Risk adjustment factor indicates the data is additional information used to calculate risk adjustment factors when applying a risk model to the measure calculation.",

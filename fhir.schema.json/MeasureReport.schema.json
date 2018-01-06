@@ -21,7 +21,7 @@
             },
             "identifier": {
               "description": "A formal identifier that is used to identify this report when it is represented in other formats, or referenced in a specification, model, design or an instance.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "status": {
               "description": "The report status. No data will be available until the report status is complete.",
@@ -104,7 +104,7 @@
           "properties": {
             "identifier": {
               "description": "The identifier of the population group as defined in the measure definition.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "population": {
               "description": "The populations that make up the population group, one for each type of population appropriate for the measure.",
@@ -146,7 +146,7 @@
           "properties": {
             "identifier": {
               "description": "The identifier of the population being reported, as defined by the population element of the measure.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "code": {
               "description": "The type of the population.",
@@ -179,7 +179,7 @@
           "properties": {
             "identifier": {
               "description": "The identifier of this stratifier, as defined in the measure definition.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "stratum": {
               "description": "This element contains the results for a single stratum within the stratifier. For example, when stratifying on administrative gender, there will be four strata, one for each possible gender value.",
@@ -238,7 +238,7 @@
           "properties": {
             "identifier": {
               "description": "The identifier of the population being reported, as defined by the population element of the measure.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "code": {
               "description": "The type of the population.",

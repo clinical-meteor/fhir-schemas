@@ -23,7 +23,7 @@
               "description": "Business identifier which may be used by other parties to reference or identify the prescription.",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "status": {

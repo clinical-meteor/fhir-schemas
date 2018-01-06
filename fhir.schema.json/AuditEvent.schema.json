@@ -131,7 +131,7 @@
             },
             "userId": {
               "description": "Unique identifier for the user actively participating in the event.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "altId": {
               "description": "Alternative agent Identifier. For a human, this should be a user identifier text string from authentication system. This identifier would be one known to a common authentication system (e.g. single sign-on), if available.",
@@ -247,7 +247,7 @@
             },
             "identifier": {
               "description": "Identifier of the source where the event was detected.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "type": {
               "description": "Code specifying the type of source where event originated.",
@@ -273,7 +273,7 @@
           "properties": {
             "identifier": {
               "description": "Identifies a specific instance of the entity. The reference should always be version specific.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "reference": {
               "description": "Identifies a specific instance of the entity. The reference should be version specific.",

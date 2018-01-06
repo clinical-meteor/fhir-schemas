@@ -23,7 +23,7 @@
               "description": "The business identifier for this task.",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "definitionUri": {
@@ -47,7 +47,7 @@
             },
             "groupIdentifier": {
               "description": "An identifier that links together multiple tasks and other requests that were created in the same context.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "partOf": {
               "description": "Task that this particular task is part of.",
@@ -448,7 +448,7 @@
             },
             "valueIdentifier": {
               "description": "The value of the input parameter as a basic type.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "valueCodeableConcept": {
               "description": "The value of the input parameter as a basic type.",
@@ -758,7 +758,7 @@
             },
             "valueIdentifier": {
               "description": "The value of the Output parameter as a basic type.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "valueCodeableConcept": {
               "description": "The value of the Output parameter as a basic type.",

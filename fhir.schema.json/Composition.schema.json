@@ -21,7 +21,7 @@
             },
             "identifier": {
               "description": "Logical identifier for the composition, assigned when created. This identifier stays constant as the composition is changed over time.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "status": {
               "description": "The workflow/clinical status of this composition. The status is a marker for the clinical standing of the document.",
@@ -192,7 +192,7 @@
             },
             "targetIdentifier": {
               "description": "The target composition/document of this relationship.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "targetReference": {
               "description": "The target composition/document of this relationship.",

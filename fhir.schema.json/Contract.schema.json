@@ -21,7 +21,7 @@
             },
             "identifier": {
               "description": "Unique identifier for this Contract.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "status": {
               "description": "The status of the resource instance.",
@@ -253,7 +253,7 @@
             },
             "identifier": {
               "description": "Identifies a Contract Valued Item instance.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "effectiveTime": {
               "description": "Indicates the time during which this Contract ValuedItem information is effective.",
@@ -308,7 +308,7 @@
           "properties": {
             "identifier": {
               "description": "Unique identifier for this particular Contract Provision.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "issued": {
               "description": "When this Contract Provision was issued.",
@@ -436,7 +436,7 @@
             },
             "identifier": {
               "description": "Identifies a Contract Provision Valued Item instance.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "effectiveTime": {
               "description": "Indicates the time during which this Contract Term ValuedItem information is effective.",

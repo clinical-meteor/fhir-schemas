@@ -23,7 +23,7 @@
               "description": "A unique identifier assigned to this observation.",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "basedOn": {

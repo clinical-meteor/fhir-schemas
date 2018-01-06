@@ -21,7 +21,7 @@
             },
             "identifier": {
               "description": "Unique identifier of the DICOM Key Object Selection (KOS) that this resource represents.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "patient": {
               "description": "A patient resource reference which is the patient subject of all DICOM SOP Instances in this ImagingManifest.",

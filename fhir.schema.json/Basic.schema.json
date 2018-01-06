@@ -23,7 +23,7 @@
               "description": "Identifier assigned to the resource for business purposes, outside the context of FHIR.",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "code": {

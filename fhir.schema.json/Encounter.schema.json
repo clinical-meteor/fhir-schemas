@@ -23,7 +23,7 @@
               "description": "Identifier(s) by which this encounter is known.",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "status": {
@@ -289,7 +289,7 @@
           "properties": {
             "preAdmissionIdentifier": {
               "description": "Pre-admission identifier.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "origin": {
               "description": "The location from which the patient came before admission.",

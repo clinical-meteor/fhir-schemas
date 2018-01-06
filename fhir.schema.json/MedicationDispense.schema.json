@@ -23,7 +23,7 @@
               "description": "Identifier assigned by the dispensing facility - this is an identifier assigned outside FHIR.",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "partOf": {

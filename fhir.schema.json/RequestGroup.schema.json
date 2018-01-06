@@ -23,7 +23,7 @@
               "description": "Allows a service to provide a unique, business identifier for the request.",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "definition": {
@@ -49,7 +49,7 @@
             },
             "groupIdentifier": {
               "description": "A shared identifier common to all requests that were authorized more or less simultaneously by a single author, representing the identifier of the requisition, prescription or similar form.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "status": {
               "description": "The current state of the request. For request groups, the status reflects the status of all the requests in the group.",

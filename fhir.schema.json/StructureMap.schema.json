@@ -31,7 +31,7 @@
               "description": "A formal identifier that is used to identify this structure map when it is represented in other formats, or referenced in a specification, model, design or an instance.",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "version": {
@@ -621,7 +621,7 @@
             },
             "defaultValueIdentifier": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "defaultValueCodeableConcept": {
               "description": "A value to use if there is no existing value in the source object.",

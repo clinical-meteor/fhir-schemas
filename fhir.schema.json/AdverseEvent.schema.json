@@ -21,7 +21,7 @@
             },
             "identifier": {
               "description": "The identifier(s) of this adverse event that are assigned by business processes and/or used to refer to it when a direct URL reference to the resource itsefl is not appropriate.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "category": {
               "description": "The type of event which is important to characterize what occurred and caused harm to the subject, or had the potential to cause harm to the subject.",

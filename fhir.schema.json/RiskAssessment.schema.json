@@ -21,7 +21,7 @@
             },
             "identifier": {
               "description": "Business identifier assigned to the risk assessment.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "basedOn": {
               "description": "A reference to the request that is fulfilled by this risk assessment.",

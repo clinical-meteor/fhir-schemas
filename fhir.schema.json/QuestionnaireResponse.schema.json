@@ -21,7 +21,7 @@
             },
             "identifier": {
               "description": "A business identifier assigned to a particular completed (or partially completed) questionnaire.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "basedOn": {
               "description": "The order, proposal or plan that is fulfilled in whole or in part by this QuestionnaireResponse.  For example, a ProcedureRequest seeking an intake assessment or a decision support recommendation to assess for post-partum depression.",

@@ -21,7 +21,7 @@
             },
             "identifier": {
               "description": "Describes the unique identification of this metric that has been assigned by the device or gateway software. For example: handle ID.  It should be noted that in order to make the identifier unique, the system element of the identifier should be set to the unique identifier of the device.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "type": {
               "description": "Describes the type of the metric. For example: Heart Rate, PEEP Setting, etc.",

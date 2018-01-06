@@ -21,7 +21,7 @@
             },
             "identifier": {
               "description": "Identifier for the TestScript assigned for external purposes outside the context of FHIR.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "name": {
               "description": "A free text natural language name identifying the executed TestScript.",

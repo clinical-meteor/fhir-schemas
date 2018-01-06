@@ -31,7 +31,7 @@
               "description": "A formal identifier that is used to identify this data element when it is represented in other formats, or referenced in a specification, model, design or an instance.",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "version": {

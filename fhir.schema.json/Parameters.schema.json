@@ -212,7 +212,7 @@
             },
             "valueIdentifier": {
               "description": "If the parameter is a data type.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "valueCodeableConcept": {
               "description": "If the parameter is a data type.",

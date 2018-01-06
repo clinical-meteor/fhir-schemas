@@ -23,7 +23,7 @@
               "description": "Identifiers assigned to this order by the order sender or by the order receiver.",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "status": {

@@ -21,7 +21,7 @@
             },
             "identifier": {
               "description": "Unique identifier for this supply request.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "status": {
               "description": "Status of the supply request.",

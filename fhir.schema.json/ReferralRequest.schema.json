@@ -23,7 +23,7 @@
               "description": "Business identifier that uniquely identifies the referral/care transfer request instance.",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "definition": {
@@ -49,7 +49,7 @@
             },
             "groupIdentifier": {
               "description": "The business identifier of the logical \"grouping\" request/order that this referral is a part of.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "status": {
               "description": "The status of the authorization/intention reflected by the referral request record.",

@@ -21,7 +21,7 @@
             },
             "identifier": {
               "description": "Business identifier associated with the detected issue record.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "status": {
               "description": "Indicates the status of the detected issue.",

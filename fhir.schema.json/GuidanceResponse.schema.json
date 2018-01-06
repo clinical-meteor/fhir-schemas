@@ -30,7 +30,7 @@
             },
             "identifier": {
               "description": "Allows a service to provide a unique, business identifier for the response.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "module": {
               "description": "A reference to the knowledge module that was invoked.",

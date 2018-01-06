@@ -23,7 +23,7 @@
               "description": "Identifiers assigned to this report by the performer or other systems.",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "basedOn": {

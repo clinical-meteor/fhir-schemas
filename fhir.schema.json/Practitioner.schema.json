@@ -23,7 +23,7 @@
               "description": "An identifier that applies to this person in this role.",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "active": {
@@ -118,7 +118,7 @@
               "description": "An identifier that applies to this person\u0027s qualification in this role.",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "code": {

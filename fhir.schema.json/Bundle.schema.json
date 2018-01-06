@@ -21,7 +21,7 @@
             },
             "identifier": {
               "description": "A persistent identifier for the batch that won\u0027t change as a batch is copied from server to server.",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "type": {
               "description": "Indicates the purpose of this bundle - how it was intended to be used.",

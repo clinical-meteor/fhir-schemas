@@ -23,7 +23,7 @@
               "description": "Unique identifier for the substance.",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "status": {
@@ -90,7 +90,7 @@
           "properties": {
             "identifier": {
               "description": "Identifier associated with the package/container (usually a label affixed directly).",
-              "$ref": "Identifier.schema.json#/definitions/Identifier"
+              "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
             },
             "expiry": {
               "description": "When the substance is no longer valid to use. For some substances, a single arbitrary date is used for expiry.",

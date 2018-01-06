@@ -23,7 +23,7 @@
               "description": "Business Identifiers that are specific to a role/location.",
               "type": "array",
               "items": {
-                "$ref": "Identifier.schema.json#/definitions/Identifier"
+                "$ref": "http://hl7.org/fhir/json-schema/Identifier#/definitions/Identifier"
               }
             },
             "active": {
