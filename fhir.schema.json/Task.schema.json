@@ -472,7 +472,7 @@
             },
             "valueDistance": {
               "description": "The value of the input parameter as a basic type.",
-              "$ref": "Distance.schema.json#/definitions/Distance"
+              "$ref": "http://hl7.org/fhir/json-schema/Distance#/definitions/Distance"
             },
             "valueCount": {
               "description": "The value of the input parameter as a basic type.",
@@ -782,7 +782,7 @@
             },
             "valueDistance": {
               "description": "The value of the Output parameter as a basic type.",
-              "$ref": "Distance.schema.json#/definitions/Distance"
+              "$ref": "http://hl7.org/fhir/json-schema/Distance#/definitions/Distance"
             },
             "valueCount": {
               "description": "The value of the Output parameter as a basic type.",

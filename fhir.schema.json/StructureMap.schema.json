@@ -645,7 +645,7 @@
             },
             "defaultValueDistance": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Distance.schema.json#/definitions/Distance"
+              "$ref": "http://hl7.org/fhir/json-schema/Distance#/definitions/Distance"
             },
             "defaultValueCount": {
               "description": "A value to use if there is no existing value in the source object.",

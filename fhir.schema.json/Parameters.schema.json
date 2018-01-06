@@ -236,7 +236,7 @@
             },
             "valueDistance": {
               "description": "If the parameter is a data type.",
-              "$ref": "Distance.schema.json#/definitions/Distance"
+              "$ref": "http://hl7.org/fhir/json-schema/Distance#/definitions/Distance"
             },
             "valueCount": {
               "description": "If the parameter is a data type.",
