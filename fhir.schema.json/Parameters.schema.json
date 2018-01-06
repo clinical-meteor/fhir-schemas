@@ -244,7 +244,7 @@
             },
             "valueMoney": {
               "description": "If the parameter is a data type.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "valueAge": {
               "description": "If the parameter is a data type.",

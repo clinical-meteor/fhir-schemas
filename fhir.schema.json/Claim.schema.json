@@ -184,7 +184,7 @@
             },
             "total": {
               "description": "The total value of the claim.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             }
           },
           "required": [
@@ -664,7 +664,7 @@
             },
             "unitPrice": {
               "description": "If the item is a node then this is the fee for the product or service, otherwise this is the total of the fees for the children of the group.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "factor": {
               "description": "A real number that represents a multiplier used in determining the overall value of services delivered and/or goods received. The concept of a Factor allows for a discount or surcharge multiplier to be applied to a monetary amount.",
@@ -677,7 +677,7 @@
             },
             "net": {
               "description": "The quantity times the unit price for an addittional service or product or charge. For example, the formula: unit Quantity * unit Price (Cost per Point) * factor Number  * points \u003d net Amount. Quantity, factor and points are assumed to be 1 if not supplied.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "udi": {
               "description": "List of Unique Device Identifiers associated with this line item.",
@@ -764,7 +764,7 @@
             },
             "unitPrice": {
               "description": "If the item is a node then this is the fee for the product or service, otherwise this is the total of the fees for the children of the group.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "factor": {
               "description": "A real number that represents a multiplier used in determining the overall value of services delivered and/or goods received. The concept of a Factor allows for a discount or surcharge multiplier to be applied to a monetary amount.",
@@ -777,7 +777,7 @@
             },
             "net": {
               "description": "The quantity times the unit price for an addittional service or product or charge. For example, the formula: unit Quantity * unit Price (Cost per Point) * factor Number  * points \u003d net Amount. Quantity, factor and points are assumed to be 1 if not supplied.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "udi": {
               "description": "List of Unique Device Identifiers associated with this line item.",
@@ -846,7 +846,7 @@
             },
             "unitPrice": {
               "description": "The fee for an addittional service or product or charge.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "factor": {
               "description": "A real number that represents a multiplier used in determining the overall value of services delivered and/or goods received. The concept of a Factor allows for a discount or surcharge multiplier to be applied to a monetary amount.",
@@ -859,7 +859,7 @@
             },
             "net": {
               "description": "The quantity times the unit price for an addittional service or product or charge. For example, the formula: unit Quantity * unit Price (Cost per Point) * factor Number  * points \u003d net Amount. Quantity, factor and points are assumed to be 1 if not supplied.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "udi": {
               "description": "List of Unique Device Identifiers associated with this line item.",

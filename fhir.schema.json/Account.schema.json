@@ -65,7 +65,7 @@
             },
             "balance": {
               "description": "Represents the sum of all credits less all debits associated with the account.  Might be positive, zero or negative.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "coverage": {
               "description": "The party(s) that are responsible for covering the payment of this account, and what order should they be applied to the account.",

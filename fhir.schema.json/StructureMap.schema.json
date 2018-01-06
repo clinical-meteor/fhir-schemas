@@ -653,7 +653,7 @@
             },
             "defaultValueMoney": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "defaultValueAge": {
               "description": "A value to use if there is no existing value in the source object.",

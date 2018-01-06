@@ -89,7 +89,7 @@
             },
             "total": {
               "description": "Total payment amount.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "processNote": {
               "description": "Suite of notes.",
@@ -144,7 +144,7 @@
             },
             "amount": {
               "description": "Amount paid for this detail.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             }
           },
           "required": [

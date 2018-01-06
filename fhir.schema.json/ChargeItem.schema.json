@@ -127,7 +127,7 @@
             },
             "priceOverride": {
               "description": "Total price of the charge overriding the list price associated with the code.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "overrideReason": {
               "description": "If the list price or the rule based factor associated with the code is overridden, this attribute can capture a text to indicate the  reason for this action.",

@@ -480,7 +480,7 @@
             },
             "valueMoney": {
               "description": "The value of the input parameter as a basic type.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "valueAge": {
               "description": "The value of the input parameter as a basic type.",
@@ -790,7 +790,7 @@
             },
             "valueMoney": {
               "description": "The value of the Output parameter as a basic type.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "valueAge": {
               "description": "The value of the Output parameter as a basic type.",

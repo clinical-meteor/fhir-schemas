@@ -103,15 +103,15 @@
             },
             "totalCost": {
               "description": "The total cost of the services reported.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "unallocDeductable": {
               "description": "The amount of deductible applied which was not allocated to any particular service line.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "totalBenefit": {
               "description": "Total amount of benefit payable (Equal to sum of the Benefit amounts from all detail lines and additions less the Unallocated Deductible).",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "payment": {
               "description": "Payment details for the claim if the claim has been paid.",
@@ -221,7 +221,7 @@
             },
             "amount": {
               "description": "Monetary amount associated with the code.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "value": {
               "description": "A non-monetary value for example a percentage. Mutually exclusive to the amount element above.",
@@ -376,7 +376,7 @@
             },
             "fee": {
               "description": "The fee charged for the professional service or product..",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "noteNumber": {
               "description": "A list of note references to the notes provided below.",
@@ -440,7 +440,7 @@
             },
             "fee": {
               "description": "The fee charged for the professional service or product..",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "noteNumber": {
               "description": "A list of note references to the notes provided below.",
@@ -528,7 +528,7 @@
             },
             "adjustment": {
               "description": "Adjustment to the payment of this transaction which is not related to adjudication of this transaction.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "adjustmentReason": {
               "description": "Reason for the payment adjustment.",
@@ -545,7 +545,7 @@
             },
             "amount": {
               "description": "Payable less any payment adjustment.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "identifier": {
               "description": "Payment identifier.",

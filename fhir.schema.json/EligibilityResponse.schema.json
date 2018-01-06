@@ -229,7 +229,7 @@
             },
             "allowedMoney": {
               "description": "Benefits allowed.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             },
             "usedUnsignedInt": {
               "description": "Benefits used.",
@@ -242,7 +242,7 @@
             },
             "usedMoney": {
               "description": "Benefits used.",
-              "$ref": "Money.schema.json#/definitions/Money"
+              "$ref": "http://hl7.org/fhir/json-schema/Money#/definitions/Money"
             }
           },
           "required": [
