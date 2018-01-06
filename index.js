@@ -1,15 +1,16 @@
-import AuditEventSchema from './simple-schemas/AuditEvent';
-import CarePlanSchema from './simple-schemas/CarePlan';
-import DeviceSchema from './simple-schemas/Device';
-import EndpointSchema from './simple-schemas/Endpoint';
-import LocationSchema from './simple-schemas/Location';
-import MedicationSchema from './simple-schemas/Medication';
-import ObservationSchema from './simple-schemas/Observation';
-import OrganizationSchema from './simple-schemas/Organization';
-import PatientSchema from './simple-schemas/Patient';
-import PractitionerSchema from './simple-schemas/Practitioner';
-import QuestionnaireSchema from './simple-schemas/Questionnaire';
-import QuestionnaireResponseSchema from './simple-schemas/QuestionnaireResponse';
+
+const AuditEventSchema = require('./simple-schemas/AuditEvent');
+const CarePlanSchema = require('./simple-schemas/CarePlan');
+const DeviceSchema = require('./simple-schemas/Device');
+const EndpointSchema = require('./simple-schemas/Endpoint');
+const LocationSchema = require('./simple-schemas/Location');
+const MedicationSchema = require('./simple-schemas/Medication');
+const ObservationSchema = require('./simple-schemas/Observation');
+const OrganizationSchema = require('./simple-schemas/Organization');
+const PatientSchema = require('./simple-schemas/Patient');
+const PractitionerSchema = require('./simple-schemas/Practitioner');
+const QuestionnaireSchema = require('./simple-schemas/Questionnaire');
+const QuestionnaireResponseSchema = require('./simple-schemas/QuestionnaireResponse');
 
 var SimpleSchemas = {
   AuditEventSchema, 

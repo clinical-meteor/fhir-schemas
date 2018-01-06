@@ -1,6 +1,6 @@
 
 # fhir-schemas
-FHIR Resources implemented with `json-schemas` and `node-simple-schemas`.  The purpose of this package is to a) make the HL7 FHIR json-schemas available on NPM, and b) start migrating Meteor apps off of `meteor-simple-schema`.  
+FHIR Resources implemented with `json-schemas` and `node-simple-schemas`.  The purpose of this package is to a) make the HL7 FHIR json-schemas available on NPM, and b) start migrating Meteor apps off of `meteor-simple-schema`.  Roughly speaking, the SimpleSchemas correspond to either `v1.6.0` of DST2, and the JsonSchemas correspond to `v3.0.1` or `STU3`.  
 
 
 ### Installation  
@@ -15,7 +15,7 @@ meteor add bshamblen:json-simple-schema
 
 
 ### JsonSchema Usage    
-Going forward, we recommend the Json Schama format, which is the official schema published by the HL7 FHIR working groups, has [low-level Mongo support](https://docs.mongodb.com/manual/core/schema-validation/#json-schema), and has cross-platform support across a wide rage of Node/NPM apps.     
+Going forward, we recommend the Json Schama format, which is the official schema published by the HL7 FHIR working groups, has [low-level Mongo support](https://docs.mongodb.com/manual/core/schema-validation/#json-schema), and has cross-platform support across a wide rage of Node/NPM apps.  
 
 **Server - Meteor**  
 
@@ -43,7 +43,7 @@ console.log('props', props)
 **Server - Node**  
 ```js
 import MongoClient from 'mongodb';
-import { Patient as PatientSchema } from 'fhir-simple-schemas';
+import { Patient as PatientSchema } from 'fhir-schemas';
 
 
 // Connection URL
