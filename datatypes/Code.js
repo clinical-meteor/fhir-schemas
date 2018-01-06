@@ -1,1 +1,1 @@
-export default Code = new String();
+exports.Code = new String();

@@ -1,6 +1,6 @@
 
 
-export default CodeableConceptSchema = new SimpleSchema({
+exports.CodeableConceptSchema = new SimpleSchema({
   "coding" : {
     optional: true,
     type: [ CodingSchema ]

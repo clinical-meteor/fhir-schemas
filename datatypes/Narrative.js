@@ -1,5 +1,5 @@
 
-export default NarrativeSchema = new SimpleSchema({
+exports.NarrativeSchema = new SimpleSchema({
   "status" : {
     type: Code,
     optional: true,

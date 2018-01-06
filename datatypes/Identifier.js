@@ -1,4 +1,4 @@
-export default IdentifierSchema = new SimpleSchema({
+exports.IdentifierSchema = new SimpleSchema({
   "use" : {
     optional: true,
     type: String

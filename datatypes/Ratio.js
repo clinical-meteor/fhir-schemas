@@ -1,4 +1,4 @@
-export default RatioSchema = new SimpleSchema({
+exports.RatioSchema = new SimpleSchema({
   "numerator" : {
     type: QuantitySchema
   },

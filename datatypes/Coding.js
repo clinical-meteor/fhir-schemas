@@ -1,6 +1,6 @@
 
 
-export default CodingSchema = new SimpleSchema({
+exports.CodingSchema = new SimpleSchema({
   "system" : {
     optional: true,
     type: String

@@ -1,6 +1,6 @@
 
 
-export default RangeSchema = new SimpleSchema({
+exports.RangeSchema = new SimpleSchema({
   "low" : {
     type: QuantitySchema
     },

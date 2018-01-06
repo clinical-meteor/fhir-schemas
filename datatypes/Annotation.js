@@ -19,7 +19,7 @@ Annotation = {
 }
 
 
-export default AnnotationSchema = new SimpleSchema({
+exports.AnnotationSchema = new SimpleSchema({
   "authorReference" : {
     type: ReferenceSchema,
     optional: true

@@ -1,5 +1,5 @@
 
-export default BaseSchema = new SimpleSchema({
+exports.BaseSchema = new SimpleSchema({
   "id" : {
     type: String,
     optional: true

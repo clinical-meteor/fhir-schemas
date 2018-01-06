@@ -1,4 +1,4 @@
-export default HumanNameSchema = new SimpleSchema({
+exports.HumanNameSchema = new SimpleSchema({
   "resourceType" : {
     type: String,
     defaultValue: "HumanName"

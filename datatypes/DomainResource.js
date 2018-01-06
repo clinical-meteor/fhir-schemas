@@ -1,5 +1,5 @@
 
-export default DomainResourceSchema = new SimpleSchema({
+exports.DomainResourceSchema = new SimpleSchema({
   "text.status" : {
     type: Code,
     optional: true,

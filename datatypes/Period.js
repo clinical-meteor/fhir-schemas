@@ -1,4 +1,4 @@
-export default PeriodSchema = new SimpleSchema({
+exports.PeriodSchema = new SimpleSchema({
   "start" : {
     optional: true,
     type : Date

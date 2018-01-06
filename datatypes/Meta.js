@@ -1,5 +1,5 @@
 
-export default MetaSchema = new SimpleSchema({
+exports.MetaSchema = new SimpleSchema({
   "versionId" : {
     type: String,
     optional: true,

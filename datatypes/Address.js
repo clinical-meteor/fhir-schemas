@@ -72,7 +72,7 @@ Address = {
 }
 
 // Add  the schema for a collection
-export default AddressSchema = new SimpleSchema({
+exports.AddressSchema = new SimpleSchema({
   "resourceType" : {
     type: String,
     defaultValue: "Address"

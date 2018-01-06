@@ -16,7 +16,7 @@
 //   }
 // }
 
-export default QuantitySchema = new SimpleSchema({
+exports.QuantitySchema = new SimpleSchema({
   'value' : {
     optional: true,
     type : Number,

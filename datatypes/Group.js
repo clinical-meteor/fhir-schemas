@@ -1,4 +1,4 @@
-export default GroupSchema = new SimpleSchema({
+exports.GroupSchema = new SimpleSchema({
   "linkId" : {
     optional: true,
     type: String

@@ -1,4 +1,4 @@
-export default ReferenceSchema = new SimpleSchema({
+exports.ReferenceSchema = new SimpleSchema({
   "reference" : {
     optional: true,
     type: String

@@ -1,4 +1,4 @@
-export default ConformanceSchema = new SimpleSchema({
+exports.ConformanceSchema = new SimpleSchema({
   "resourceType" : {
     type: "Conformance",
     // from Resource: id, meta, implicitRules, and language

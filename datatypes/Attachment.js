@@ -1,4 +1,4 @@
-export default AttachmentSchema = new SimpleSchema({
+exports.AttachmentSchema = new SimpleSchema({
   "contentType" : {
     optional: true,
     type: Code

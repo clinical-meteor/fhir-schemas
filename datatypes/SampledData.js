@@ -1,4 +1,4 @@
-export default SampledDataSchema = new SimpleSchema({
+exports.SampledDataSchema = new SimpleSchema({
   "origin" : {
     type: QuantitySchema
     },

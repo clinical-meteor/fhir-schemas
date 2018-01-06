@@ -1,20 +1,20 @@
-import { AddressSchema } from '../data"type"s/Address';
-import { AnnotationSchema } from '../data"type"s/Annotation';
-import { BaseSchema } from '../data"type"s/Base';
-import { Code } from '../data"type"s/Code';
-import { CodingSchema } from '../data"type"s/Coding';
-import { CodeableConcept } from '../data"type"s/CodableConcept';
-import { ContactPointSchema } from '../data"type"s/ContactPoint';
-import { DomainResourceSchema } from '../data"type"s/DomainResource';
-import { HumanNameSchema } from '../data"type"s/HumanName';
-import { IdentifierSchema } from '../data"type"s/Identifier';
-import { PeriodSchema } from '../data"type"s/Period';
-import { QuantitySchema } from '../data"type"s/Quantity';
-import { ReferenceSchema } from '../data"type"s/Reference';
-import { TimingSchema } from '../data"type"s/Timing';
+var AddressSchema = require('../datatypes/Address');
+var AnnotationSchema = require('../datatypes/Annotation');
+var BaseSchema = require('../datatypes/Base');
+var Code = require('../datatypes/Code');
+var CodingSchema = require('../datatypes/Coding');
+var CodeableConcept = require('../datatypes/CodableConcept');
+var ContactPointSchema = require('../datatypes/ContactPoint');
+var DomainResourceSchema = require('../datatypes/DomainResource');
+var GroupSchema = require('../datatypes/Group');
+var HumanNameSchema = require('../datatypes/HumanName');
+var IdentifierSchema = require('../datatypes/Identifier');
+var PeriodSchema = require('../datatypes/Period');
+var QuantitySchema = require('../datatypes/Quantity');
+var ReferenceSchema = require('../datatypes/Reference');
+var TimingSchema = require('../datatypes/Timing');
 
-
-export default PatientSchema = new SimpleSchema([
+exports.PatientSchema = new SimpleSchema([
   BaseSchema,
   DomainResourceSchema,
   {

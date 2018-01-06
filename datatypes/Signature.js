@@ -1,4 +1,4 @@
-export default SignatureSchema = new SimpleSchema({
+exports.SignatureSchema = new SimpleSchema({
   "type" : {
     type: [ CodingSchema ]
     },

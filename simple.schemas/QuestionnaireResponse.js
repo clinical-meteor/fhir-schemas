@@ -15,7 +15,7 @@ var ReferenceSchema = require('../datatypes/Reference');
 var TimingSchema = require('../datatypes/Timing');
 
 
-export default QuestionnaireResponseSchema = new SimpleSchema({
+exports.QuestionnaireResponseSchema = new SimpleSchema({
   "resourceType" : {
     type: String,
     defaultValue: "QuestionnaireResponse"

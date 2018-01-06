@@ -1,4 +1,4 @@
-export default ContactPointSchema = new SimpleSchema({
+exports.ContactPointSchema = new SimpleSchema({
   "resourceType" : {
     type: String,
     defaultValue: "ContactPoint",

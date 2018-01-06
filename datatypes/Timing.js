@@ -1,4 +1,4 @@
-export default TimingSchema = new SimpleSchema({
+exports.TimingSchema = new SimpleSchema({
   "resourceType": {
     type: String,
     defaultValue: "Timing"
