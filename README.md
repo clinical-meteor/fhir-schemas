@@ -1,6 +1,6 @@
-import MongoClient from 'mongodb';
+
 # fhir-schemas
-FHIR Resources implemented with `json-schemas` and `node-simple-schemas`.  The purpose of this package make the HL7 FHIR json-schemas available on NPM, as well as to start migrating Meteor apps off of `meteor-simple-schema`.  
+FHIR Resources implemented with `json-schemas` and `node-simple-schemas`.  The purpose of this package is to a) make the HL7 FHIR json-schemas available on NPM, and b) start migrating Meteor apps off of `meteor-simple-schema`.  
 
 
 ### Installation  
