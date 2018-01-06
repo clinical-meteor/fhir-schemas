@@ -228,7 +228,7 @@
             },
             "valueDuration": {
               "description": "If the parameter is a data type.",
-              "$ref": "Duration.schema.json#/definitions/Duration"
+              "$ref": "http://hl7.org/fhir/json-schema/Duration#/definitions/Duration"
             },
             "valueSimpleQuantity": {
               "description": "If the parameter is a data type.",

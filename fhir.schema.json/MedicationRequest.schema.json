@@ -246,7 +246,7 @@
             },
             "expectedSupplyDuration": {
               "description": "Identifies the period time over which the supplied product is expected to be used, or the length of time the dispense is expected to last.",
-              "$ref": "Duration.schema.json#/definitions/Duration"
+              "$ref": "http://hl7.org/fhir/json-schema/Duration#/definitions/Duration"
             },
             "performer": {
               "description": "Indicates the intended dispensing Organization specified by the prescriber.",

@@ -109,7 +109,7 @@
             },
             "length": {
               "description": "Quantity of time the encounter lasted. This excludes the time during leaves of absence.",
-              "$ref": "Duration.schema.json#/definitions/Duration"
+              "$ref": "http://hl7.org/fhir/json-schema/Duration#/definitions/Duration"
             },
             "reason": {
               "description": "Reason the encounter takes place, expressed as a code. For admissions, this can be used for a coded admission diagnosis.",

@@ -209,7 +209,7 @@
             },
             "valueDuration": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "Duration.schema.json#/definitions/Duration"
+              "$ref": "http://hl7.org/fhir/json-schema/Duration#/definitions/Duration"
             },
             "valueSimpleQuantity": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",

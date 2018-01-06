@@ -49,7 +49,7 @@
           "properties": {
             "boundsDuration": {
               "description": "Either a duration for the length of the timing schedule, a range of possible length, or outer bounds for start and/or end limits of the timing schedule.",
-              "$ref": "Duration.schema.json#/definitions/Duration"
+              "$ref": "http://hl7.org/fhir/json-schema/Duration#/definitions/Duration"
             },
             "boundsRange": {
               "description": "Either a duration for the length of the timing schedule, a range of possible length, or outer bounds for start and/or end limits of the timing schedule.",

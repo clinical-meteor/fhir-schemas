@@ -303,7 +303,7 @@
             },
             "due": {
               "description": "Indicates the timeframe after the start of the goal in which the goal should be met.",
-              "$ref": "Duration.schema.json#/definitions/Duration"
+              "$ref": "http://hl7.org/fhir/json-schema/Duration#/definitions/Duration"
             }
           }
         }
@@ -435,7 +435,7 @@
             },
             "timingDuration": {
               "description": "An optional value describing when the action should be performed.",
-              "$ref": "Duration.schema.json#/definitions/Duration"
+              "$ref": "http://hl7.org/fhir/json-schema/Duration#/definitions/Duration"
             },
             "timingRange": {
               "description": "An optional value describing when the action should be performed.",
@@ -635,7 +635,7 @@
             },
             "offsetDuration": {
               "description": "A duration or range of durations to apply to the relationship. For example, 30-60 minutes before.",
-              "$ref": "Duration.schema.json#/definitions/Duration"
+              "$ref": "http://hl7.org/fhir/json-schema/Duration#/definitions/Duration"
             },
             "offsetRange": {
               "description": "A duration or range of durations to apply to the relationship. For example, 30-60 minutes before.",

@@ -177,7 +177,7 @@
             },
             "dueDuration": {
               "description": "Indicates either the date or the duration after start by which the goal should be met.",
-              "$ref": "Duration.schema.json#/definitions/Duration"
+              "$ref": "http://hl7.org/fhir/json-schema/Duration#/definitions/Duration"
             }
           }
         }

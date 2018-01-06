@@ -464,7 +464,7 @@
             },
             "valueDuration": {
               "description": "The value of the input parameter as a basic type.",
-              "$ref": "Duration.schema.json#/definitions/Duration"
+              "$ref": "http://hl7.org/fhir/json-schema/Duration#/definitions/Duration"
             },
             "valueSimpleQuantity": {
               "description": "The value of the input parameter as a basic type.",
@@ -774,7 +774,7 @@
             },
             "valueDuration": {
               "description": "The value of the Output parameter as a basic type.",
-              "$ref": "Duration.schema.json#/definitions/Duration"
+              "$ref": "http://hl7.org/fhir/json-schema/Duration#/definitions/Duration"
             },
             "valueSimpleQuantity": {
               "description": "The value of the Output parameter as a basic type.",

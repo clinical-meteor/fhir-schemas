@@ -637,7 +637,7 @@
             },
             "defaultValueDuration": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Duration.schema.json#/definitions/Duration"
+              "$ref": "http://hl7.org/fhir/json-schema/Duration#/definitions/Duration"
             },
             "defaultValueSimpleQuantity": {
               "description": "A value to use if there is no existing value in the source object.",
