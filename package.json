@@ -5,37 +5,36 @@
       "url": "http://symptomatic.io"
     },
     "bugs": {
-      "url": "https://github.com/clinical-meteor/fhir-simple-schemas/issues",
+      "url": "https://github.com/clinical-meteor/fhir-schemas/issues",
       "email": "support@symptomatic.io"
     },
     "dependencies": {
       "node-simple-schema": "0.0.4"
     },
-    "description": "node-simple-schemas for Fast Healthcare Interoperability Resources.",
-    "devDependencies": {
-      "gulp": "^3.9.1"
-    },
-    "homepage": "https://github.com/clinical-meteor/fhir-simple-schemas",
+    "description": "Schemas for Fast Healthcare Interoperability Resources.  Supports json-schemas and node-simple-schemas",
+    "homepage": "https://github.com/clinical-meteor/fhir-schemas",
     "keywords": [
+      "fast healthcare interoperability resources",
+      "fhir",
+      "json-schema",
       "node-simple-schema",
       "meteor",
       "collection2",
-      "fast healthcare interoperability resources",
-      "fhir",
       "hl7",
       "interoperability"
     ],
     "license": "MIT",
     "main": "./index.js",
-    "name": "fhir-simple-schemas",
+    "name": "fhir-schemas",
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/clinical-meteor/fhir-simple-schemas.git"
+      "url": "git+https://github.com/clinical-meteor/fhir-schemas.git"
     },
     "scripts": {
       "build": "cross-env NODE_ENV=production gulp",
       "clean": "rimraf ./lib",
-      "prepublish": "yarn run build",
+      "prepublish": "npm run build",
+      "publish": "",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "version": "0.0.1"
