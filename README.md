@@ -17,34 +17,12 @@ meteor add bshamblen:json-simple-schema
 ### JsonSchema Usage    
 Going forward, we recommend the Json Schama format, which is the official schema published by the HL7 FHIR working groups, has [low-level Mongo support](https://docs.mongodb.com/manual/core/schema-validation/#json-schema), and has cross-platform support across a wide rage of Node/NPM apps.  
 
-**Server - Meteor**  
 
-The following is an example for Meteor apps.  
-```js
-import { Patient as PatientSchema } from 'fhir-simple-schemas';
-
-// JSONSchema is provided as a global, since it's loaded from Atmosphere package repository
-var jsonSchema = new JSONSchema(PatientSchema);
-
-// convert to simple schema
-var simpleSchema = jsonSchema.toSimpleSchema();
-
-// create our server side cursor
-CurrentPatients = new Mongo.Collection('CurrentPatients');
-
-// and attach the cursor
-CurrentPatients.attachSchema(SimpleSchemas.PatientSchema);
-
-// for debugging
-var props = jsonSchema.toSimpleSchemaProps();
-console.log('props', props)
-```
 
 **Server - Node**  
 ```js
 import MongoClient from 'mongodb';
-import { Patient as PatientSchema } from 'fhir-schemas';
-
+import { PatientSchema } from 'fhir-schemas';
 
 // Connection URL
 const url = 'mongodb://localhost:27017';
@@ -66,14 +44,40 @@ MongoClient.connect(url, function(err, client) {
 });
 ```
 
+**Server - Meteor**  
+
+The following is an example for Meteor apps.  
+```js
+import { PatientSchema } from 'fhir-simple-schemas';
+
+// JSONSchema is provided as a global, since it's loaded from Atmosphere package repository
+var jsonSchema = new JSONSchema(PatientSchema);
+
+// convert to simple schema
+var simpleSchema = jsonSchema.toSimpleSchema();
+
+// create our server side cursor
+CurrentPatients = new Mongo.Collection('CurrentPatients');
+
+// and attach the cursor
+CurrentPatients.attachSchema(SimpleSchemas.PatientSchema);
+
+// for debugging
+var props = jsonSchema.toSimpleSchemaProps();
+console.log('props', props)
+```
+
 **Client**  
 ```js
+//-------------------------------------------------------------
+// Auto Forms
+
 import React, { Component } from "react";
 import { render } from "react-dom";
 
 import Form from "react-jsonschema-form";
 
-import { Patient as PatientSchema } from 'fhir-simple-schemas';
+import { PatientSchema } from 'fhir-simple-schemas';
 
 const log = (type) => console.log.bind(console, type);
 
@@ -89,7 +93,7 @@ var simpleSchema = jsonSchema.toSimpleSchema();
 
 
 //-------------------------------------------------------------
-// General Node Apps
+// Schema Validation
 
 import Ajv from 'ajv';
 var ajv = new Ajv(); // options can be passed, e.g. {allErrors: true}
@@ -111,30 +115,6 @@ if(isValid){
 }
 ```
 
-### SimpleSchema Usage    
-For backwards compatibility, we offer a limited number of FHIR resources in SimpleSchema format.  These can be either imported directly into Meteor apps and used with the [aldeed:collection2-core](https://atmospherejs.com/aldeed/collection2-core) package, or in Node apps using the [node-simple-schema](https://www.npmjs.com/package/node-simple-schema) package.  
-
-```js
-import { SimpleSchemas } from 'fhir-simple-schemas';
-
-CurrentPatients = new Mongo.Collection('CurrentPatients');
-CurrentPatients.attachSchema(SimpleSchemas.PatientSchema);
-
-var newPatient = {
-    "name": {
-        "family": 'Doe',
-        "given": ['Jane']
-    },
-    "identifier": [{
-        "value": 123
-    }]
-};
-
-var isValid = SimpleSchemas.PatientSchema.namedContext("myContext").validate(patientobj);
-if(isValid){
-    CurrentPatients.insert(newPatient);
-}
-```
 
 #### Json Schemas  
 
@@ -142,20 +122,6 @@ We provide Json Schemas for all of the following resources.
 [FHIR Resource Index](https://www.hl7.org/fhir/resourcelist.html)        
 
 
-#### SimpleSchemas   
-
-[AuditEvent](https://www.hl7.org/fhir/auditevent.html)    
-[CarePlan](https://www.hl7.org/fhir/careplan.html)    
-[Device](https://www.hl7.org/fhir/device.html)    
-[Endpoint](https://www.hl7.org/fhir/endpoint.html)    
-[Location](https://www.hl7.org/fhir/location.html)    
-[Medication](https://www.hl7.org/fhir/medication.html)    
-[Observation](https://www.hl7.org/fhir/observation.html)    
-[Organization](https://www.hl7.org/fhir/organization.html)    
-[Patient](https://www.hl7.org/fhir/patient.html)    
-[Practitioner](https://www.hl7.org/fhir/practitioner.html)    
-[Questionnaire](https://www.hl7.org/fhir/questionnaire.html)    
-[QuestionnaireResponse](https://www.hl7.org/fhir/questionnaireresponse.html)    
 
 #### Notes & References (Delete Eventually)    
 https://www.npmjs.com/package/node-simple-schema  
