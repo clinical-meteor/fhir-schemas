@@ -41,3 +41,4 @@ exports.PeriodSchema = require('./fhir.schema.json/Period.schema.json');
 exports.QuantitySchema = require('./fhir.schema.json/Quantity.schema.json');
 exports.DurationSchema = require('./fhir.schema.json/Duration.schema.json');
 exports.DistanceSchema = require('./fhir.schema.json/Distance.schema.json');
+exports.CountSchema = require('./fhir.schema.json/Count.schema.json');

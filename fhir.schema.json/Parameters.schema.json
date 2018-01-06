@@ -240,7 +240,7 @@
             },
             "valueCount": {
               "description": "If the parameter is a data type.",
-              "$ref": "Count.schema.json#/definitions/Count"
+              "$ref": "http://hl7.org/fhir/json-schema/Count#/definitions/Count"
             },
             "valueMoney": {
               "description": "If the parameter is a data type.",

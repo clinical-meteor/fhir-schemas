@@ -476,7 +476,7 @@
             },
             "valueCount": {
               "description": "The value of the input parameter as a basic type.",
-              "$ref": "Count.schema.json#/definitions/Count"
+              "$ref": "http://hl7.org/fhir/json-schema/Count#/definitions/Count"
             },
             "valueMoney": {
               "description": "The value of the input parameter as a basic type.",
@@ -786,7 +786,7 @@
             },
             "valueCount": {
               "description": "The value of the Output parameter as a basic type.",
-              "$ref": "Count.schema.json#/definitions/Count"
+              "$ref": "http://hl7.org/fhir/json-schema/Count#/definitions/Count"
             },
             "valueMoney": {
               "description": "The value of the Output parameter as a basic type.",

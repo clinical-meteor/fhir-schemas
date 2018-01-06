@@ -221,7 +221,7 @@
             },
             "valueCount": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "Count.schema.json#/definitions/Count"
+              "$ref": "http://hl7.org/fhir/json-schema/Count#/definitions/Count"
             },
             "valueMoney": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",

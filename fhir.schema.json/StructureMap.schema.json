@@ -649,7 +649,7 @@
             },
             "defaultValueCount": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Count.schema.json#/definitions/Count"
+              "$ref": "http://hl7.org/fhir/json-schema/Count#/definitions/Count"
             },
             "defaultValueMoney": {
               "description": "A value to use if there is no existing value in the source object.",
