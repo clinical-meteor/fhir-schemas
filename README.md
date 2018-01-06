@@ -1,5 +1,6 @@
-# fhir-simple-schemas
-FHIR Resources implemented with `json-schemas` and `node-simple-schemas`.  The purpose of this package is to both make the HL7 FHIR json-schemas available on NPM, as well as to start migrating Meteor apps off of `meteor-simple-schema`.  
+import MongoClient from 'mongodb';
+# fhir-schemas
+FHIR Resources implemented with `json-schemas` and `node-simple-schemas`.  The purpose of this package make the HL7 FHIR json-schemas available on NPM, as well as to start migrating Meteor apps off of `meteor-simple-schema`.  
 
 
 ### Installation  
@@ -16,14 +17,22 @@ meteor add bshamblen:json-simple-schema
 ### JsonSchema Usage    
 Going forward, we recommend the Json Schama format, which is the official schema published by the HL7 FHIR working groups, has [low-level Mongo support](https://docs.mongodb.com/manual/core/schema-validation/#json-schema), and has cross-platform support across a wide rage of Node/NPM apps.     
 
-**Server**  
+**Server - Meteor**  
+
+The following is an example for Meteor apps.  
 ```js
 import { Patient as PatientSchema } from 'fhir-simple-schemas';
 
+// JSONSchema is provided as a global, since it's loaded from Atmosphere package repository
 var jsonSchema = new JSONSchema(PatientSchema);
+
+// convert to simple schema
 var simpleSchema = jsonSchema.toSimpleSchema();
 
+// create our server side cursor
 CurrentPatients = new Mongo.Collection('CurrentPatients');
+
+// and attach the cursor
 CurrentPatients.attachSchema(SimpleSchemas.PatientSchema);
 
 // for debugging
@@ -31,6 +40,31 @@ var props = jsonSchema.toSimpleSchemaProps();
 console.log('props', props)
 ```
 
+**Server - Node**  
+```js
+import MongoClient from 'mongodb';
+import { Patient as PatientSchema } from 'fhir-simple-schemas';
+
+
+// Connection URL
+const url = 'mongodb://localhost:27017';
+ 
+// Database Name
+const dbName = 'myproject';
+ 
+// Use connect method to connect to the server
+MongoClient.connect(url, function(err, client) { 
+    const db = client.db(dbName);
+ 
+    db.createCollection("Patients", {
+        validator: {
+            $jsonSchema: PatientSchema
+        }
+    });
+
+    client.close();
+});
+```
 
 **Client**  
 ```js
@@ -52,6 +86,29 @@ render((
 
 
 var simpleSchema = jsonSchema.toSimpleSchema();
+
+
+//-------------------------------------------------------------
+// General Node Apps
+
+import Ajv from 'ajv';
+var ajv = new Ajv(); // options can be passed, e.g. {allErrors: true}
+var validate = ajv.compile(PatientSchema);
+
+var newPatient = {
+    "name": {
+        "family": 'Doe',
+        "given": ['Jane']
+    },
+    "identifier": [{
+        "value": 123
+    }]
+};
+
+var isValid = validate(newPatient);
+if(isValid){
+    CurrentPatients.insert(newPatient);
+}
 ```
 
 ### SimpleSchema Usage    
@@ -81,7 +138,7 @@ if(isValid){
 
 #### Json Schemas  
 
-We provide Json Schemas for all of the following resources:   
+We provide Json Schemas for all of the following resources.  
 [FHIR Resource Index](https://www.hl7.org/fhir/resourcelist.html)        
 
 
