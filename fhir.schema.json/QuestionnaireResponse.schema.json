@@ -232,7 +232,7 @@
             },
             "valueCoding": {
               "description": "The answer (or one of the answers) provided by the respondent to the question.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "valueQuantity": {
               "description": "The answer (or one of the answers) provided by the respondent to the question.",

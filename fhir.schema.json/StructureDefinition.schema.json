@@ -146,7 +146,7 @@
               "description": "A set of key words or terms from external terminologies that may be used to assist with indexing and searching of templates.",
               "type": "array",
               "items": {
-                "$ref": "Coding.schema.json#/definitions/Coding"
+                "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
               }
             },
             "fhirVersion": {

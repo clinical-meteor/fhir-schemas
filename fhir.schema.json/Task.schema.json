@@ -456,7 +456,7 @@
             },
             "valueCoding": {
               "description": "The value of the input parameter as a basic type.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "valueQuantity": {
               "description": "The value of the input parameter as a basic type.",
@@ -766,7 +766,7 @@
             },
             "valueCoding": {
               "description": "The value of the Output parameter as a basic type.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "valueQuantity": {
               "description": "The value of the Output parameter as a basic type.",

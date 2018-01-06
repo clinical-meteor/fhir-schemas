@@ -21,7 +21,7 @@
             },
             "event": {
               "description": "Code that identifies the event this message represents and connects it with its definition. Events defined as part of the FHIR specification have the system value \"http://hl7.org/fhir/message-events\".",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "destination": {
               "description": "The destination application which the message is intended for.",

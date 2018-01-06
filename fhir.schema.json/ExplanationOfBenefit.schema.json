@@ -347,7 +347,7 @@
             },
             "reason": {
               "description": "For example, provides the reason for: the additional stay, or missing tooth or any other situation where a reason code is required in addition to the content.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             }
           },
           "required": [

@@ -16,7 +16,7 @@
               "description": "An indication of the reason that the entity signed this document. This may be explicitly included as part of the signature information and can be used when determining accountability for various actions concerning the document.",
               "type": "array",
               "items": {
-                "$ref": "Coding.schema.json#/definitions/Coding"
+                "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
               }
             },
             "when": {

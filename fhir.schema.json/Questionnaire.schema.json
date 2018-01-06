@@ -168,7 +168,7 @@
               "description": "An identifier for this question or group of questions in a particular terminology such as LOINC.",
               "type": "array",
               "items": {
-                "$ref": "Coding.schema.json#/definitions/Coding"
+                "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
               }
             },
             "subjectType": {
@@ -228,7 +228,7 @@
               "description": "A terminology code that corresponds to this group or question (e.g. a code from LOINC, which defines many questions and answers).",
               "type": "array",
               "items": {
-                "$ref": "Coding.schema.json#/definitions/Coding"
+                "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
               }
             },
             "prefix": {
@@ -399,7 +399,7 @@
             },
             "initialCoding": {
               "description": "The value that should be defaulted when initially rendering the questionnaire for user input.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "initialQuantity": {
               "description": "The value that should be defaulted when initially rendering the questionnaire for user input.",
@@ -519,7 +519,7 @@
             },
             "answerCoding": {
               "description": "An answer that the referenced question must match in order for the item to be enabled.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "answerQuantity": {
               "description": "An answer that the referenced question must match in order for the item to be enabled.",
@@ -578,7 +578,7 @@
             },
             "valueCoding": {
               "description": "A potential answer that\u0027s allowed as the answer to this question.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             }
           }
         }

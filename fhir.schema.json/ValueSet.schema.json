@@ -330,7 +330,7 @@
             },
             "use": {
               "description": "A code that details how this designation would be used.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "value": {
               "description": "The text value for this designation.",

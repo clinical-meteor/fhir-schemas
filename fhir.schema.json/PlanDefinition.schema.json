@@ -454,7 +454,7 @@
             },
             "type": {
               "description": "The type of action to perform (create, update, remove).",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "groupingBehavior": {
               "description": "Defines the grouping behavior for the action and its children.",

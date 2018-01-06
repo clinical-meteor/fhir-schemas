@@ -329,7 +329,7 @@
             },
             "use": {
               "description": "Which kinds of designation to include in the expansion.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             }
           }
         }
@@ -373,7 +373,7 @@
             },
             "use": {
               "description": "Which kinds of designation to exclude from the expansion.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             }
           }
         }

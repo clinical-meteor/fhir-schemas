@@ -159,7 +159,7 @@
             },
             "event": {
               "description": "A coded identifier of a supported messaging event.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "category": {
               "description": "The impact of the content of the message.",

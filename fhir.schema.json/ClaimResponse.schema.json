@@ -119,7 +119,7 @@
             },
             "reserved": {
               "description": "Status of funds reservation (For provider, for Patient, None).",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "form": {
               "description": "The form to be used for printing the content.",

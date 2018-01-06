@@ -231,7 +231,7 @@
             },
             "resourceType": {
               "description": "organization | patient | practitioner | relatedperson.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "party": {
               "description": "Party to be reimbursed: Subscriber, provider, other.",

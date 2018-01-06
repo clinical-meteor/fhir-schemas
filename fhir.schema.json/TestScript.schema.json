@@ -233,7 +233,7 @@
             },
             "profile": {
               "description": "The type of origin profile the test system supports.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             }
           },
           "required": [
@@ -261,7 +261,7 @@
             },
             "profile": {
               "description": "The type of destination profile the test system supports.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             }
           },
           "required": [
@@ -706,7 +706,7 @@
           "properties": {
             "type": {
               "description": "Server interaction or operation type.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "resource": {
               "description": "The type of the resource.  See http://build.fhir.org/resourcelist.html.",

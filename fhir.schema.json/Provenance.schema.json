@@ -60,12 +60,12 @@
               "description": "The reason that the activity was taking place.",
               "type": "array",
               "items": {
-                "$ref": "Coding.schema.json#/definitions/Coding"
+                "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
               }
             },
             "activity": {
               "description": "An activity is something that occurs over a period of time and acts upon or with entities; it may include consuming, processing, transforming, modifying, relocating, using, or generating entities.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "agent": {
               "description": "An actor taking a role in an activity  for which it can be assigned some degree of responsibility for the activity taking place.",

@@ -80,7 +80,7 @@
               "description": "A tag to add to any resource that matches the criteria, after the subscription is processed.",
               "type": "array",
               "items": {
-                "$ref": "Coding.schema.json#/definitions/Coding"
+                "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
               }
             }
           },

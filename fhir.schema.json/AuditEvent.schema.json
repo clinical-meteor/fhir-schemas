@@ -21,13 +21,13 @@
             },
             "type": {
               "description": "Identifier for a family of the event.  For example, a menu item, program, rule, policy, function code, application name or URL. It identifies the performed function.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "subtype": {
               "description": "Identifier for the category of event.",
               "type": "array",
               "items": {
-                "$ref": "Coding.schema.json#/definitions/Coding"
+                "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
               }
             },
             "action": {
@@ -177,7 +177,7 @@
             },
             "media": {
               "description": "Type of media involved. Used when the event is about exporting/importing onto media.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "network": {
               "description": "Logical network location for application activity, if the activity has a network location.",
@@ -253,7 +253,7 @@
               "description": "Code specifying the type of source where event originated.",
               "type": "array",
               "items": {
-                "$ref": "Coding.schema.json#/definitions/Coding"
+                "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
               }
             }
           },
@@ -281,21 +281,21 @@
             },
             "type": {
               "description": "The type of the object that was involved in this audit event.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "role": {
               "description": "Code representing the role the entity played in the event being audited.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "lifecycle": {
               "description": "Identifier for the data life-cycle stage for the entity.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "securityLabel": {
               "description": "Security labels for the identified entity.",
               "type": "array",
               "items": {
-                "$ref": "Coding.schema.json#/definitions/Coding"
+                "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
               }
             },
             "name": {

@@ -110,7 +110,7 @@
               "description": "A set of security labels that define which resources are controlled by this consent. If more than one label is specified, all resources must have all the specified labels.",
               "type": "array",
               "items": {
-                "$ref": "Coding.schema.json#/definitions/Coding"
+                "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
               }
             },
             "agent": {
@@ -213,7 +213,7 @@
           "properties": {
             "type": {
               "description": "Role of this Contract signer, e.g. notary, grantee.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "party": {
               "description": "Party which is a signator to this Contract.",
@@ -356,7 +356,7 @@
               "description": "A set of security labels that define which terms are controlled by this condition.",
               "type": "array",
               "items": {
-                "$ref": "Coding.schema.json#/definitions/Coding"
+                "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
               }
             },
             "agent": {

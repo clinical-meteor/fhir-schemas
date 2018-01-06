@@ -185,7 +185,7 @@
             },
             "format": {
               "description": "An identifier of the document encoding, structure, and template that the document conforms to beyond the base format indicated in the mimeType.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             }
           },
           "required": [

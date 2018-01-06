@@ -41,7 +41,7 @@
             },
             "operationalStatus": {
               "description": "The Operational status covers operation values most relevant to beds (but can also apply to rooms/units/chair/etc such as an isolation unit/dialisys chair). This typically covers concepts such as contamination, housekeeping and other activities like maintenance.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "name": {
               "description": "Name of the location as used by humans. Does not need to be unique.",

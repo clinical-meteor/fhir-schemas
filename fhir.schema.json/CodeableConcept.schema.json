@@ -16,7 +16,7 @@
               "description": "A reference to a code defined by a terminology system.",
               "type": "array",
               "items": {
-                "$ref": "Coding.schema.json#/definitions/Coding"
+                "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
               }
             },
             "text": {

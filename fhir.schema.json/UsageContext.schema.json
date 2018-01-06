@@ -14,7 +14,7 @@
           "properties": {
             "code": {
               "description": "A code that identifies the type of context being specified by this usage context.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "valueCodeableConcept": {
               "description": "A value that defines the context specified in this context of use. The interpretation of the value is defined by the code.",

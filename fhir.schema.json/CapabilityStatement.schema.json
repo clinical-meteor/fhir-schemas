@@ -871,7 +871,7 @@
           "properties": {
             "protocol": {
               "description": "A list of the messaging transport protocol(s) identifiers, supported by this endpoint.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "address": {
               "description": "The network address of the end-point. For solutions that do not use network addresses for routing, it can be just an identifier.",
@@ -929,7 +929,7 @@
           "properties": {
             "code": {
               "description": "A coded identifier of a supported messaging event.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "category": {
               "description": "The impact of the content of the message.",

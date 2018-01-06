@@ -44,7 +44,7 @@
             },
             "connectionType": {
               "description": "A coded value that represents the technical details of the usage of this endpoint, such as what WSDLs should be used in what way. (e.g. XDS.b/DICOM/cds-hook).",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "name": {
               "description": "A friendly name that this endpoint can be referred to with.",

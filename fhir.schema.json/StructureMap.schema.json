@@ -629,7 +629,7 @@
             },
             "defaultValueCoding": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Coding.schema.json#/definitions/Coding"
+              "$ref": "http://hl7.org/fhir/json-schema/Coding#/definitions/Coding"
             },
             "defaultValueQuantity": {
               "description": "A value to use if there is no existing value in the source object.",
