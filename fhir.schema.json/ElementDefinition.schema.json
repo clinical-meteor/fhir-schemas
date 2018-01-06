@@ -307,7 +307,7 @@
             },
             "defaultValueBackboneElement": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
-              "$ref": "BackboneElement.schema.json#/definitions/BackboneElement"
+              "$ref": "http://hl7.org/fhir/json-schema/BackboneElement#/definitions/BackboneElement"
             },
             "defaultValueNarrative": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
@@ -614,7 +614,7 @@
             },
             "fixedBackboneElement": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
-              "$ref": "BackboneElement.schema.json#/definitions/BackboneElement"
+              "$ref": "http://hl7.org/fhir/json-schema/BackboneElement#/definitions/BackboneElement"
             },
             "fixedNarrative": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -905,7 +905,7 @@
             },
             "patternBackboneElement": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
-              "$ref": "BackboneElement.schema.json#/definitions/BackboneElement"
+              "$ref": "http://hl7.org/fhir/json-schema/BackboneElement#/definitions/BackboneElement"
             },
             "patternNarrative": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -1627,7 +1627,7 @@
             },
             "valueBackboneElement": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
-              "$ref": "BackboneElement.schema.json#/definitions/BackboneElement"
+              "$ref": "http://hl7.org/fhir/json-schema/BackboneElement#/definitions/BackboneElement"
             },
             "valueNarrative": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",

@@ -432,7 +432,7 @@
             },
             "valueBackboneElement": {
               "description": "The value of the input parameter as a basic type.",
-              "$ref": "BackboneElement.schema.json#/definitions/BackboneElement"
+              "$ref": "http://hl7.org/fhir/json-schema/BackboneElement#/definitions/BackboneElement"
             },
             "valueNarrative": {
               "description": "The value of the input parameter as a basic type.",
@@ -742,7 +742,7 @@
             },
             "valueBackboneElement": {
               "description": "The value of the Output parameter as a basic type.",
-              "$ref": "BackboneElement.schema.json#/definitions/BackboneElement"
+              "$ref": "http://hl7.org/fhir/json-schema/BackboneElement#/definitions/BackboneElement"
             },
             "valueNarrative": {
               "description": "The value of the Output parameter as a basic type.",

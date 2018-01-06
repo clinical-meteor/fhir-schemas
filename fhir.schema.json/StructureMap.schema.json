@@ -605,7 +605,7 @@
             },
             "defaultValueBackboneElement": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "BackboneElement.schema.json#/definitions/BackboneElement"
+              "$ref": "http://hl7.org/fhir/json-schema/BackboneElement#/definitions/BackboneElement"
             },
             "defaultValueNarrative": {
               "description": "A value to use if there is no existing value in the source object.",

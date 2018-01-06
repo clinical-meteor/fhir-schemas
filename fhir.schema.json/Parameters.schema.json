@@ -196,7 +196,7 @@
             },
             "valueBackboneElement": {
               "description": "If the parameter is a data type.",
-              "$ref": "BackboneElement.schema.json#/definitions/BackboneElement"
+              "$ref": "http://hl7.org/fhir/json-schema/BackboneElement#/definitions/BackboneElement"
             },
             "valueNarrative": {
               "description": "If the parameter is a data type.",
