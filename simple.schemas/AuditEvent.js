@@ -1,12 +1,9 @@
-import { BaseSchema } from '../datatypes/Base';
-import { CodingSchema } from '../datatypes/Coding';
-import { DomainResourceSchema } from '../datatypes/DomainResource';
-import { CodeableConcept } from '../datatypes/CodableConcept';
-import { IdentifierSchema } from '../datatypes/Identifier';
-import { ReferenceSchema } from '../datatypes/Reference';
-
-
-
+var BaseSchema = require('../datatypes/Base');
+var CodingSchema = require('../datatypes/Coding');
+var DomainResourceSchema = require('../datatypes/DomainResource');
+var CodeableConcept = require('../datatypes/CodableConcept');
+var IdentifierSchema = require('../datatypes/Identifier');
+var ReferenceSchema = require('../datatypes/Reference');
 
 export default AuditEventSchema = new SimpleSchema([
   BaseSchema,
