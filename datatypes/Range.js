@@ -1,3 +1,9 @@
+var Code = require('../datatypes/Code');
+var CodingSchema = require('../datatypes/CodingSchema');
+var CodeableConceptSchema = require('../datatypes/CodeableConcept');
+var PeriodSchema = require('../datatypes/Period');
+var ReferenceSchema = require('../datatypes/Reference');
+var QuantitySchema = require('../datatypes/Quantity');
 
 
 exports.RangeSchema = new SimpleSchema({
@@ -11,7 +17,7 @@ exports.RangeSchema = new SimpleSchema({
 
 
 
-Range = {
+exports.DefaultRange = {
   create: function(){
     var newRange = {
 

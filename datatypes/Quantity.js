@@ -1,4 +1,8 @@
-
+var Code = require('../datatypes/Code');
+var CodingSchema = require('../datatypes/CodingSchema');
+var CodeableConceptSchema = require('../datatypes/CodeableConcept');
+var PeriodSchema = require('../datatypes/Period');
+var ReferenceSchema = require('../datatypes/Reference');
 
 // EXAMPLE
 // whenRange: {
@@ -42,7 +46,7 @@ exports.QuantitySchema = new SimpleSchema({
 
 
 
-Quantity = {
+exports.DefaultQuantity = {
   create: function(){
     var newQuantity = {
 

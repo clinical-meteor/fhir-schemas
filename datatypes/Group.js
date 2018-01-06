@@ -1,4 +1,11 @@
-exports.GroupSchema = new SimpleSchema({
+var Code = require('../datatypes/Code');
+var CodingSchema = require('../datatypes/CodingSchema');
+var PeriodSchema = require('../datatypes/Period');
+var ReferenceSchema = require('../datatypes/Reference');
+
+
+
+const _GroupSchema = new SimpleSchema({
   "linkId" : {
     optional: true,
     type: String
@@ -26,7 +33,7 @@ exports.GroupSchema = new SimpleSchema({
   "group" : {
     optional: true,
     blackbox: true,
-    type: GroupSchema
+    type: _GroupSchema
     },
   "question.$.linkId" : {
     optional: true,
@@ -63,13 +70,12 @@ exports.GroupSchema = new SimpleSchema({
   "question.$.group" : {
     optional: true,
     blackbox: true,
-    type: GroupSchema
+    type: _GroupSchema
     },
 });
+exports.GroupSchema = _GroupSchema;
 
-
-
-Group = {
+exports.DefaultGroup = {
   create: function(){
     var newGroup = {
 
@@ -78,3 +84,4 @@ Group = {
     return newGroup;
   }
 }
+

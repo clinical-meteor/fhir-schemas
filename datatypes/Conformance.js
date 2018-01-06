@@ -1,3 +1,11 @@
+var Code = require('../datatypes/Code');
+var CodingSchema = require('../datatypes/CodingSchema');
+var CodeableConceptSchema = require('../datatypes/CodeableConcept');
+var PeriodSchema = require('../datatypes/Period');
+var ReferenceSchema = require('../datatypes/Reference');
+
+
+
 exports.ConformanceSchema = new SimpleSchema({
   "resourceType" : {
     type: "Conformance",
@@ -280,7 +288,7 @@ exports.ConformanceSchema = new SimpleSchema({
 
 
 
-Conformance = {
+exports.DefaultConformance = {
   create: function(){
     var newConformance = {
 

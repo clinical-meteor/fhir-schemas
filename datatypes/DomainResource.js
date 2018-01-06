@@ -1,3 +1,4 @@
+var Code = require('../datatypes/Code');
 
 exports.DomainResourceSchema = new SimpleSchema({
   "text.status" : {

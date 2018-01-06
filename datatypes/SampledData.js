@@ -1,3 +1,10 @@
+var Code = require('../datatypes/Code');
+var CodingSchema = require('../datatypes/CodingSchema');
+var CodeableConceptSchema = require('../datatypes/CodeableConcept');
+var PeriodSchema = require('../datatypes/Period');
+var ReferenceSchema = require('../datatypes/Reference');
+var QuantitySchema = require('../datatypes/Quantity');
+
 exports.SampledDataSchema = new SimpleSchema({
   "origin" : {
     type: QuantitySchema
@@ -24,7 +31,7 @@ exports.SampledDataSchema = new SimpleSchema({
 
 
 
-SampledData = {
+exports.SampledData = {
   create: function(){
     var newSampledData = {
 

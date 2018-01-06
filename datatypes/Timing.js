@@ -1,3 +1,10 @@
+var Code = require('../datatypes/Code');
+var CodingSchema = require('../datatypes/CodingSchema');
+var CodeableConceptSchema = require('../datatypes/CodeableConcept');
+var PeriodSchema = require('../datatypes/Period');
+var ReferenceSchema = require('../datatypes/Reference');
+var QuantitySchema = require('../datatypes/Quantity');
+
 exports.TimingSchema = new SimpleSchema({
   "resourceType": {
     type: String,
@@ -79,7 +86,7 @@ exports.TimingSchema = new SimpleSchema({
   },  
 });
 
-Timing = {
+exports.DefaultTiming = {
   create: function(){
     var newTiming = {
 

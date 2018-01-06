@@ -8,3 +8,8 @@ exports.PeriodSchema = new SimpleSchema({
     type : Date
   }
 });
+
+exports.DefaultPeriod = {
+  start: null,
+  end: null
+}

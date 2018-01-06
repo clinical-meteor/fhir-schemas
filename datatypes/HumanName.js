@@ -1,3 +1,8 @@
+var Code = require('../datatypes/Code');
+var CodingSchema = require('../datatypes/CodingSchema');
+var PeriodSchema = require('../datatypes/Period');
+var ReferenceSchema = require('../datatypes/Reference');
+
 exports.HumanNameSchema = new SimpleSchema({
   "resourceType" : {
     type: String,
@@ -40,7 +45,7 @@ exports.HumanNameSchema = new SimpleSchema({
 
 
 
-HumanName = {
+exports.HumanName = {
   generate: function(){
     var newHumanName = {
       use: "official",

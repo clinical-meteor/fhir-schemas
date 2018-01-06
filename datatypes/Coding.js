@@ -25,7 +25,7 @@ exports.CodingSchema = new SimpleSchema({
 
 
 
-Coding = {
+exports.DefaultCoding = {
   create: function(){
     var newCoding = {
 

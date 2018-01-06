@@ -1,3 +1,7 @@
+var Code = require('../datatypes/Code');
+var PeriodSchema = require('../datatypes/Period');
+
+
 /**
  * @summary Represents an Address
  * @class Address
@@ -25,51 +29,6 @@ patientAddress.validate();
 patientAddress.save();
  */
 
-
-// //Address = BaseModel.extendAndSetupCollection('HL7.DataTypes.Addresses');
-// Address = BaseModel.extend();
-//
-//
-// //Assign a reference from Meteor.users to User.prototype._collection so BaseModel knows how to access it
-// Address.prototype._collection = HL7.DataTypes.Addresses;
-//
-// // Create a persistent data store for addresses to be stored.
-// HL7.DataTypes.Addresses = new Mongo.Collection('HL7.DataTypes.Addresses');
-//
-// //Add the transform to the collection since Meteor.users is pre-defined by the accounts package
-// HL7.DataTypes.Addresses._transform = function (document) {
-//   return new Address(document);
-// };
-
-Address = {
-  create: function(line, city, state, postalCode, country){
-    var newAddress = {
-      line: [],
-      city: '',
-      state: '',
-      postalCode: '',
-      country: ''
-    };
-
-    if (line) {
-      newAddress.line.push(line);
-    }
-    if (city) {
-      newAddress.city = city;
-    }
-    if (state) {
-      newAddress.state = state;
-    }
-    if (postalCode) {
-      newAddress.postalCode = postalCode;
-    }
-    if (country) {
-      newAddress.country = country;
-    }
-
-    return newAddress;
-  }
-}
 
 // Add  the schema for a collection
 exports.AddressSchema = new SimpleSchema({
@@ -118,5 +77,36 @@ exports.AddressSchema = new SimpleSchema({
     type: PeriodSchema
     }
 });
-// AddressValidator = AddressSchema.namedContext("AddressValidator");
-// HL7.DataTypes.Addresses.attachSchema(AddressSchema);
+
+
+
+
+exports.DefaultAddress = {
+  create: function(line, city, state, postalCode, country){
+    var newAddress = {
+      line: [],
+      city: '',
+      state: '',
+      postalCode: '',
+      country: ''
+    };
+
+    if (line) {
+      newAddress.line.push(line);
+    }
+    if (city) {
+      newAddress.city = city;
+    }
+    if (state) {
+      newAddress.state = state;
+    }
+    if (postalCode) {
+      newAddress.postalCode = postalCode;
+    }
+    if (country) {
+      newAddress.country = country;
+    }
+
+    return newAddress;
+  }
+}

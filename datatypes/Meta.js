@@ -1,3 +1,4 @@
+var CodingSchema = require('../datatypes/Coding');
 
 exports.MetaSchema = new SimpleSchema({
   "versionId" : {

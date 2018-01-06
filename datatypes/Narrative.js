@@ -13,7 +13,7 @@ exports.NarrativeSchema = new SimpleSchema({
 
 
 
-Narrative = {
+exports.DefaultNarrative = {
   create: function(){
     var newNarrative = {
 

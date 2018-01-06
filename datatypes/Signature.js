@@ -1,3 +1,10 @@
+var Code = require('../datatypes/Code');
+var CodingSchema = require('../datatypes/CodingSchema');
+var CodeableConceptSchema = require('../datatypes/CodeableConcept');
+var PeriodSchema = require('../datatypes/Period');
+var ReferenceSchema = require('../datatypes/Reference');
+var QuantitySchema = require('../datatypes/Quantity');
+
 exports.SignatureSchema = new SimpleSchema({
   "type" : {
     type: [ CodingSchema ]
@@ -33,7 +40,7 @@ exports.SignatureSchema = new SimpleSchema({
 });
 
 
-Signature = {
+exports.DefaultSignature = {
   create: function(){
     var newSignature = {
 

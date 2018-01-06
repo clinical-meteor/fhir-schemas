@@ -1,3 +1,5 @@
+var MetaSchema = require('../datatypes/Meta');
+var Code = require('../datatypes/Code');
 
 exports.BaseSchema = new SimpleSchema({
   "id" : {

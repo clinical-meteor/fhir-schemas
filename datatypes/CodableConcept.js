@@ -1,4 +1,10 @@
 
+var Code = require('../datatypes/Code');
+var CodingSchema = require('../datatypes/CodingSchema');
+var CodeableConceptSchema = require('../datatypes/CodeableConcept');
+var PeriodSchema = require('../datatypes/Period');
+var ReferenceSchema = require('../datatypes/Reference');
+
 
 exports.CodeableConceptSchema = new SimpleSchema({
   "coding" : {
@@ -12,7 +18,7 @@ exports.CodeableConceptSchema = new SimpleSchema({
 });
 
 
-CodeableConcept = {
+exports.DefaultCodeableConcept = {
   create: function(text){
     var newCodeableConcept = {
       text: ''

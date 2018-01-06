@@ -1,22 +1,6 @@
-
-Annotation = {
-  create: function(authorString, text){
-    var newAnnotation = {
-      authorString: '',
-      time: new Date(),
-      text: ''
-    };
-
-    if (authorString) {
-      newAnnotation.authorString = authorString;
-    }
-    if (text) {
-      newAnnotation.text = text;
-    }
-
-    return newAnnotation;
-  }
-}
+var Code = require('../datatypes/Code');
+var PeriodSchema = require('../datatypes/Period');
+var ReferenceSchema = require('../datatypes/Reference');
 
 
 exports.AnnotationSchema = new SimpleSchema({
@@ -37,3 +21,22 @@ exports.AnnotationSchema = new SimpleSchema({
     optional: true
     }
 });
+
+exports.DefaultAnnotation = {
+  create: function(authorString, text){
+    var newAnnotation = {
+      authorString: '',
+      time: new Date(),
+      text: ''
+    };
+
+    if (authorString) {
+      newAnnotation.authorString = authorString;
+    }
+    if (text) {
+      newAnnotation.text = text;
+    }
+
+    return newAnnotation;
+  }
+}

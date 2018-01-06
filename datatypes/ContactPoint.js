@@ -1,3 +1,10 @@
+var Code = require('../datatypes/Code');
+var CodingSchema = require('../datatypes/CodingSchema');
+var PeriodSchema = require('../datatypes/Period');
+var ReferenceSchema = require('../datatypes/Reference');
+
+
+
 exports.ContactPointSchema = new SimpleSchema({
   "resourceType" : {
     type: String,
@@ -27,8 +34,7 @@ exports.ContactPointSchema = new SimpleSchema({
 
 
 
-
-ContactPoint = {
+exports.ContactPoint = {
   create: function(){
     var newContactPoint = {
 

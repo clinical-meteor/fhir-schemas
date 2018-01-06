@@ -8,3 +8,9 @@ exports.ReferenceSchema = new SimpleSchema({
     type: String
   }
 });
+
+
+exports.DefaultReference = {
+  display: "",
+  reference: ""
+}

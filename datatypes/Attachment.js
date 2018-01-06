@@ -1,3 +1,8 @@
+var Code = require('../datatypes/Code');
+var PeriodSchema = require('../datatypes/Period');
+var ReferenceSchema = require('../datatypes/Reference');
+
+
 exports.AttachmentSchema = new SimpleSchema({
   "contentType" : {
     optional: true,
@@ -34,7 +39,7 @@ exports.AttachmentSchema = new SimpleSchema({
 });
 
 
-Attachment = {
+exports.DefaultAttachment = {
   create: function(title, url){
     var newAttachment = {
       title: '',
