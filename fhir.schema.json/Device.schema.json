@@ -110,7 +110,7 @@
               "description": "Contact details for an organization or a particular human that is responsible for the device.",
               "type": "array",
               "items": {
-                "$ref": "ContactPoint.schema.json#/definitions/ContactPoint"
+                "$ref": "http://hl7.org/fhir/json-schema/ContactPoint#/definitions/ContactPoint"
               }
             },
             "location": {

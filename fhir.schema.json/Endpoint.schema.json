@@ -62,7 +62,7 @@
               "description": "Contact details for a human to contact about the subscription. The primary use of this for system administrator troubleshooting.",
               "type": "array",
               "items": {
-                "$ref": "ContactPoint.schema.json#/definitions/ContactPoint"
+                "$ref": "http://hl7.org/fhir/json-schema/ContactPoint#/definitions/ContactPoint"
               }
             },
             "period": {

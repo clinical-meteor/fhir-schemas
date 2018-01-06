@@ -151,7 +151,7 @@
               "description": "The content was developed with a focus and intent of supporting the contexts that are listed. These terms may be used to assist with indexing and searching for appropriate plan definition instances.",
               "type": "array",
               "items": {
-                "$ref": "UsageContext.schema.json#/definitions/UsageContext"
+                "$ref": "http://hl7.org/fhir/json-schema/UsageContext#/definitions/UsageContext"
               }
             },
             "jurisdiction": {
@@ -172,14 +172,14 @@
               "description": "A contributor to the content of the asset, including authors, editors, reviewers, and endorsers.",
               "type": "array",
               "items": {
-                "$ref": "Contributor.schema.json#/definitions/Contributor"
+                "$ref": "http://hl7.org/fhir/json-schema/Contributor#/definitions/Contributor"
               }
             },
             "contact": {
               "description": "Contact details to assist a user in finding and communicating with the publisher.",
               "type": "array",
               "items": {
-                "$ref": "ContactDetail.schema.json#/definitions/ContactDetail"
+                "$ref": "http://hl7.org/fhir/json-schema/ContactDetail#/definitions/ContactDetail"
               }
             },
             "copyright": {
@@ -194,7 +194,7 @@
               "description": "Related artifacts such as additional documentation, justification, or bibliographic references.",
               "type": "array",
               "items": {
-                "$ref": "RelatedArtifact.schema.json#/definitions/RelatedArtifact"
+                "$ref": "http://hl7.org/fhir/json-schema/RelatedArtifact#/definitions/RelatedArtifact"
               }
             },
             "library": {
@@ -260,7 +260,7 @@
               "description": "Didactic or other informational resources associated with the goal that provide further supporting information about the goal. Information resources can include inline text commentary and links to web resources.",
               "type": "array",
               "items": {
-                "$ref": "RelatedArtifact.schema.json#/definitions/RelatedArtifact"
+                "$ref": "http://hl7.org/fhir/json-schema/RelatedArtifact#/definitions/RelatedArtifact"
               }
             },
             "target": {
@@ -367,7 +367,7 @@
               "description": "Didactic or other informational resources associated with the action that can be provided to the CDS recipient. Information resources can include inline text commentary and links to web resources.",
               "type": "array",
               "items": {
-                "$ref": "RelatedArtifact.schema.json#/definitions/RelatedArtifact"
+                "$ref": "http://hl7.org/fhir/json-schema/RelatedArtifact#/definitions/RelatedArtifact"
               }
             },
             "goalId": {
@@ -389,7 +389,7 @@
               "description": "A description of when the action should be triggered.",
               "type": "array",
               "items": {
-                "$ref": "TriggerDefinition.schema.json#/definitions/TriggerDefinition"
+                "$ref": "http://hl7.org/fhir/json-schema/TriggerDefinition#/definitions/TriggerDefinition"
               }
             },
             "condition": {
@@ -403,14 +403,14 @@
               "description": "Defines input data requirements for the action.",
               "type": "array",
               "items": {
-                "$ref": "DataRequirement.schema.json#/definitions/DataRequirement"
+                "$ref": "http://hl7.org/fhir/json-schema/DataRequirement#/definitions/DataRequirement"
               }
             },
             "output": {
               "description": "Defines the outputs of the action, if any.",
               "type": "array",
               "items": {
-                "$ref": "DataRequirement.schema.json#/definitions/DataRequirement"
+                "$ref": "http://hl7.org/fhir/json-schema/DataRequirement#/definitions/DataRequirement"
               }
             },
             "relatedAction": {
@@ -443,7 +443,7 @@
             },
             "timingTiming": {
               "description": "An optional value describing when the action should be performed.",
-              "$ref": "Timing.schema.json#/definitions/Timing"
+              "$ref": "http://hl7.org/fhir/json-schema/Timing#/definitions/Timing"
             },
             "participant": {
               "description": "Indicates who should participate in performing the action described.",

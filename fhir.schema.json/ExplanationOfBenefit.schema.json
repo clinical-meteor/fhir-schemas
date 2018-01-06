@@ -531,7 +531,7 @@
             },
             "locationAddress": {
               "description": "Where the accident occurred.",
-              "$ref": "Address.schema.json#/definitions/Address"
+              "$ref": "http://hl7.org/fhir/json-schema/Address#/definitions/Address"
             },
             "locationReference": {
               "description": "Where the accident occurred.",
@@ -663,7 +663,7 @@
             },
             "locationAddress": {
               "description": "Where the service was provided.",
-              "$ref": "Address.schema.json#/definitions/Address"
+              "$ref": "http://hl7.org/fhir/json-schema/Address#/definitions/Address"
             },
             "locationReference": {
               "description": "Where the service was provided.",

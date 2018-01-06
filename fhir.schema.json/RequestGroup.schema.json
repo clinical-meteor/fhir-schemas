@@ -179,7 +179,7 @@
               "description": "Didactic or other informational resources associated with the action that can be provided to the CDS recipient. Information resources can include inline text commentary and links to web resources.",
               "type": "array",
               "items": {
-                "$ref": "RelatedArtifact.schema.json#/definitions/RelatedArtifact"
+                "$ref": "http://hl7.org/fhir/json-schema/RelatedArtifact#/definitions/RelatedArtifact"
               }
             },
             "condition": {
@@ -219,7 +219,7 @@
             },
             "timingTiming": {
               "description": "An optional value describing when the action should be performed.",
-              "$ref": "Timing.schema.json#/definitions/Timing"
+              "$ref": "http://hl7.org/fhir/json-schema/Timing#/definitions/Timing"
             },
             "participant": {
               "description": "The participant that should perform or be responsible for this action.",

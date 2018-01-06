@@ -24,7 +24,7 @@
               "description": "The contact details for the individual (if a name was provided) or the organization.",
               "type": "array",
               "items": {
-                "$ref": "ContactPoint.schema.json#/definitions/ContactPoint"
+                "$ref": "http://hl7.org/fhir/json-schema/ContactPoint#/definitions/ContactPoint"
               }
             }
           }

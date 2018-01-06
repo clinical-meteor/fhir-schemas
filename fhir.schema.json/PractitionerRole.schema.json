@@ -78,7 +78,7 @@
               "description": "Contact details that are specific to the role/location/service.",
               "type": "array",
               "items": {
-                "$ref": "ContactPoint.schema.json#/definitions/ContactPoint"
+                "$ref": "http://hl7.org/fhir/json-schema/ContactPoint#/definitions/ContactPoint"
               }
             },
             "availableTime": {

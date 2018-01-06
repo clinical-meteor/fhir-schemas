@@ -147,7 +147,7 @@
               "description": "The content was developed with a focus and intent of supporting the contexts that are listed. These terms may be used to assist with indexing and searching for appropriate measure instances.",
               "type": "array",
               "items": {
-                "$ref": "UsageContext.schema.json#/definitions/UsageContext"
+                "$ref": "http://hl7.org/fhir/json-schema/UsageContext#/definitions/UsageContext"
               }
             },
             "jurisdiction": {
@@ -168,14 +168,14 @@
               "description": "A contributor to the content of the measure, including authors, editors, reviewers, and endorsers.",
               "type": "array",
               "items": {
-                "$ref": "Contributor.schema.json#/definitions/Contributor"
+                "$ref": "http://hl7.org/fhir/json-schema/Contributor#/definitions/Contributor"
               }
             },
             "contact": {
               "description": "Contact details to assist a user in finding and communicating with the publisher.",
               "type": "array",
               "items": {
-                "$ref": "ContactDetail.schema.json#/definitions/ContactDetail"
+                "$ref": "http://hl7.org/fhir/json-schema/ContactDetail#/definitions/ContactDetail"
               }
             },
             "copyright": {
@@ -190,7 +190,7 @@
               "description": "Related artifacts such as additional documentation, justification, or bibliographic references.",
               "type": "array",
               "items": {
-                "$ref": "RelatedArtifact.schema.json#/definitions/RelatedArtifact"
+                "$ref": "http://hl7.org/fhir/json-schema/RelatedArtifact#/definitions/RelatedArtifact"
               }
             },
             "library": {

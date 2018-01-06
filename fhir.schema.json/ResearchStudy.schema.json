@@ -82,14 +82,14 @@
               "description": "Contact details to assist a user in learning more about or engaging with the study.",
               "type": "array",
               "items": {
-                "$ref": "ContactDetail.schema.json#/definitions/ContactDetail"
+                "$ref": "http://hl7.org/fhir/json-schema/ContactDetail#/definitions/ContactDetail"
               }
             },
             "relatedArtifact": {
               "description": "Citations, references and other related documents.",
               "type": "array",
               "items": {
-                "$ref": "RelatedArtifact.schema.json#/definitions/RelatedArtifact"
+                "$ref": "http://hl7.org/fhir/json-schema/RelatedArtifact#/definitions/RelatedArtifact"
               }
             },
             "keyword": {

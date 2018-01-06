@@ -72,7 +72,7 @@
             },
             "occurrenceTiming": {
               "description": "When the request should be fulfilled.",
-              "$ref": "Timing.schema.json#/definitions/Timing"
+              "$ref": "http://hl7.org/fhir/json-schema/Timing#/definitions/Timing"
             },
             "authoredOn": {
               "description": "When the request was made.",

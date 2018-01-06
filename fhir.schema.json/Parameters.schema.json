@@ -260,7 +260,7 @@
             },
             "valueRatio": {
               "description": "If the parameter is a data type.",
-              "$ref": "Ratio.schema.json#/definitions/Ratio"
+              "$ref": "http://hl7.org/fhir/json-schema/Ratio#/definitions/Ratio"
             },
             "valueReference": {
               "description": "If the parameter is a data type.",
@@ -268,67 +268,67 @@
             },
             "valueSampledData": {
               "description": "If the parameter is a data type.",
-              "$ref": "SampledData.schema.json#/definitions/SampledData"
+              "$ref": "http://hl7.org/fhir/json-schema/SampledData#/definitions/SampledData"
             },
             "valueSignature": {
               "description": "If the parameter is a data type.",
-              "$ref": "Signature.schema.json#/definitions/Signature"
+              "$ref": "http://hl7.org/fhir/json-schema/Signature#/definitions/Signature"
             },
             "valueHumanName": {
               "description": "If the parameter is a data type.",
-              "$ref": "HumanName.schema.json#/definitions/HumanName"
+              "$ref": "http://hl7.org/fhir/json-schema/HumanName#/definitions/HumanName"
             },
             "valueAddress": {
               "description": "If the parameter is a data type.",
-              "$ref": "Address.schema.json#/definitions/Address"
+              "$ref": "http://hl7.org/fhir/json-schema/Address#/definitions/Address"
             },
             "valueContactPoint": {
               "description": "If the parameter is a data type.",
-              "$ref": "ContactPoint.schema.json#/definitions/ContactPoint"
+              "$ref": "http://hl7.org/fhir/json-schema/ContactPoint#/definitions/ContactPoint"
             },
             "valueTiming": {
               "description": "If the parameter is a data type.",
-              "$ref": "Timing.schema.json#/definitions/Timing"
+              "$ref": "http://hl7.org/fhir/json-schema/Timing#/definitions/Timing"
             },
             "valueMeta": {
               "description": "If the parameter is a data type.",
-              "$ref": "Meta.schema.json#/definitions/Meta"
+              "$ref": "http://hl7.org/fhir/json-schema/Meta#/definitions/Meta"
             },
             "valueElementDefinition": {
               "description": "If the parameter is a data type.",
-              "$ref": "ElementDefinition.schema.json#/definitions/ElementDefinition"
+              "$ref": "http://hl7.org/fhir/json-schema/ElementDefinition#/definitions/ElementDefinition"
             },
             "valueContactDetail": {
               "description": "If the parameter is a data type.",
-              "$ref": "ContactDetail.schema.json#/definitions/ContactDetail"
+              "$ref": "http://hl7.org/fhir/json-schema/ContactDetail#/definitions/ContactDetail"
             },
             "valueContributor": {
               "description": "If the parameter is a data type.",
-              "$ref": "Contributor.schema.json#/definitions/Contributor"
+              "$ref": "http://hl7.org/fhir/json-schema/Contributor#/definitions/Contributor"
             },
             "valueDosage": {
               "description": "If the parameter is a data type.",
-              "$ref": "Dosage.schema.json#/definitions/Dosage"
+              "$ref": "http://hl7.org/fhir/json-schema/Dosage#/definitions/Dosage"
             },
             "valueRelatedArtifact": {
               "description": "If the parameter is a data type.",
-              "$ref": "RelatedArtifact.schema.json#/definitions/RelatedArtifact"
+              "$ref": "http://hl7.org/fhir/json-schema/RelatedArtifact#/definitions/RelatedArtifact"
             },
             "valueUsageContext": {
               "description": "If the parameter is a data type.",
-              "$ref": "UsageContext.schema.json#/definitions/UsageContext"
+              "$ref": "http://hl7.org/fhir/json-schema/UsageContext#/definitions/UsageContext"
             },
             "valueDataRequirement": {
               "description": "If the parameter is a data type.",
-              "$ref": "DataRequirement.schema.json#/definitions/DataRequirement"
+              "$ref": "http://hl7.org/fhir/json-schema/DataRequirement#/definitions/DataRequirement"
             },
             "valueParameterDefinition": {
               "description": "If the parameter is a data type.",
-              "$ref": "ParameterDefinition.schema.json#/definitions/ParameterDefinition"
+              "$ref": "http://hl7.org/fhir/json-schema/ParameterDefinition#/definitions/ParameterDefinition"
             },
             "valueTriggerDefinition": {
               "description": "If the parameter is a data type.",
-              "$ref": "TriggerDefinition.schema.json#/definitions/TriggerDefinition"
+              "$ref": "http://hl7.org/fhir/json-schema/TriggerDefinition#/definitions/TriggerDefinition"
             },
             "resource": {
               "description": "If the parameter is a whole resource.",

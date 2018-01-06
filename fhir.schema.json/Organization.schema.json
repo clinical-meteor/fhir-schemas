@@ -67,14 +67,14 @@
               "description": "A contact detail for the organization.",
               "type": "array",
               "items": {
-                "$ref": "ContactPoint.schema.json#/definitions/ContactPoint"
+                "$ref": "http://hl7.org/fhir/json-schema/ContactPoint#/definitions/ContactPoint"
               }
             },
             "address": {
               "description": "An address for the organization.",
               "type": "array",
               "items": {
-                "$ref": "Address.schema.json#/definitions/Address"
+                "$ref": "http://hl7.org/fhir/json-schema/Address#/definitions/Address"
               }
             },
             "partOf": {
@@ -116,18 +116,18 @@
             },
             "name": {
               "description": "A name associated with the contact.",
-              "$ref": "HumanName.schema.json#/definitions/HumanName"
+              "$ref": "http://hl7.org/fhir/json-schema/HumanName#/definitions/HumanName"
             },
             "telecom": {
               "description": "A contact detail (e.g. a telephone number or an email address) by which the party may be contacted.",
               "type": "array",
               "items": {
-                "$ref": "ContactPoint.schema.json#/definitions/ContactPoint"
+                "$ref": "http://hl7.org/fhir/json-schema/ContactPoint#/definitions/ContactPoint"
               }
             },
             "address": {
               "description": "Visiting or postal addresses for the contact.",
-              "$ref": "Address.schema.json#/definitions/Address"
+              "$ref": "http://hl7.org/fhir/json-schema/Address#/definitions/Address"
             }
           }
         }

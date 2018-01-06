@@ -241,7 +241,7 @@
             },
             "valueRatio": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "Ratio.schema.json#/definitions/Ratio"
+              "$ref": "http://hl7.org/fhir/json-schema/Ratio#/definitions/Ratio"
             },
             "valueReference": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
@@ -249,67 +249,67 @@
             },
             "valueSampledData": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "SampledData.schema.json#/definitions/SampledData"
+              "$ref": "http://hl7.org/fhir/json-schema/SampledData#/definitions/SampledData"
             },
             "valueSignature": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "Signature.schema.json#/definitions/Signature"
+              "$ref": "http://hl7.org/fhir/json-schema/Signature#/definitions/Signature"
             },
             "valueHumanName": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "HumanName.schema.json#/definitions/HumanName"
+              "$ref": "http://hl7.org/fhir/json-schema/HumanName#/definitions/HumanName"
             },
             "valueAddress": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "Address.schema.json#/definitions/Address"
+              "$ref": "http://hl7.org/fhir/json-schema/Address#/definitions/Address"
             },
             "valueContactPoint": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "ContactPoint.schema.json#/definitions/ContactPoint"
+              "$ref": "http://hl7.org/fhir/json-schema/ContactPoint#/definitions/ContactPoint"
             },
             "valueTiming": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "Timing.schema.json#/definitions/Timing"
+              "$ref": "http://hl7.org/fhir/json-schema/Timing#/definitions/Timing"
             },
             "valueMeta": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "Meta.schema.json#/definitions/Meta"
+              "$ref": "http://hl7.org/fhir/json-schema/Meta#/definitions/Meta"
             },
             "valueElementDefinition": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "ElementDefinition.schema.json#/definitions/ElementDefinition"
+              "$ref": "http://hl7.org/fhir/json-schema/ElementDefinition#/definitions/ElementDefinition"
             },
             "valueContactDetail": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "ContactDetail.schema.json#/definitions/ContactDetail"
+              "$ref": "http://hl7.org/fhir/json-schema/ContactDetail#/definitions/ContactDetail"
             },
             "valueContributor": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "Contributor.schema.json#/definitions/Contributor"
+              "$ref": "http://hl7.org/fhir/json-schema/Contributor#/definitions/Contributor"
             },
             "valueDosage": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "Dosage.schema.json#/definitions/Dosage"
+              "$ref": "http://hl7.org/fhir/json-schema/Dosage#/definitions/Dosage"
             },
             "valueRelatedArtifact": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "RelatedArtifact.schema.json#/definitions/RelatedArtifact"
+              "$ref": "http://hl7.org/fhir/json-schema/RelatedArtifact#/definitions/RelatedArtifact"
             },
             "valueUsageContext": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "UsageContext.schema.json#/definitions/UsageContext"
+              "$ref": "http://hl7.org/fhir/json-schema/UsageContext#/definitions/UsageContext"
             },
             "valueDataRequirement": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "DataRequirement.schema.json#/definitions/DataRequirement"
+              "$ref": "http://hl7.org/fhir/json-schema/DataRequirement#/definitions/DataRequirement"
             },
             "valueParameterDefinition": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "ParameterDefinition.schema.json#/definitions/ParameterDefinition"
+              "$ref": "http://hl7.org/fhir/json-schema/ParameterDefinition#/definitions/ParameterDefinition"
             },
             "valueTriggerDefinition": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "TriggerDefinition.schema.json#/definitions/TriggerDefinition"
+              "$ref": "http://hl7.org/fhir/json-schema/TriggerDefinition#/definitions/TriggerDefinition"
             }
           }
         }

@@ -67,7 +67,7 @@
             },
             "signature": {
               "description": "Digital Signature - base64 encoded. XML-DSIg or a JWT.",
-              "$ref": "Signature.schema.json#/definitions/Signature"
+              "$ref": "http://hl7.org/fhir/json-schema/Signature#/definitions/Signature"
             }
           },
           "required": [

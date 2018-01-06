@@ -46,7 +46,7 @@
             },
             "timing": {
               "description": "When medication should be administered.",
-              "$ref": "Timing.schema.json#/definitions/Timing"
+              "$ref": "http://hl7.org/fhir/json-schema/Timing#/definitions/Timing"
             },
             "asNeededBoolean": {
               "description": "Indicates whether the Medication is only taken when needed within a specific dosing schedule (Boolean option), or it indicates the precondition for taking the Medication (CodeableConcept).",
@@ -82,7 +82,7 @@
             },
             "maxDosePerPeriod": {
               "description": "Upper limit on medication per unit of time.",
-              "$ref": "Ratio.schema.json#/definitions/Ratio"
+              "$ref": "http://hl7.org/fhir/json-schema/Ratio#/definitions/Ratio"
             },
             "maxDosePerAdministration": {
               "description": "Upper limit on medication per administration.",
@@ -94,7 +94,7 @@
             },
             "rateRatio": {
               "description": "Amount of medication per unit of time.",
-              "$ref": "Ratio.schema.json#/definitions/Ratio"
+              "$ref": "http://hl7.org/fhir/json-schema/Ratio#/definitions/Ratio"
             },
             "rateRange": {
               "description": "Amount of medication per unit of time.",

@@ -23,7 +23,7 @@
             },
             "meta": {
               "description": "The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content may not always be associated with version changes to the resource.",
-              "$ref": "Meta.schema.json#/definitions/Meta"
+              "$ref": "http://hl7.org/fhir/json-schema/Meta#/definitions/Meta"
             },
             "implicitRules": {
               "description": "A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content.",

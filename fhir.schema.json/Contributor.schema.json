@@ -38,7 +38,7 @@
               "description": "Contact details to assist a user in finding and communicating with the contributor.",
               "type": "array",
               "items": {
-                "$ref": "ContactDetail.schema.json#/definitions/ContactDetail"
+                "$ref": "http://hl7.org/fhir/json-schema/ContactDetail#/definitions/ContactDetail"
               }
             }
           }

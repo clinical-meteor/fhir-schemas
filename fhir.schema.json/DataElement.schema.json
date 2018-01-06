@@ -101,14 +101,14 @@
               "description": "Contact details to assist a user in finding and communicating with the publisher.",
               "type": "array",
               "items": {
-                "$ref": "ContactDetail.schema.json#/definitions/ContactDetail"
+                "$ref": "http://hl7.org/fhir/json-schema/ContactDetail#/definitions/ContactDetail"
               }
             },
             "useContext": {
               "description": "The content was developed with a focus and intent of supporting the contexts that are listed. These terms may be used to assist with indexing and searching for appropriate data element instances.",
               "type": "array",
               "items": {
-                "$ref": "UsageContext.schema.json#/definitions/UsageContext"
+                "$ref": "http://hl7.org/fhir/json-schema/UsageContext#/definitions/UsageContext"
               }
             },
             "jurisdiction": {
@@ -153,7 +153,7 @@
               "description": "Defines the structure, type, allowed values and other constraining characteristics of the data element.",
               "type": "array",
               "items": {
-                "$ref": "ElementDefinition.schema.json#/definitions/ElementDefinition"
+                "$ref": "http://hl7.org/fhir/json-schema/ElementDefinition#/definitions/ElementDefinition"
               }
             }
           },

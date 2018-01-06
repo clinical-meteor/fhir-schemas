@@ -152,7 +152,7 @@
             },
             "contact": {
               "description": "An e-mail, phone, website or other contact point to use to resolve issues with message communications.",
-              "$ref": "ContactPoint.schema.json#/definitions/ContactPoint"
+              "$ref": "http://hl7.org/fhir/json-schema/ContactPoint#/definitions/ContactPoint"
             },
             "endpoint": {
               "description": "Identifies the routing target to send acknowledgements to.",

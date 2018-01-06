@@ -85,7 +85,7 @@
               "description": "A digital signature on the target Reference(s). The signer should match a Provenance.agent. The purpose of the signature is indicated.",
               "type": "array",
               "items": {
-                "$ref": "Signature.schema.json#/definitions/Signature"
+                "$ref": "http://hl7.org/fhir/json-schema/Signature#/definitions/Signature"
               }
             }
           },

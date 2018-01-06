@@ -128,11 +128,11 @@
             },
             "valueRatio": {
               "description": "The information determined as a result of making the observation, if the information has a simple value.",
-              "$ref": "Ratio.schema.json#/definitions/Ratio"
+              "$ref": "http://hl7.org/fhir/json-schema/Ratio#/definitions/Ratio"
             },
             "valueSampledData": {
               "description": "The information determined as a result of making the observation, if the information has a simple value.",
-              "$ref": "SampledData.schema.json#/definitions/SampledData"
+              "$ref": "http://hl7.org/fhir/json-schema/SampledData#/definitions/SampledData"
             },
             "valueAttachment": {
               "description": "The information determined as a result of making the observation, if the information has a simple value.",
@@ -333,11 +333,11 @@
             },
             "valueRatio": {
               "description": "The information determined as a result of making the observation, if the information has a simple value.",
-              "$ref": "Ratio.schema.json#/definitions/Ratio"
+              "$ref": "http://hl7.org/fhir/json-schema/Ratio#/definitions/Ratio"
             },
             "valueSampledData": {
               "description": "The information determined as a result of making the observation, if the information has a simple value.",
-              "$ref": "SampledData.schema.json#/definitions/SampledData"
+              "$ref": "http://hl7.org/fhir/json-schema/SampledData#/definitions/SampledData"
             },
             "valueAttachment": {
               "description": "The information determined as a result of making the observation, if the information has a simple value.",

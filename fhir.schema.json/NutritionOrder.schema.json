@@ -129,7 +129,7 @@
               "description": "The time period and frequency at which the diet should be given.  The diet should be given for the combination of all schedules if more than one schedule is present.",
               "type": "array",
               "items": {
-                "$ref": "Timing.schema.json#/definitions/Timing"
+                "$ref": "http://hl7.org/fhir/json-schema/Timing#/definitions/Timing"
               }
             },
             "nutrient": {
@@ -229,7 +229,7 @@
               "description": "The time period and frequency at which the supplement(s) should be given.  The supplement should be given for the combination of all schedules if more than one schedule is present.",
               "type": "array",
               "items": {
-                "$ref": "Timing.schema.json#/definitions/Timing"
+                "$ref": "http://hl7.org/fhir/json-schema/Timing#/definitions/Timing"
               }
             },
             "quantity": {
@@ -321,7 +321,7 @@
           "properties": {
             "schedule": {
               "description": "The time period and frequency at which the enteral formula should be delivered to the patient.",
-              "$ref": "Timing.schema.json#/definitions/Timing"
+              "$ref": "http://hl7.org/fhir/json-schema/Timing#/definitions/Timing"
             },
             "quantity": {
               "description": "The volume of formula to provide to the patient per the specified administration schedule.",
@@ -333,7 +333,7 @@
             },
             "rateRatio": {
               "description": "The rate of administration of formula via a feeding pump, e.g. 60 mL per hour, according to the specified schedule.",
-              "$ref": "Ratio.schema.json#/definitions/Ratio"
+              "$ref": "http://hl7.org/fhir/json-schema/Ratio#/definitions/Ratio"
             }
           }
         }

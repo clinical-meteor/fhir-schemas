@@ -46,3 +46,18 @@ exports.MoneySchema = require('./fhir.schema.json/Money.schema.json');
 exports.AgeSchema = require('./fhir.schema.json/Age.schema.json');
 exports.RangeSchema = require('./fhir.schema.json/Range.schema.json');
 exports.RatioSchema = require('./fhir.schema.json/Ratio.schema.json');
+
+exports.SampledDataSchema = require('./fhir.schema.json/SampledData.schema.json');
+exports.SignatureSchema = require('./fhir.schema.json/Signature.schema.json');
+exports.TimingSchema = require('./fhir.schema.json/Timing.schema.json');
+exports.ElementDefinitionSchema = require('./fhir.schema.json/ElementDefinition.schema.json');
+exports.ContactDetailSchema = require('./fhir.schema.json/ContactDetail.schema.json');
+exports.ContributorSchema = require('./fhir.schema.json/Contributor.schema.json');
+exports.DosageSchema = require('./fhir.schema.json/Dosage.schema.json');
+exports.RelatedArtifactSchema = require('./fhir.schema.json/RelatedArtifact.schema.json');
+exports.UsageContextSchema = require('./fhir.schema.json/UsageContext.schema.json');
+exports.DataRequirementSchema = require('./fhir.schema.json/DataRequirement.schema.json');
+exports.ParameterDefinitionSchema = require('./fhir.schema.json/ParameterDefinition.schema.json');
+exports.TriggerDefinitionSchema = require('./fhir.schema.json/TriggerDefinition.schema.json');
+
+

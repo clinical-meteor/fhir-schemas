@@ -223,7 +223,7 @@
               "description": "Legally binding Contract DSIG signature contents in Base64.",
               "type": "array",
               "items": {
-                "$ref": "Signature.schema.json#/definitions/Signature"
+                "$ref": "http://hl7.org/fhir/json-schema/Signature#/definitions/Signature"
               }
             }
           },

@@ -294,7 +294,7 @@
             },
             "scheduledTiming": {
               "description": "The period, timing or frequency upon which the described activity is to occur.",
-              "$ref": "Timing.schema.json#/definitions/Timing"
+              "$ref": "http://hl7.org/fhir/json-schema/Timing#/definitions/Timing"
             },
             "scheduledPeriod": {
               "description": "The period, timing or frequency upon which the described activity is to occur.",

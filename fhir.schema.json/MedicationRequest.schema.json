@@ -159,7 +159,7 @@
               "description": "Indicates how the medication is to be used by the patient.",
               "type": "array",
               "items": {
-                "$ref": "Dosage.schema.json#/definitions/Dosage"
+                "$ref": "http://hl7.org/fhir/json-schema/Dosage#/definitions/Dosage"
               }
             },
             "dispenseRequest": {

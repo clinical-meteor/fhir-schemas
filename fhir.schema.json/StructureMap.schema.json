@@ -101,7 +101,7 @@
               "description": "Contact details to assist a user in finding and communicating with the publisher.",
               "type": "array",
               "items": {
-                "$ref": "ContactDetail.schema.json#/definitions/ContactDetail"
+                "$ref": "http://hl7.org/fhir/json-schema/ContactDetail#/definitions/ContactDetail"
               }
             },
             "description": {
@@ -116,7 +116,7 @@
               "description": "The content was developed with a focus and intent of supporting the contexts that are listed. These terms may be used to assist with indexing and searching for appropriate structure map instances.",
               "type": "array",
               "items": {
-                "$ref": "UsageContext.schema.json#/definitions/UsageContext"
+                "$ref": "http://hl7.org/fhir/json-schema/UsageContext#/definitions/UsageContext"
               }
             },
             "jurisdiction": {
@@ -669,7 +669,7 @@
             },
             "defaultValueRatio": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Ratio.schema.json#/definitions/Ratio"
+              "$ref": "http://hl7.org/fhir/json-schema/Ratio#/definitions/Ratio"
             },
             "defaultValueReference": {
               "description": "A value to use if there is no existing value in the source object.",
@@ -677,67 +677,67 @@
             },
             "defaultValueSampledData": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "SampledData.schema.json#/definitions/SampledData"
+              "$ref": "http://hl7.org/fhir/json-schema/SampledData#/definitions/SampledData"
             },
             "defaultValueSignature": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Signature.schema.json#/definitions/Signature"
+              "$ref": "http://hl7.org/fhir/json-schema/Signature#/definitions/Signature"
             },
             "defaultValueHumanName": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "HumanName.schema.json#/definitions/HumanName"
+              "$ref": "http://hl7.org/fhir/json-schema/HumanName#/definitions/HumanName"
             },
             "defaultValueAddress": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Address.schema.json#/definitions/Address"
+              "$ref": "http://hl7.org/fhir/json-schema/Address#/definitions/Address"
             },
             "defaultValueContactPoint": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "ContactPoint.schema.json#/definitions/ContactPoint"
+              "$ref": "http://hl7.org/fhir/json-schema/ContactPoint#/definitions/ContactPoint"
             },
             "defaultValueTiming": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Timing.schema.json#/definitions/Timing"
+              "$ref": "http://hl7.org/fhir/json-schema/Timing#/definitions/Timing"
             },
             "defaultValueMeta": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Meta.schema.json#/definitions/Meta"
+              "$ref": "http://hl7.org/fhir/json-schema/Meta#/definitions/Meta"
             },
             "defaultValueElementDefinition": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "ElementDefinition.schema.json#/definitions/ElementDefinition"
+              "$ref": "http://hl7.org/fhir/json-schema/ElementDefinition#/definitions/ElementDefinition"
             },
             "defaultValueContactDetail": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "ContactDetail.schema.json#/definitions/ContactDetail"
+              "$ref": "http://hl7.org/fhir/json-schema/ContactDetail#/definitions/ContactDetail"
             },
             "defaultValueContributor": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Contributor.schema.json#/definitions/Contributor"
+              "$ref": "http://hl7.org/fhir/json-schema/Contributor#/definitions/Contributor"
             },
             "defaultValueDosage": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Dosage.schema.json#/definitions/Dosage"
+              "$ref": "http://hl7.org/fhir/json-schema/Dosage#/definitions/Dosage"
             },
             "defaultValueRelatedArtifact": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "RelatedArtifact.schema.json#/definitions/RelatedArtifact"
+              "$ref": "http://hl7.org/fhir/json-schema/RelatedArtifact#/definitions/RelatedArtifact"
             },
             "defaultValueUsageContext": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "UsageContext.schema.json#/definitions/UsageContext"
+              "$ref": "http://hl7.org/fhir/json-schema/UsageContext#/definitions/UsageContext"
             },
             "defaultValueDataRequirement": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "DataRequirement.schema.json#/definitions/DataRequirement"
+              "$ref": "http://hl7.org/fhir/json-schema/DataRequirement#/definitions/DataRequirement"
             },
             "defaultValueParameterDefinition": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "ParameterDefinition.schema.json#/definitions/ParameterDefinition"
+              "$ref": "http://hl7.org/fhir/json-schema/ParameterDefinition#/definitions/ParameterDefinition"
             },
             "defaultValueTriggerDefinition": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "TriggerDefinition.schema.json#/definitions/TriggerDefinition"
+              "$ref": "http://hl7.org/fhir/json-schema/TriggerDefinition#/definitions/TriggerDefinition"
             },
             "element": {
               "description": "Optional field for this source.",

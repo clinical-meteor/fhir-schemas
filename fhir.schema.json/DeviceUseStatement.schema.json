@@ -52,7 +52,7 @@
             },
             "timingTiming": {
               "description": "How often the device was used.",
-              "$ref": "Timing.schema.json#/definitions/Timing"
+              "$ref": "http://hl7.org/fhir/json-schema/Timing#/definitions/Timing"
             },
             "timingPeriod": {
               "description": "How often the device was used.",

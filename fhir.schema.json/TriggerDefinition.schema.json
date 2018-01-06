@@ -39,7 +39,7 @@
             },
             "eventTimingTiming": {
               "description": "The timing of the event (if this is a period trigger).",
-              "$ref": "Timing.schema.json#/definitions/Timing"
+              "$ref": "http://hl7.org/fhir/json-schema/Timing#/definitions/Timing"
             },
             "eventTimingReference": {
               "description": "The timing of the event (if this is a period trigger).",
@@ -65,7 +65,7 @@
             },
             "eventData": {
               "description": "The triggering data of the event (if this is a data trigger).",
-              "$ref": "DataRequirement.schema.json#/definitions/DataRequirement"
+              "$ref": "http://hl7.org/fhir/json-schema/DataRequirement#/definitions/DataRequirement"
             }
           }
         }

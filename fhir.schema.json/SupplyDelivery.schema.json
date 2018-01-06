@@ -78,7 +78,7 @@
             },
             "occurrenceTiming": {
               "description": "The date or time(s) the activity occurred.",
-              "$ref": "Timing.schema.json#/definitions/Timing"
+              "$ref": "http://hl7.org/fhir/json-schema/Timing#/definitions/Timing"
             },
             "supplier": {
               "description": "The individual responsible for dispensing the medication, supplier or device.",

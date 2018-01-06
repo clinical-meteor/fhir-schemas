@@ -119,7 +119,7 @@
           "properties": {
             "quantity": {
               "description": "The amount of the ingredient in the substance - a concentration ratio.",
-              "$ref": "Ratio.schema.json#/definitions/Ratio"
+              "$ref": "http://hl7.org/fhir/json-schema/Ratio#/definitions/Ratio"
             },
             "substanceCodeableConcept": {
               "description": "Another substance that is a component of this substance.",

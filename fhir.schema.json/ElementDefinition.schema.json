@@ -371,7 +371,7 @@
             },
             "defaultValueRatio": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
-              "$ref": "Ratio.schema.json#/definitions/Ratio"
+              "$ref": "http://hl7.org/fhir/json-schema/Ratio#/definitions/Ratio"
             },
             "defaultValueReference": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
@@ -379,67 +379,67 @@
             },
             "defaultValueSampledData": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
-              "$ref": "SampledData.schema.json#/definitions/SampledData"
+              "$ref": "http://hl7.org/fhir/json-schema/SampledData#/definitions/SampledData"
             },
             "defaultValueSignature": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
-              "$ref": "Signature.schema.json#/definitions/Signature"
+              "$ref": "http://hl7.org/fhir/json-schema/Signature#/definitions/Signature"
             },
             "defaultValueHumanName": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
-              "$ref": "HumanName.schema.json#/definitions/HumanName"
+              "$ref": "http://hl7.org/fhir/json-schema/HumanName#/definitions/HumanName"
             },
             "defaultValueAddress": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
-              "$ref": "Address.schema.json#/definitions/Address"
+              "$ref": "http://hl7.org/fhir/json-schema/Address#/definitions/Address"
             },
             "defaultValueContactPoint": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
-              "$ref": "ContactPoint.schema.json#/definitions/ContactPoint"
+              "$ref": "http://hl7.org/fhir/json-schema/ContactPoint#/definitions/ContactPoint"
             },
             "defaultValueTiming": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
-              "$ref": "Timing.schema.json#/definitions/Timing"
+              "$ref": "http://hl7.org/fhir/json-schema/Timing#/definitions/Timing"
             },
             "defaultValueMeta": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
-              "$ref": "Meta.schema.json#/definitions/Meta"
+              "$ref": "http://hl7.org/fhir/json-schema/Meta#/definitions/Meta"
             },
             "defaultValueElementDefinition": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
-              "$ref": "ElementDefinition.schema.json#/definitions/ElementDefinition"
+              "$ref": "http://hl7.org/fhir/json-schema/ElementDefinition#/definitions/ElementDefinition"
             },
             "defaultValueContactDetail": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
-              "$ref": "ContactDetail.schema.json#/definitions/ContactDetail"
+              "$ref": "http://hl7.org/fhir/json-schema/ContactDetail#/definitions/ContactDetail"
             },
             "defaultValueContributor": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
-              "$ref": "Contributor.schema.json#/definitions/Contributor"
+              "$ref": "http://hl7.org/fhir/json-schema/Contributor#/definitions/Contributor"
             },
             "defaultValueDosage": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
-              "$ref": "Dosage.schema.json#/definitions/Dosage"
+              "$ref": "http://hl7.org/fhir/json-schema/Dosage#/definitions/Dosage"
             },
             "defaultValueRelatedArtifact": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
-              "$ref": "RelatedArtifact.schema.json#/definitions/RelatedArtifact"
+              "$ref": "http://hl7.org/fhir/json-schema/RelatedArtifact#/definitions/RelatedArtifact"
             },
             "defaultValueUsageContext": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
-              "$ref": "UsageContext.schema.json#/definitions/UsageContext"
+              "$ref": "http://hl7.org/fhir/json-schema/UsageContext#/definitions/UsageContext"
             },
             "defaultValueDataRequirement": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
-              "$ref": "DataRequirement.schema.json#/definitions/DataRequirement"
+              "$ref": "http://hl7.org/fhir/json-schema/DataRequirement#/definitions/DataRequirement"
             },
             "defaultValueParameterDefinition": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
-              "$ref": "ParameterDefinition.schema.json#/definitions/ParameterDefinition"
+              "$ref": "http://hl7.org/fhir/json-schema/ParameterDefinition#/definitions/ParameterDefinition"
             },
             "defaultValueTriggerDefinition": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
-              "$ref": "TriggerDefinition.schema.json#/definitions/TriggerDefinition"
+              "$ref": "http://hl7.org/fhir/json-schema/TriggerDefinition#/definitions/TriggerDefinition"
             },
             "meaningWhenMissing": {
               "description": "The Implicit meaning that is to be understood when this element is missing (e.g. \u0027when this element is missing, the period is ongoing\u0027.",
@@ -678,7 +678,7 @@
             },
             "fixedRatio": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
-              "$ref": "Ratio.schema.json#/definitions/Ratio"
+              "$ref": "http://hl7.org/fhir/json-schema/Ratio#/definitions/Ratio"
             },
             "fixedReference": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -686,67 +686,67 @@
             },
             "fixedSampledData": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
-              "$ref": "SampledData.schema.json#/definitions/SampledData"
+              "$ref": "http://hl7.org/fhir/json-schema/SampledData#/definitions/SampledData"
             },
             "fixedSignature": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
-              "$ref": "Signature.schema.json#/definitions/Signature"
+              "$ref": "http://hl7.org/fhir/json-schema/Signature#/definitions/Signature"
             },
             "fixedHumanName": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
-              "$ref": "HumanName.schema.json#/definitions/HumanName"
+              "$ref": "http://hl7.org/fhir/json-schema/HumanName#/definitions/HumanName"
             },
             "fixedAddress": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
-              "$ref": "Address.schema.json#/definitions/Address"
+              "$ref": "http://hl7.org/fhir/json-schema/Address#/definitions/Address"
             },
             "fixedContactPoint": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
-              "$ref": "ContactPoint.schema.json#/definitions/ContactPoint"
+              "$ref": "http://hl7.org/fhir/json-schema/ContactPoint#/definitions/ContactPoint"
             },
             "fixedTiming": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
-              "$ref": "Timing.schema.json#/definitions/Timing"
+              "$ref": "http://hl7.org/fhir/json-schema/Timing#/definitions/Timing"
             },
             "fixedMeta": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
-              "$ref": "Meta.schema.json#/definitions/Meta"
+              "$ref": "http://hl7.org/fhir/json-schema/Meta#/definitions/Meta"
             },
             "fixedElementDefinition": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
-              "$ref": "ElementDefinition.schema.json#/definitions/ElementDefinition"
+              "$ref": "http://hl7.org/fhir/json-schema/ElementDefinition#/definitions/ElementDefinition"
             },
             "fixedContactDetail": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
-              "$ref": "ContactDetail.schema.json#/definitions/ContactDetail"
+              "$ref": "http://hl7.org/fhir/json-schema/ContactDetail#/definitions/ContactDetail"
             },
             "fixedContributor": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
-              "$ref": "Contributor.schema.json#/definitions/Contributor"
+              "$ref": "http://hl7.org/fhir/json-schema/Contributor#/definitions/Contributor"
             },
             "fixedDosage": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
-              "$ref": "Dosage.schema.json#/definitions/Dosage"
+              "$ref": "http://hl7.org/fhir/json-schema/Dosage#/definitions/Dosage"
             },
             "fixedRelatedArtifact": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
-              "$ref": "RelatedArtifact.schema.json#/definitions/RelatedArtifact"
+              "$ref": "http://hl7.org/fhir/json-schema/RelatedArtifact#/definitions/RelatedArtifact"
             },
             "fixedUsageContext": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
-              "$ref": "UsageContext.schema.json#/definitions/UsageContext"
+              "$ref": "http://hl7.org/fhir/json-schema/UsageContext#/definitions/UsageContext"
             },
             "fixedDataRequirement": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
-              "$ref": "DataRequirement.schema.json#/definitions/DataRequirement"
+              "$ref": "http://hl7.org/fhir/json-schema/DataRequirement#/definitions/DataRequirement"
             },
             "fixedParameterDefinition": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
-              "$ref": "ParameterDefinition.schema.json#/definitions/ParameterDefinition"
+              "$ref": "http://hl7.org/fhir/json-schema/ParameterDefinition#/definitions/ParameterDefinition"
             },
             "fixedTriggerDefinition": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
-              "$ref": "TriggerDefinition.schema.json#/definitions/TriggerDefinition"
+              "$ref": "http://hl7.org/fhir/json-schema/TriggerDefinition#/definitions/TriggerDefinition"
             },
             "patternBoolean": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -969,7 +969,7 @@
             },
             "patternRatio": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
-              "$ref": "Ratio.schema.json#/definitions/Ratio"
+              "$ref": "http://hl7.org/fhir/json-schema/Ratio#/definitions/Ratio"
             },
             "patternReference": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -977,67 +977,67 @@
             },
             "patternSampledData": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
-              "$ref": "SampledData.schema.json#/definitions/SampledData"
+              "$ref": "http://hl7.org/fhir/json-schema/SampledData#/definitions/SampledData"
             },
             "patternSignature": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
-              "$ref": "Signature.schema.json#/definitions/Signature"
+              "$ref": "http://hl7.org/fhir/json-schema/Signature#/definitions/Signature"
             },
             "patternHumanName": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
-              "$ref": "HumanName.schema.json#/definitions/HumanName"
+              "$ref": "http://hl7.org/fhir/json-schema/HumanName#/definitions/HumanName"
             },
             "patternAddress": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
-              "$ref": "Address.schema.json#/definitions/Address"
+              "$ref": "http://hl7.org/fhir/json-schema/Address#/definitions/Address"
             },
             "patternContactPoint": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
-              "$ref": "ContactPoint.schema.json#/definitions/ContactPoint"
+              "$ref": "http://hl7.org/fhir/json-schema/ContactPoint#/definitions/ContactPoint"
             },
             "patternTiming": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
-              "$ref": "Timing.schema.json#/definitions/Timing"
+              "$ref": "http://hl7.org/fhir/json-schema/Timing#/definitions/Timing"
             },
             "patternMeta": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
-              "$ref": "Meta.schema.json#/definitions/Meta"
+              "$ref": "http://hl7.org/fhir/json-schema/Meta#/definitions/Meta"
             },
             "patternElementDefinition": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
-              "$ref": "ElementDefinition.schema.json#/definitions/ElementDefinition"
+              "$ref": "http://hl7.org/fhir/json-schema/ElementDefinition#/definitions/ElementDefinition"
             },
             "patternContactDetail": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
-              "$ref": "ContactDetail.schema.json#/definitions/ContactDetail"
+              "$ref": "http://hl7.org/fhir/json-schema/ContactDetail#/definitions/ContactDetail"
             },
             "patternContributor": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
-              "$ref": "Contributor.schema.json#/definitions/Contributor"
+              "$ref": "http://hl7.org/fhir/json-schema/Contributor#/definitions/Contributor"
             },
             "patternDosage": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
-              "$ref": "Dosage.schema.json#/definitions/Dosage"
+              "$ref": "http://hl7.org/fhir/json-schema/Dosage#/definitions/Dosage"
             },
             "patternRelatedArtifact": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
-              "$ref": "RelatedArtifact.schema.json#/definitions/RelatedArtifact"
+              "$ref": "http://hl7.org/fhir/json-schema/RelatedArtifact#/definitions/RelatedArtifact"
             },
             "patternUsageContext": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
-              "$ref": "UsageContext.schema.json#/definitions/UsageContext"
+              "$ref": "http://hl7.org/fhir/json-schema/UsageContext#/definitions/UsageContext"
             },
             "patternDataRequirement": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
-              "$ref": "DataRequirement.schema.json#/definitions/DataRequirement"
+              "$ref": "http://hl7.org/fhir/json-schema/DataRequirement#/definitions/DataRequirement"
             },
             "patternParameterDefinition": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
-              "$ref": "ParameterDefinition.schema.json#/definitions/ParameterDefinition"
+              "$ref": "http://hl7.org/fhir/json-schema/ParameterDefinition#/definitions/ParameterDefinition"
             },
             "patternTriggerDefinition": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
-              "$ref": "TriggerDefinition.schema.json#/definitions/TriggerDefinition"
+              "$ref": "http://hl7.org/fhir/json-schema/TriggerDefinition#/definitions/TriggerDefinition"
             },
             "example": {
               "description": "A sample value for this element demonstrating the type of information that would typically be found in the element.",
@@ -1691,7 +1691,7 @@
             },
             "valueRatio": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
-              "$ref": "Ratio.schema.json#/definitions/Ratio"
+              "$ref": "http://hl7.org/fhir/json-schema/Ratio#/definitions/Ratio"
             },
             "valueReference": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
@@ -1699,67 +1699,67 @@
             },
             "valueSampledData": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
-              "$ref": "SampledData.schema.json#/definitions/SampledData"
+              "$ref": "http://hl7.org/fhir/json-schema/SampledData#/definitions/SampledData"
             },
             "valueSignature": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
-              "$ref": "Signature.schema.json#/definitions/Signature"
+              "$ref": "http://hl7.org/fhir/json-schema/Signature#/definitions/Signature"
             },
             "valueHumanName": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
-              "$ref": "HumanName.schema.json#/definitions/HumanName"
+              "$ref": "http://hl7.org/fhir/json-schema/HumanName#/definitions/HumanName"
             },
             "valueAddress": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
-              "$ref": "Address.schema.json#/definitions/Address"
+              "$ref": "http://hl7.org/fhir/json-schema/Address#/definitions/Address"
             },
             "valueContactPoint": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
-              "$ref": "ContactPoint.schema.json#/definitions/ContactPoint"
+              "$ref": "http://hl7.org/fhir/json-schema/ContactPoint#/definitions/ContactPoint"
             },
             "valueTiming": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
-              "$ref": "Timing.schema.json#/definitions/Timing"
+              "$ref": "http://hl7.org/fhir/json-schema/Timing#/definitions/Timing"
             },
             "valueMeta": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
-              "$ref": "Meta.schema.json#/definitions/Meta"
+              "$ref": "http://hl7.org/fhir/json-schema/Meta#/definitions/Meta"
             },
             "valueElementDefinition": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
-              "$ref": "ElementDefinition.schema.json#/definitions/ElementDefinition"
+              "$ref": "http://hl7.org/fhir/json-schema/ElementDefinition#/definitions/ElementDefinition"
             },
             "valueContactDetail": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
-              "$ref": "ContactDetail.schema.json#/definitions/ContactDetail"
+              "$ref": "http://hl7.org/fhir/json-schema/ContactDetail#/definitions/ContactDetail"
             },
             "valueContributor": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
-              "$ref": "Contributor.schema.json#/definitions/Contributor"
+              "$ref": "http://hl7.org/fhir/json-schema/Contributor#/definitions/Contributor"
             },
             "valueDosage": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
-              "$ref": "Dosage.schema.json#/definitions/Dosage"
+              "$ref": "http://hl7.org/fhir/json-schema/Dosage#/definitions/Dosage"
             },
             "valueRelatedArtifact": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
-              "$ref": "RelatedArtifact.schema.json#/definitions/RelatedArtifact"
+              "$ref": "http://hl7.org/fhir/json-schema/RelatedArtifact#/definitions/RelatedArtifact"
             },
             "valueUsageContext": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
-              "$ref": "UsageContext.schema.json#/definitions/UsageContext"
+              "$ref": "http://hl7.org/fhir/json-schema/UsageContext#/definitions/UsageContext"
             },
             "valueDataRequirement": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
-              "$ref": "DataRequirement.schema.json#/definitions/DataRequirement"
+              "$ref": "http://hl7.org/fhir/json-schema/DataRequirement#/definitions/DataRequirement"
             },
             "valueParameterDefinition": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
-              "$ref": "ParameterDefinition.schema.json#/definitions/ParameterDefinition"
+              "$ref": "http://hl7.org/fhir/json-schema/ParameterDefinition#/definitions/ParameterDefinition"
             },
             "valueTriggerDefinition": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
-              "$ref": "TriggerDefinition.schema.json#/definitions/TriggerDefinition"
+              "$ref": "http://hl7.org/fhir/json-schema/TriggerDefinition#/definitions/TriggerDefinition"
             }
           }
         }

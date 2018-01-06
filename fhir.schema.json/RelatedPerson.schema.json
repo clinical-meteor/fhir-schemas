@@ -46,14 +46,14 @@
               "description": "A name associated with the person.",
               "type": "array",
               "items": {
-                "$ref": "HumanName.schema.json#/definitions/HumanName"
+                "$ref": "http://hl7.org/fhir/json-schema/HumanName#/definitions/HumanName"
               }
             },
             "telecom": {
               "description": "A contact detail for the person, e.g. a telephone number or an email address.",
               "type": "array",
               "items": {
-                "$ref": "ContactPoint.schema.json#/definitions/ContactPoint"
+                "$ref": "http://hl7.org/fhir/json-schema/ContactPoint#/definitions/ContactPoint"
               }
             },
             "gender": {
@@ -83,7 +83,7 @@
               "description": "Address where the related person can be contacted or visited.",
               "type": "array",
               "items": {
-                "$ref": "Address.schema.json#/definitions/Address"
+                "$ref": "http://hl7.org/fhir/json-schema/Address#/definitions/Address"
               }
             },
             "photo": {
