@@ -66,15 +66,15 @@
             },
             "notDoneReason": {
               "description": "A code indicating why the procedure was not performed.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "category": {
               "description": "A code that classifies the procedure for searching, sorting and display purposes (e.g. \"Surgical Procedure\").",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "code": {
               "description": "The specific procedure that is performed. Use text if the exact nature of the procedure cannot be coded (e.g. \"Laparoscopic Appendectomy\").",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "subject": {
               "description": "The person, animal or group on which the procedure was performed.",
@@ -112,7 +112,7 @@
               "description": "The coded reason why the procedure was performed. This may be coded entity of some type, or may simply be present as text.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "reasonReference": {
@@ -126,12 +126,12 @@
               "description": "Detailed and structured anatomical location information. Multiple locations are allowed - e.g. multiple punch biopsies of a lesion.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "outcome": {
               "description": "The outcome of the procedure - did it resolve reasons for the procedure being performed?",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "report": {
               "description": "This could be a histology result, pathology report, surgical report, etc..",
@@ -144,7 +144,7 @@
               "description": "Any complications that occurred during the procedure, or in the immediate post-performance period. These are generally tracked separately from the notes, which will typically describe the procedure itself rather than any \u0027post procedure\u0027 issues.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "complicationDetail": {
@@ -158,7 +158,7 @@
               "description": "If the procedure required specific follow up - e.g. removal of sutures. The followup may be represented as a simple note, or could potentially be more complex in which case the CarePlan resource can be used.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "note": {
@@ -186,7 +186,7 @@
               "description": "Identifies coded items that were used as part of the procedure.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             }
           },
@@ -207,7 +207,7 @@
           "properties": {
             "role": {
               "description": "For example: surgeon, anaethetist, endoscopist.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "actor": {
               "description": "The practitioner who was involved in the procedure.",
@@ -234,7 +234,7 @@
           "properties": {
             "action": {
               "description": "The kind of change that happened to the device during the procedure.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "manipulated": {
               "description": "The device that was manipulated (changed) during the procedure.",

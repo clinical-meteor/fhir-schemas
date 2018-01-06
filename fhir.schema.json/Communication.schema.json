@@ -66,20 +66,20 @@
             },
             "notDoneReason": {
               "description": "Describes why the communication event did not occur in coded and/or textual form.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "category": {
               "description": "The type of message conveyed such as alert, notification, reminder, instruction, etc.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "medium": {
               "description": "A channel that was used for this communication (e.g. email, fax).",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "subject": {
@@ -130,7 +130,7 @@
               "description": "The reason or justification for the communication.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "reasonReference": {

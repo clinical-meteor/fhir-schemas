@@ -57,7 +57,7 @@
               "description": "The type of message to be sent such as alert, notification, reminder, instruction, etc.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "priority": {
@@ -73,7 +73,7 @@
               "description": "A channel that was used for this communication (e.g. email, fax).",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "subject": {
@@ -139,7 +139,7 @@
               "description": "Describes why the request is being made in coded or textual form.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "reasonReference": {

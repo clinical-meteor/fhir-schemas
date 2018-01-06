@@ -109,7 +109,7 @@
               "description": "The function of the agent with respect to the activity. The security role enabling the agent with respect to the activity.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "whoUri": {
@@ -138,7 +138,7 @@
             },
             "relatedAgentType": {
               "description": "The type of relationship between agents.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             }
           }
         }

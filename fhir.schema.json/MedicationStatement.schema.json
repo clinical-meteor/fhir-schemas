@@ -62,11 +62,11 @@
             },
             "category": {
               "description": "Indicates where type of medication statement and where the medication is expected to be consumed or administered.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "medicationCodeableConcept": {
               "description": "Identifies the medication being administered. This is either a link to a resource representing the details of the medication or a simple attribute carrying a code that identifies the medication from a known list of medications.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "medicationReference": {
               "description": "Identifies the medication being administered. This is either a link to a resource representing the details of the medication or a simple attribute carrying a code that identifies the medication from a known list of medications.",
@@ -127,14 +127,14 @@
               "description": "A code indicating why the medication was not taken.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "reasonCode": {
               "description": "A reason for why the medication is being/was taken.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "reasonReference": {

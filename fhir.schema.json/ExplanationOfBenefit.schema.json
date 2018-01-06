@@ -42,13 +42,13 @@
             },
             "type": {
               "description": "The category of claim, eg, oral, pharmacy, vision, insitutional, professional.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "subType": {
               "description": "A finer grained suite of claim subtype codes which may convey Inpatient vs Outpatient and/or a specialty service. In the US the BillType.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "patient": {
@@ -102,7 +102,7 @@
             },
             "outcome": {
               "description": "Processing outcome errror, partial or complete processing.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "disposition": {
               "description": "A description of the status of the adjudication.",
@@ -216,7 +216,7 @@
             },
             "form": {
               "description": "The form to be used for printing the content.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "processNote": {
               "description": "Note text.",
@@ -253,7 +253,7 @@
             },
             "relationship": {
               "description": "For example prior or umbrella.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "reference": {
               "description": "An alternate organizational reference to the case or file to which this particular claim pertains - eg Property/Casualy insurer claim # or Workers Compensation case # .",
@@ -273,11 +273,11 @@
           "properties": {
             "type": {
               "description": "Type of Party to be reimbursed: Subscriber, provider, other.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "resourceType": {
               "description": "organization | patient | practitioner | relatedperson.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "party": {
               "description": "Party to be reimbursed: Subscriber, provider, other.",
@@ -306,11 +306,11 @@
             },
             "category": {
               "description": "The general class of the information supplied: information; exception; accident, employment; onset, etc.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "code": {
               "description": "System and code pertaining to the specific information regarding special conditions relating to the setting, treatment or patient  for which care is sought which may influence the adjudication.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "timingDate": {
               "description": "The date when or period to which this information refers.",
@@ -387,11 +387,11 @@
             },
             "role": {
               "description": "The lead, assisting or supervising practitioner and their discipline if a multidisiplinary team.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "qualification": {
               "description": "The qualification which is applicable for this service.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             }
           },
           "required": [
@@ -419,7 +419,7 @@
             },
             "diagnosisCodeableConcept": {
               "description": "The diagnosis.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "diagnosisReference": {
               "description": "The diagnosis.",
@@ -429,12 +429,12 @@
               "description": "The type of the Diagnosis, for example: admitting, primary, secondary, discharge.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "packageCode": {
               "description": "The package billing code, for example DRG, based on the assigned grouping code system.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             }
           }
         }
@@ -468,7 +468,7 @@
             },
             "procedureCodeableConcept": {
               "description": "The procedure code.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "procedureReference": {
               "description": "The procedure code.",
@@ -527,7 +527,7 @@
             },
             "type": {
               "description": "Type of accident: work, auto, etc.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "locationAddress": {
               "description": "Where the accident occurred.",
@@ -620,28 +620,28 @@
             },
             "revenue": {
               "description": "The type of reveneu or cost center providing the product and/or service.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "category": {
               "description": "Health Care Service Type Codes  to identify the classification of service or benefits.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "service": {
               "description": "If this is an actual service or product line, ie. not a Group, then use code to indicate the Professional Service or Product supplied (eg. CTP, HCPCS,USCLS,ICD10, NCPDP,DIN,ACHI,CCI). If a grouping item then use a group code to indicate the type of thing being grouped eg. \u0027glasses\u0027 or \u0027compound\u0027.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "modifier": {
               "description": "Item typification or modifiers codes, eg for Oral whether the treatment is cosmetic or associated with TMJ, or for medical whether the treatment was outside the clinic or out of office hours.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "programCode": {
               "description": "For programs which require reson codes for the inclusion, covering, of this billed item under the program or sub-program.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "servicedDate": {
@@ -659,7 +659,7 @@
             },
             "locationCodeableConcept": {
               "description": "Where the service was provided.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "locationAddress": {
               "description": "Where the service was provided.",
@@ -699,13 +699,13 @@
             },
             "bodySite": {
               "description": "Physical service site on the patient (limb, tooth, etc).",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "subSite": {
               "description": "A region or surface of the site, eg. limb region or tooth surface(s).",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "encounter": {
@@ -758,11 +758,11 @@
           "properties": {
             "category": {
               "description": "Code indicating: Co-Pay, deductable, elegible, benefit, tax, etc.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "reason": {
               "description": "Adjudication reason such as limit reached.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "amount": {
               "description": "Monitory amount associated with the code.",
@@ -803,32 +803,32 @@
             },
             "type": {
               "description": "The type of product or service.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "revenue": {
               "description": "The type of reveneu or cost center providing the product and/or service.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "category": {
               "description": "Health Care Service Type Codes  to identify the classification of service or benefits.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "service": {
               "description": "If this is an actual service or product line, ie. not a Group, then use code to indicate the Professional Service or Product supplied (eg. CTP, HCPCS,USCLS,ICD10, NCPDP,DIN,ACHI,CCI). If a grouping item then use a group code to indicate the type of thing being grouped eg. \u0027glasses\u0027 or \u0027compound\u0027.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "modifier": {
               "description": "Item typification or modifiers codes, eg for Oral whether the treatment is cosmetic or associated with TMJ, or for medical whether the treatment was outside the clinic or out of office hours.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "programCode": {
               "description": "For programs which require reson codes for the inclusion, covering, of this billed item under the program or sub-program.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "quantity": {
@@ -914,32 +914,32 @@
             },
             "type": {
               "description": "The type of product or service.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "revenue": {
               "description": "The type of reveneu or cost center providing the product and/or service.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "category": {
               "description": "Health Care Service Type Codes  to identify the classification of service or benefits.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "service": {
               "description": "A code to indicate the Professional Service or Product supplied (eg. CTP, HCPCS,USCLS,ICD10, NCPDP,DIN,ACHI,CCI).",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "modifier": {
               "description": "Item typification or modifiers codes, eg for Oral whether the treatment is cosmetic or associated with TMJ, or for medical whether the treatment was outside the clinic or out of office hours.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "programCode": {
               "description": "For programs which require reson codes for the inclusion, covering, of this billed item under the program or sub-program.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "quantity": {
@@ -1024,21 +1024,21 @@
             },
             "revenue": {
               "description": "The type of reveneu or cost center providing the product and/or service.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "category": {
               "description": "Health Care Service Type Codes  to identify the classification of service or benefits.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "service": {
               "description": "If this is an actual service or product line, ie. not a Group, then use code to indicate the Professional Service or Product supplied (eg. CTP, HCPCS,USCLS,ICD10, NCPDP,DIN,ACHI,CCI). If a grouping item then use a group code to indicate the type of thing being grouped eg. \u0027glasses\u0027 or \u0027compound\u0027.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "modifier": {
               "description": "Item typification or modifiers codes, eg for Oral whether the treatment is cosmetic or associated with TMJ, or for medical whether the treatment was outside the clinic or out of office hours.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "fee": {
@@ -1088,21 +1088,21 @@
           "properties": {
             "revenue": {
               "description": "The type of reveneu or cost center providing the product and/or service.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "category": {
               "description": "Health Care Service Type Codes  to identify the classification of service or benefits.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "service": {
               "description": "A code to indicate the Professional Service or Product supplied (eg. CTP, HCPCS,USCLS,ICD10, NCPDP,DIN,ACHI,CCI).",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "modifier": {
               "description": "Item typification or modifiers codes, eg for Oral whether the treatment is cosmetic or associated with TMJ, or for medical whether the treatment was outside the clinic or out of office hours.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "fee": {
@@ -1145,7 +1145,7 @@
           "properties": {
             "type": {
               "description": "Whether this represents partial or complete payment of the claim.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "adjustment": {
               "description": "Adjustment to the payment of this transaction which is not related to adjudication of this transaction.",
@@ -1153,7 +1153,7 @@
             },
             "adjustmentReason": {
               "description": "Reason for the payment adjustment.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "date": {
               "description": "Estimated payment date.",
@@ -1195,7 +1195,7 @@
             },
             "type": {
               "description": "The note purpose: Print/Display.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "text": {
               "description": "The note text.",
@@ -1207,7 +1207,7 @@
             },
             "language": {
               "description": "The ISO-639-1 alpha 2 code in lower case for the language, optionally followed by a hyphen and the ISO-3166-1 alpha 2 code for the region in upper case; e.g. \"en\" for English, or \"en-US\" for American English versus \"en-EN\" for England English.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             }
           }
         }
@@ -1223,11 +1223,11 @@
           "properties": {
             "category": {
               "description": "Dental, Vision, Medical, Pharmacy, Rehab etc.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "subCategory": {
               "description": "Dental: basic, major, ortho; Vision exam, glasses, contacts; etc.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "excluded": {
               "description": "True if the indicated class of service is excluded from the plan, missing or False indicated the service is included in the coverage.",
@@ -1255,15 +1255,15 @@
             },
             "network": {
               "description": "Network designation.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "unit": {
               "description": "Unit designation: individual or family.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "term": {
               "description": "The term or period of the values such as \u0027maximum lifetime benefit\u0027 or \u0027maximum annual vistis\u0027.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "financial": {
               "description": "Benefits Used to date.",
@@ -1289,7 +1289,7 @@
           "properties": {
             "type": {
               "description": "Deductable, visits, benefit amount.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "allowedUnsignedInt": {
               "description": "Benefits allowed.",

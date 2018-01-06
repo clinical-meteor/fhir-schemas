@@ -41,7 +41,7 @@
             },
             "outcome": {
               "description": "Processing status: error, complete.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "disposition": {
               "description": "A description of the status of the adjudication.",

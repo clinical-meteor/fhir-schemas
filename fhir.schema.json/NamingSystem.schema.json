@@ -88,7 +88,7 @@
             },
             "type": {
               "description": "Categorizes a naming system for easier search by grouping related naming systems.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "description": {
               "description": "A free text natural language description of the naming system from a consumer\u0027s perspective. Details about what the namespace identifies including scope, granularity, version labeling, etc.",
@@ -109,7 +109,7 @@
               "description": "A legal or geographic region in which the naming system is intended to be used.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "usage": {

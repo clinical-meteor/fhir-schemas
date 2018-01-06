@@ -43,7 +43,7 @@
               "description": "A classification of the type of consents found in the statement. This element supports indexing and retrieval of consent statements.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "patient": {
@@ -81,7 +81,7 @@
               "description": "Actions controlled by this consent.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "organization": {
@@ -168,7 +168,7 @@
           "properties": {
             "role": {
               "description": "How the individual is involved in the resources content that is described in the consent.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "reference": {
               "description": "The resource that identifies the actor. To identify a actors by type, use group to identify a set of actors by some property they share (e.g. \u0027admitting officers\u0027).",
@@ -278,7 +278,7 @@
               "description": "Actions controlled by this Exception.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "securityLabel": {
@@ -334,7 +334,7 @@
           "properties": {
             "role": {
               "description": "How the individual is involved in the resources content that is described in the exception.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "reference": {
               "description": "The resource that identifies the actor. To identify a actors by type, use group to identify a set of actors by some property they share (e.g. \u0027admitting officers\u0027).",

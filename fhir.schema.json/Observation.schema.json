@@ -55,12 +55,12 @@
               "description": "A code that classifies the general type of observation being made.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "code": {
               "description": "Describes what was observed. Sometimes this is called the observation \"name\".",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "subject": {
               "description": "The patient, or group of patients, location, or device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.  Comments: Indirect characteristics may be those of a specimen, fetus, donor,  other observer (for example a relative or EMT), or any observation made about the subject.",
@@ -104,7 +104,7 @@
             },
             "valueCodeableConcept": {
               "description": "The information determined as a result of making the observation, if the information has a simple value.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "valueString": {
               "description": "The information determined as a result of making the observation, if the information has a simple value.",
@@ -162,11 +162,11 @@
             },
             "dataAbsentReason": {
               "description": "Provides a reason why the expected value in the element Observation.value[x] is missing.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "interpretation": {
               "description": "The assessment made based on the result of the observation.  Intended as a simple compact code often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status of the result. Otherwise known as abnormal flag.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "comment": {
               "description": "May include statements about significant, unexpected or unreliable values, or information about the source of the value where this may be relevant to the interpretation of the result.",
@@ -178,11 +178,11 @@
             },
             "bodySite": {
               "description": "Indicates the site on the subject\u0027s body where the observation was made (i.e. the target site).",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "method": {
               "description": "Indicates the mechanism used to perform the observation.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "specimen": {
               "description": "The specimen that was used when this observation was made.",
@@ -239,13 +239,13 @@
             },
             "type": {
               "description": "Codes to indicate the what part of the targeted reference population it applies to. For example, the normal or therapeutic range.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "appliesTo": {
               "description": "Codes to indicate the target population this reference range applies to.  For example, a reference range may be based on the normal population or a particular sex or race.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "age": {
@@ -309,7 +309,7 @@
           "properties": {
             "code": {
               "description": "Describes what was observed. Sometimes this is called the observation \"code\".",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "valueQuantity": {
               "description": "The information determined as a result of making the observation, if the information has a simple value.",
@@ -317,7 +317,7 @@
             },
             "valueCodeableConcept": {
               "description": "The information determined as a result of making the observation, if the information has a simple value.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "valueString": {
               "description": "The information determined as a result of making the observation, if the information has a simple value.",
@@ -367,11 +367,11 @@
             },
             "dataAbsentReason": {
               "description": "Provides a reason why the expected value in the element Observation.value[x] is missing.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "interpretation": {
               "description": "The assessment made based on the result of the observation.  Intended as a simple compact code often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status of the result. Otherwise known as abnormal flag.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "referenceRange": {
               "description": "Guidance on how to interpret the value by comparison to a normal or recommended range.",

@@ -60,7 +60,7 @@
             },
             "code": {
               "description": "Provides a specific type of resource the group includes; e.g. \"cow\", \"syringe\", etc.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "name": {
               "description": "A label assigned to the group for human identification and communication.",
@@ -110,11 +110,11 @@
           "properties": {
             "code": {
               "description": "A code that identifies the kind of trait being asserted.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "valueCodeableConcept": {
               "description": "The value of the trait that holds (or does not hold - see \u0027exclude\u0027) for members of the group.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "valueBoolean": {
               "description": "The value of the trait that holds (or does not hold - see \u0027exclude\u0027) for members of the group.",

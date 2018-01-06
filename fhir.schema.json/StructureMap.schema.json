@@ -123,7 +123,7 @@
               "description": "A legal or geographic region in which the structure map is intended to be used.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "purpose": {
@@ -625,7 +625,7 @@
             },
             "defaultValueCodeableConcept": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "defaultValueCoding": {
               "description": "A value to use if there is no existing value in the source object.",

@@ -108,7 +108,7 @@
               "description": "A legal or geographic region in which the implementation guide is intended to be used.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "copyright": {

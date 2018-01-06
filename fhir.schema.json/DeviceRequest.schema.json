@@ -62,7 +62,7 @@
             },
             "intent": {
               "description": "Whether the request is a proposal, plan, an original order or a reflex order.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "priority": {
               "description": "Indicates how quickly the {{title}} should be addressed with respect to other requests.",
@@ -79,7 +79,7 @@
             },
             "codeCodeableConcept": {
               "description": "The details of the device to be used.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "subject": {
               "description": "The patient who will use the device.",
@@ -121,7 +121,7 @@
             },
             "performerType": {
               "description": "Desired type of performer for doing the diagnostic testing.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "performer": {
               "description": "The desired perfomer for doing the diagnostic testing.",
@@ -131,7 +131,7 @@
               "description": "Reason or justification for the use of this device.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "reasonReference": {

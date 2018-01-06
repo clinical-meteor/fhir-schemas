@@ -46,7 +46,7 @@
             },
             "type": {
               "description": "Code or identifier to identify a kind of device.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "lotNumber": {
               "description": "Lot number assigned by the manufacturer.",
@@ -136,7 +136,7 @@
               "description": "Provides additional safety characteristics about a medical device.  For example devices containing latex.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             }
           },

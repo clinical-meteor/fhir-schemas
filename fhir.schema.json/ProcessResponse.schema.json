@@ -54,7 +54,7 @@
             },
             "outcome": {
               "description": "Transaction status: error, complete, held.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "disposition": {
               "description": "A description of the status of the adjudication or processing.",
@@ -74,7 +74,7 @@
             },
             "form": {
               "description": "The form to be used for printing the content.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "processNote": {
               "description": "Suite of processing notes or additional requirements if the processing has been held.",
@@ -87,7 +87,7 @@
               "description": "Processing errors.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "communicationRequest": {
@@ -114,7 +114,7 @@
           "properties": {
             "type": {
               "description": "The note purpose: Print/Display.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "text": {
               "description": "The note text.",

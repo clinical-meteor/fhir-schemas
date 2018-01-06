@@ -131,12 +131,12 @@
               "description": "The code for the performed procedure type.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "reason": {
               "description": "Description of clinical condition indicating why the ImagingStudy was requested.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "description": {
               "description": "Institution-generated description or classification of the Study performed.",

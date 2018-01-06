@@ -65,11 +65,11 @@
             },
             "vaccineCode": {
               "description": "Vaccine that pertains to the recommendation.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "targetDisease": {
               "description": "The targeted disease for the recommendation.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "doseNumber": {
               "description": "The next recommended dose number (e.g. dose 2 is the next recommended dose).",
@@ -82,7 +82,7 @@
             },
             "forecastStatus": {
               "description": "Vaccine administration status.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "dateCriterion": {
               "description": "Vaccine date recommendations.  For example, earliest date to administer, latest date to administer, etc.",
@@ -126,7 +126,7 @@
           "properties": {
             "code": {
               "description": "Date classification of recommendation.  For example, earliest date to give, latest date to give, etc.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "value": {
               "description": "The date whose meaning is specified by dateCriterion.code.",

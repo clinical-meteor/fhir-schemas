@@ -41,7 +41,7 @@
             },
             "type": {
               "description": "Categorizes the account for reporting and searching purposes.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "name": {
               "description": "Name used for the account when displaying it to humans in reports, etc.",

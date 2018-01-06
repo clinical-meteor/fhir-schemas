@@ -73,7 +73,7 @@
               "description": "The payload type describes the acceptable content that can be communicated on the endpoint.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "payloadMimeType": {

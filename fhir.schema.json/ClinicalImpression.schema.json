@@ -41,7 +41,7 @@
             },
             "code": {
               "description": "Categorizes the type of clinical assessment performed.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "description": {
               "description": "A summary of the context and/or cause of the assessment - why / where was it performed, and what patient events/status prompted it.",
@@ -136,7 +136,7 @@
               "description": "Estimate of likely outcome.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "prognosisReference": {
@@ -178,7 +178,7 @@
           "properties": {
             "code": {
               "description": "A name/code for the group (\"set\") of investigations. Typically, this will be something like \"signs\", \"symptoms\", \"clinical\", \"diagnostic\", but the list is not constrained, and others such groups such as (exposure|family|travel|nutitirional) history may be used.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "item": {
               "description": "A record of a specific investigation that was undertaken.",
@@ -204,7 +204,7 @@
           "properties": {
             "itemCodeableConcept": {
               "description": "Specific text, code or reference for finding or diagnosis, which may include ruled-out or resolved conditions.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "itemReference": {
               "description": "Specific text, code or reference for finding or diagnosis, which may include ruled-out or resolved conditions.",

@@ -18,7 +18,7 @@
             },
             "valueCodeableConcept": {
               "description": "A value that defines the context specified in this context of use. The interpretation of the value is defined by the code.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "valueQuantity": {
               "description": "A value that defines the context specified in this context of use. The interpretation of the value is defined by the code.",

@@ -134,7 +134,7 @@
           "properties": {
             "chromosome": {
               "description": "Structural unit composed of a nucleic acid molecule which controls its own replication through the interaction of specific proteins at one or more origins of replication ([SO:0000340](http://www.sequenceontology.org/browser/current_svn/term/SO:0000340)).",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "genomeBuild": {
               "description": "The Genome Build used for reference, following GRCh build versions e.g. \u0027GRCh 37\u0027.  Version number must be included if a versioned release of a primary build was used.",
@@ -146,7 +146,7 @@
             },
             "referenceSeqId": {
               "description": "Reference identifier of reference sequence submitted to NCBI. It must match the type in the Sequence.type field. For example, the prefix, “NG_” identifies reference sequence for genes, “NM_” for messenger RNA transcripts, and “NP_” for amino acid sequences.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "referenceSeqPointer": {
               "description": "A Pointer to another Sequence entity as reference sequence.",
@@ -272,7 +272,7 @@
             },
             "standardSequence": {
               "description": "Gold standard sequence used for comparing against.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "start": {
               "description": "Start position of the sequence. If the coordinate system is either 0-based or 1-based, then start position is inclusive.",
@@ -298,7 +298,7 @@
             },
             "method": {
               "description": "Which method is used to get sequence quality.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "truthTP": {
               "description": "True positives, from the perspective of the truth data, i.e. the number of sites in the Truth Call Set for which there are paths through the Query Call Set that are consistent with all of the alleles at this site, and for which there is an accurate genotype call for the event.",

@@ -21,7 +21,7 @@
             },
             "code": {
               "description": "A code (or set of codes) that specify this medication, or a textual description if no code is available. Usage note: This could be a standard medication code such as a code from RxNorm, SNOMED CT, IDMP etc. It could also be a national or local formulary code, optionally with translations to other code systems.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "status": {
               "description": "A code to indicate if the medication is in active use.",
@@ -58,7 +58,7 @@
             },
             "form": {
               "description": "Describes the form of the item.  Powder; tablets; capsule.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "ingredient": {
               "description": "Identifies a particular constituent of interest in the product.",
@@ -95,7 +95,7 @@
           "properties": {
             "itemCodeableConcept": {
               "description": "The actual ingredient - either a substance (simple ingredient) or another medication.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "itemReference": {
               "description": "The actual ingredient - either a substance (simple ingredient) or another medication.",
@@ -127,7 +127,7 @@
           "properties": {
             "container": {
               "description": "The kind of container that this package comes as.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "content": {
               "description": "A set of components that go to make up the described item.",
@@ -157,7 +157,7 @@
           "properties": {
             "itemCodeableConcept": {
               "description": "Identifies one of the items in the package.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "itemReference": {
               "description": "Identifies one of the items in the package.",

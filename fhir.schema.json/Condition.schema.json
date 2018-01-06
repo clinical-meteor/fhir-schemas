@@ -55,22 +55,22 @@
               "description": "A category assigned to the condition.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "severity": {
               "description": "A subjective assessment of the severity of the condition as evaluated by the clinician.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "code": {
               "description": "Identification of the condition, problem or diagnosis.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "bodySite": {
               "description": "The anatomical location where this condition manifests itself.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "subject": {
@@ -196,7 +196,7 @@
           "properties": {
             "summary": {
               "description": "A simple summary of the stage such as \"Stage 3\". The determination of the stage is disease-specific.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "assessment": {
               "description": "Reference to a formal record of the evidence on which the staging assessment is based.",
@@ -221,7 +221,7 @@
               "description": "A manifestation or symptom that led to the recording of this condition.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "detail": {

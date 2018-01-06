@@ -97,7 +97,7 @@
             },
             "maritalStatus": {
               "description": "This field contains a patient\u0027s most recent marital (civil) status.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "multipleBirthBoolean": {
               "description": "Indicates whether the patient is part of a multiple (bool) or indicates the actual birth order (integer).",
@@ -178,7 +178,7 @@
               "description": "The nature of the relationship between the patient and the contact person.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "name": {
@@ -232,15 +232,15 @@
           "properties": {
             "species": {
               "description": "Identifies the high level taxonomic categorization of the kind of animal.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "breed": {
               "description": "Identifies the detailed categorization of the kind of animal.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "genderStatus": {
               "description": "Indicates the current state of the animal\u0027s reproductive organs.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             }
           },
           "required": [
@@ -259,7 +259,7 @@
           "properties": {
             "language": {
               "description": "The ISO-639-1 alpha 2 code in lower case for the language, optionally followed by a hyphen and the ISO-3166-1 alpha 2 code for the region in upper case; e.g. \"en\" for English, or \"en-US\" for American English versus \"en-EN\" for England English.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "preferred": {
               "description": "Indicates whether or not the patient prefers this language (over other languages he masters up a certain level).",

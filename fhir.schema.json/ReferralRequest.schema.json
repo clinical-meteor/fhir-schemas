@@ -71,7 +71,7 @@
             },
             "type": {
               "description": "An indication of the type of referral (or where applicable the type of transfer of care) request.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "priority": {
               "description": "An indication of the urgency of referral (or where applicable the type of transfer of care) request.",
@@ -86,7 +86,7 @@
               "description": "The service(s) that is/are requested to be provided to the patient.  For example: cardiac pacemaker insertion.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "subject": {
@@ -125,7 +125,7 @@
             },
             "specialty": {
               "description": "Indication of the clinical domain or discipline to which the referral or transfer of care request is sent.  For example: Cardiology Gastroenterology Diabetology.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "recipient": {
               "description": "The healthcare provider(s) or provider organization(s) who/which is to receive the referral/transfer of care request.",
@@ -138,7 +138,7 @@
               "description": "Description of clinical condition indicating why referral/transfer of care is requested.  For example:  Pathological Anomalies, Disabled (physical or mental),  Behavioral Management.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "reasonReference": {

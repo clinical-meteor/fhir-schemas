@@ -154,14 +154,14 @@
               "description": "A legal or geographic region in which the activity definition is intended to be used.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "topic": {
               "description": "Descriptive topics related to the content of the activity. Topics provide a high-level categorization of the activity that can be useful for filtering and searching.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "contributor": {
@@ -211,7 +211,7 @@
             },
             "code": {
               "description": "Detailed description of the type of activity; e.g. What lab test, what procedure, what kind of encounter.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "timingTiming": {
               "description": "The period, timing or frequency upon which the described activity is to occur.",
@@ -251,7 +251,7 @@
             },
             "productCodeableConcept": {
               "description": "Identifies the food, drug or other product being consumed or supplied in the activity.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "quantity": {
               "description": "Identifies the quantity expected to be consumed at once (per dose, per meal, etc.).",
@@ -268,7 +268,7 @@
               "description": "Indicates the sites on the subject\u0027s body where the procedure should be performed (I.e. the target sites).",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "transform": {
@@ -308,7 +308,7 @@
             },
             "role": {
               "description": "The role the participant should play in performing the described action.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             }
           }
         }

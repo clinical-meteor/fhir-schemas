@@ -58,7 +58,7 @@
             },
             "outcome": {
               "description": "Transaction status: error, complete.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "disposition": {
               "description": "A description of the status of the adjudication.",
@@ -89,7 +89,7 @@
             },
             "form": {
               "description": "The form to be used for printing the content.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "error": {
               "description": "Mutually exclusive with Services Provided (Item).",
@@ -142,11 +142,11 @@
           "properties": {
             "category": {
               "description": "Dental, Vision, Medical, Pharmacy, Rehab etc.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "subCategory": {
               "description": "Dental: basic, major, ortho; Vision exam, glasses, contacts; etc.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "excluded": {
               "description": "True if the indicated class of service is excluded from the plan, missing or False indicated the service is included in the coverage.",
@@ -174,15 +174,15 @@
             },
             "network": {
               "description": "Network designation.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "unit": {
               "description": "Unit designation: individual or family.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "term": {
               "description": "The term or period of the values such as \u0027maximum lifetime benefit\u0027 or \u0027maximum annual vistis\u0027.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "financial": {
               "description": "Benefits Used to date.",
@@ -208,7 +208,7 @@
           "properties": {
             "type": {
               "description": "Deductable, visits, benefit amount.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "allowedUnsignedInt": {
               "description": "Benefits allowed.",
@@ -261,7 +261,7 @@
           "properties": {
             "code": {
               "description": "An error code,from a specified code system, which details why the eligibility check could not be performed.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             }
           },
           "required": [

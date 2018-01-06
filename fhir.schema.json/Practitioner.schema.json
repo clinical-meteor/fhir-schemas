@@ -96,7 +96,7 @@
               "description": "A language the practitioner is able to use in patient communication.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             }
           },
@@ -123,7 +123,7 @@
             },
             "code": {
               "description": "Coded representation of the qualification.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "period": {
               "description": "Period during which the qualification is valid.",

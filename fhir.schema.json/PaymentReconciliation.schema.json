@@ -58,7 +58,7 @@
             },
             "outcome": {
               "description": "Transaction status: error, complete.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "disposition": {
               "description": "A description of the status of the adjudication.",
@@ -85,7 +85,7 @@
             },
             "form": {
               "description": "The form to be used for printing the content.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "total": {
               "description": "Total payment amount.",
@@ -115,7 +115,7 @@
           "properties": {
             "type": {
               "description": "Code to indicate the nature of the payment, adjustment, funds advance, etc.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "request": {
               "description": "The claim or financial resource.",
@@ -163,7 +163,7 @@
           "properties": {
             "type": {
               "description": "The note purpose: Print/Display.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "text": {
               "description": "The note text.",

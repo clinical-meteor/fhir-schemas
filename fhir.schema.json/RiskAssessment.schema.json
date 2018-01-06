@@ -42,11 +42,11 @@
             },
             "method": {
               "description": "The algorithm, process or mechanism used to evaluate the risk.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "code": {
               "description": "The type of the risk assessment performed.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "subject": {
               "description": "The patient or group the risk assessment applies to.",
@@ -79,7 +79,7 @@
             },
             "reasonCodeableConcept": {
               "description": "The reason the risk assessment was performed.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "reasonReference": {
               "description": "The reason the risk assessment was performed.",
@@ -132,7 +132,7 @@
           "properties": {
             "outcome": {
               "description": "One of the potential outcomes for the patient (e.g. remission, death,  a particular condition).",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "probabilityDecimal": {
               "description": "How likely is the outcome (in the specified timeframe).",
@@ -149,7 +149,7 @@
             },
             "qualitativeRisk": {
               "description": "How likely is the outcome (in the specified timeframe), expressed as a qualitative value (e.g. low, medium, high).",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "relativeRisk": {
               "description": "Indicates the risk for this particular subject (with their specific characteristics) divided by the risk of the population in general.  (Numbers greater than 1 \u003d higher risk than the population, numbers less than 1 \u003d lower risk.).",

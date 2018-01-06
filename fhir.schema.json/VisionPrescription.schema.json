@@ -58,7 +58,7 @@
             },
             "reasonCodeableConcept": {
               "description": "Can be the reason or the indication for writing the prescription.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "reasonReference": {
               "description": "Can be the reason or the indication for writing the prescription.",
@@ -88,7 +88,7 @@
           "properties": {
             "product": {
               "description": "Identifies the type of vision correction product which is required for the patient.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "eye": {
               "description": "The eye for which the lens applies.",

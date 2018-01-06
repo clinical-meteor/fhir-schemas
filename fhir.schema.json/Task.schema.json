@@ -80,11 +80,11 @@
             },
             "statusReason": {
               "description": "An explanation as to why this task is held, failed, was refused, etc.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "businessStatus": {
               "description": "Contains business-specific nuances of the business state.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "intent": {
               "description": "Indicates the \"level\" of actionability associated with the Task.  I.e. Is this a proposed task, a planned task, an actionable task, etc.",
@@ -106,7 +106,7 @@
             },
             "code": {
               "description": "A name or code (or both) briefly describing what the task involves.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "description": {
               "description": "A free-text description of what is to be performed.",
@@ -158,7 +158,7 @@
               "description": "The type of participant that can execute the task.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "owner": {
@@ -167,7 +167,7 @@
             },
             "reason": {
               "description": "A description or code indicating why this task needs to be performed.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "note": {
               "description": "Free-text information captured about the task as it progresses.",
@@ -273,7 +273,7 @@
           "properties": {
             "type": {
               "description": "A code or description indicating how the input is intended to be used as part of the task execution.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "valueBoolean": {
               "description": "The value of the input parameter as a basic type.",
@@ -452,7 +452,7 @@
             },
             "valueCodeableConcept": {
               "description": "The value of the input parameter as a basic type.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "valueCoding": {
               "description": "The value of the input parameter as a basic type.",
@@ -583,7 +583,7 @@
           "properties": {
             "type": {
               "description": "The name of the Output parameter.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "valueBoolean": {
               "description": "The value of the Output parameter as a basic type.",
@@ -762,7 +762,7 @@
             },
             "valueCodeableConcept": {
               "description": "The value of the Output parameter as a basic type.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "valueCoding": {
               "description": "The value of the Output parameter as a basic type.",

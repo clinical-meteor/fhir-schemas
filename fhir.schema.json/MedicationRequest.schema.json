@@ -78,7 +78,7 @@
             },
             "category": {
               "description": "Indicates the type of medication order and where the medication is expected to be consumed or administered.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "priority": {
               "description": "Indicates how quickly the Medication Request should be addressed with respect to other requests.",
@@ -96,7 +96,7 @@
             },
             "medicationCodeableConcept": {
               "description": "Identifies the medication being requested. This is a link to a resource that represents the medication which may be the details of the medication or simply an attribute carrying a code that identifies the medication from a known list of medications.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "medicationReference": {
               "description": "Identifies the medication being requested. This is a link to a resource that represents the medication which may be the details of the medication or simply an attribute carrying a code that identifies the medication from a known list of medications.",
@@ -138,7 +138,7 @@
               "description": "The reason or the indication for ordering the medication.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "reasonReference": {
@@ -274,7 +274,7 @@
             },
             "reason": {
               "description": "Indicates the reason for the substitution, or why substitution must or must not be performed.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             }
           }
         }

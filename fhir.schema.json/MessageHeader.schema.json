@@ -64,7 +64,7 @@
             },
             "reason": {
               "description": "Coded indication of the cause for the event - indicates  a reason for the occurrence of the event that is a focus of this message.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "response": {
               "description": "Information about the message that this message is a response to.  Only present if this message is a response.",

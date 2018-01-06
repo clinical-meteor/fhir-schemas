@@ -54,7 +54,7 @@
               "description": "A classification of the type of episode of care; e.g. specialist referral, disease management, type of funded care.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "diagnosis": {
@@ -159,7 +159,7 @@
             },
             "role": {
               "description": "Role that this diagnosis has within the episode of care (e.g. admission, billing, discharge …).",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "rank": {
               "description": "Ranking of the diagnosis (for each role type).",

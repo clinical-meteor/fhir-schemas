@@ -150,7 +150,7 @@
             },
             "code": {
               "description": "The type of the population.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "count": {
               "description": "The number of members of the population.",
@@ -242,7 +242,7 @@
             },
             "code": {
               "description": "The type of the population.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "count": {
               "description": "The number of members of the population in this stratum.",

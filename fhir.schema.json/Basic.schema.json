@@ -28,7 +28,7 @@
             },
             "code": {
               "description": "Identifies the \u0027type\u0027 of resource - equivalent to the resource name for other resources.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "subject": {
               "description": "Identifies the patient, practitioner, device or any other resource that is the \"focus\" of this resource.",

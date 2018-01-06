@@ -77,14 +77,14 @@
               "description": "This modifier is used to convey order-specific modifiers about the type of food that should be given. These can be derived from patient allergies, intolerances, or preferences such as Halal, Vegan or Kosher. This modifier applies to the entire nutrition order inclusive of the oral diet, nutritional supplements and enteral formula feedings.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "excludeFoodModifier": {
               "description": "This modifier is used to convey order-specific modifiers about the type of food that should NOT be given. These can be derived from patient allergies, intolerances, or preferences such as No Red Meat, No Soy or No Wheat or  Gluten-Free.  While it should not be necessary to repeat allergy or intolerance information captured in the referenced AllergyIntolerance resource in the excludeFoodModifier, this element may be used to convey additional specificity related to foods that should be eliminated from the patient’s diet for any reason.  This modifier applies to the entire nutrition order inclusive of the oral diet, nutritional supplements and enteral formula feedings.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "oralDiet": {
@@ -122,7 +122,7 @@
               "description": "The kind of diet or dietary restriction such as fiber restricted diet or diabetic diet.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "schedule": {
@@ -150,7 +150,7 @@
               "description": "The required consistency (e.g. honey-thick, nectar-thick, thin, thickened.) of liquids or fluids served to the patient.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "instruction": {
@@ -175,7 +175,7 @@
           "properties": {
             "modifier": {
               "description": "The nutrient that is being modified such as carbohydrate or sodium.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "amount": {
               "description": "The quantity of the specified nutrient to include in diet.",
@@ -195,11 +195,11 @@
           "properties": {
             "modifier": {
               "description": "Any texture modifications (for solid foods) that should be made, e.g. easy to chew, chopped, ground, and pureed.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "foodType": {
               "description": "The food type(s) (e.g. meats, all foods)  that the texture modification applies to.  This could be all foods types.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             }
           }
         }
@@ -215,7 +215,7 @@
           "properties": {
             "type": {
               "description": "The kind of nutritional supplement product required such as a high protein or pediatric clear liquid supplement.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "productName": {
               "description": "The product or brand name of the nutritional supplement such as \"Acme Protein Shake\".",
@@ -258,7 +258,7 @@
           "properties": {
             "baseFormulaType": {
               "description": "The type of enteral or infant formula such as an adult standard formula with fiber or a soy-based infant formula.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "baseFormulaProductName": {
               "description": "The product or brand name of the enteral or infant formula product such as \"ACME Adult Standard Formula\".",
@@ -270,7 +270,7 @@
             },
             "additiveType": {
               "description": "Indicates the type of modular component such as protein, carbohydrate, fat or fiber to be provided in addition to or mixed with the base formula.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "additiveProductName": {
               "description": "The product or brand name of the type of modular component to be added to the formula.",
@@ -286,7 +286,7 @@
             },
             "routeofAdministration": {
               "description": "The route or physiological path of administration into the patient\u0027s gastrointestinal  tract for purposes of providing the formula feeding, e.g. nasogastric tube.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "administration": {
               "description": "Formula administration instructions as structured data.  This repeating structure allows for changing the administration rate or volume over time for both bolus and continuous feeding.  An example of this would be an instruction to increase the rate of continuous feeding every 2 hours.",

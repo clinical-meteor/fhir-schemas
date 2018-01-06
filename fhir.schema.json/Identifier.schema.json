@@ -28,7 +28,7 @@
             },
             "type": {
               "description": "A coded type for the identifier that can be used to determine which identifier to use for a specific purpose.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "system": {
               "description": "Establishes the namespace for the value - that is, a URL that describes a set values that are unique.",

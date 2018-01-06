@@ -216,7 +216,7 @@
             },
             "valueCodeableConcept": {
               "description": "If the parameter is a data type.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "valueCoding": {
               "description": "If the parameter is a data type.",

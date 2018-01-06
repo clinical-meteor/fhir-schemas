@@ -82,7 +82,7 @@
             },
             "type": {
               "description": "Identifies the type of library such as a Logic Library, Model Definition, Asset Collection, or Module Definition.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "date": {
               "description": "The date  (and optionally time) when the library was published. The date must change if and when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the library changes.",
@@ -158,14 +158,14 @@
               "description": "A legal or geographic region in which the library is intended to be used.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "topic": {
               "description": "Descriptive topics related to the content of the library. Topics provide a high-level categorization of the library that can be useful for filtering and searching.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "contributor": {

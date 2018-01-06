@@ -75,7 +75,7 @@
             },
             "paymentStatus": {
               "description": "The payment status, typically paid: payment sent, cleared: payment received.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             }
           },
           "required": [

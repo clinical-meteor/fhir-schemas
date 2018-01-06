@@ -40,7 +40,7 @@
             },
             "relationship": {
               "description": "The nature of the relationship between a patient and the related person.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "name": {
               "description": "A name associated with the person.",

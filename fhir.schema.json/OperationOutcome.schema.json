@@ -97,7 +97,7 @@
             },
             "details": {
               "description": "Additional details about the error. This may be a text description of the error, or a system code that identifies the error.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "diagnostics": {
               "description": "Additional diagnostic information about the issue.  Typically, this may be a description of how a value is erroneous, or a stack dump to help trace the issue.",

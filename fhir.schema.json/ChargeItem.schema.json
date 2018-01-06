@@ -63,7 +63,7 @@
             },
             "code": {
               "description": "A code that identifies the charge, like a billing code.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "subject": {
               "description": "The individual or set of individuals the action is being or was performed on.",
@@ -113,7 +113,7 @@
               "description": "The anatomical location where the related service has been applied.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "factorOverride": {
@@ -154,7 +154,7 @@
               "description": "Describes why the event occurred in coded or textual form.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "service": {
@@ -204,7 +204,7 @@
           "properties": {
             "role": {
               "description": "Describes the type of performance or participation(e.g. primary surgeon, anaesthesiologiest, etc.).",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "actor": {
               "description": "The device, practitioner, etc. who performed or participated in the service.",

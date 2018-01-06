@@ -25,7 +25,7 @@
             },
             "type": {
               "description": "The component type as defined in the object-oriented or metric nomenclature partition.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "lastSystemChange": {
               "description": "The timestamp for the most recent system change which includes device configuration or setting change.",
@@ -47,12 +47,12 @@
               "description": "The current operational status of the device. For example: On, Off, Standby, etc.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "parameterGroup": {
               "description": "The parameter group supported by the current device component that is based on some nomenclature, e.g. cardiovascular.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "measurementPrinciple": {
               "description": "The physical principle of the measurement. For example: thermal, chemical, acoustical, etc.",
@@ -84,7 +84,7 @@
             },
             "languageCode": {
               "description": "The language code for the human-readable text string produced by the device. This language code will follow the IETF language tag. Example: en-US.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             }
           },
           "required": [
@@ -105,7 +105,7 @@
           "properties": {
             "specType": {
               "description": "The specification type, such as, serial number, part number, hardware revision, software revision, etc.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "componentId": {
               "description": "The internal component unique identification. This is a provision for manufacture specific standard components using a private OID. 11073-10101 has a partition for private OID semantic that the manufacturer can make use of.",

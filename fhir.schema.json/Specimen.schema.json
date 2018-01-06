@@ -46,7 +46,7 @@
             },
             "type": {
               "description": "The kind of material that forms the specimen.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "subject": {
               "description": "Where the specimen came from. This may be from the patient(s) or from the environment or a device.",
@@ -139,11 +139,11 @@
             },
             "method": {
               "description": "A coded value specifying the technique that is used to perform the procedure.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "bodySite": {
               "description": "Anatomical location from which the specimen was collected (if subject is a patient). This is the target site.  This element is not used for environmental specimens.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             }
           }
         }
@@ -167,7 +167,7 @@
             },
             "procedure": {
               "description": "A coded value specifying the procedure used to process the specimen.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "additive": {
               "description": "Material used in the processing step.",
@@ -218,7 +218,7 @@
             },
             "type": {
               "description": "The type of container associated with the specimen (e.g. slide, aliquot, etc.).",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "capacity": {
               "description": "The capacity (volume or other measure) the container may contain.",
@@ -230,7 +230,7 @@
             },
             "additiveCodeableConcept": {
               "description": "Introduced substance to preserve, maintain or enhance the specimen. Examples: Formalin, Citrate, EDTA.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "additiveReference": {
               "description": "Introduced substance to preserve, maintain or enhance the specimen. Examples: Formalin, Citrate, EDTA.",

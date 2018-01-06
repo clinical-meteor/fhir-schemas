@@ -40,20 +40,20 @@
             },
             "category": {
               "description": "Identifies the broad category of service being performed or delivered.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "type": {
               "description": "The specific type of service that may be delivered or performed.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "specialty": {
               "description": "Collection of specialties handled by the service site. This is more of a medical term.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "location": {
@@ -109,12 +109,12 @@
               "description": "The code(s) that detail the conditions under which the healthcare service is available/offered.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "eligibility": {
               "description": "Does this service have specific eligibility requirements that need to be met in order to use the service?",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "eligibilityNote": {
               "description": "Describes the eligibility conditions for the service.",
@@ -142,14 +142,14 @@
               "description": "Collection of characteristics (attributes).",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "referralMethod": {
               "description": "Ways that the service accepts referrals, if this is not provided then it is implied that no referral is required.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "appointmentRequired": {

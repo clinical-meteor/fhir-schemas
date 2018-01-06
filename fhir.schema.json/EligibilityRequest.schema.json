@@ -37,7 +37,7 @@
             },
             "priority": {
               "description": "Immediate (STAT), best effort (NORMAL), deferred (DEFER).",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "patient": {
               "description": "Patient Resource.",
@@ -99,11 +99,11 @@
             },
             "benefitCategory": {
               "description": "Dental, Vision, Medical, Pharmacy, Rehab etc.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "benefitSubCategory": {
               "description": "Dental: basic, major, ortho; Vision exam, glasses, contacts; etc.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             }
           },
           "required": [

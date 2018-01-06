@@ -57,7 +57,7 @@
             },
             "notDoneReason": {
               "description": "Describes why the family member\u0027s history is absent.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "patient": {
               "description": "The person who this history concerns.",
@@ -82,7 +82,7 @@
             },
             "relationship": {
               "description": "The type of relationship this person has to the patient (father, mother, brother etc.).",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "gender": {
               "description": "Administrative Gender - the gender that the relative is considered to have for administration and record keeping purposes.",
@@ -180,7 +180,7 @@
               "description": "Describes why the family member history occurred in coded or textual form.",
               "type": "array",
               "items": {
-                "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+                "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
               }
             },
             "reasonReference": {
@@ -223,11 +223,11 @@
           "properties": {
             "code": {
               "description": "The actual condition specified. Could be a coded condition (like MI or Diabetes) or a less specific string like \u0027cancer\u0027 depending on how much is known about the condition and the capabilities of the creating system.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "outcome": {
               "description": "Indicates what happened as a result of this condition.  If the condition resulted in death, deceased date is captured on the relation.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "onsetAge": {
               "description": "Either the age of onset, range of approximate age or descriptive string can be recorded.  For conditions with multiple occurrences, this describes the first known occurrence.",

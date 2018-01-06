@@ -42,7 +42,7 @@
             },
             "category": {
               "description": "Category of supply, e.g.  central, non-stock, etc. This is used to support work flows associated with the supply process.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "priority": {
               "description": "Indicates how quickly this SupplyRequest should be addressed with respect to other requests.",
@@ -96,7 +96,7 @@
             },
             "reasonCodeableConcept": {
               "description": "Why the supply item was requested.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "reasonReference": {
               "description": "Why the supply item was requested.",
@@ -131,7 +131,7 @@
             },
             "itemCodeableConcept": {
               "description": "The item that is requested to be supplied. This is either a link to a resource representing the details of the item or a code that identifies the item from a known list.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "itemReference": {
               "description": "The item that is requested to be supplied. This is either a link to a resource representing the details of the item or a code that identifies the item from a known list.",

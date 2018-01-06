@@ -37,7 +37,7 @@
             },
             "type": {
               "description": "The type of coverage: social program, medical plan, accident coverage (workers compensation, auto), group health or payment by an individual or organization.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "policyHolder": {
               "description": "The party who \u0027owns\u0027 the insurance policy,  may be an individual, corporation or the subscriber\u0027s employer.",
@@ -61,7 +61,7 @@
             },
             "relationship": {
               "description": "The relationship of beneficiary (patient) to the subscriber.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "period": {
               "description": "Time period during which the coverage is in force. A missing start date indicates the start date isn\u0027t known, a missing end date means the coverage is continuing to be in force.",

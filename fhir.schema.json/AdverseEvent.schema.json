@@ -37,7 +37,7 @@
             },
             "type": {
               "description": "This element defines the specific type of event that occurred or that was prevented from occurring.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "subject": {
               "description": "This subject or group impacted by the event.  With a prospective adverse event, there will be no subject as the adverse event was prevented.",
@@ -65,11 +65,11 @@
             },
             "seriousness": {
               "description": "Describes the seriousness or severity of the adverse event.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "outcome": {
               "description": "Describes the type of outcome from the adverse event.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "recorder": {
               "description": "Information on who recorded the adverse event.  May be the patient or a practitioner.",
@@ -148,7 +148,7 @@
             },
             "causalityAssessment": {
               "description": "assess1 | assess2.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "causalityProductRelatedness": {
               "description": "AdverseEvent.suspectEntity.causalityProductRelatedness.",
@@ -160,7 +160,7 @@
             },
             "causalityMethod": {
               "description": "method1 | method2.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             },
             "causalityAuthor": {
               "description": "AdverseEvent.suspectEntity.causalityAuthor.",
@@ -168,7 +168,7 @@
             },
             "causalityResult": {
               "description": "result1 | result2.",
-              "$ref": "CodeableConcept.schema.json#/definitions/CodeableConcept"
+              "$ref": "http://hl7.org/fhir/json-schema/CodeableConcept#/definitions/CodeableConcept"
             }
           },
           "required": [
