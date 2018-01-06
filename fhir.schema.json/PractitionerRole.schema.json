@@ -36,7 +36,7 @@
             },
             "period": {
               "description": "The period during which the person is authorized to act as a practitioner in these role(s) for the organization.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "practitioner": {
               "description": "Practitioner that is able to provide the defined services for the organation.",
@@ -188,7 +188,7 @@
             },
             "during": {
               "description": "Service is not available (seasonally or for a public holiday) from this date.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             }
           }
         }

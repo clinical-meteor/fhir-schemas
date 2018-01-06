@@ -67,7 +67,7 @@
             },
             "period": {
               "description": "The interval during which the endpoint is expected to be operational.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "payloadType": {
               "description": "The payload type describes the acceptable content that can be communicated on the endpoint.",

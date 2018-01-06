@@ -116,7 +116,7 @@
             },
             "occurrencePeriod": {
               "description": "The date/time at which the diagnostic testing should occur.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "occurrenceTiming": {
               "description": "The date/time at which the diagnostic testing should occur.",

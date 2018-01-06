@@ -130,7 +130,7 @@
             },
             "executionPeriod": {
               "description": "Identifies the time action was first taken against the task (start) and/or the time final action was taken against the task prior to marking it as completed (end).",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "authoredOn": {
               "description": "The date and time this task was created.",
@@ -250,7 +250,7 @@
             },
             "period": {
               "description": "Over what time-period is fulfillment sought.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "recipient": {
               "description": "For requests that are targeted to more than on potential recipient/target, for whom is fulfillment sought?",
@@ -492,7 +492,7 @@
             },
             "valuePeriod": {
               "description": "The value of the input parameter as a basic type.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "valueRatio": {
               "description": "The value of the input parameter as a basic type.",
@@ -802,7 +802,7 @@
             },
             "valuePeriod": {
               "description": "The value of the Output parameter as a basic type.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "valueRatio": {
               "description": "The value of the Output parameter as a basic type.",

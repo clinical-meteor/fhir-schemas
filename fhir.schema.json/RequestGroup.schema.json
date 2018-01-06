@@ -207,7 +207,7 @@
             },
             "timingPeriod": {
               "description": "An optional value describing when the action should be performed.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "timingDuration": {
               "description": "An optional value describing when the action should be performed.",

@@ -95,7 +95,7 @@
             },
             "period": {
               "description": "The period of time that this relationship is considered to be valid. If there are no dates defined, then the interval is unknown.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             }
           },
           "required": [

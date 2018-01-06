@@ -95,7 +95,7 @@
             },
             "performedPeriod": {
               "description": "The date(time)/period over which the procedure was performed. Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "performer": {
               "description": "Limited to \u0027real\u0027 people rather than equipment.",

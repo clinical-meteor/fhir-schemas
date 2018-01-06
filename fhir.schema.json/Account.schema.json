@@ -57,11 +57,11 @@
             },
             "period": {
               "description": "Identifies the period of time the account applies to; e.g. accounts created per fiscal year, quarter, etc.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "active": {
               "description": "Indicates the period of time over which the account is allowed to have transactions posted to it.\nThis period may be different to the coveragePeriod which is the duration of time that services may occur.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "balance": {
               "description": "Represents the sum of all credits less all debits associated with the account.  Might be positive, zero or negative.",
@@ -150,7 +150,7 @@
             },
             "period": {
               "description": "The timeframe during which the guarantor accepts responsibility for the account.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             }
           },
           "required": [

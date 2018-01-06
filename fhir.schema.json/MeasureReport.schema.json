@@ -72,7 +72,7 @@
             },
             "period": {
               "description": "The reporting period for which the report was calculated.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "group": {
               "description": "The results of the calculation, one for each population group in the measure.",

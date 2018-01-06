@@ -54,7 +54,7 @@
             },
             "servicedPeriod": {
               "description": "The date or dates when the enclosed suite of services were performed or completed.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "created": {
               "description": "The date when this resource was created.",

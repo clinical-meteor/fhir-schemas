@@ -89,7 +89,7 @@
             },
             "period": {
               "description": "Indicates the period of time when this name was valid for the named person.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             }
           }
         }

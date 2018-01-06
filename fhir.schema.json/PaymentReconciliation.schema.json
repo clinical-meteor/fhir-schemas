@@ -37,7 +37,7 @@
             },
             "period": {
               "description": "The period of time for which payments have been gathered into this bulk payment for settlement.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "created": {
               "description": "The date when the enclosed suite of services were performed or completed.",

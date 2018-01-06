@@ -145,7 +145,7 @@
             },
             "effectivePeriod": {
               "description": "The period during which the plan definition content was or is planned to be in active use.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "useContext": {
               "description": "The content was developed with a focus and intent of supporting the contexts that are listed. These terms may be used to assist with indexing and searching for appropriate plan definition instances.",
@@ -431,7 +431,7 @@
             },
             "timingPeriod": {
               "description": "An optional value describing when the action should be performed.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "timingDuration": {
               "description": "An optional value describing when the action should be performed.",

@@ -127,7 +127,7 @@
             },
             "period": {
               "description": "Period during which the qualification is valid.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "issuer": {
               "description": "Organization that regulates and issues the qualification.",

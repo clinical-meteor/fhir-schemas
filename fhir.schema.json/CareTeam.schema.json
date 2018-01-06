@@ -66,7 +66,7 @@
             },
             "period": {
               "description": "Indicates when the team did (or is intended to) come into effect and end.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "participant": {
               "description": "Identifies all people and organizations who are expected to be involved in the care team.",
@@ -132,7 +132,7 @@
             },
             "period": {
               "description": "Indicates when the specific member or organization did (or is intended to) come into effect and end.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             }
           }
         }

@@ -118,7 +118,7 @@
             },
             "period": {
               "description": "Indicates when the plan did (or is intended to) come into effect and end.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "author": {
               "description": "Identifies the individual(s) or ogranization who is responsible for the content of the care plan.",
@@ -298,7 +298,7 @@
             },
             "scheduledPeriod": {
               "description": "The period, timing or frequency upon which the described activity is to occur.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "scheduledString": {
               "description": "The period, timing or frequency upon which the described activity is to occur.",

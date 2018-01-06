@@ -81,7 +81,7 @@
             },
             "effectivePeriod": {
               "description": "The time or time-period the observed value is asserted as being true. For biological subjects - e.g. human patients - this is usually called the \"physiologically relevant time\". This is usually either the time of the procedure or of specimen collection, but very often the source of the date/time is not known, only the date/time itself.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "issued": {
               "description": "The date and time this observation was made available to providers, typically after the results have been reviewed and verified.",
@@ -158,7 +158,7 @@
             },
             "valuePeriod": {
               "description": "The information determined as a result of making the observation, if the information has a simple value.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "dataAbsentReason": {
               "description": "Provides a reason why the expected value in the element Observation.value[x] is missing.",
@@ -363,7 +363,7 @@
             },
             "valuePeriod": {
               "description": "The information determined as a result of making the observation, if the information has a simple value.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "dataAbsentReason": {
               "description": "Provides a reason why the expected value in the element Observation.value[x] is missing.",

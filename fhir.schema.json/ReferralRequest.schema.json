@@ -108,7 +108,7 @@
             },
             "occurrencePeriod": {
               "description": "The period of time within which the services identified in the referral/transfer of care is specified or required to occur.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "authoredOn": {
               "description": "Date/DateTime of creation for draft requests and date of activation for active requests.",

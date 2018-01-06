@@ -57,7 +57,7 @@
             },
             "boundsPeriod": {
               "description": "Either a duration for the length of the timing schedule, a range of possible length, or outer bounds for start and/or end limits of the timing schedule.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "count": {
               "description": "A total count of the desired number of repetitions.",

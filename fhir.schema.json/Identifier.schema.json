@@ -48,7 +48,7 @@
             },
             "period": {
               "description": "Time period during which identifier is/was valid for use.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "assigner": {
               "description": "Organization that issued/manages the identifier.",

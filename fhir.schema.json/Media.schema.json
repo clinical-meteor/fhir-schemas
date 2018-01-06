@@ -73,7 +73,7 @@
             },
             "occurrencePeriod": {
               "description": "The date and time(s) at which the media was collected.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "operator": {
               "description": "The person who administered the collection of the image.",

@@ -665,7 +665,7 @@
             },
             "defaultValuePeriod": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "defaultValueRatio": {
               "description": "A value to use if there is no existing value in the source object.",

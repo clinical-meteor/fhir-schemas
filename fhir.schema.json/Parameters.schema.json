@@ -256,7 +256,7 @@
             },
             "valuePeriod": {
               "description": "If the parameter is a data type.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "valueRatio": {
               "description": "If the parameter is a data type.",

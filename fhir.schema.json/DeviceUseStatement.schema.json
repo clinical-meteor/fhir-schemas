@@ -48,7 +48,7 @@
             },
             "whenUsed": {
               "description": "The time period over which the device was used.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "timingTiming": {
               "description": "How often the device was used.",
@@ -56,7 +56,7 @@
             },
             "timingPeriod": {
               "description": "How often the device was used.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "timingDateTime": {
               "description": "How often the device was used.",

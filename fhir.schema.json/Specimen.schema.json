@@ -131,7 +131,7 @@
             },
             "collectedPeriod": {
               "description": "Time when specimen was collected from subject - the physiologically relevant time.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "quantity": {
               "description": "The quantity of specimen collected; for instance the volume of a blood sample, or the physical measurement of an anatomic pathology sample.",
@@ -187,7 +187,7 @@
             },
             "timePeriod": {
               "description": "A record of the time or period when the specimen processing occurred.  For example the time of sample fixation or the period of time the sample was in formalin.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             }
           }
         }

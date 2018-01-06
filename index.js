@@ -37,3 +37,4 @@ exports.BackboneElementSchema = require('./fhir.schema.json/BackboneElement.sche
 exports.NarrativeSchema = require('./fhir.schema.json/Narrative.schema.json');
 exports.AnnotationSchema = require('./fhir.schema.json/Annotation.schema.json');
 exports.CodingSchema = require('./fhir.schema.json/Coding.schema.json');
+exports.PeriodSchema = require('./fhir.schema.json/Period.schema.json');

@@ -41,7 +41,7 @@
             },
             "period": {
               "description": "The dates the subject began and ended their participation in the study.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "study": {
               "description": "Reference to the study the subject is participating in.",

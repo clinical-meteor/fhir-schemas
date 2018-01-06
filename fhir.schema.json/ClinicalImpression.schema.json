@@ -70,7 +70,7 @@
             },
             "effectivePeriod": {
               "description": "The point in time or period over which the subject was assessed.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "date": {
               "description": "Indicates when the documentation of the assessment was complete.",

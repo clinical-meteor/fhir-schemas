@@ -61,7 +61,7 @@
             },
             "planningHorizon": {
               "description": "The period of time that the slots that are attached to this Schedule resource cover (even if none exist). These  cover the amount of time that an organization\u0027s planning horizon; the interval for which they are currently accepting appointments. This does not define a \"template\" for planning outside these dates.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "comment": {
               "description": "Comments on the availability to describe any extended information. Such as custom constraints on the slots that may be associated.",

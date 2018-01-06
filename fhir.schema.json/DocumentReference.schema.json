@@ -215,7 +215,7 @@
             },
             "period": {
               "description": "The time period over which the service that is described by the document was provided.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "facilityType": {
               "description": "The kind of facility where the patient was seen.",

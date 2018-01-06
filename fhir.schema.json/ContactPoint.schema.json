@@ -63,7 +63,7 @@
             },
             "period": {
               "description": "Time period when the contact point was/is in use.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             }
           }
         }

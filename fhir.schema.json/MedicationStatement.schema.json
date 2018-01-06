@@ -83,7 +83,7 @@
             },
             "effectivePeriod": {
               "description": "The interval of time during which it is being asserted that the patient was taking the medication (or was not taking, when the wasNotGiven element is true).",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "dateAsserted": {
               "description": "The date when the medication statement was asserted by the information source.",

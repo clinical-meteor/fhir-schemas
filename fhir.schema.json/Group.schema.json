@@ -142,7 +142,7 @@
             },
             "period": {
               "description": "The period over which the characteristic is tested; e.g. the patient had an operation during the month of June.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             }
           },
           "required": [
@@ -165,7 +165,7 @@
             },
             "period": {
               "description": "The period that the member was in the group, if known.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "inactive": {
               "description": "A flag to indicate that the member is no longer in the group, but previously may have been a member.",

@@ -275,7 +275,7 @@
             },
             "during": {
               "description": "Service is not available (seasonally or for a public holiday) from this date.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             }
           }
         }

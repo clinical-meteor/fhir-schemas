@@ -74,7 +74,7 @@
             },
             "occurrencePeriod": {
               "description": "The date or time(s) the activity occurred.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "occurrenceTiming": {
               "description": "The date or time(s) the activity occurred.",

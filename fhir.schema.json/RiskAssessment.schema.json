@@ -67,7 +67,7 @@
             },
             "occurrencePeriod": {
               "description": "The date (and possibly time) the risk assessment was performed.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "condition": {
               "description": "For assessments or prognosis specific to a particular condition, indicates the condition being assessed.",
@@ -162,7 +162,7 @@
             },
             "whenPeriod": {
               "description": "Indicates the period of time or age range of the subject to which the specified probability applies.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "whenRange": {
               "description": "Indicates the period of time or age range of the subject to which the specified probability applies.",

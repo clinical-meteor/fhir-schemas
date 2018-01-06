@@ -43,7 +43,7 @@
             },
             "applies": {
               "description": "Relevant time or time-period when this Contract is applicable.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "subject": {
               "description": "The target entity impacted by or of interest to parties to the agreement.",
@@ -321,7 +321,7 @@
             },
             "applies": {
               "description": "Relevant time or time-period when this Contract Provision is applicable.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "type": {
               "description": "Type of Contract Provision such as specific requirements, purposes for actions, obligations, prohibitions, e.g. life time maximum benefit.",

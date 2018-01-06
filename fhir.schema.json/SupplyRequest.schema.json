@@ -68,7 +68,7 @@
             },
             "occurrencePeriod": {
               "description": "When the request should be fulfilled.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "occurrenceTiming": {
               "description": "When the request should be fulfilled.",

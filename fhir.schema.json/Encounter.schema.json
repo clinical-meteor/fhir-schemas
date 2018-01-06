@@ -105,7 +105,7 @@
             },
             "period": {
               "description": "The start and end time of the encounter.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "length": {
               "description": "Quantity of time the encounter lasted. This excludes the time during leaves of absence.",
@@ -187,7 +187,7 @@
             },
             "period": {
               "description": "The time that the episode was in the specified status.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             }
           },
           "required": [
@@ -210,7 +210,7 @@
             },
             "period": {
               "description": "The time that the episode was in the specified class.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             }
           },
           "required": [
@@ -237,7 +237,7 @@
             },
             "period": {
               "description": "The period of time that the specified participant participated in the encounter. These can overlap or be sub-sets of the overall encounter\u0027s period.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "individual": {
               "description": "Persons involved in the encounter other than the patient.",
@@ -364,7 +364,7 @@
             },
             "period": {
               "description": "Time period during which the patient was present at the location.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             }
           },
           "required": [

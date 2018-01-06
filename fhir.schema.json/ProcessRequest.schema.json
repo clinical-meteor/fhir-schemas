@@ -131,7 +131,7 @@
             },
             "period": {
               "description": "A period of time during which the fulfilling resources would have been created.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             }
           },
           "required": [

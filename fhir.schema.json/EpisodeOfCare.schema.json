@@ -74,7 +74,7 @@
             },
             "period": {
               "description": "The interval during which the managing organization assumes the defined responsibility.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "referralRequest": {
               "description": "Referral Request(s) that are fulfilled by this EpisodeOfCare, incoming referrals.",
@@ -136,7 +136,7 @@
             },
             "period": {
               "description": "The period during this EpisodeOfCare that the specific status applied.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             }
           },
           "required": [

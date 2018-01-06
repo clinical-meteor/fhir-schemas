@@ -65,7 +65,7 @@
             },
             "period": {
               "description": "Time period during which the coverage is in force. A missing start date indicates the start date isn\u0027t known, a missing end date means the coverage is continuing to be in force.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "payor": {
               "description": "The program or plan underwriter or payor including both insurance and non-insurance agreements, such as patient-pay agreements. May provide multiple identifiers such as insurance company identifier or business identifier (BIN number).",

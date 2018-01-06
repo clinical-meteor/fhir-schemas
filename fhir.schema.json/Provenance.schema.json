@@ -28,7 +28,7 @@
             },
             "period": {
               "description": "The period during which the activity occurred.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "recorded": {
               "description": "The instant of time at which the activity was recorded.",

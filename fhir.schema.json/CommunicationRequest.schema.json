@@ -116,7 +116,7 @@
             },
             "occurrencePeriod": {
               "description": "The time when this communication is to occur.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "authoredOn": {
               "description": "For draft requests, indicates the date of initial creation.  For requests with other statuses, indicates the date of activation.",

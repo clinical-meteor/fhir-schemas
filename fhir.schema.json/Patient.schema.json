@@ -216,7 +216,7 @@
             },
             "period": {
               "description": "The period during which this contact person or organization is valid to be contacted relating to this patient.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             }
           }
         }

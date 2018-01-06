@@ -66,7 +66,7 @@
             },
             "billablePeriod": {
               "description": "The billable period for which charges are being submitted.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "created": {
               "description": "The date when the enclosed suite of services were performed or completed.",
@@ -169,11 +169,11 @@
             },
             "employmentImpacted": {
               "description": "The start and optional end dates of when the patient was precluded from working due to the treatable condition(s).",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "hospitalization": {
               "description": "The start and optional end dates of when the patient was confined to a treatment center.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "item": {
               "description": "First tier of goods and services.",
@@ -324,7 +324,7 @@
             },
             "timingPeriod": {
               "description": "The date when or period to which this information refers.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "valueString": {
               "description": "Additional data or information such as resources, documents, images etc. including references to the data or the actual inclusion of the data.",
@@ -644,7 +644,7 @@
             },
             "servicedPeriod": {
               "description": "The date or dates when the enclosed suite of services were performed or completed.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "locationCodeableConcept": {
               "description": "Where the service was provided.",

@@ -123,7 +123,7 @@
             },
             "period": {
               "description": "Identifies the start date and the expected (or actual, depending on status) end date for the study.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "sponsor": {
               "description": "The organization responsible for the execution of the study.",

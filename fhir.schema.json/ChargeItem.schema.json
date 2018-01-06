@@ -84,7 +84,7 @@
             },
             "occurrencePeriod": {
               "description": "Date/time(s) or duration when the charged service was applied.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "occurrenceTiming": {
               "description": "Date/time(s) or duration when the charged service was applied.",

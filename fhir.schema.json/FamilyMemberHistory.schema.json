@@ -100,7 +100,7 @@
             },
             "bornPeriod": {
               "description": "The actual or approximate date of birth of the relative.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "bornDate": {
               "description": "The actual or approximate date of birth of the relative.",
@@ -239,7 +239,7 @@
             },
             "onsetPeriod": {
               "description": "Either the age of onset, range of approximate age or descriptive string can be recorded.  For conditions with multiple occurrences, this describes the first known occurrence.",
-              "$ref": "Period.schema.json#/definitions/Period"
+              "$ref": "http://hl7.org/fhir/json-schema/Period#/definitions/Period"
             },
             "onsetString": {
               "description": "Either the age of onset, range of approximate age or descriptive string can be recorded.  For conditions with multiple occurrences, this describes the first known occurrence.",
