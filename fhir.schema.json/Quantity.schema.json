@@ -19,7 +19,7 @@
             },
             "_value": {
               "description": "Extensions for value",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "comparator": {
               "description": "How the value should be understood and represented - whether the actual value is greater or less than the stated value due to measurement issues; e.g. if the comparator is \"\u003c\" , then the real value is \u003c stated value.",
@@ -33,7 +33,7 @@
             },
             "_comparator": {
               "description": "Extensions for comparator",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "unit": {
               "description": "A human-readable form of the unit.",
@@ -41,7 +41,7 @@
             },
             "_unit": {
               "description": "Extensions for unit",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "system": {
               "description": "The identification of the system that provides the coded form of the unit.",
@@ -49,7 +49,7 @@
             },
             "_system": {
               "description": "Extensions for system",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "code": {
               "description": "A computer processable form of the unit in some unit representation system.",
@@ -58,7 +58,7 @@
             },
             "_code": {
               "description": "Extensions for code",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

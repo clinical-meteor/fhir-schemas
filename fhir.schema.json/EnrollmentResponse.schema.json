@@ -33,7 +33,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "request": {
               "description": "Original request resource reference.",
@@ -49,7 +49,7 @@
             },
             "_disposition": {
               "description": "Extensions for disposition",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "created": {
               "description": "The date when the enclosed suite of services were performed or completed.",
@@ -58,7 +58,7 @@
             },
             "_created": {
               "description": "Extensions for created",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "organization": {
               "description": "The Insurer who produced this adjudicated response.",

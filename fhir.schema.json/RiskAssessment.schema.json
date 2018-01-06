@@ -38,7 +38,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "method": {
               "description": "The algorithm, process or mechanism used to evaluate the risk.",
@@ -63,7 +63,7 @@
             },
             "_occurrenceDateTime": {
               "description": "Extensions for occurrenceDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "occurrencePeriod": {
               "description": "The date (and possibly time) the risk assessment was performed.",
@@ -105,7 +105,7 @@
             },
             "_mitigation": {
               "description": "Extensions for mitigation",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "comment": {
               "description": "Additional comments about the risk assessment.",
@@ -113,7 +113,7 @@
             },
             "_comment": {
               "description": "Extensions for comment",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           },
           "required": [
@@ -141,7 +141,7 @@
             },
             "_probabilityDecimal": {
               "description": "Extensions for probabilityDecimal",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "probabilityRange": {
               "description": "How likely is the outcome (in the specified timeframe).",
@@ -158,7 +158,7 @@
             },
             "_relativeRisk": {
               "description": "Extensions for relativeRisk",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "whenPeriod": {
               "description": "Indicates the period of time or age range of the subject to which the specified probability applies.",
@@ -174,7 +174,7 @@
             },
             "_rationale": {
               "description": "Extensions for rationale",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           },
           "required": [

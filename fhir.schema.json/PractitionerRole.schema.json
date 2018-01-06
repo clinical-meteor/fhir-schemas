@@ -32,7 +32,7 @@
             },
             "_active": {
               "description": "Extensions for active",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "period": {
               "description": "The period during which the person is authorized to act as a practitioner in these role(s) for the organization.",
@@ -101,7 +101,7 @@
             },
             "_availabilityExceptions": {
               "description": "Extensions for availabilityExceptions",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "endpoint": {
               "description": "Technical endpoints providing access to services operated for the practitioner with this role.",
@@ -137,7 +137,7 @@
               "description": "Extensions for daysOfWeek",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "allDay": {
@@ -146,7 +146,7 @@
             },
             "_allDay": {
               "description": "Extensions for allDay",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "availableStartTime": {
               "description": "The opening time of day. Note: If the AllDay flag is set, then this time is ignored.",
@@ -155,7 +155,7 @@
             },
             "_availableStartTime": {
               "description": "Extensions for availableStartTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "availableEndTime": {
               "description": "The closing time of day. Note: If the AllDay flag is set, then this time is ignored.",
@@ -164,7 +164,7 @@
             },
             "_availableEndTime": {
               "description": "Extensions for availableEndTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -184,7 +184,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "during": {
               "description": "Service is not available (seasonally or for a public holiday) from this date.",

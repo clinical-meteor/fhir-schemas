@@ -25,7 +25,7 @@
             },
             "_text": {
               "description": "Extensions for text",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

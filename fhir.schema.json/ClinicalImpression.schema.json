@@ -37,7 +37,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "code": {
               "description": "Categorizes the type of clinical assessment performed.",
@@ -49,7 +49,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "subject": {
               "description": "The patient or group of individuals assessed as part of this record.",
@@ -66,7 +66,7 @@
             },
             "_effectiveDateTime": {
               "description": "Extensions for effectiveDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "effectivePeriod": {
               "description": "The point in time or period over which the subject was assessed.",
@@ -79,7 +79,7 @@
             },
             "_date": {
               "description": "Extensions for date",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "assessor": {
               "description": "The clinician performing the assessment.",
@@ -114,7 +114,7 @@
               "description": "Extensions for protocol",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "summary": {
@@ -123,7 +123,7 @@
             },
             "_summary": {
               "description": "Extensions for summary",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "finding": {
               "description": "Specific findings or diagnoses that was considered likely or relevant to ongoing treatment.",
@@ -216,7 +216,7 @@
             },
             "_basis": {
               "description": "Extensions for basis",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

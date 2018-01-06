@@ -32,7 +32,7 @@
             },
             "_active": {
               "description": "Extensions for active",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "serviceCategory": {
               "description": "A broad categorisation of the service that is to be performed during this appointment.",
@@ -69,7 +69,7 @@
             },
             "_comment": {
               "description": "Extensions for comment",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           },
           "required": [

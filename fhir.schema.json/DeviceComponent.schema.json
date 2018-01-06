@@ -33,7 +33,7 @@
             },
             "_lastSystemChange": {
               "description": "Extensions for lastSystemChange",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "source": {
               "description": "The link to the source Device that contains administrative device information such as manufacture, serial number, etc.",
@@ -73,7 +73,7 @@
             },
             "_measurementPrinciple": {
               "description": "Extensions for measurementPrinciple",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "productionSpecification": {
               "description": "The production specification such as component revision, serial number, etc.",
@@ -117,7 +117,7 @@
             },
             "_productionSpec": {
               "description": "Extensions for productionSpec",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

@@ -37,7 +37,7 @@
             },
             "_clinicalStatus": {
               "description": "Extensions for clinicalStatus",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "verificationStatus": {
               "description": "Assertion about certainty associated with the propensity, or potential risk, of a reaction to the identified substance (including pharmaceutical product).",
@@ -51,7 +51,7 @@
             },
             "_verificationStatus": {
               "description": "Extensions for verificationStatus",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "Identification of the underlying physiological mechanism for the reaction risk.",
@@ -63,7 +63,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "category": {
               "description": "Category of the identified substance.",
@@ -82,7 +82,7 @@
               "description": "Extensions for category",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "criticality": {
@@ -96,7 +96,7 @@
             },
             "_criticality": {
               "description": "Extensions for criticality",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "code": {
               "description": "Code for an allergy or intolerance statement (either a positive or a negated/excluded statement).  This may be a code for a substance or pharmaceutical product that is considered to be responsible for the adverse reaction risk (e.g., \"Latex\"), an allergy or intolerance condition (e.g., \"Latex allergy\"), or a negated/excluded code for a specific substance or class (e.g., \"No latex allergy\") or a general or categorical negated statement (e.g.,  \"No known allergy\", \"No known drug allergies\").",
@@ -113,7 +113,7 @@
             },
             "_onsetDateTime": {
               "description": "Extensions for onsetDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "onsetAge": {
               "description": "Estimated or actual date,  date-time, or age when allergy or intolerance was identified.",
@@ -133,7 +133,7 @@
             },
             "_onsetString": {
               "description": "Extensions for onsetString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "assertedDate": {
               "description": "The date on which the existance of the AllergyIntolerance was first asserted or acknowledged.",
@@ -142,7 +142,7 @@
             },
             "_assertedDate": {
               "description": "Extensions for assertedDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "recorder": {
               "description": "Individual who recorded the record and takes responsibility for its content.",
@@ -159,7 +159,7 @@
             },
             "_lastOccurrence": {
               "description": "Extensions for lastOccurrence",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "note": {
               "description": "Additional narrative about the propensity for the Adverse Reaction, not captured in other fields.",
@@ -208,7 +208,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "onset": {
               "description": "Record of the date and/or time of the onset of the Reaction.",
@@ -217,7 +217,7 @@
             },
             "_onset": {
               "description": "Extensions for onset",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "severity": {
               "description": "Clinical assessment of the severity of the reaction event as a whole, potentially considering multiple different manifestations.",
@@ -230,7 +230,7 @@
             },
             "_severity": {
               "description": "Extensions for severity",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "exposureRoute": {
               "description": "Identification of the route by which the subject was exposed to the substance.",

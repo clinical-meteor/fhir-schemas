@@ -37,7 +37,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "category": {
               "description": "A code that classifies the general type of substance.  This is used  for searching, sorting and display purposes.",
@@ -56,7 +56,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "instance": {
               "description": "Substance may be used to describe a kind of substance, or a specific package/container of the substance: an instance.",
@@ -99,7 +99,7 @@
             },
             "_expiry": {
               "description": "Extensions for expiry",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "quantity": {
               "description": "The amount of the substance.",

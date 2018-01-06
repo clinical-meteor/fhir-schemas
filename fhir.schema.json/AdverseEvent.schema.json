@@ -33,7 +33,7 @@
             },
             "_category": {
               "description": "Extensions for category",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "This element defines the specific type of event that occurred or that was prevented from occurring.",
@@ -50,7 +50,7 @@
             },
             "_date": {
               "description": "Extensions for date",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "reaction": {
               "description": "Includes information about the reaction that occurred as a result of exposure to a substance (for example, a drug or a chemical).",
@@ -85,7 +85,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "suspectEntity": {
               "description": "Describes the entity that is suspected to have caused the adverse event.",
@@ -144,7 +144,7 @@
             },
             "_causality": {
               "description": "Extensions for causality",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "causalityAssessment": {
               "description": "assess1 | assess2.",
@@ -156,7 +156,7 @@
             },
             "_causalityProductRelatedness": {
               "description": "Extensions for causalityProductRelatedness",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "causalityMethod": {
               "description": "method1 | method2.",

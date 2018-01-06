@@ -26,7 +26,7 @@
             },
             "_contentType": {
               "description": "Extensions for contentType",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "securityContext": {
               "description": "Treat this binary as if it was this other resource for access control purposes.",
@@ -38,7 +38,7 @@
             },
             "_content": {
               "description": "Extensions for content",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           },
           "required": [

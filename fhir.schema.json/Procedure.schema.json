@@ -54,7 +54,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "notDone": {
               "description": "Set this to true if the record is saying that the procedure was NOT performed.",
@@ -62,7 +62,7 @@
             },
             "_notDone": {
               "description": "Extensions for notDone",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "notDoneReason": {
               "description": "A code indicating why the procedure was not performed.",
@@ -91,7 +91,7 @@
             },
             "_performedDateTime": {
               "description": "Extensions for performedDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "performedPeriod": {
               "description": "The date(time)/period over which the procedure was performed. Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured.",

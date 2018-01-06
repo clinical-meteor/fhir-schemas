@@ -34,7 +34,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "isBrand": {
               "description": "Set to true if the item is attributable to a specific manufacturer.",
@@ -42,7 +42,7 @@
             },
             "_isBrand": {
               "description": "Extensions for isBrand",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "isOverTheCounter": {
               "description": "Set to true if the medication can be obtained without an order from a prescriber.",
@@ -50,7 +50,7 @@
             },
             "_isOverTheCounter": {
               "description": "Extensions for isOverTheCounter",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "manufacturer": {
               "description": "Describes the details of the manufacturer of the medication product.  This is not intended to represent the distributor of a medication product.",
@@ -107,7 +107,7 @@
             },
             "_isActive": {
               "description": "Extensions for isActive",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "amount": {
               "description": "Specifies how many (or how much) of the items there are in this Medication.  For example, 250 mg per tablet.  This is expressed as a ratio where the numerator is 250mg and the denominator is 1 tablet.",
@@ -185,7 +185,7 @@
             },
             "_lotNumber": {
               "description": "Extensions for lotNumber",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "expirationDate": {
               "description": "When this specific batch of product will expire.",
@@ -194,7 +194,7 @@
             },
             "_expirationDate": {
               "description": "Extensions for expirationDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

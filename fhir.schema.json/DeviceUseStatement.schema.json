@@ -40,7 +40,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "subject": {
               "description": "The patient who used the device.",
@@ -65,7 +65,7 @@
             },
             "_timingDateTime": {
               "description": "Extensions for timingDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "recordedOn": {
               "description": "The time at which the statement was made/recorded.",
@@ -74,7 +74,7 @@
             },
             "_recordedOn": {
               "description": "Extensions for recordedOn",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "source": {
               "description": "Who reported the device was being used by the patient.",

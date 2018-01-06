@@ -43,7 +43,7 @@
             },
             "_action": {
               "description": "Extensions for action",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "recorded": {
               "description": "The time when the event occurred on the source.",
@@ -51,7 +51,7 @@
             },
             "_recorded": {
               "description": "Extensions for recorded",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "outcome": {
               "description": "Indicates whether the event succeeded or failed.",
@@ -65,7 +65,7 @@
             },
             "_outcome": {
               "description": "Extensions for outcome",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "outcomeDesc": {
               "description": "A free text description of the outcome of the event.",
@@ -73,7 +73,7 @@
             },
             "_outcomeDesc": {
               "description": "Extensions for outcomeDesc",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "purposeOfEvent": {
               "description": "The purposeOfUse (reason) that was used during the event being recorded.",
@@ -139,7 +139,7 @@
             },
             "_altId": {
               "description": "Extensions for altId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "name": {
               "description": "Human-meaningful name for the agent.",
@@ -147,7 +147,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "requestor": {
               "description": "Indicator that the user is or is not the requestor, or initiator, for the event being audited.",
@@ -155,7 +155,7 @@
             },
             "_requestor": {
               "description": "Extensions for requestor",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "location": {
               "description": "Where the event occurred.",
@@ -172,7 +172,7 @@
               "description": "Extensions for policy",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "media": {
@@ -208,7 +208,7 @@
             },
             "_address": {
               "description": "Extensions for address",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "An identifier for the type of network access point that originated the audit event.",
@@ -223,7 +223,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -243,7 +243,7 @@
             },
             "_site": {
               "description": "Extensions for site",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "identifier": {
               "description": "Identifier of the source where the event was detected.",
@@ -304,7 +304,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "description": {
               "description": "Text that describes the entity in more detail.",
@@ -312,7 +312,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "query": {
               "description": "The query parameters for a query-type entities.",
@@ -320,7 +320,7 @@
             },
             "_query": {
               "description": "Extensions for query",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "detail": {
               "description": "Tagged value pairs for conveying additional information about the entity.",
@@ -347,7 +347,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "value": {
               "description": "The details, base64 encoded. Used to carry bulk information.",
@@ -355,7 +355,7 @@
             },
             "_value": {
               "description": "Extensions for value",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

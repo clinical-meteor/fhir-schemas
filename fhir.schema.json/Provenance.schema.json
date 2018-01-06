@@ -36,7 +36,7 @@
             },
             "_recorded": {
               "description": "Extensions for recorded",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "policy": {
               "description": "Policy or plan the activity was defined by. Typically, a single activity may have multiple applicable policy documents, such as patient consent, guarantor funding, etc.",
@@ -49,7 +49,7 @@
               "description": "Extensions for policy",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "location": {
@@ -118,7 +118,7 @@
             },
             "_whoUri": {
               "description": "Extensions for whoUri",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "whoReference": {
               "description": "The individual, device or organization that participated in the event.",
@@ -130,7 +130,7 @@
             },
             "_onBehalfOfUri": {
               "description": "Extensions for onBehalfOfUri",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "onBehalfOfReference": {
               "description": "The individual, device, or organization for whom the change was made.",
@@ -165,7 +165,7 @@
             },
             "_role": {
               "description": "Extensions for role",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "whatUri": {
               "description": "Identity of the  Entity used. May be a logical or physical uri and maybe absolute or relative.",
@@ -173,7 +173,7 @@
             },
             "_whatUri": {
               "description": "Extensions for whatUri",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "whatReference": {
               "description": "Identity of the  Entity used. May be a logical or physical uri and maybe absolute or relative.",

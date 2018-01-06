@@ -25,7 +25,7 @@
             },
             "_active": {
               "description": "Extensions for active",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "author": {
               "description": "Identifies the user or organization responsible for asserting the linkages and who establishes the context for evaluating the nature of each linkage.",
@@ -65,7 +65,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "resource": {
               "description": "The resource instance being linked as part of the group.",

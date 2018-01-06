@@ -51,7 +51,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "category": {
               "description": "The type of message to be sent such as alert, notification, reminder, instruction, etc.",
@@ -67,7 +67,7 @@
             },
             "_priority": {
               "description": "Extensions for priority",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "medium": {
               "description": "A channel that was used for this communication (e.g. email, fax).",
@@ -112,7 +112,7 @@
             },
             "_occurrenceDateTime": {
               "description": "Extensions for occurrenceDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "occurrencePeriod": {
               "description": "The time when this communication is to occur.",
@@ -125,7 +125,7 @@
             },
             "_authoredOn": {
               "description": "Extensions for authoredOn",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "sender": {
               "description": "The entity (e.g. person, organization, clinical information system, or device) which is to be the source of the communication.",
@@ -177,7 +177,7 @@
             },
             "_contentString": {
               "description": "Extensions for contentString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "contentAttachment": {
               "description": "The communicated content (or for multi-part communications, one portion of the communication).",

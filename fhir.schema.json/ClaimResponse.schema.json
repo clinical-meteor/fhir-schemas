@@ -33,7 +33,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patient": {
               "description": "Patient Resource.",
@@ -46,7 +46,7 @@
             },
             "_created": {
               "description": "Extensions for created",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "insurer": {
               "description": "The Insurer who produced this adjudicated response.",
@@ -74,7 +74,7 @@
             },
             "_disposition": {
               "description": "Extensions for disposition",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "payeeType": {
               "description": "Party to be reimbursed: Subscriber, provider, other.",
@@ -168,7 +168,7 @@
             },
             "_sequenceLinkId": {
               "description": "Extensions for sequenceLinkId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "noteNumber": {
               "description": "A list of note references to the notes provided below.",
@@ -182,7 +182,7 @@
               "description": "Extensions for noteNumber",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "adjudication": {
@@ -230,7 +230,7 @@
             },
             "_value": {
               "description": "Extensions for value",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           },
           "required": [
@@ -254,7 +254,7 @@
             },
             "_sequenceLinkId": {
               "description": "Extensions for sequenceLinkId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "noteNumber": {
               "description": "A list of note references to the notes provided below.",
@@ -268,7 +268,7 @@
               "description": "Extensions for noteNumber",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "adjudication": {
@@ -304,7 +304,7 @@
             },
             "_sequenceLinkId": {
               "description": "Extensions for sequenceLinkId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "noteNumber": {
               "description": "A list of note references to the notes provided below.",
@@ -318,7 +318,7 @@
               "description": "Extensions for noteNumber",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "adjudication": {
@@ -352,7 +352,7 @@
               "description": "Extensions for sequenceLinkId",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "revenue": {
@@ -390,7 +390,7 @@
               "description": "Extensions for noteNumber",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "adjudication": {
@@ -454,7 +454,7 @@
               "description": "Extensions for noteNumber",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "adjudication": {
@@ -483,7 +483,7 @@
             },
             "_sequenceLinkId": {
               "description": "Extensions for sequenceLinkId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "detailSequenceLinkId": {
               "description": "The sequence number of the addition within the line item submitted which contains the error. This value is omitted when the error is not related to an Addition.",
@@ -492,7 +492,7 @@
             },
             "_detailSequenceLinkId": {
               "description": "Extensions for detailSequenceLinkId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "subdetailSequenceLinkId": {
               "description": "The sequence number of the addition within the line item submitted which contains the error. This value is omitted when the error is not related to an Addition.",
@@ -501,7 +501,7 @@
             },
             "_subdetailSequenceLinkId": {
               "description": "Extensions for subdetailSequenceLinkId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "code": {
               "description": "An error code,from a specified code system, which details why the claim could not be adjudicated.",
@@ -541,7 +541,7 @@
             },
             "_date": {
               "description": "Extensions for date",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "amount": {
               "description": "Payable less any payment adjustment.",
@@ -570,7 +570,7 @@
             },
             "_number": {
               "description": "Extensions for number",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "The note purpose: Print/Display.",
@@ -582,7 +582,7 @@
             },
             "_text": {
               "description": "Extensions for text",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "language": {
               "description": "The ISO-639-1 alpha 2 code in lower case for the language, optionally followed by a hyphen and the ISO-3166-1 alpha 2 code for the region in upper case; e.g. \"en\" for English, or \"en-US\" for American English versus \"en-EN\" for England English.",
@@ -607,7 +607,7 @@
             },
             "_sequence": {
               "description": "Extensions for sequence",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "focal": {
               "description": "The instance number of the Coverage which is the focus for adjudication. The Coverage against which the claim is to be adjudicated.",
@@ -615,7 +615,7 @@
             },
             "_focal": {
               "description": "Extensions for focal",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "coverage": {
               "description": "Reference to the program or plan identification, underwriter or payor.",
@@ -627,7 +627,7 @@
             },
             "_businessArrangement": {
               "description": "Extensions for businessArrangement",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "preAuthRef": {
               "description": "A list of references from the Insurer to which these services pertain.",
@@ -640,7 +640,7 @@
               "description": "Extensions for preAuthRef",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "claimResponse": {

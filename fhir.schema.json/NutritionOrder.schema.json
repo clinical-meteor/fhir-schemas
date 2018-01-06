@@ -43,7 +43,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patient": {
               "description": "The person (patient) who needs the nutrition order for an oral diet, nutritional supplement and/or enteral or formula feeding.",
@@ -60,7 +60,7 @@
             },
             "_dateTime": {
               "description": "Extensions for dateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "orderer": {
               "description": "The practitioner that holds legal responsibility for ordering the diet, nutritional supplement, or formula feedings.",
@@ -159,7 +159,7 @@
             },
             "_instruction": {
               "description": "Extensions for instruction",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -223,7 +223,7 @@
             },
             "_productName": {
               "description": "Extensions for productName",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "schedule": {
               "description": "The time period and frequency at which the supplement(s) should be given.  The supplement should be given for the combination of all schedules if more than one schedule is present.",
@@ -242,7 +242,7 @@
             },
             "_instruction": {
               "description": "Extensions for instruction",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -266,7 +266,7 @@
             },
             "_baseFormulaProductName": {
               "description": "Extensions for baseFormulaProductName",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "additiveType": {
               "description": "Indicates the type of modular component such as protein, carbohydrate, fat or fiber to be provided in addition to or mixed with the base formula.",
@@ -278,7 +278,7 @@
             },
             "_additiveProductName": {
               "description": "Extensions for additiveProductName",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "caloricDensity": {
               "description": "The amount of energy (calories) that the formula should provide per specified volume, typically per mL or fluid oz.  For example, an infant may require a formula that provides 24 calories per fluid ounce or an adult may require an enteral formula that provides 1.5 calorie/mL.",
@@ -305,7 +305,7 @@
             },
             "_administrationInstruction": {
               "description": "Extensions for administrationInstruction",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

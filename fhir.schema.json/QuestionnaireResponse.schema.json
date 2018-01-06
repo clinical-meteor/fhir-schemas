@@ -54,7 +54,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "subject": {
               "description": "The subject of the questionnaire response.  This could be a patient, organization, practitioner, device, etc.  This is who/what the answers apply to, but is not necessarily the source of information.",
@@ -71,7 +71,7 @@
             },
             "_authored": {
               "description": "Extensions for authored",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "author": {
               "description": "Person who received the answers to the questions in the QuestionnaireResponse and recorded them in the system.",
@@ -109,7 +109,7 @@
             },
             "_linkId": {
               "description": "Extensions for linkId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "definition": {
               "description": "A reference to an [[[ElementDefinition]]] that provides the details for the item.",
@@ -117,7 +117,7 @@
             },
             "_definition": {
               "description": "Extensions for definition",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "text": {
               "description": "Text that is displayed above the contents of the group or as the text of the question being answered.",
@@ -125,7 +125,7 @@
             },
             "_text": {
               "description": "Extensions for text",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "subject": {
               "description": "More specific subject this section\u0027s answers are about, details the subject given in QuestionnaireResponse.",
@@ -163,7 +163,7 @@
             },
             "_valueBoolean": {
               "description": "Extensions for valueBoolean",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueDecimal": {
               "description": "The answer (or one of the answers) provided by the respondent to the question.",
@@ -172,7 +172,7 @@
             },
             "_valueDecimal": {
               "description": "Extensions for valueDecimal",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueInteger": {
               "description": "The answer (or one of the answers) provided by the respondent to the question.",
@@ -181,7 +181,7 @@
             },
             "_valueInteger": {
               "description": "Extensions for valueInteger",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueDate": {
               "description": "The answer (or one of the answers) provided by the respondent to the question.",
@@ -190,7 +190,7 @@
             },
             "_valueDate": {
               "description": "Extensions for valueDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueDateTime": {
               "description": "The answer (or one of the answers) provided by the respondent to the question.",
@@ -199,7 +199,7 @@
             },
             "_valueDateTime": {
               "description": "Extensions for valueDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueTime": {
               "description": "The answer (or one of the answers) provided by the respondent to the question.",
@@ -208,7 +208,7 @@
             },
             "_valueTime": {
               "description": "Extensions for valueTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueString": {
               "description": "The answer (or one of the answers) provided by the respondent to the question.",
@@ -216,7 +216,7 @@
             },
             "_valueString": {
               "description": "Extensions for valueString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueUri": {
               "description": "The answer (or one of the answers) provided by the respondent to the question.",
@@ -224,7 +224,7 @@
             },
             "_valueUri": {
               "description": "Extensions for valueUri",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueAttachment": {
               "description": "The answer (or one of the answers) provided by the respondent to the question.",

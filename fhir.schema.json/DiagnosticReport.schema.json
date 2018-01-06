@@ -51,7 +51,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "category": {
               "description": "A code that classifies the clinical discipline, department or diagnostic service that created the report (e.g. cardiology, biochemistry, hematology, MRI). This is used for searching, sorting and display purposes.",
@@ -76,7 +76,7 @@
             },
             "_effectiveDateTime": {
               "description": "Extensions for effectiveDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "effectivePeriod": {
               "description": "The time or time-period the observed values are related to. When the subject of the report is a patient, this is usually either the time of the procedure or of specimen collection(s), but very often the source of the date/time is not known, only the date/time itself.",
@@ -88,7 +88,7 @@
             },
             "_issued": {
               "description": "Extensions for issued",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "performer": {
               "description": "Indicates who or what participated in producing the report.",
@@ -131,7 +131,7 @@
             },
             "_conclusion": {
               "description": "Extensions for conclusion",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "codedDiagnosis": {
               "description": "Codes for the conclusion.",
@@ -192,7 +192,7 @@
             },
             "_comment": {
               "description": "Extensions for comment",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "link": {
               "description": "Reference to the image source.",

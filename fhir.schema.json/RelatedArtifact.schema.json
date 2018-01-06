@@ -28,7 +28,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "display": {
               "description": "A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.",
@@ -36,7 +36,7 @@
             },
             "_display": {
               "description": "Extensions for display",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "citation": {
               "description": "A bibliographic citation for the related artifact. This text SHOULD be formatted according to an accepted citation format.",
@@ -44,7 +44,7 @@
             },
             "_citation": {
               "description": "Extensions for citation",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "url": {
               "description": "A url for the artifact that can be followed to access the actual content.",
@@ -52,7 +52,7 @@
             },
             "_url": {
               "description": "Extensions for url",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "document": {
               "description": "The document being referenced, represented as an attachment. This is exclusive with the resource element.",

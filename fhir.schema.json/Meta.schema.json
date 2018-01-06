@@ -19,7 +19,7 @@
             },
             "_versionId": {
               "description": "Extensions for versionId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "lastUpdated": {
               "description": "When the resource last changed - e.g. when the version changed.",
@@ -27,7 +27,7 @@
             },
             "_lastUpdated": {
               "description": "Extensions for lastUpdated",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "profile": {
               "description": "A list of profiles (references to [[[StructureDefinition]]] resources) that this resource claims to conform to. The URL is a reference to [[[StructureDefinition.url]]].",
@@ -40,7 +40,7 @@
               "description": "Extensions for profile",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "security": {

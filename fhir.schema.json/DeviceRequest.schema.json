@@ -58,7 +58,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "intent": {
               "description": "Whether the request is a proposal, plan, an original order or a reflex order.",
@@ -71,7 +71,7 @@
             },
             "_priority": {
               "description": "Extensions for priority",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "codeReference": {
               "description": "The details of the device to be used.",
@@ -96,7 +96,7 @@
             },
             "_occurrenceDateTime": {
               "description": "Extensions for occurrenceDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "occurrencePeriod": {
               "description": "The timing schedule for the use of the device. The Schedule data type allows many different expressions, for example. \"Every 8 hours\"; \"Three times a day\"; \"1/2 an hour before breakfast for 10 days from 23-Dec 2011:\"; \"15 Oct 2013, 17 Oct 2013 and 1 Nov 2013\".",
@@ -113,7 +113,7 @@
             },
             "_authoredOn": {
               "description": "Extensions for authoredOn",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "requester": {
               "description": "The individual who initiated the request and has responsibility for its activation.",

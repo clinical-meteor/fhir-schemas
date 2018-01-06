@@ -42,7 +42,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "serviceCategory": {
               "description": "A broad categorisation of the service that is to be performed during this appointment.",
@@ -87,7 +87,7 @@
             },
             "_priority": {
               "description": "Extensions for priority",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "description": {
               "description": "The brief description of the appointment as would be shown on a subject line in a meeting request, or appointment list. Detailed or expanded information should be put in the comment field.",
@@ -95,7 +95,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "supportingInformation": {
               "description": "Additional information to support the appointment provided when making the appointment.",
@@ -110,7 +110,7 @@
             },
             "_start": {
               "description": "Extensions for start",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "end": {
               "description": "Date/Time that the appointment is to conclude.",
@@ -118,7 +118,7 @@
             },
             "_end": {
               "description": "Extensions for end",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "minutesDuration": {
               "description": "Number of minutes that the appointment is to take. This can be less than the duration between the start and end times (where actual time of appointment is only an estimate or is a planned appointment request).",
@@ -127,7 +127,7 @@
             },
             "_minutesDuration": {
               "description": "Extensions for minutesDuration",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "slot": {
               "description": "The slots from the participants\u0027 schedules that will be filled by the appointment.",
@@ -143,7 +143,7 @@
             },
             "_created": {
               "description": "Extensions for created",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "comment": {
               "description": "Additional comments about the appointment.",
@@ -151,7 +151,7 @@
             },
             "_comment": {
               "description": "Extensions for comment",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "incomingReferral": {
               "description": "The referral request this appointment is allocated to assess (incoming referral).",
@@ -212,7 +212,7 @@
             },
             "_required": {
               "description": "Extensions for required",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "status": {
               "description": "Participation status of the actor.",
@@ -226,7 +226,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

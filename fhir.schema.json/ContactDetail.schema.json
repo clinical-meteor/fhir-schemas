@@ -18,7 +18,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "telecom": {
               "description": "The contact details for the individual (if a name was provided) or the organization.",

@@ -19,7 +19,7 @@
             },
             "_id": {
               "description": "Extensions for id",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "meta": {
               "description": "The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content may not always be associated with version changes to the resource.",
@@ -31,7 +31,7 @@
             },
             "_implicitRules": {
               "description": "Extensions for implicitRules",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "language": {
               "description": "The base language in which the resource is written.",
@@ -40,7 +40,7 @@
             },
             "_language": {
               "description": "Extensions for language",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

@@ -25,7 +25,7 @@
             },
             "_url": {
               "description": "Extensions for url",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "identifier": {
               "description": "A formal identifier that is used to identify this questionnaire when it is represented in other formats, or referenced in a specification, model, design or an instance.",
@@ -40,7 +40,7 @@
             },
             "_version": {
               "description": "Extensions for version",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "name": {
               "description": "A natural language name identifying the questionnaire. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
@@ -48,7 +48,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "title": {
               "description": "A short, descriptive, user-friendly title for the questionnaire.",
@@ -56,7 +56,7 @@
             },
             "_title": {
               "description": "Extensions for title",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "status": {
               "description": "The status of this questionnaire. Enables tracking the life-cycle of the content.",
@@ -70,7 +70,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "experimental": {
               "description": "A boolean value to indicate that this questionnaire is authored for testing purposes (or education/evaluation/marketing), and is not intended to be used for genuine usage.",
@@ -78,7 +78,7 @@
             },
             "_experimental": {
               "description": "Extensions for experimental",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "date": {
               "description": "The date  (and optionally time) when the questionnaire was published. The date must change if and when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the questionnaire changes.",
@@ -87,7 +87,7 @@
             },
             "_date": {
               "description": "Extensions for date",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "publisher": {
               "description": "The name of the individual or organization that published the questionnaire.",
@@ -95,7 +95,7 @@
             },
             "_publisher": {
               "description": "Extensions for publisher",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "description": {
               "description": "A free text natural language description of the questionnaire from a consumer\u0027s perspective.",
@@ -103,7 +103,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "purpose": {
               "description": "Explaination of why this questionnaire is needed and why it has been designed as it has.",
@@ -111,7 +111,7 @@
             },
             "_purpose": {
               "description": "Extensions for purpose",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "approvalDate": {
               "description": "The date on which the resource content was approved by the publisher. Approval happens once when the content is officially approved for usage.",
@@ -120,7 +120,7 @@
             },
             "_approvalDate": {
               "description": "Extensions for approvalDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "lastReviewDate": {
               "description": "The date on which the resource content was last reviewed. Review happens periodically after approval, but doesn\u0027t change the original approval date.",
@@ -129,7 +129,7 @@
             },
             "_lastReviewDate": {
               "description": "Extensions for lastReviewDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "effectivePeriod": {
               "description": "The period during which the questionnaire content was or is planned to be in active use.",
@@ -162,7 +162,7 @@
             },
             "_copyright": {
               "description": "Extensions for copyright",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "code": {
               "description": "An identifier for this question or group of questions in a particular terminology such as LOINC.",
@@ -183,7 +183,7 @@
               "description": "Extensions for subjectType",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "item": {
@@ -214,7 +214,7 @@
             },
             "_linkId": {
               "description": "Extensions for linkId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "definition": {
               "description": "A reference to an [[[ElementDefinition]]] that provides the details for the item. If a definition is provided, then the following element values can be inferred from the definition: \n\n* code (ElementDefinition.code)\n* type (ElementDefinition.type)\n* required (ElementDefinition.min)\n* repeats (ElementDefinition.max)\n* maxLength (ElementDefinition.maxLength)\n* options (ElementDefinition.binding)\n\nAny information provided in these elements on a Questionnaire Item overrides the information from the definition.",
@@ -222,7 +222,7 @@
             },
             "_definition": {
               "description": "Extensions for definition",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "code": {
               "description": "A terminology code that corresponds to this group or question (e.g. a code from LOINC, which defines many questions and answers).",
@@ -237,7 +237,7 @@
             },
             "_prefix": {
               "description": "Extensions for prefix",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "text": {
               "description": "The name of a section, the text of a question or text content for a display item.",
@@ -245,7 +245,7 @@
             },
             "_text": {
               "description": "Extensions for text",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "The type of questionnaire item this is - whether text for display, a grouping of other items or a particular type of data to be captured (string, integer, coded choice, etc.).",
@@ -271,7 +271,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "enableWhen": {
               "description": "A constraint indicating that this item should only be enabled (displayed/allow answers to be captured) when the specified condition is true.",
@@ -286,7 +286,7 @@
             },
             "_required": {
               "description": "Extensions for required",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "repeats": {
               "description": "An indication, if true, that the item may occur multiple times in the response, collecting multiple answers answers for questions or multiple sets of answers for groups.",
@@ -294,7 +294,7 @@
             },
             "_repeats": {
               "description": "Extensions for repeats",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "readOnly": {
               "description": "An indication, when true, that the value cannot be changed by a human respondent to the Questionnaire.",
@@ -302,7 +302,7 @@
             },
             "_readOnly": {
               "description": "Extensions for readOnly",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "maxLength": {
               "description": "The maximum number of characters that are permitted in the answer to be considered a \"valid\" QuestionnaireResponse.",
@@ -311,7 +311,7 @@
             },
             "_maxLength": {
               "description": "Extensions for maxLength",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "options": {
               "description": "A reference to a value set containing a list of codes representing permitted answers for a \"choice\" or \"open-choice\" question.",
@@ -330,7 +330,7 @@
             },
             "_initialBoolean": {
               "description": "Extensions for initialBoolean",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "initialDecimal": {
               "description": "The value that should be defaulted when initially rendering the questionnaire for user input.",
@@ -339,7 +339,7 @@
             },
             "_initialDecimal": {
               "description": "Extensions for initialDecimal",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "initialInteger": {
               "description": "The value that should be defaulted when initially rendering the questionnaire for user input.",
@@ -348,7 +348,7 @@
             },
             "_initialInteger": {
               "description": "Extensions for initialInteger",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "initialDate": {
               "description": "The value that should be defaulted when initially rendering the questionnaire for user input.",
@@ -357,7 +357,7 @@
             },
             "_initialDate": {
               "description": "Extensions for initialDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "initialDateTime": {
               "description": "The value that should be defaulted when initially rendering the questionnaire for user input.",
@@ -366,7 +366,7 @@
             },
             "_initialDateTime": {
               "description": "Extensions for initialDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "initialTime": {
               "description": "The value that should be defaulted when initially rendering the questionnaire for user input.",
@@ -375,7 +375,7 @@
             },
             "_initialTime": {
               "description": "Extensions for initialTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "initialString": {
               "description": "The value that should be defaulted when initially rendering the questionnaire for user input.",
@@ -383,7 +383,7 @@
             },
             "_initialString": {
               "description": "Extensions for initialString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "initialUri": {
               "description": "The value that should be defaulted when initially rendering the questionnaire for user input.",
@@ -391,7 +391,7 @@
             },
             "_initialUri": {
               "description": "Extensions for initialUri",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "initialAttachment": {
               "description": "The value that should be defaulted when initially rendering the questionnaire for user input.",
@@ -434,7 +434,7 @@
             },
             "_question": {
               "description": "Extensions for question",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "hasAnswer": {
               "description": "An indication that this item should be enabled only if the specified question is answered (hasAnswer\u003dtrue) or not answered (hasAnswer\u003dfalse).",
@@ -442,7 +442,7 @@
             },
             "_hasAnswer": {
               "description": "Extensions for hasAnswer",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "answerBoolean": {
               "description": "An answer that the referenced question must match in order for the item to be enabled.",
@@ -450,7 +450,7 @@
             },
             "_answerBoolean": {
               "description": "Extensions for answerBoolean",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "answerDecimal": {
               "description": "An answer that the referenced question must match in order for the item to be enabled.",
@@ -459,7 +459,7 @@
             },
             "_answerDecimal": {
               "description": "Extensions for answerDecimal",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "answerInteger": {
               "description": "An answer that the referenced question must match in order for the item to be enabled.",
@@ -468,7 +468,7 @@
             },
             "_answerInteger": {
               "description": "Extensions for answerInteger",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "answerDate": {
               "description": "An answer that the referenced question must match in order for the item to be enabled.",
@@ -477,7 +477,7 @@
             },
             "_answerDate": {
               "description": "Extensions for answerDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "answerDateTime": {
               "description": "An answer that the referenced question must match in order for the item to be enabled.",
@@ -486,7 +486,7 @@
             },
             "_answerDateTime": {
               "description": "Extensions for answerDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "answerTime": {
               "description": "An answer that the referenced question must match in order for the item to be enabled.",
@@ -495,7 +495,7 @@
             },
             "_answerTime": {
               "description": "Extensions for answerTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "answerString": {
               "description": "An answer that the referenced question must match in order for the item to be enabled.",
@@ -503,7 +503,7 @@
             },
             "_answerString": {
               "description": "Extensions for answerString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "answerUri": {
               "description": "An answer that the referenced question must match in order for the item to be enabled.",
@@ -511,7 +511,7 @@
             },
             "_answerUri": {
               "description": "Extensions for answerUri",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "answerAttachment": {
               "description": "An answer that the referenced question must match in order for the item to be enabled.",
@@ -548,7 +548,7 @@
             },
             "_valueInteger": {
               "description": "Extensions for valueInteger",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueDate": {
               "description": "A potential answer that\u0027s allowed as the answer to this question.",
@@ -557,7 +557,7 @@
             },
             "_valueDate": {
               "description": "Extensions for valueDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueTime": {
               "description": "A potential answer that\u0027s allowed as the answer to this question.",
@@ -566,7 +566,7 @@
             },
             "_valueTime": {
               "description": "Extensions for valueTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueString": {
               "description": "A potential answer that\u0027s allowed as the answer to this question.",
@@ -574,7 +574,7 @@
             },
             "_valueString": {
               "description": "Extensions for valueString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueCoding": {
               "description": "A potential answer that\u0027s allowed as the answer to this question.",

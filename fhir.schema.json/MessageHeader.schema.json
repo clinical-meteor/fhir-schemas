@@ -44,7 +44,7 @@
             },
             "_timestamp": {
               "description": "Extensions for timestamp",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "enterer": {
               "description": "The person or device that performed the data entry leading to this message. When there is more than one candidate, pick the most proximal to the message. Can provide other enterers in extensions.",
@@ -100,7 +100,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "target": {
               "description": "Identifies the target end system in situations where the initial message transmission is to an intermediary system.",
@@ -112,7 +112,7 @@
             },
             "_endpoint": {
               "description": "Extensions for endpoint",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -132,7 +132,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "software": {
               "description": "May include configuration or other information useful in debugging.",
@@ -140,7 +140,7 @@
             },
             "_software": {
               "description": "Extensions for software",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "version": {
               "description": "Can convey versions of multiple systems in situations where a message passes through multiple hands.",
@@ -148,7 +148,7 @@
             },
             "_version": {
               "description": "Extensions for version",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "contact": {
               "description": "An e-mail, phone, website or other contact point to use to resolve issues with message communications.",
@@ -160,7 +160,7 @@
             },
             "_endpoint": {
               "description": "Extensions for endpoint",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -181,7 +181,7 @@
             },
             "_identifier": {
               "description": "Extensions for identifier",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "code": {
               "description": "Code that identifies the type of response to the message - whether it was successful or not, and whether it should be resent or not.",
@@ -194,7 +194,7 @@
             },
             "_code": {
               "description": "Extensions for code",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "details": {
               "description": "Full details of any issues found in the message.",

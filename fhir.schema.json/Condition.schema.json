@@ -33,7 +33,7 @@
             },
             "_clinicalStatus": {
               "description": "Extensions for clinicalStatus",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "verificationStatus": {
               "description": "The verification status to support the clinical status of the condition.",
@@ -49,7 +49,7 @@
             },
             "_verificationStatus": {
               "description": "Extensions for verificationStatus",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "category": {
               "description": "A category assigned to the condition.",
@@ -88,7 +88,7 @@
             },
             "_onsetDateTime": {
               "description": "Extensions for onsetDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "onsetAge": {
               "description": "Estimated or actual date or date-time  the condition began, in the opinion of the clinician.",
@@ -108,7 +108,7 @@
             },
             "_onsetString": {
               "description": "Extensions for onsetString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "abatementDateTime": {
               "description": "The date or estimated date that the condition resolved or went into remission. This is called \"abatement\" because of the many overloaded connotations associated with \"remission\" or \"resolution\" - Conditions are never really resolved, but they can abate.",
@@ -117,7 +117,7 @@
             },
             "_abatementDateTime": {
               "description": "Extensions for abatementDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "abatementAge": {
               "description": "The date or estimated date that the condition resolved or went into remission. This is called \"abatement\" because of the many overloaded connotations associated with \"remission\" or \"resolution\" - Conditions are never really resolved, but they can abate.",
@@ -129,7 +129,7 @@
             },
             "_abatementBoolean": {
               "description": "Extensions for abatementBoolean",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "abatementPeriod": {
               "description": "The date or estimated date that the condition resolved or went into remission. This is called \"abatement\" because of the many overloaded connotations associated with \"remission\" or \"resolution\" - Conditions are never really resolved, but they can abate.",
@@ -145,7 +145,7 @@
             },
             "_abatementString": {
               "description": "Extensions for abatementString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "assertedDate": {
               "description": "The date on which the existance of the Condition was first asserted or acknowledged.",
@@ -154,7 +154,7 @@
             },
             "_assertedDate": {
               "description": "Extensions for assertedDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "asserter": {
               "description": "Individual who is making the condition statement.",

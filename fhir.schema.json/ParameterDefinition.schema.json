@@ -19,7 +19,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "use": {
               "description": "Whether the parameter is input or output for the module.",
@@ -28,7 +28,7 @@
             },
             "_use": {
               "description": "Extensions for use",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "min": {
               "description": "The minimum number of times this parameter SHALL appear in the request or response.",
@@ -37,7 +37,7 @@
             },
             "_min": {
               "description": "Extensions for min",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "max": {
               "description": "The maximum number of times this element is permitted to appear in the request or response.",
@@ -45,7 +45,7 @@
             },
             "_max": {
               "description": "Extensions for max",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "documentation": {
               "description": "A brief discussion of what the parameter is for and how it is used by the module.",
@@ -53,7 +53,7 @@
             },
             "_documentation": {
               "description": "Extensions for documentation",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "The type of the parameter.",
@@ -62,7 +62,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "profile": {
               "description": "If specified, this indicates a profile that the input data must conform to, or that the output data will conform to.",

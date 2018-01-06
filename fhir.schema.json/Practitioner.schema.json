@@ -32,7 +32,7 @@
             },
             "_active": {
               "description": "Extensions for active",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "name": {
               "description": "The name(s) associated with the practitioner.",
@@ -67,7 +67,7 @@
             },
             "_gender": {
               "description": "Extensions for gender",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "birthDate": {
               "description": "The date of birth for the practitioner.",
@@ -76,7 +76,7 @@
             },
             "_birthDate": {
               "description": "Extensions for birthDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "photo": {
               "description": "Image of the person.",

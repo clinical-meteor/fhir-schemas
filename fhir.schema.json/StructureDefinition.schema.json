@@ -25,7 +25,7 @@
             },
             "_url": {
               "description": "Extensions for url",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "identifier": {
               "description": "A formal identifier that is used to identify this structure definition when it is represented in other formats, or referenced in a specification, model, design or an instance.",
@@ -40,7 +40,7 @@
             },
             "_version": {
               "description": "Extensions for version",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "name": {
               "description": "A natural language name identifying the structure definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
@@ -48,7 +48,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "title": {
               "description": "A short, descriptive, user-friendly title for the structure definition.",
@@ -56,7 +56,7 @@
             },
             "_title": {
               "description": "Extensions for title",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "status": {
               "description": "The status of this structure definition. Enables tracking the life-cycle of the content.",
@@ -70,7 +70,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "experimental": {
               "description": "A boolean value to indicate that this structure definition is authored for testing purposes (or education/evaluation/marketing), and is not intended to be used for genuine usage.",
@@ -78,7 +78,7 @@
             },
             "_experimental": {
               "description": "Extensions for experimental",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "date": {
               "description": "The date  (and optionally time) when the structure definition was published. The date must change if and when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the structure definition changes.",
@@ -87,7 +87,7 @@
             },
             "_date": {
               "description": "Extensions for date",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "publisher": {
               "description": "The name of the individual or organization that published the structure definition.",
@@ -95,7 +95,7 @@
             },
             "_publisher": {
               "description": "Extensions for publisher",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "contact": {
               "description": "Contact details to assist a user in finding and communicating with the publisher.",
@@ -110,7 +110,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "useContext": {
               "description": "The content was developed with a focus and intent of supporting the contexts that are listed. These terms may be used to assist with indexing and searching for appropriate structure definition instances.",
@@ -132,7 +132,7 @@
             },
             "_purpose": {
               "description": "Extensions for purpose",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "copyright": {
               "description": "A copyright statement relating to the structure definition and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the structure definition.",
@@ -140,7 +140,7 @@
             },
             "_copyright": {
               "description": "Extensions for copyright",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "keyword": {
               "description": "A set of key words or terms from external terminologies that may be used to assist with indexing and searching of templates.",
@@ -156,7 +156,7 @@
             },
             "_fhirVersion": {
               "description": "Extensions for fhirVersion",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "mapping": {
               "description": "An external specification that the content is mapped to.",
@@ -177,7 +177,7 @@
             },
             "_kind": {
               "description": "Extensions for kind",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "abstract": {
               "description": "Whether structure this definition describes is abstract or not  - that is, whether the structure is not intended to be instantiated. For Resources and Data types, abstract types will never be exchanged  between systems.",
@@ -185,7 +185,7 @@
             },
             "_abstract": {
               "description": "Extensions for abstract",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "contextType": {
               "description": "If this is an extension, Identifies the context within FHIR resources where the extension can be used.",
@@ -198,7 +198,7 @@
             },
             "_contextType": {
               "description": "Extensions for contextType",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "context": {
               "description": "Identifies the types of resource or data type elements to which the extension can be applied.",
@@ -211,7 +211,7 @@
               "description": "Extensions for context",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "contextInvariant": {
@@ -225,7 +225,7 @@
               "description": "Extensions for contextInvariant",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "type": {
@@ -235,7 +235,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "baseDefinition": {
               "description": "An absolute URI that is the base structure from which this type is derived, either by specialization or constraint.",
@@ -243,7 +243,7 @@
             },
             "_baseDefinition": {
               "description": "Extensions for baseDefinition",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "derivation": {
               "description": "How the type relates to the baseDefinition.",
@@ -255,7 +255,7 @@
             },
             "_derivation": {
               "description": "Extensions for derivation",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "snapshot": {
               "description": "A snapshot view is expressed in a stand alone form that can be used and interpreted without considering the base StructureDefinition.",
@@ -287,7 +287,7 @@
             },
             "_identity": {
               "description": "Extensions for identity",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "uri": {
               "description": "An absolute URI that identifies the specification that this mapping is expressed to.",
@@ -295,7 +295,7 @@
             },
             "_uri": {
               "description": "Extensions for uri",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "name": {
               "description": "A name for the specification that is being mapped to.",
@@ -303,7 +303,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "comment": {
               "description": "Comments about this mapping, including version notes, issues, scope limitations, and other important notes for usage.",
@@ -311,7 +311,7 @@
             },
             "_comment": {
               "description": "Extensions for comment",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

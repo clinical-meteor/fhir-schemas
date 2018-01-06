@@ -60,7 +60,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "intent": {
               "description": "Whether the request is a proposal, plan, or an original order.",
@@ -74,7 +74,7 @@
             },
             "_intent": {
               "description": "Extensions for intent",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "category": {
               "description": "Indicates the type of medication order and where the medication is expected to be consumed or administered.",
@@ -92,7 +92,7 @@
             },
             "_priority": {
               "description": "Extensions for priority",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "medicationCodeableConcept": {
               "description": "Identifies the medication being requested. This is a link to a resource that represents the medication which may be the details of the medication or simply an attribute carrying a code that identifies the medication from a known list of medications.",
@@ -124,7 +124,7 @@
             },
             "_authoredOn": {
               "description": "Extensions for authoredOn",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "requester": {
               "description": "The individual, organization or device that initiated the request and has responsibility for its activation.",
@@ -238,7 +238,7 @@
             },
             "_numberOfRepeatsAllowed": {
               "description": "Extensions for numberOfRepeatsAllowed",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "quantity": {
               "description": "The amount that is to be dispensed for one fill.",
@@ -270,7 +270,7 @@
             },
             "_allowed": {
               "description": "Extensions for allowed",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "reason": {
               "description": "Indicates the reason for the substitution, or why substitution must or must not be performed.",

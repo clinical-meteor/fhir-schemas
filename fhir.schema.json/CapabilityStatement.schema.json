@@ -25,7 +25,7 @@
             },
             "_url": {
               "description": "Extensions for url",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "version": {
               "description": "The identifier that is used to identify this version of the capability statement when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the capability statement author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.",
@@ -33,7 +33,7 @@
             },
             "_version": {
               "description": "Extensions for version",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "name": {
               "description": "A natural language name identifying the capability statement. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
@@ -41,7 +41,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "title": {
               "description": "A short, descriptive, user-friendly title for the capability statement.",
@@ -49,7 +49,7 @@
             },
             "_title": {
               "description": "Extensions for title",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "status": {
               "description": "The status of this capability statement. Enables tracking the life-cycle of the content.",
@@ -63,7 +63,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "experimental": {
               "description": "A boolean value to indicate that this capability statement is authored for testing purposes (or education/evaluation/marketing), and is not intended to be used for genuine usage.",
@@ -71,7 +71,7 @@
             },
             "_experimental": {
               "description": "Extensions for experimental",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "date": {
               "description": "The date  (and optionally time) when the capability statement was published. The date must change if and when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the capability statement changes.",
@@ -80,7 +80,7 @@
             },
             "_date": {
               "description": "Extensions for date",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "publisher": {
               "description": "The name of the individual or organization that published the capability statement.",
@@ -88,7 +88,7 @@
             },
             "_publisher": {
               "description": "Extensions for publisher",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "contact": {
               "description": "Contact details to assist a user in finding and communicating with the publisher.",
@@ -103,7 +103,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "useContext": {
               "description": "The content was developed with a focus and intent of supporting the contexts that are listed. These terms may be used to assist with indexing and searching for appropriate capability statement instances.",
@@ -125,7 +125,7 @@
             },
             "_purpose": {
               "description": "Extensions for purpose",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "copyright": {
               "description": "A copyright statement relating to the capability statement and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the capability statement.",
@@ -133,7 +133,7 @@
             },
             "_copyright": {
               "description": "Extensions for copyright",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "kind": {
               "description": "The way that this statement is intended to be used, to describe an actual running instance of software, a particular product (kind not instance of software) or a class of implementation (e.g. a desired purchase).",
@@ -146,7 +146,7 @@
             },
             "_kind": {
               "description": "Extensions for kind",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "instantiates": {
               "description": "Reference to a canonical URL of another CapabilityStatement that this software implements or uses. This capability statement is a published API description that corresponds to a business service. The rest of the capability statement does not need to repeat the details of the referenced resource, but can do so.",
@@ -159,7 +159,7 @@
               "description": "Extensions for instantiates",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "software": {
@@ -177,7 +177,7 @@
             },
             "_fhirVersion": {
               "description": "Extensions for fhirVersion",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "acceptUnknown": {
               "description": "A code that indicates whether the application accepts unknown elements or extensions when reading resources.",
@@ -191,7 +191,7 @@
             },
             "_acceptUnknown": {
               "description": "Extensions for acceptUnknown",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "format": {
               "description": "A list of the formats supported by this implementation using their content types.",
@@ -205,7 +205,7 @@
               "description": "Extensions for format",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "patchFormat": {
@@ -220,7 +220,7 @@
               "description": "Extensions for patchFormat",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "implementationGuide": {
@@ -234,7 +234,7 @@
               "description": "Extensions for implementationGuide",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "profile": {
@@ -286,7 +286,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "version": {
               "description": "The version identifier for the software covered by this statement.",
@@ -294,7 +294,7 @@
             },
             "_version": {
               "description": "Extensions for version",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "releaseDate": {
               "description": "Date this version of the software was released.",
@@ -303,7 +303,7 @@
             },
             "_releaseDate": {
               "description": "Extensions for releaseDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -323,7 +323,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "url": {
               "description": "An absolute base URL for the implementation.  This forms the base for REST interfaces as well as the mailbox and document interfaces.",
@@ -331,7 +331,7 @@
             },
             "_url": {
               "description": "Extensions for url",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -355,7 +355,7 @@
             },
             "_mode": {
               "description": "Extensions for mode",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "documentation": {
               "description": "Information about the system\u0027s restful capabilities that apply across all applications, such as security.",
@@ -363,7 +363,7 @@
             },
             "_documentation": {
               "description": "Extensions for documentation",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "security": {
               "description": "Information about security implementation from an interface perspective - what a client needs to know.",
@@ -408,7 +408,7 @@
               "description": "Extensions for compartment",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             }
           }
@@ -429,7 +429,7 @@
             },
             "_cors": {
               "description": "Extensions for cors",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "service": {
               "description": "Types of security services that are supported/required by the system.",
@@ -444,7 +444,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "certificate": {
               "description": "Certificates associated with security profiles.",
@@ -472,7 +472,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "blob": {
               "description": "Actual certificate.",
@@ -480,7 +480,7 @@
             },
             "_blob": {
               "description": "Extensions for blob",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -501,7 +501,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "profile": {
               "description": "A specification of the profile that describes the solution\u0027s overall support for the resource, including any constraints on cardinality, bindings, lengths or other limitations. See further discussion in [Using Profiles](profiling.html#profile-uses).",
@@ -513,7 +513,7 @@
             },
             "_documentation": {
               "description": "Extensions for documentation",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "interaction": {
               "description": "Identifies a restful operation supported by the solution.",
@@ -533,7 +533,7 @@
             },
             "_versioning": {
               "description": "Extensions for versioning",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "readHistory": {
               "description": "A flag for whether the server is able to return past versions as part of the vRead operation.",
@@ -541,7 +541,7 @@
             },
             "_readHistory": {
               "description": "Extensions for readHistory",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "updateCreate": {
               "description": "A flag to indicate that the server allows or needs to allow the client to create new identities on the server (e.g. that is, the client PUTs to a location where there is no existing resource). Allowing this operation means that the server allows the client to create new identities on the server.",
@@ -549,7 +549,7 @@
             },
             "_updateCreate": {
               "description": "Extensions for updateCreate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "conditionalCreate": {
               "description": "A flag that indicates that the server supports conditional create.",
@@ -557,7 +557,7 @@
             },
             "_conditionalCreate": {
               "description": "Extensions for conditionalCreate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "conditionalRead": {
               "description": "A code that indicates how the server supports conditional read.",
@@ -571,7 +571,7 @@
             },
             "_conditionalRead": {
               "description": "Extensions for conditionalRead",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "conditionalUpdate": {
               "description": "A flag that indicates that the server supports conditional update.",
@@ -579,7 +579,7 @@
             },
             "_conditionalUpdate": {
               "description": "Extensions for conditionalUpdate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "conditionalDelete": {
               "description": "A code that indicates how the server supports conditional delete.",
@@ -592,7 +592,7 @@
             },
             "_conditionalDelete": {
               "description": "Extensions for conditionalDelete",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "referencePolicy": {
               "description": "A set of flags that defines how references are supported.",
@@ -612,7 +612,7 @@
               "description": "Extensions for referencePolicy",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "searchInclude": {
@@ -626,7 +626,7 @@
               "description": "Extensions for searchInclude",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "searchRevInclude": {
@@ -640,7 +640,7 @@
               "description": "Extensions for searchRevInclude",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "searchParam": {
@@ -682,7 +682,7 @@
             },
             "_code": {
               "description": "Extensions for code",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "documentation": {
               "description": "Guidance specific to the implementation of this operation, such as \u0027delete is a logical delete\u0027 or \u0027updates are only allowed with version id\u0027 or \u0027creates permitted from pre-authorized certificates only\u0027.",
@@ -690,7 +690,7 @@
             },
             "_documentation": {
               "description": "Extensions for documentation",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -710,7 +710,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "definition": {
               "description": "An absolute URI that is a formal reference to where this parameter was first defined, so that a client can be confident of the meaning of the search parameter (a reference to [[[SearchParameter.url]]]).",
@@ -718,7 +718,7 @@
             },
             "_definition": {
               "description": "Extensions for definition",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "The type of value a search parameter refers to, and how the content is interpreted.",
@@ -736,7 +736,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "documentation": {
               "description": "This allows documentation of any distinct behaviors about how the search parameter is used.  For example, text matching algorithms.",
@@ -744,7 +744,7 @@
             },
             "_documentation": {
               "description": "Extensions for documentation",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -770,7 +770,7 @@
             },
             "_code": {
               "description": "Extensions for code",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "documentation": {
               "description": "Guidance specific to the implementation of this operation, such as limitations on the kind of transactions allowed, or information about system wide search is implemented.",
@@ -778,7 +778,7 @@
             },
             "_documentation": {
               "description": "Extensions for documentation",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -798,7 +798,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "definition": {
               "description": "Where the formal definition can be found.",
@@ -833,7 +833,7 @@
             },
             "_reliableCache": {
               "description": "Extensions for reliableCache",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "documentation": {
               "description": "Documentation about the system\u0027s messaging capabilities for this endpoint not otherwise documented by the capability statement.  For example, the process for becoming an authorized messaging exchange partner.",
@@ -841,7 +841,7 @@
             },
             "_documentation": {
               "description": "Extensions for documentation",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "supportedMessage": {
               "description": "References to message definitions for messages this system can send or receive.",
@@ -879,7 +879,7 @@
             },
             "_address": {
               "description": "Extensions for address",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           },
           "required": [
@@ -906,7 +906,7 @@
             },
             "_mode": {
               "description": "Extensions for mode",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "definition": {
               "description": "Points to a message definition that identifies the messaging event, message structure, allowed responses, etc.",
@@ -942,7 +942,7 @@
             },
             "_category": {
               "description": "Extensions for category",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "mode": {
               "description": "The mode of this event declaration - whether an application is a sender or receiver.",
@@ -954,7 +954,7 @@
             },
             "_mode": {
               "description": "Extensions for mode",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "focus": {
               "description": "A resource associated with the event.  This is the resource that defines the event.",
@@ -963,7 +963,7 @@
             },
             "_focus": {
               "description": "Extensions for focus",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "request": {
               "description": "Information about the request for this event.",
@@ -979,7 +979,7 @@
             },
             "_documentation": {
               "description": "Extensions for documentation",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           },
           "required": [
@@ -1008,7 +1008,7 @@
             },
             "_mode": {
               "description": "Extensions for mode",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "documentation": {
               "description": "A description of how the application supports or uses the specified document profile.  For example, when documents are created, what action is taken with consumed documents, etc.",
@@ -1016,7 +1016,7 @@
             },
             "_documentation": {
               "description": "Extensions for documentation",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "profile": {
               "description": "A constraint on a resource used in the document.",

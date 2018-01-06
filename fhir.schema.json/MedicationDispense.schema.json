@@ -47,7 +47,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "category": {
               "description": "Indicates type of medication dispense and where the medication is expected to be consumed or administered.",
@@ -109,7 +109,7 @@
             },
             "_whenPrepared": {
               "description": "Extensions for whenPrepared",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "whenHandedOver": {
               "description": "The time the dispensed product was provided to the patient or their representative.",
@@ -118,7 +118,7 @@
             },
             "_whenHandedOver": {
               "description": "Extensions for whenHandedOver",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "destination": {
               "description": "Identification of the facility/location where the medication was shipped to, as part of the dispense event.",
@@ -162,7 +162,7 @@
             },
             "_notDone": {
               "description": "Extensions for notDone",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "notDoneReasonCodeableConcept": {
               "description": "Indicates the reason why a dispense was not performed.",
@@ -223,7 +223,7 @@
             },
             "_wasSubstituted": {
               "description": "Extensions for wasSubstituted",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "A code signifying whether a different drug was dispensed from what was prescribed.",

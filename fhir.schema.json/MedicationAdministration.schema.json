@@ -54,7 +54,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "category": {
               "description": "Indicates the type of medication administration and where the medication is expected to be consumed or administered.",
@@ -90,7 +90,7 @@
             },
             "_effectiveDateTime": {
               "description": "Extensions for effectiveDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "effectivePeriod": {
               "description": "A specific date/time or interval of time during which the administration took place (or did not take place, when the \u0027notGiven\u0027 attribute is true). For many administrations, such as swallowing a tablet the use of dateTime is more appropriate.",
@@ -109,7 +109,7 @@
             },
             "_notGiven": {
               "description": "Extensions for notGiven",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "reasonNotGiven": {
               "description": "A code indicating why the administration was not performed.",
@@ -206,7 +206,7 @@
             },
             "_text": {
               "description": "Extensions for text",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "site": {
               "description": "A coded specification of the anatomic site where the medication first entered the body.  For example, \"left arm\".",

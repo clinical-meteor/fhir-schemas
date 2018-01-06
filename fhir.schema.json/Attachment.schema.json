@@ -19,7 +19,7 @@
             },
             "_contentType": {
               "description": "Extensions for contentType",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "language": {
               "description": "The human language of the content. The value can be any valid value according to BCP 47.",
@@ -28,7 +28,7 @@
             },
             "_language": {
               "description": "Extensions for language",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "data": {
               "description": "The actual data of the attachment - a sequence of bytes. In XML, represented using base64.",
@@ -36,7 +36,7 @@
             },
             "_data": {
               "description": "Extensions for data",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "url": {
               "description": "An alternative location where the data can be accessed.",
@@ -44,7 +44,7 @@
             },
             "_url": {
               "description": "Extensions for url",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "size": {
               "description": "The number of bytes of data that make up this attachment (before base64 encoding, if that is done).",
@@ -53,7 +53,7 @@
             },
             "_size": {
               "description": "Extensions for size",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "hash": {
               "description": "The calculated hash of the data using SHA-1. Represented using base64.",
@@ -61,7 +61,7 @@
             },
             "_hash": {
               "description": "Extensions for hash",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "title": {
               "description": "A label or set of text to display in place of the data.",
@@ -69,7 +69,7 @@
             },
             "_title": {
               "description": "Extensions for title",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "creation": {
               "description": "The date that the attachment was first created.",
@@ -78,7 +78,7 @@
             },
             "_creation": {
               "description": "Extensions for creation",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

@@ -47,7 +47,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "category": {
               "description": "Indicates a category the goal falls within.",
@@ -75,7 +75,7 @@
             },
             "_startDate": {
               "description": "Extensions for startDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "startCodeableConcept": {
               "description": "The date or event after which the goal should begin being pursued.",
@@ -92,7 +92,7 @@
             },
             "_statusDate": {
               "description": "Extensions for statusDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "statusReason": {
               "description": "Captures the reason for the current status.",
@@ -100,7 +100,7 @@
             },
             "_statusReason": {
               "description": "Extensions for statusReason",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "expressedBy": {
               "description": "Indicates whose goal this is - patient goal, practitioner goal, etc.",
@@ -173,7 +173,7 @@
             },
             "_dueDate": {
               "description": "Extensions for dueDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "dueDuration": {
               "description": "Indicates either the date or the duration after start by which the goal should be met.",

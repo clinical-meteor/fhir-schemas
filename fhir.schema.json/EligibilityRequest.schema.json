@@ -33,7 +33,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "priority": {
               "description": "Immediate (STAT), best effort (NORMAL), deferred (DEFER).",
@@ -50,7 +50,7 @@
             },
             "_servicedDate": {
               "description": "Extensions for servicedDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "servicedPeriod": {
               "description": "The date or dates when the enclosed suite of services were performed or completed.",
@@ -63,7 +63,7 @@
             },
             "_created": {
               "description": "Extensions for created",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "enterer": {
               "description": "Person who created the invoice/claim/pre-determination or pre-authorization.",
@@ -95,7 +95,7 @@
             },
             "_businessArrangement": {
               "description": "Extensions for businessArrangement",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "benefitCategory": {
               "description": "Dental, Vision, Medical, Pharmacy, Rehab etc.",

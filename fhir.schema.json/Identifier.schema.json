@@ -24,7 +24,7 @@
             },
             "_use": {
               "description": "Extensions for use",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "A coded type for the identifier that can be used to determine which identifier to use for a specific purpose.",
@@ -36,7 +36,7 @@
             },
             "_system": {
               "description": "Extensions for system",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "value": {
               "description": "The portion of the identifier typically relevant to the user and which is unique within the context of the system.",
@@ -44,7 +44,7 @@
             },
             "_value": {
               "description": "Extensions for value",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "period": {
               "description": "Time period during which identifier is/was valid for use.",

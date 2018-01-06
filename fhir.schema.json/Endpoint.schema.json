@@ -40,7 +40,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "connectionType": {
               "description": "A coded value that represents the technical details of the usage of this endpoint, such as what WSDLs should be used in what way. (e.g. XDS.b/DICOM/cds-hook).",
@@ -52,7 +52,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "managingOrganization": {
               "description": "The organization that manages this endpoint (even if technically another organisation is hosting this in the cloud, it is the organisation associated with the data).",
@@ -88,7 +88,7 @@
               "description": "Extensions for payloadMimeType",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "address": {
@@ -97,7 +97,7 @@
             },
             "_address": {
               "description": "Extensions for address",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "header": {
               "description": "Additional headers / information to send as part of the notification.",
@@ -110,7 +110,7 @@
               "description": "Extensions for header",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             }
           },

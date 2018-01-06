@@ -41,7 +41,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "statusHistory": {
               "description": "The history of statuses that the EpisodeOfCare has been through (without requiring processing the history of the resource).",
@@ -132,7 +132,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "period": {
               "description": "The period during this EpisodeOfCare that the specific status applied.",
@@ -168,7 +168,7 @@
             },
             "_rank": {
               "description": "Extensions for rank",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           },
           "required": [

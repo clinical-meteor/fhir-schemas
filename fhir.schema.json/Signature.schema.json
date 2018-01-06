@@ -25,7 +25,7 @@
             },
             "_when": {
               "description": "Extensions for when",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "whoUri": {
               "description": "A reference to an application-usable description of the identity that signed  (e.g. the signature used their private key).",
@@ -33,7 +33,7 @@
             },
             "_whoUri": {
               "description": "Extensions for whoUri",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "whoReference": {
               "description": "A reference to an application-usable description of the identity that signed  (e.g. the signature used their private key).",
@@ -45,7 +45,7 @@
             },
             "_onBehalfOfUri": {
               "description": "Extensions for onBehalfOfUri",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "onBehalfOfReference": {
               "description": "A reference to an application-usable description of the identity that is represented by the signature.",
@@ -58,7 +58,7 @@
             },
             "_contentType": {
               "description": "Extensions for contentType",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "blob": {
               "description": "The base64 encoding of the Signature content. When signature is not recorded electronically this element would be empty.",
@@ -66,7 +66,7 @@
             },
             "_blob": {
               "description": "Extensions for blob",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           },
           "required": [

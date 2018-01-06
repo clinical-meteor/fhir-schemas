@@ -19,7 +19,7 @@
             },
             "_sequence": {
               "description": "Extensions for sequence",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "text": {
               "description": "Free text dosage instructions e.g. SIG.",
@@ -27,7 +27,7 @@
             },
             "_text": {
               "description": "Extensions for text",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "additionalInstruction": {
               "description": "Supplemental instruction - e.g. \"with meals\".",
@@ -42,7 +42,7 @@
             },
             "_patientInstruction": {
               "description": "Extensions for patientInstruction",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "timing": {
               "description": "When medication should be administered.",
@@ -54,7 +54,7 @@
             },
             "_asNeededBoolean": {
               "description": "Extensions for asNeededBoolean",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "asNeededCodeableConcept": {
               "description": "Indicates whether the Medication is only taken when needed within a specific dosing schedule (Boolean option), or it indicates the precondition for taking the Medication (CodeableConcept).",

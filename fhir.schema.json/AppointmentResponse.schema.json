@@ -36,7 +36,7 @@
             },
             "_start": {
               "description": "Extensions for start",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "end": {
               "description": "This may be either the same as the appointment request to confirm the details of the appointment, or alternately a new time to request a re-negotiation of the end time.",
@@ -44,7 +44,7 @@
             },
             "_end": {
               "description": "Extensions for end",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "participantType": {
               "description": "Role of participant in the appointment.",
@@ -64,7 +64,7 @@
             },
             "_participantStatus": {
               "description": "Extensions for participantStatus",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "comment": {
               "description": "Additional comments about the appointment.",
@@ -72,7 +72,7 @@
             },
             "_comment": {
               "description": "Extensions for comment",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           },
           "required": [

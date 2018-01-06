@@ -25,7 +25,7 @@
             },
             "_url": {
               "description": "Extensions for url",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "identifier": {
               "description": "A formal identifier that is used to identify this expansion profile when it is represented in other formats, or referenced in a specification, model, design or an instance.",
@@ -37,7 +37,7 @@
             },
             "_version": {
               "description": "Extensions for version",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "name": {
               "description": "A natural language name identifying the expansion profile. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
@@ -45,7 +45,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "status": {
               "description": "The status of this expansion profile. Enables tracking the life-cycle of the content.",
@@ -59,7 +59,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "experimental": {
               "description": "A boolean value to indicate that this expansion profile is authored for testing purposes (or education/evaluation/marketing), and is not intended to be used for genuine usage.",
@@ -67,7 +67,7 @@
             },
             "_experimental": {
               "description": "Extensions for experimental",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "date": {
               "description": "The date  (and optionally time) when the expansion profile was published. The date must change if and when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the expansion profile changes.",
@@ -76,7 +76,7 @@
             },
             "_date": {
               "description": "Extensions for date",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "publisher": {
               "description": "The name of the individual or organization that published the expansion profile.",
@@ -84,7 +84,7 @@
             },
             "_publisher": {
               "description": "Extensions for publisher",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "contact": {
               "description": "Contact details to assist a user in finding and communicating with the publisher.",
@@ -99,7 +99,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "useContext": {
               "description": "The content was developed with a focus and intent of supporting the contexts that are listed. These terms may be used to assist with indexing and searching for appropriate expansion profile instances.",
@@ -132,7 +132,7 @@
             },
             "_includeDesignations": {
               "description": "Extensions for includeDesignations",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "designation": {
               "description": "A set of criteria that provide the constraints imposed on the value set expansion by including or excluding designations.",
@@ -144,7 +144,7 @@
             },
             "_includeDefinition": {
               "description": "Extensions for includeDefinition",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "activeOnly": {
               "description": "Controls whether inactive concepts are included or excluded in value set expansions.",
@@ -152,7 +152,7 @@
             },
             "_activeOnly": {
               "description": "Extensions for activeOnly",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "excludeNested": {
               "description": "Controls whether or not the value set expansion nests codes or not (i.e. ValueSet.expansion.contains.contains).",
@@ -160,7 +160,7 @@
             },
             "_excludeNested": {
               "description": "Extensions for excludeNested",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "excludeNotForUI": {
               "description": "Controls whether or not the value set expansion includes codes which cannot be displayed in user interfaces.",
@@ -168,7 +168,7 @@
             },
             "_excludeNotForUI": {
               "description": "Extensions for excludeNotForUI",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "excludePostCoordinated": {
               "description": "Controls whether or not the value set expansion includes post coordinated codes.",
@@ -176,7 +176,7 @@
             },
             "_excludePostCoordinated": {
               "description": "Extensions for excludePostCoordinated",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "displayLanguage": {
               "description": "Specifies the language to be used for description in the expansions i.e. the language to be used for ValueSet.expansion.contains.display.",
@@ -185,7 +185,7 @@
             },
             "_displayLanguage": {
               "description": "Extensions for displayLanguage",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "limitedExpansion": {
               "description": "If the value set being expanded is incomplete (because it is too big to expand), return a limited expansion (a subset) with an indicator that expansion is incomplete, using the extension [http://hl7.org/fhir/StructureDefinition/valueset-toocostly](extension-valueset-toocostly.html).",
@@ -193,7 +193,7 @@
             },
             "_limitedExpansion": {
               "description": "Extensions for limitedExpansion",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           },
           "required": [
@@ -216,7 +216,7 @@
             },
             "_system": {
               "description": "Extensions for system",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "version": {
               "description": "The version of the code system from which codes in the expansion should be included.",
@@ -224,7 +224,7 @@
             },
             "_version": {
               "description": "Extensions for version",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "mode": {
               "description": "How to manage the intersection between a fixed version in a value set, and this fixed version of the system in the expansion profile.",
@@ -237,7 +237,7 @@
             },
             "_mode": {
               "description": "Extensions for mode",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -257,7 +257,7 @@
             },
             "_system": {
               "description": "Extensions for system",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "version": {
               "description": "The version of the code system from which codes in the expansion should be excluded.",
@@ -265,7 +265,7 @@
             },
             "_version": {
               "description": "Extensions for version",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -325,7 +325,7 @@
             },
             "_language": {
               "description": "Extensions for language",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "use": {
               "description": "Which kinds of designation to include in the expansion.",
@@ -369,7 +369,7 @@
             },
             "_language": {
               "description": "Extensions for language",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "use": {
               "description": "Which kinds of designation to exclude from the expansion.",

@@ -42,7 +42,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "The kind of material that forms the specimen.",
@@ -59,7 +59,7 @@
             },
             "_receivedTime": {
               "description": "Extensions for receivedTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "parent": {
               "description": "Reference to the parent (source) specimen which is used when the specimen was either derived from or a component of another specimen.",
@@ -127,7 +127,7 @@
             },
             "_collectedDateTime": {
               "description": "Extensions for collectedDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "collectedPeriod": {
               "description": "Time when specimen was collected from subject - the physiologically relevant time.",
@@ -163,7 +163,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "procedure": {
               "description": "A coded value specifying the procedure used to process the specimen.",
@@ -183,7 +183,7 @@
             },
             "_timeDateTime": {
               "description": "Extensions for timeDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "timePeriod": {
               "description": "A record of the time or period when the specimen processing occurred.  For example the time of sample fixation or the period of time the sample was in formalin.",
@@ -214,7 +214,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "The type of container associated with the specimen (e.g. slide, aliquot, etc.).",

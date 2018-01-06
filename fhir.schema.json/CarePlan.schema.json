@@ -69,7 +69,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "intent": {
               "description": "Indicates the level of authority/intentionality associated with the care plan and where the care plan fits into the workflow chain.",
@@ -83,7 +83,7 @@
             },
             "_intent": {
               "description": "Extensions for intent",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "category": {
               "description": "Identifies what \"kind\" of plan this is to support differentiation between multiple co-existing plans; e.g. \"Home health\", \"psychiatric\", \"asthma\", \"disease management\", \"wellness plan\", etc.",
@@ -98,7 +98,7 @@
             },
             "_title": {
               "description": "Extensions for title",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "description": {
               "description": "A description of the scope and nature of the plan.",
@@ -106,7 +106,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "subject": {
               "description": "Identifies the patient or group whose intended care is described by the plan.",
@@ -274,7 +274,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "statusReason": {
               "description": "Provides reason why the activity isn\u0027t yet started, is on hold, was cancelled, etc.",
@@ -282,7 +282,7 @@
             },
             "_statusReason": {
               "description": "Extensions for statusReason",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "prohibited": {
               "description": "If true, indicates that the described activity is one that must NOT be engaged in when following the plan.  If false, indicates that the described activity is one that should be engaged in when following the plan.",
@@ -290,7 +290,7 @@
             },
             "_prohibited": {
               "description": "Extensions for prohibited",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "scheduledTiming": {
               "description": "The period, timing or frequency upon which the described activity is to occur.",
@@ -306,7 +306,7 @@
             },
             "_scheduledString": {
               "description": "Extensions for scheduledString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "location": {
               "description": "Identifies the facility where the activity will occur; e.g. home, hospital, specific clinic, etc.",
@@ -341,7 +341,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

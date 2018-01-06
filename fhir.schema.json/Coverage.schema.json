@@ -33,7 +33,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "The type of coverage: social program, medical plan, accident coverage (workers compensation, auto), group health or payment by an individual or organization.",
@@ -53,7 +53,7 @@
             },
             "_subscriberId": {
               "description": "Extensions for subscriberId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "beneficiary": {
               "description": "The party who benefits from the insurance coverage., the patient when services are provided.",
@@ -84,7 +84,7 @@
             },
             "_dependent": {
               "description": "Extensions for dependent",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "sequence": {
               "description": "An optional counter for a particular instance of the identified coverage which increments upon each renewal.",
@@ -92,7 +92,7 @@
             },
             "_sequence": {
               "description": "Extensions for sequence",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "order": {
               "description": "The order of applicability of this coverage relative to other coverages which are currently inforce. Note, there may be gaps in the numbering and this does not imply primary, secondard etc. as the specific positioning of coverages depends upon the episode of care.",
@@ -101,7 +101,7 @@
             },
             "_order": {
               "description": "Extensions for order",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "network": {
               "description": "The insurer-specific identifier for the insurer-defined network of providers to which the beneficiary may seek treatment which will be covered at the \u0027in-network\u0027 rate, otherwise \u0027out of network\u0027 terms and conditions apply.",
@@ -109,7 +109,7 @@
             },
             "_network": {
               "description": "Extensions for network",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "contract": {
               "description": "The policy(s) which constitute this insurance coverage.",
@@ -139,7 +139,7 @@
             },
             "_group": {
               "description": "Extensions for group",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "groupDisplay": {
               "description": "A short description for the group.",
@@ -147,7 +147,7 @@
             },
             "_groupDisplay": {
               "description": "Extensions for groupDisplay",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "subGroup": {
               "description": "Identifies a style or collective of coverage issued by the underwriter, for example may be used to identify a subset of an employer group.",
@@ -155,7 +155,7 @@
             },
             "_subGroup": {
               "description": "Extensions for subGroup",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "subGroupDisplay": {
               "description": "A short description for the subgroup.",
@@ -163,7 +163,7 @@
             },
             "_subGroupDisplay": {
               "description": "Extensions for subGroupDisplay",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "plan": {
               "description": "Identifies a style or collective of coverage issued by the underwriter, for example may be used to identify a collection of benefits provided to employees. May be referred to as a Section or Division ID.",
@@ -171,7 +171,7 @@
             },
             "_plan": {
               "description": "Extensions for plan",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "planDisplay": {
               "description": "A short description for the plan.",
@@ -179,7 +179,7 @@
             },
             "_planDisplay": {
               "description": "Extensions for planDisplay",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "subPlan": {
               "description": "Identifies a sub-style or sub-collective of coverage issued by the underwriter, for example may be used to identify a subset of a collection of benefits provided to employees.",
@@ -187,7 +187,7 @@
             },
             "_subPlan": {
               "description": "Extensions for subPlan",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "subPlanDisplay": {
               "description": "A short description for the subplan.",
@@ -195,7 +195,7 @@
             },
             "_subPlanDisplay": {
               "description": "Extensions for subPlanDisplay",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "class": {
               "description": "Identifies a style or collective of coverage issues by the underwriter, for example may be used to identify a class of coverage such as a level of deductables or co-payment.",
@@ -203,7 +203,7 @@
             },
             "_class": {
               "description": "Extensions for class",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "classDisplay": {
               "description": "A short description for the class.",
@@ -211,7 +211,7 @@
             },
             "_classDisplay": {
               "description": "Extensions for classDisplay",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "subClass": {
               "description": "Identifies a sub-style or sub-collective of coverage issues by the underwriter, for example may be used to identify a subclass of coverage such as a sub-level of deductables or co-payment.",
@@ -219,7 +219,7 @@
             },
             "_subClass": {
               "description": "Extensions for subClass",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "subClassDisplay": {
               "description": "A short description for the subclass.",
@@ -227,7 +227,7 @@
             },
             "_subClassDisplay": {
               "description": "Extensions for subClassDisplay",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

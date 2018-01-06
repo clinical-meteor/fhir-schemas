@@ -37,7 +37,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "period": {
               "description": "The dates the subject began and ended their participation in the study.",
@@ -57,7 +57,7 @@
             },
             "_assignedArm": {
               "description": "Extensions for assignedArm",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "actualArm": {
               "description": "The name of the arm in the study the subject actually followed as part of this study.",
@@ -65,7 +65,7 @@
             },
             "_actualArm": {
               "description": "Extensions for actualArm",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "consent": {
               "description": "A record of the patient\u0027s informed agreement to participate in the study.",

@@ -27,7 +27,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "eventName": {
               "description": "The name of the event (if this is a named-event trigger).",
@@ -35,7 +35,7 @@
             },
             "_eventName": {
               "description": "Extensions for eventName",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "eventTimingTiming": {
               "description": "The timing of the event (if this is a period trigger).",
@@ -52,7 +52,7 @@
             },
             "_eventTimingDate": {
               "description": "Extensions for eventTimingDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "eventTimingDateTime": {
               "description": "The timing of the event (if this is a period trigger).",
@@ -61,7 +61,7 @@
             },
             "_eventTimingDateTime": {
               "description": "Extensions for eventTimingDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "eventData": {
               "description": "The triggering data of the event (if this is a data trigger).",

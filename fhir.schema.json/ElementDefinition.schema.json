@@ -18,7 +18,7 @@
             },
             "_path": {
               "description": "Extensions for path",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "representation": {
               "description": "Codes that define how this element is represented in instances, when the deviation varies from the normal case.",
@@ -38,7 +38,7 @@
               "description": "Extensions for representation",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "sliceName": {
@@ -47,7 +47,7 @@
             },
             "_sliceName": {
               "description": "Extensions for sliceName",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "label": {
               "description": "A single preferred label which is the text to display beside the element indicating its meaning or to use to prompt for the element in a user display or form.",
@@ -55,7 +55,7 @@
             },
             "_label": {
               "description": "Extensions for label",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "code": {
               "description": "A code that has the same meaning as the element in a particular terminology.",
@@ -74,7 +74,7 @@
             },
             "_short": {
               "description": "Extensions for short",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "definition": {
               "description": "Provides a complete explanation of the meaning of the data element for human readability.  For the case of elements derived from existing elements (e.g. constraints), the definition SHALL be consistent with the base definition, but convey the meaning of the element in the particular context of use of the resource.",
@@ -82,7 +82,7 @@
             },
             "_definition": {
               "description": "Extensions for definition",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "comment": {
               "description": "Explanatory notes and implementation guidance about the data element, including notes about how to use the data properly, exceptions to proper use, etc.",
@@ -90,7 +90,7 @@
             },
             "_comment": {
               "description": "Extensions for comment",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "requirements": {
               "description": "This element is for traceability of why the element was created and why the constraints exist as they do. This may be used to point to source materials or specifications that drove the structure of this element.",
@@ -98,7 +98,7 @@
             },
             "_requirements": {
               "description": "Extensions for requirements",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "alias": {
               "description": "Identifies additional names by which this element might also be known.",
@@ -111,7 +111,7 @@
               "description": "Extensions for alias",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "min": {
@@ -121,7 +121,7 @@
             },
             "_min": {
               "description": "Extensions for min",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "max": {
               "description": "The maximum number of times this element is permitted to appear in the instance.",
@@ -129,7 +129,7 @@
             },
             "_max": {
               "description": "Extensions for max",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "base": {
               "description": "Information about the base definition of the element, provided to make it unnecessary for tools to trace the deviation of the element through the derived and related profiles. This information is provided when the element definition is not the original definition of an element - i.g. either in a constraint on another type, or for elements from a super type in a snap shot.",
@@ -141,7 +141,7 @@
             },
             "_contentReference": {
               "description": "Extensions for contentReference",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "The data type or resource that the value of this element is permitted to be.",
@@ -156,7 +156,7 @@
             },
             "_defaultValueBoolean": {
               "description": "Extensions for defaultValueBoolean",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "defaultValueInteger": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
@@ -165,7 +165,7 @@
             },
             "_defaultValueInteger": {
               "description": "Extensions for defaultValueInteger",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "defaultValueDecimal": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
@@ -174,7 +174,7 @@
             },
             "_defaultValueDecimal": {
               "description": "Extensions for defaultValueDecimal",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "defaultValueBase64Binary": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
@@ -182,7 +182,7 @@
             },
             "_defaultValueBase64Binary": {
               "description": "Extensions for defaultValueBase64Binary",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "defaultValueInstant": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
@@ -190,7 +190,7 @@
             },
             "_defaultValueInstant": {
               "description": "Extensions for defaultValueInstant",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "defaultValueString": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
@@ -198,7 +198,7 @@
             },
             "_defaultValueString": {
               "description": "Extensions for defaultValueString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "defaultValueUri": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
@@ -206,7 +206,7 @@
             },
             "_defaultValueUri": {
               "description": "Extensions for defaultValueUri",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "defaultValueDate": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
@@ -215,7 +215,7 @@
             },
             "_defaultValueDate": {
               "description": "Extensions for defaultValueDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "defaultValueDateTime": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
@@ -224,7 +224,7 @@
             },
             "_defaultValueDateTime": {
               "description": "Extensions for defaultValueDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "defaultValueTime": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
@@ -233,7 +233,7 @@
             },
             "_defaultValueTime": {
               "description": "Extensions for defaultValueTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "defaultValueCode": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
@@ -242,7 +242,7 @@
             },
             "_defaultValueCode": {
               "description": "Extensions for defaultValueCode",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "defaultValueOid": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
@@ -251,7 +251,7 @@
             },
             "_defaultValueOid": {
               "description": "Extensions for defaultValueOid",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "defaultValueUuid": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
@@ -260,7 +260,7 @@
             },
             "_defaultValueUuid": {
               "description": "Extensions for defaultValueUuid",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "defaultValueId": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
@@ -269,7 +269,7 @@
             },
             "_defaultValueId": {
               "description": "Extensions for defaultValueId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "defaultValueUnsignedInt": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
@@ -278,7 +278,7 @@
             },
             "_defaultValueUnsignedInt": {
               "description": "Extensions for defaultValueUnsignedInt",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "defaultValuePositiveInt": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
@@ -287,7 +287,7 @@
             },
             "_defaultValuePositiveInt": {
               "description": "Extensions for defaultValuePositiveInt",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "defaultValueMarkdown": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
@@ -295,11 +295,11 @@
             },
             "_defaultValueMarkdown": {
               "description": "Extensions for defaultValueMarkdown",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "defaultValueElement": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "defaultValueExtension": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
@@ -447,7 +447,7 @@
             },
             "_meaningWhenMissing": {
               "description": "Extensions for meaningWhenMissing",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "orderMeaning": {
               "description": "If present, indicates that the order of the repeating element has meaning and describes what that meaning is.  If absent, it means that the order of the element has no meaning.",
@@ -455,7 +455,7 @@
             },
             "_orderMeaning": {
               "description": "Extensions for orderMeaning",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "fixedBoolean": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -463,7 +463,7 @@
             },
             "_fixedBoolean": {
               "description": "Extensions for fixedBoolean",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "fixedInteger": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -472,7 +472,7 @@
             },
             "_fixedInteger": {
               "description": "Extensions for fixedInteger",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "fixedDecimal": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -481,7 +481,7 @@
             },
             "_fixedDecimal": {
               "description": "Extensions for fixedDecimal",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "fixedBase64Binary": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -489,7 +489,7 @@
             },
             "_fixedBase64Binary": {
               "description": "Extensions for fixedBase64Binary",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "fixedInstant": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -497,7 +497,7 @@
             },
             "_fixedInstant": {
               "description": "Extensions for fixedInstant",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "fixedString": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -505,7 +505,7 @@
             },
             "_fixedString": {
               "description": "Extensions for fixedString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "fixedUri": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -513,7 +513,7 @@
             },
             "_fixedUri": {
               "description": "Extensions for fixedUri",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "fixedDate": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -522,7 +522,7 @@
             },
             "_fixedDate": {
               "description": "Extensions for fixedDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "fixedDateTime": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -531,7 +531,7 @@
             },
             "_fixedDateTime": {
               "description": "Extensions for fixedDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "fixedTime": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -540,7 +540,7 @@
             },
             "_fixedTime": {
               "description": "Extensions for fixedTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "fixedCode": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -549,7 +549,7 @@
             },
             "_fixedCode": {
               "description": "Extensions for fixedCode",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "fixedOid": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -558,7 +558,7 @@
             },
             "_fixedOid": {
               "description": "Extensions for fixedOid",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "fixedUuid": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -567,7 +567,7 @@
             },
             "_fixedUuid": {
               "description": "Extensions for fixedUuid",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "fixedId": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -576,7 +576,7 @@
             },
             "_fixedId": {
               "description": "Extensions for fixedId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "fixedUnsignedInt": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -585,7 +585,7 @@
             },
             "_fixedUnsignedInt": {
               "description": "Extensions for fixedUnsignedInt",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "fixedPositiveInt": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -594,7 +594,7 @@
             },
             "_fixedPositiveInt": {
               "description": "Extensions for fixedPositiveInt",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "fixedMarkdown": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -602,11 +602,11 @@
             },
             "_fixedMarkdown": {
               "description": "Extensions for fixedMarkdown",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "fixedElement": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "fixedExtension": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -754,7 +754,7 @@
             },
             "_patternBoolean": {
               "description": "Extensions for patternBoolean",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patternInteger": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -763,7 +763,7 @@
             },
             "_patternInteger": {
               "description": "Extensions for patternInteger",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patternDecimal": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -772,7 +772,7 @@
             },
             "_patternDecimal": {
               "description": "Extensions for patternDecimal",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patternBase64Binary": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -780,7 +780,7 @@
             },
             "_patternBase64Binary": {
               "description": "Extensions for patternBase64Binary",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patternInstant": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -788,7 +788,7 @@
             },
             "_patternInstant": {
               "description": "Extensions for patternInstant",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patternString": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -796,7 +796,7 @@
             },
             "_patternString": {
               "description": "Extensions for patternString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patternUri": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -804,7 +804,7 @@
             },
             "_patternUri": {
               "description": "Extensions for patternUri",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patternDate": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -813,7 +813,7 @@
             },
             "_patternDate": {
               "description": "Extensions for patternDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patternDateTime": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -822,7 +822,7 @@
             },
             "_patternDateTime": {
               "description": "Extensions for patternDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patternTime": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -831,7 +831,7 @@
             },
             "_patternTime": {
               "description": "Extensions for patternTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patternCode": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -840,7 +840,7 @@
             },
             "_patternCode": {
               "description": "Extensions for patternCode",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patternOid": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -849,7 +849,7 @@
             },
             "_patternOid": {
               "description": "Extensions for patternOid",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patternUuid": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -858,7 +858,7 @@
             },
             "_patternUuid": {
               "description": "Extensions for patternUuid",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patternId": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -867,7 +867,7 @@
             },
             "_patternId": {
               "description": "Extensions for patternId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patternUnsignedInt": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -876,7 +876,7 @@
             },
             "_patternUnsignedInt": {
               "description": "Extensions for patternUnsignedInt",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patternPositiveInt": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -885,7 +885,7 @@
             },
             "_patternPositiveInt": {
               "description": "Extensions for patternPositiveInt",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patternMarkdown": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -893,11 +893,11 @@
             },
             "_patternMarkdown": {
               "description": "Extensions for patternMarkdown",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patternElement": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patternExtension": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -1053,7 +1053,7 @@
             },
             "_minValueDate": {
               "description": "Extensions for minValueDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "minValueDateTime": {
               "description": "The minimum allowed value for the element. The value is inclusive. This is allowed for the types date, dateTime, instant, time, decimal, integer, and Quantity.",
@@ -1062,7 +1062,7 @@
             },
             "_minValueDateTime": {
               "description": "Extensions for minValueDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "minValueInstant": {
               "description": "The minimum allowed value for the element. The value is inclusive. This is allowed for the types date, dateTime, instant, time, decimal, integer, and Quantity.",
@@ -1070,7 +1070,7 @@
             },
             "_minValueInstant": {
               "description": "Extensions for minValueInstant",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "minValueTime": {
               "description": "The minimum allowed value for the element. The value is inclusive. This is allowed for the types date, dateTime, instant, time, decimal, integer, and Quantity.",
@@ -1079,7 +1079,7 @@
             },
             "_minValueTime": {
               "description": "Extensions for minValueTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "minValueDecimal": {
               "description": "The minimum allowed value for the element. The value is inclusive. This is allowed for the types date, dateTime, instant, time, decimal, integer, and Quantity.",
@@ -1088,7 +1088,7 @@
             },
             "_minValueDecimal": {
               "description": "Extensions for minValueDecimal",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "minValueInteger": {
               "description": "The minimum allowed value for the element. The value is inclusive. This is allowed for the types date, dateTime, instant, time, decimal, integer, and Quantity.",
@@ -1097,7 +1097,7 @@
             },
             "_minValueInteger": {
               "description": "Extensions for minValueInteger",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "minValuePositiveInt": {
               "description": "The minimum allowed value for the element. The value is inclusive. This is allowed for the types date, dateTime, instant, time, decimal, integer, and Quantity.",
@@ -1106,7 +1106,7 @@
             },
             "_minValuePositiveInt": {
               "description": "Extensions for minValuePositiveInt",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "minValueUnsignedInt": {
               "description": "The minimum allowed value for the element. The value is inclusive. This is allowed for the types date, dateTime, instant, time, decimal, integer, and Quantity.",
@@ -1115,7 +1115,7 @@
             },
             "_minValueUnsignedInt": {
               "description": "Extensions for minValueUnsignedInt",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "minValueQuantity": {
               "description": "The minimum allowed value for the element. The value is inclusive. This is allowed for the types date, dateTime, instant, time, decimal, integer, and Quantity.",
@@ -1128,7 +1128,7 @@
             },
             "_maxValueDate": {
               "description": "Extensions for maxValueDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "maxValueDateTime": {
               "description": "The maximum allowed value for the element. The value is inclusive. This is allowed for the types date, dateTime, instant, time, decimal, integer, and Quantity.",
@@ -1137,7 +1137,7 @@
             },
             "_maxValueDateTime": {
               "description": "Extensions for maxValueDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "maxValueInstant": {
               "description": "The maximum allowed value for the element. The value is inclusive. This is allowed for the types date, dateTime, instant, time, decimal, integer, and Quantity.",
@@ -1145,7 +1145,7 @@
             },
             "_maxValueInstant": {
               "description": "Extensions for maxValueInstant",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "maxValueTime": {
               "description": "The maximum allowed value for the element. The value is inclusive. This is allowed for the types date, dateTime, instant, time, decimal, integer, and Quantity.",
@@ -1154,7 +1154,7 @@
             },
             "_maxValueTime": {
               "description": "Extensions for maxValueTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "maxValueDecimal": {
               "description": "The maximum allowed value for the element. The value is inclusive. This is allowed for the types date, dateTime, instant, time, decimal, integer, and Quantity.",
@@ -1163,7 +1163,7 @@
             },
             "_maxValueDecimal": {
               "description": "Extensions for maxValueDecimal",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "maxValueInteger": {
               "description": "The maximum allowed value for the element. The value is inclusive. This is allowed for the types date, dateTime, instant, time, decimal, integer, and Quantity.",
@@ -1172,7 +1172,7 @@
             },
             "_maxValueInteger": {
               "description": "Extensions for maxValueInteger",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "maxValuePositiveInt": {
               "description": "The maximum allowed value for the element. The value is inclusive. This is allowed for the types date, dateTime, instant, time, decimal, integer, and Quantity.",
@@ -1181,7 +1181,7 @@
             },
             "_maxValuePositiveInt": {
               "description": "Extensions for maxValuePositiveInt",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "maxValueUnsignedInt": {
               "description": "The maximum allowed value for the element. The value is inclusive. This is allowed for the types date, dateTime, instant, time, decimal, integer, and Quantity.",
@@ -1190,7 +1190,7 @@
             },
             "_maxValueUnsignedInt": {
               "description": "Extensions for maxValueUnsignedInt",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "maxValueQuantity": {
               "description": "The maximum allowed value for the element. The value is inclusive. This is allowed for the types date, dateTime, instant, time, decimal, integer, and Quantity.",
@@ -1203,7 +1203,7 @@
             },
             "_maxLength": {
               "description": "Extensions for maxLength",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "condition": {
               "description": "A reference to an invariant that may make additional statements about the cardinality or value in the instance.",
@@ -1217,7 +1217,7 @@
               "description": "Extensions for condition",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "constraint": {
@@ -1233,7 +1233,7 @@
             },
             "_mustSupport": {
               "description": "Extensions for mustSupport",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "isModifier": {
               "description": "If true, the value of this element affects the interpretation of the element or resource that contains it, and the value of the element cannot be ignored. Typically, this is used for status, negation and qualification codes. The effect of this is that the element cannot be ignored by systems: they SHALL either recognize the element and process it, and/or a pre-determination has been made that it is not relevant to their particular system.",
@@ -1241,7 +1241,7 @@
             },
             "_isModifier": {
               "description": "Extensions for isModifier",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "isSummary": {
               "description": "Whether the element should be included if a client requests a search with the parameter _summary\u003dtrue.",
@@ -1249,7 +1249,7 @@
             },
             "_isSummary": {
               "description": "Extensions for isSummary",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "binding": {
               "description": "Binds to a value set if this element is coded (code, Coding, CodeableConcept, Quantity), or the data types (string, uri).",
@@ -1287,7 +1287,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "ordered": {
               "description": "If the matching elements have to occur in the same order as defined in the profile.",
@@ -1295,7 +1295,7 @@
             },
             "_ordered": {
               "description": "Extensions for ordered",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "rules": {
               "description": "Whether additional slices are allowed or not. When the slices are ordered, profile authors can also say that additional slices are only allowed at the end.",
@@ -1308,7 +1308,7 @@
             },
             "_rules": {
               "description": "Extensions for rules",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -1335,7 +1335,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "path": {
               "description": "A FHIRPath expression, using a restricted subset of FHIRPath, that is used to identify the element on which discrimination is based.",
@@ -1343,7 +1343,7 @@
             },
             "_path": {
               "description": "Extensions for path",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -1363,7 +1363,7 @@
             },
             "_path": {
               "description": "Extensions for path",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "min": {
               "description": "Minimum cardinality of the base element identified by the path.",
@@ -1372,7 +1372,7 @@
             },
             "_min": {
               "description": "Extensions for min",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "max": {
               "description": "Maximum cardinality of the base element identified by the path.",
@@ -1380,7 +1380,7 @@
             },
             "_max": {
               "description": "Extensions for max",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -1400,7 +1400,7 @@
             },
             "_code": {
               "description": "Extensions for code",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "profile": {
               "description": "Identifies a profile structure or implementation Guide that SHALL hold for the datatype this element refers to. Can be a local reference - to a contained StructureDefinition, or a reference to another StructureDefinition or Implementation Guide by a canonical URL. When an implementation guide is specified, the resource SHALL conform to at least one profile defined in the implementation guide.",
@@ -1408,7 +1408,7 @@
             },
             "_profile": {
               "description": "Extensions for profile",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "targetProfile": {
               "description": "Identifies a profile structure or implementation Guide that SHALL hold for the target of the reference this element refers to. Can be a local reference - to a contained StructureDefinition, or a reference to another StructureDefinition or Implementation Guide by a canonical URL. When an implementation guide is specified, the resource SHALL conform to at least one profile defined in the implementation guide.",
@@ -1416,7 +1416,7 @@
             },
             "_targetProfile": {
               "description": "Extensions for targetProfile",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "aggregation": {
               "description": "If the type is a reference to another resource, how the resource is or can be aggregated - is it a contained resource, or a reference, and if the context is a bundle, is it included in the bundle.",
@@ -1434,7 +1434,7 @@
               "description": "Extensions for aggregation",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "versioning": {
@@ -1448,7 +1448,7 @@
             },
             "_versioning": {
               "description": "Extensions for versioning",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -1468,7 +1468,7 @@
             },
             "_label": {
               "description": "Extensions for label",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueBoolean": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
@@ -1476,7 +1476,7 @@
             },
             "_valueBoolean": {
               "description": "Extensions for valueBoolean",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueInteger": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
@@ -1485,7 +1485,7 @@
             },
             "_valueInteger": {
               "description": "Extensions for valueInteger",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueDecimal": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
@@ -1494,7 +1494,7 @@
             },
             "_valueDecimal": {
               "description": "Extensions for valueDecimal",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueBase64Binary": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
@@ -1502,7 +1502,7 @@
             },
             "_valueBase64Binary": {
               "description": "Extensions for valueBase64Binary",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueInstant": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
@@ -1510,7 +1510,7 @@
             },
             "_valueInstant": {
               "description": "Extensions for valueInstant",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueString": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
@@ -1518,7 +1518,7 @@
             },
             "_valueString": {
               "description": "Extensions for valueString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueUri": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
@@ -1526,7 +1526,7 @@
             },
             "_valueUri": {
               "description": "Extensions for valueUri",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueDate": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
@@ -1535,7 +1535,7 @@
             },
             "_valueDate": {
               "description": "Extensions for valueDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueDateTime": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
@@ -1544,7 +1544,7 @@
             },
             "_valueDateTime": {
               "description": "Extensions for valueDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueTime": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
@@ -1553,7 +1553,7 @@
             },
             "_valueTime": {
               "description": "Extensions for valueTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueCode": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
@@ -1562,7 +1562,7 @@
             },
             "_valueCode": {
               "description": "Extensions for valueCode",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueOid": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
@@ -1571,7 +1571,7 @@
             },
             "_valueOid": {
               "description": "Extensions for valueOid",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueUuid": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
@@ -1580,7 +1580,7 @@
             },
             "_valueUuid": {
               "description": "Extensions for valueUuid",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueId": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
@@ -1589,7 +1589,7 @@
             },
             "_valueId": {
               "description": "Extensions for valueId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueUnsignedInt": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
@@ -1598,7 +1598,7 @@
             },
             "_valueUnsignedInt": {
               "description": "Extensions for valueUnsignedInt",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valuePositiveInt": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
@@ -1607,7 +1607,7 @@
             },
             "_valuePositiveInt": {
               "description": "Extensions for valuePositiveInt",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueMarkdown": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
@@ -1615,11 +1615,11 @@
             },
             "_valueMarkdown": {
               "description": "Extensions for valueMarkdown",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueElement": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueExtension": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
@@ -1780,7 +1780,7 @@
             },
             "_key": {
               "description": "Extensions for key",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "requirements": {
               "description": "Description of why this constraint is necessary or appropriate.",
@@ -1788,7 +1788,7 @@
             },
             "_requirements": {
               "description": "Extensions for requirements",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "severity": {
               "description": "Identifies the impact constraint violation has on the conformance of the instance.",
@@ -1800,7 +1800,7 @@
             },
             "_severity": {
               "description": "Extensions for severity",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "human": {
               "description": "Text that can be used to describe the constraint in messages identifying that the constraint has been violated.",
@@ -1808,7 +1808,7 @@
             },
             "_human": {
               "description": "Extensions for human",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "expression": {
               "description": "A [FHIRPath](http://hl7.org/fluentpath) expression of constraint that can be executed to see if this constraint is met.",
@@ -1816,7 +1816,7 @@
             },
             "_expression": {
               "description": "Extensions for expression",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "xpath": {
               "description": "An XPath expression of constraint that can be executed to see if this constraint is met.",
@@ -1824,7 +1824,7 @@
             },
             "_xpath": {
               "description": "Extensions for xpath",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "source": {
               "description": "A reference to the original source of the constraint, for traceability purposes.",
@@ -1832,7 +1832,7 @@
             },
             "_source": {
               "description": "Extensions for source",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -1858,7 +1858,7 @@
             },
             "_strength": {
               "description": "Extensions for strength",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "description": {
               "description": "Describes the intended use of this particular set of codes.",
@@ -1866,7 +1866,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueSetUri": {
               "description": "Points to the value set or external definition (e.g. implicit value set) that identifies the set of codes to be used. If the binding refers to an explicit value set - the normal case - then use a Reference(ValueSet) preferably containing the canonical URL for the value set. If the reference is to an implicit value set - usually, an IETF RFC that defines a grammar, such as mime types - then use a uri.",
@@ -1874,7 +1874,7 @@
             },
             "_valueSetUri": {
               "description": "Extensions for valueSetUri",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueSetReference": {
               "description": "Points to the value set or external definition (e.g. implicit value set) that identifies the set of codes to be used. If the binding refers to an explicit value set - the normal case - then use a Reference(ValueSet) preferably containing the canonical URL for the value set. If the reference is to an implicit value set - usually, an IETF RFC that defines a grammar, such as mime types - then use a uri.",
@@ -1899,7 +1899,7 @@
             },
             "_identity": {
               "description": "Extensions for identity",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "language": {
               "description": "Identifies the computable language in which mapping.map is expressed.",
@@ -1908,7 +1908,7 @@
             },
             "_language": {
               "description": "Extensions for language",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "map": {
               "description": "Expresses what part of the target specification corresponds to this element.",
@@ -1916,7 +1916,7 @@
             },
             "_map": {
               "description": "Extensions for map",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "comment": {
               "description": "Comments that provide information about the mapping or its use.",
@@ -1924,7 +1924,7 @@
             },
             "_comment": {
               "description": "Extensions for comment",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

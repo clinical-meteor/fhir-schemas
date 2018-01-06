@@ -58,7 +58,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "intent": {
               "description": "Distinguishes the \"level\" of authorization/demand implicit in this request.",
@@ -67,7 +67,7 @@
             },
             "_intent": {
               "description": "Extensions for intent",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "An indication of the type of referral (or where applicable the type of transfer of care) request.",
@@ -80,7 +80,7 @@
             },
             "_priority": {
               "description": "Extensions for priority",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "serviceRequested": {
               "description": "The service(s) that is/are requested to be provided to the patient.  For example: cardiac pacemaker insertion.",
@@ -104,7 +104,7 @@
             },
             "_occurrenceDateTime": {
               "description": "Extensions for occurrenceDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "occurrencePeriod": {
               "description": "The period of time within which the services identified in the referral/transfer of care is specified or required to occur.",
@@ -117,7 +117,7 @@
             },
             "_authoredOn": {
               "description": "Extensions for authoredOn",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "requester": {
               "description": "The individual who initiated the request and has responsibility for its activation.",
@@ -154,7 +154,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "supportingInfo": {
               "description": "Any additional (administrative, financial or clinical) information required to support request for referral or transfer of care.  For example: Presenting problems/chief complaints Medical History Family History Alerts Allergy/Intolerance and Adverse Reactions Medications Observations/Assessments (may include cognitive and fundtional assessments) Diagnostic Reports Care Plan.",

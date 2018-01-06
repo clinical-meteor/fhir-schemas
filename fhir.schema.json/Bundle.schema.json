@@ -40,7 +40,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "total": {
               "description": "If a set of search matches, this is the total number of matches for the search (as opposed to the number of results in this bundle).",
@@ -49,7 +49,7 @@
             },
             "_total": {
               "description": "Extensions for total",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "link": {
               "description": "A series of links that provide context to this bundle.",
@@ -90,7 +90,7 @@
             },
             "_relation": {
               "description": "Extensions for relation",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "url": {
               "description": "The reference details for the link.",
@@ -98,7 +98,7 @@
             },
             "_url": {
               "description": "Extensions for url",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -125,7 +125,7 @@
             },
             "_fullUrl": {
               "description": "Extensions for fullUrl",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "resource": {
               "description": "The Resources for the entry.",
@@ -166,7 +166,7 @@
             },
             "_mode": {
               "description": "Extensions for mode",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "score": {
               "description": "When searching, the server\u0027s search ranking score for the entry.",
@@ -175,7 +175,7 @@
             },
             "_score": {
               "description": "Extensions for score",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -201,7 +201,7 @@
             },
             "_method": {
               "description": "Extensions for method",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "url": {
               "description": "The URL for this entry, relative to the root (the address to which the request is posted).",
@@ -209,7 +209,7 @@
             },
             "_url": {
               "description": "Extensions for url",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "ifNoneMatch": {
               "description": "If the ETag values match, return a 304 Not Modified status. See the API documentation for [\"Conditional Read\"](http.html#cread).",
@@ -217,7 +217,7 @@
             },
             "_ifNoneMatch": {
               "description": "Extensions for ifNoneMatch",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "ifModifiedSince": {
               "description": "Only perform the operation if the last updated date matches. See the API documentation for [\"Conditional Read\"](http.html#cread).",
@@ -225,7 +225,7 @@
             },
             "_ifModifiedSince": {
               "description": "Extensions for ifModifiedSince",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "ifMatch": {
               "description": "Only perform the operation if the Etag value matches. For more information, see the API section [\"Managing Resource Contention\"](http.html#concurrency).",
@@ -233,7 +233,7 @@
             },
             "_ifMatch": {
               "description": "Extensions for ifMatch",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "ifNoneExist": {
               "description": "Instruct the server not to perform the create if a specified resource already exists. For further information, see the API documentation for [\"Conditional Create\"](http.html#ccreate). This is just the query portion of the URL - what follows the \"?\" (not including the \"?\").",
@@ -241,7 +241,7 @@
             },
             "_ifNoneExist": {
               "description": "Extensions for ifNoneExist",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -261,7 +261,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "location": {
               "description": "The location header created by processing this operation.",
@@ -269,7 +269,7 @@
             },
             "_location": {
               "description": "Extensions for location",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "etag": {
               "description": "The etag for the resource, it the operation for the entry produced a versioned resource (see [Resource Metadata and Versioning](http.html#versioning) and [Managing Resource Contention](http.html#concurrency)).",
@@ -277,7 +277,7 @@
             },
             "_etag": {
               "description": "Extensions for etag",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "lastModified": {
               "description": "The date/time that the resource was modified on the server.",
@@ -285,7 +285,7 @@
             },
             "_lastModified": {
               "description": "Extensions for lastModified",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "outcome": {
               "description": "An OperationOutcome containing hints and warnings produced as part of processing this entry in a batch or transaction.",

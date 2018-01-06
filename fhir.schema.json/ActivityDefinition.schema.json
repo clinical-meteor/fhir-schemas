@@ -25,7 +25,7 @@
             },
             "_url": {
               "description": "Extensions for url",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "identifier": {
               "description": "A formal identifier that is used to identify this activity definition when it is represented in other formats, or referenced in a specification, model, design or an instance.",
@@ -40,7 +40,7 @@
             },
             "_version": {
               "description": "Extensions for version",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "name": {
               "description": "A natural language name identifying the activity definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
@@ -48,7 +48,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "title": {
               "description": "A short, descriptive, user-friendly title for the activity definition.",
@@ -56,7 +56,7 @@
             },
             "_title": {
               "description": "Extensions for title",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "status": {
               "description": "The status of this activity definition. Enables tracking the life-cycle of the content.",
@@ -70,7 +70,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "experimental": {
               "description": "A boolean value to indicate that this activity definition is authored for testing purposes (or education/evaluation/marketing), and is not intended to be used for genuine usage.",
@@ -78,7 +78,7 @@
             },
             "_experimental": {
               "description": "Extensions for experimental",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "date": {
               "description": "The date  (and optionally time) when the activity definition was published. The date must change if and when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the activity definition changes.",
@@ -87,7 +87,7 @@
             },
             "_date": {
               "description": "Extensions for date",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "publisher": {
               "description": "The name of the individual or organization that published the activity definition.",
@@ -95,7 +95,7 @@
             },
             "_publisher": {
               "description": "Extensions for publisher",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "description": {
               "description": "A free text natural language description of the activity definition from a consumer\u0027s perspective.",
@@ -103,7 +103,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "purpose": {
               "description": "Explaination of why this activity definition is needed and why it has been designed as it has.",
@@ -111,7 +111,7 @@
             },
             "_purpose": {
               "description": "Extensions for purpose",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "usage": {
               "description": "A detailed description of how the asset is used from a clinical perspective.",
@@ -119,7 +119,7 @@
             },
             "_usage": {
               "description": "Extensions for usage",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "approvalDate": {
               "description": "The date on which the resource content was approved by the publisher. Approval happens once when the content is officially approved for usage.",
@@ -128,7 +128,7 @@
             },
             "_approvalDate": {
               "description": "Extensions for approvalDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "lastReviewDate": {
               "description": "The date on which the resource content was last reviewed. Review happens periodically after approval, but doesn\u0027t change the original approval date.",
@@ -137,7 +137,7 @@
             },
             "_lastReviewDate": {
               "description": "Extensions for lastReviewDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "effectivePeriod": {
               "description": "The period during which the activity definition content was or is planned to be in active use.",
@@ -184,7 +184,7 @@
             },
             "_copyright": {
               "description": "Extensions for copyright",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "relatedArtifact": {
               "description": "Related artifacts such as additional documentation, justification, or bibliographic references.",
@@ -207,7 +207,7 @@
             },
             "_kind": {
               "description": "Extensions for kind",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "code": {
               "description": "Detailed description of the type of activity; e.g. What lab test, what procedure, what kind of encounter.",
@@ -224,7 +224,7 @@
             },
             "_timingDateTime": {
               "description": "Extensions for timingDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "timingPeriod": {
               "description": "The period, timing or frequency upon which the described activity is to occur.",
@@ -304,7 +304,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "role": {
               "description": "The role the participant should play in performing the described action.",
@@ -328,7 +328,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "path": {
               "description": "The path to the element to be customized. This is the path on the resource that will hold the result of the calculation defined by the expression.",
@@ -336,7 +336,7 @@
             },
             "_path": {
               "description": "Extensions for path",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "language": {
               "description": "The media type of the language for the expression.",
@@ -344,7 +344,7 @@
             },
             "_language": {
               "description": "Extensions for language",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "expression": {
               "description": "An expression specifying the value of the customized element.",
@@ -352,7 +352,7 @@
             },
             "_expression": {
               "description": "Extensions for expression",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

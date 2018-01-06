@@ -33,7 +33,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "created": {
               "description": "The date when the enclosed suite of services were performed or completed.",
@@ -42,7 +42,7 @@
             },
             "_created": {
               "description": "Extensions for created",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "requestProvider": {
               "description": "The practitioner who is responsible for the services rendered to the patient.",
@@ -66,7 +66,7 @@
             },
             "_disposition": {
               "description": "Extensions for disposition",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "insurer": {
               "description": "The Insurer who produced this adjudicated response.",
@@ -78,7 +78,7 @@
             },
             "_inforce": {
               "description": "Extensions for inforce",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "insurance": {
               "description": "The insurer may provide both the details for the requested coverage as well as details for additional coverages known to the insurer.",
@@ -154,7 +154,7 @@
             },
             "_excluded": {
               "description": "Extensions for excluded",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "name": {
               "description": "A short name or tag for the benefit, for example MED01, or DENT2.",
@@ -162,7 +162,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "description": {
               "description": "A richer description of the benefit, for example \u0027DENT2 covers 100% of basic, 50% of major but exclused Ortho, Implants and Costmetic services\u0027.",
@@ -170,7 +170,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "network": {
               "description": "Network designation.",
@@ -217,7 +217,7 @@
             },
             "_allowedUnsignedInt": {
               "description": "Extensions for allowedUnsignedInt",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "allowedString": {
               "description": "Benefits allowed.",
@@ -225,7 +225,7 @@
             },
             "_allowedString": {
               "description": "Extensions for allowedString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "allowedMoney": {
               "description": "Benefits allowed.",
@@ -238,7 +238,7 @@
             },
             "_usedUnsignedInt": {
               "description": "Extensions for usedUnsignedInt",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "usedMoney": {
               "description": "Benefits used.",

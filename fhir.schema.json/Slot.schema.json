@@ -65,7 +65,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "start": {
               "description": "Date/Time that the slot is to begin.",
@@ -73,7 +73,7 @@
             },
             "_start": {
               "description": "Extensions for start",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "end": {
               "description": "Date/Time that the slot is to conclude.",
@@ -81,7 +81,7 @@
             },
             "_end": {
               "description": "Extensions for end",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "overbooked": {
               "description": "This slot has already been overbooked, appointments are unlikely to be accepted for this time.",
@@ -89,7 +89,7 @@
             },
             "_overbooked": {
               "description": "Extensions for overbooked",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "comment": {
               "description": "Comments on the slot to describe any extended information. Such as custom constraints on the slot.",
@@ -97,7 +97,7 @@
             },
             "_comment": {
               "description": "Extensions for comment",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           },
           "required": [

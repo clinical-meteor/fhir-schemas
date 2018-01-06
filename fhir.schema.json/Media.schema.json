@@ -44,7 +44,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "subtype": {
               "description": "Details of the type of the media - usually, how it was acquired (what type of device). If images sourced from a DICOM system, are wrapped in a Media resource, then this is the modality.",
@@ -69,7 +69,7 @@
             },
             "_occurrenceDateTime": {
               "description": "Extensions for occurrenceDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "occurrencePeriod": {
               "description": "The date and time(s) at which the media was collected.",
@@ -101,7 +101,7 @@
             },
             "_height": {
               "description": "Extensions for height",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "width": {
               "description": "Width of the image in pixels (photo/video).",
@@ -110,7 +110,7 @@
             },
             "_width": {
               "description": "Extensions for width",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "frames": {
               "description": "The number of frames in a photo. This is used with a multi-page fax, or an imaging acquisition context that takes multiple slices in a single image, or an animated gif. If there is more than one frame, this SHALL have a value in order to alert interface software that a multi-frame capable rendering widget is required.",
@@ -119,7 +119,7 @@
             },
             "_frames": {
               "description": "Extensions for frames",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "duration": {
               "description": "The duration of the recording in seconds - for audio and video.",
@@ -128,7 +128,7 @@
             },
             "_duration": {
               "description": "Extensions for duration",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "content": {
               "description": "The actual content of the media - inline or by direct reference to the media source file.",

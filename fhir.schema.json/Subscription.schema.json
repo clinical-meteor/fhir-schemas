@@ -31,7 +31,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "contact": {
               "description": "Contact details for a human to contact about the subscription. The primary use of this for system administrator troubleshooting.",
@@ -46,7 +46,7 @@
             },
             "_end": {
               "description": "Extensions for end",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "reason": {
               "description": "A description of why this subscription is defined.",
@@ -54,7 +54,7 @@
             },
             "_reason": {
               "description": "Extensions for reason",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "criteria": {
               "description": "The rules that the server should use to determine when to generate notifications for this subscription.",
@@ -62,7 +62,7 @@
             },
             "_criteria": {
               "description": "Extensions for criteria",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "error": {
               "description": "A record of the last error that occurred when the server processed a notification.",
@@ -70,7 +70,7 @@
             },
             "_error": {
               "description": "Extensions for error",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "channel": {
               "description": "Details where to send notifications when resources are received that meet the criteria.",
@@ -112,7 +112,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "endpoint": {
               "description": "The uri that describes the actual end-point to send messages to.",
@@ -120,7 +120,7 @@
             },
             "_endpoint": {
               "description": "Extensions for endpoint",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "payload": {
               "description": "The mime type to send the payload in - either application/fhir+xml, or application/fhir+json. If the payload is not present, then there is no payload in the notification, just a notification.",
@@ -128,7 +128,7 @@
             },
             "_payload": {
               "description": "Extensions for payload",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "header": {
               "description": "Additional headers / information to send as part of the notification.",
@@ -141,7 +141,7 @@
               "description": "Extensions for header",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             }
           }

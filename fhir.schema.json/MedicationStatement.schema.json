@@ -58,7 +58,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "category": {
               "description": "Indicates where type of medication statement and where the medication is expected to be consumed or administered.",
@@ -79,7 +79,7 @@
             },
             "_effectiveDateTime": {
               "description": "Extensions for effectiveDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "effectivePeriod": {
               "description": "The interval of time during which it is being asserted that the patient was taking the medication (or was not taking, when the wasNotGiven element is true).",
@@ -92,7 +92,7 @@
             },
             "_dateAsserted": {
               "description": "Extensions for dateAsserted",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "informationSource": {
               "description": "The person or organization that provided the information about the taking of this medication. Note: Use derivedFrom when a MedicationStatement is derived from other resources, e.g Claim or MedicationRequest.",
@@ -121,7 +121,7 @@
             },
             "_taken": {
               "description": "Extensions for taken",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "reasonNotTaken": {
               "description": "A code indicating why the medication was not taken.",

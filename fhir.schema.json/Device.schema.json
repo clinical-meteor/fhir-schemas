@@ -42,7 +42,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "Code or identifier to identify a kind of device.",
@@ -54,7 +54,7 @@
             },
             "_lotNumber": {
               "description": "Extensions for lotNumber",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "manufacturer": {
               "description": "A name of the manufacturer.",
@@ -62,7 +62,7 @@
             },
             "_manufacturer": {
               "description": "Extensions for manufacturer",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "manufactureDate": {
               "description": "The date and time when the device was manufactured.",
@@ -71,7 +71,7 @@
             },
             "_manufactureDate": {
               "description": "Extensions for manufactureDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "expirationDate": {
               "description": "The date and time beyond which this device is no longer valid or should not be used (if applicable).",
@@ -80,7 +80,7 @@
             },
             "_expirationDate": {
               "description": "Extensions for expirationDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "model": {
               "description": "The \"model\" is an identifier assigned by the manufacturer to identify the product by its type. This number is shared by the all devices sold as the same type.",
@@ -88,7 +88,7 @@
             },
             "_model": {
               "description": "Extensions for model",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "version": {
               "description": "The version of the device, if the device has multiple releases under the same model, or if the device is software or carries firmware.",
@@ -96,7 +96,7 @@
             },
             "_version": {
               "description": "Extensions for version",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patient": {
               "description": "Patient information, If the device is affixed to a person.",
@@ -123,7 +123,7 @@
             },
             "_url": {
               "description": "Extensions for url",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "note": {
               "description": "Descriptive information, usage information or implantation information that is not captured in an existing element.",
@@ -160,7 +160,7 @@
             },
             "_deviceIdentifier": {
               "description": "Extensions for deviceIdentifier",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "name": {
               "description": "Name of device as used in labeling or catalog.",
@@ -168,7 +168,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "jurisdiction": {
               "description": "The identity of the authoritative source for UDI generation within a  jurisdiction.  All UDIs are globally unique within a single namespace. with the appropriate repository uri as the system.  For example,  UDIs of devices managed in the U.S. by the FDA, the value is  http://hl7.org/fhir/NamingSystem/fda-udi.",
@@ -176,7 +176,7 @@
             },
             "_jurisdiction": {
               "description": "Extensions for jurisdiction",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "carrierHRF": {
               "description": "The full UDI carrier as the human readable form (HRF) representation of the barcode string as printed on the packaging of the device.",
@@ -184,7 +184,7 @@
             },
             "_carrierHRF": {
               "description": "Extensions for carrierHRF",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "carrierAIDC": {
               "description": "The full UDI carrier of the Automatic Identification and Data Capture (AIDC) technology representation of the barcode string as printed on the packaging of the device - E.g a barcode or RFID.   Because of limitations on character sets in XML and the need to round-trip JSON data through XML, AIDC Formats *SHALL* be base64 encoded.",
@@ -192,7 +192,7 @@
             },
             "_carrierAIDC": {
               "description": "Extensions for carrierAIDC",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "issuer": {
               "description": "Organization that is charged with issuing UDIs for devices.  For example, the US FDA issuers include :\n1) GS1: \nhttp://hl7.org/fhir/NamingSystem/gs1-di, \n2) HIBCC:\nhttp://hl7.org/fhir/NamingSystem/hibcc-dI, \n3) ICCBBA for blood containers:\nhttp://hl7.org/fhir/NamingSystem/iccbba-blood-di, \n4) ICCBA for other devices:\nhttp://hl7.org/fhir/NamingSystem/iccbba-other-di.",
@@ -200,7 +200,7 @@
             },
             "_issuer": {
               "description": "Extensions for issuer",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "entryType": {
               "description": "A coded entry to indicate how the data was entered.",
@@ -216,7 +216,7 @@
             },
             "_entryType": {
               "description": "Extensions for entryType",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

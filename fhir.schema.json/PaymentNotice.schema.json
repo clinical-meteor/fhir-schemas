@@ -33,7 +33,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "request": {
               "description": "Reference of resource for which payment is being made.",
@@ -50,7 +50,7 @@
             },
             "_statusDate": {
               "description": "Extensions for statusDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "created": {
               "description": "The date when this resource was created.",
@@ -59,7 +59,7 @@
             },
             "_created": {
               "description": "Extensions for created",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "target": {
               "description": "The Insurer who is target  of the request.",

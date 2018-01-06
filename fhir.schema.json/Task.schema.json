@@ -32,7 +32,7 @@
             },
             "_definitionUri": {
               "description": "Extensions for definitionUri",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "definitionReference": {
               "description": "A reference to a formal or informal definition of the task.  For example, a protocol, a step within a defined workflow definition, etc.",
@@ -76,7 +76,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "statusReason": {
               "description": "An explanation as to why this task is held, failed, was refused, etc.",
@@ -93,7 +93,7 @@
             },
             "_intent": {
               "description": "Extensions for intent",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "priority": {
               "description": "Indicates how quickly the Task should be addressed with respect to other requests.",
@@ -102,7 +102,7 @@
             },
             "_priority": {
               "description": "Extensions for priority",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "code": {
               "description": "A name or code (or both) briefly describing what the task involves.",
@@ -114,7 +114,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "focus": {
               "description": "The request being actioned or the resource being manipulated by this task.",
@@ -139,7 +139,7 @@
             },
             "_authoredOn": {
               "description": "Extensions for authoredOn",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "lastModified": {
               "description": "The date and time of last modification to this task.",
@@ -148,7 +148,7 @@
             },
             "_lastModified": {
               "description": "Extensions for lastModified",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "requester": {
               "description": "The creator of the task.",
@@ -246,7 +246,7 @@
             },
             "_repetitions": {
               "description": "Extensions for repetitions",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "period": {
               "description": "Over what time-period is fulfillment sought.",
@@ -281,7 +281,7 @@
             },
             "_valueBoolean": {
               "description": "Extensions for valueBoolean",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueInteger": {
               "description": "The value of the input parameter as a basic type.",
@@ -290,7 +290,7 @@
             },
             "_valueInteger": {
               "description": "Extensions for valueInteger",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueDecimal": {
               "description": "The value of the input parameter as a basic type.",
@@ -299,7 +299,7 @@
             },
             "_valueDecimal": {
               "description": "Extensions for valueDecimal",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueBase64Binary": {
               "description": "The value of the input parameter as a basic type.",
@@ -307,7 +307,7 @@
             },
             "_valueBase64Binary": {
               "description": "Extensions for valueBase64Binary",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueInstant": {
               "description": "The value of the input parameter as a basic type.",
@@ -315,7 +315,7 @@
             },
             "_valueInstant": {
               "description": "Extensions for valueInstant",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueString": {
               "description": "The value of the input parameter as a basic type.",
@@ -323,7 +323,7 @@
             },
             "_valueString": {
               "description": "Extensions for valueString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueUri": {
               "description": "The value of the input parameter as a basic type.",
@@ -331,7 +331,7 @@
             },
             "_valueUri": {
               "description": "Extensions for valueUri",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueDate": {
               "description": "The value of the input parameter as a basic type.",
@@ -340,7 +340,7 @@
             },
             "_valueDate": {
               "description": "Extensions for valueDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueDateTime": {
               "description": "The value of the input parameter as a basic type.",
@@ -349,7 +349,7 @@
             },
             "_valueDateTime": {
               "description": "Extensions for valueDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueTime": {
               "description": "The value of the input parameter as a basic type.",
@@ -358,7 +358,7 @@
             },
             "_valueTime": {
               "description": "Extensions for valueTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueCode": {
               "description": "The value of the input parameter as a basic type.",
@@ -367,7 +367,7 @@
             },
             "_valueCode": {
               "description": "Extensions for valueCode",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueOid": {
               "description": "The value of the input parameter as a basic type.",
@@ -376,7 +376,7 @@
             },
             "_valueOid": {
               "description": "Extensions for valueOid",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueUuid": {
               "description": "The value of the input parameter as a basic type.",
@@ -385,7 +385,7 @@
             },
             "_valueUuid": {
               "description": "Extensions for valueUuid",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueId": {
               "description": "The value of the input parameter as a basic type.",
@@ -394,7 +394,7 @@
             },
             "_valueId": {
               "description": "Extensions for valueId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueUnsignedInt": {
               "description": "The value of the input parameter as a basic type.",
@@ -403,7 +403,7 @@
             },
             "_valueUnsignedInt": {
               "description": "Extensions for valueUnsignedInt",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valuePositiveInt": {
               "description": "The value of the input parameter as a basic type.",
@@ -412,7 +412,7 @@
             },
             "_valuePositiveInt": {
               "description": "Extensions for valuePositiveInt",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueMarkdown": {
               "description": "The value of the input parameter as a basic type.",
@@ -420,11 +420,11 @@
             },
             "_valueMarkdown": {
               "description": "Extensions for valueMarkdown",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueElement": {
               "description": "The value of the input parameter as a basic type.",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueExtension": {
               "description": "The value of the input parameter as a basic type.",
@@ -591,7 +591,7 @@
             },
             "_valueBoolean": {
               "description": "Extensions for valueBoolean",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueInteger": {
               "description": "The value of the Output parameter as a basic type.",
@@ -600,7 +600,7 @@
             },
             "_valueInteger": {
               "description": "Extensions for valueInteger",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueDecimal": {
               "description": "The value of the Output parameter as a basic type.",
@@ -609,7 +609,7 @@
             },
             "_valueDecimal": {
               "description": "Extensions for valueDecimal",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueBase64Binary": {
               "description": "The value of the Output parameter as a basic type.",
@@ -617,7 +617,7 @@
             },
             "_valueBase64Binary": {
               "description": "Extensions for valueBase64Binary",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueInstant": {
               "description": "The value of the Output parameter as a basic type.",
@@ -625,7 +625,7 @@
             },
             "_valueInstant": {
               "description": "Extensions for valueInstant",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueString": {
               "description": "The value of the Output parameter as a basic type.",
@@ -633,7 +633,7 @@
             },
             "_valueString": {
               "description": "Extensions for valueString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueUri": {
               "description": "The value of the Output parameter as a basic type.",
@@ -641,7 +641,7 @@
             },
             "_valueUri": {
               "description": "Extensions for valueUri",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueDate": {
               "description": "The value of the Output parameter as a basic type.",
@@ -650,7 +650,7 @@
             },
             "_valueDate": {
               "description": "Extensions for valueDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueDateTime": {
               "description": "The value of the Output parameter as a basic type.",
@@ -659,7 +659,7 @@
             },
             "_valueDateTime": {
               "description": "Extensions for valueDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueTime": {
               "description": "The value of the Output parameter as a basic type.",
@@ -668,7 +668,7 @@
             },
             "_valueTime": {
               "description": "Extensions for valueTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueCode": {
               "description": "The value of the Output parameter as a basic type.",
@@ -677,7 +677,7 @@
             },
             "_valueCode": {
               "description": "Extensions for valueCode",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueOid": {
               "description": "The value of the Output parameter as a basic type.",
@@ -686,7 +686,7 @@
             },
             "_valueOid": {
               "description": "Extensions for valueOid",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueUuid": {
               "description": "The value of the Output parameter as a basic type.",
@@ -695,7 +695,7 @@
             },
             "_valueUuid": {
               "description": "Extensions for valueUuid",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueId": {
               "description": "The value of the Output parameter as a basic type.",
@@ -704,7 +704,7 @@
             },
             "_valueId": {
               "description": "Extensions for valueId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueUnsignedInt": {
               "description": "The value of the Output parameter as a basic type.",
@@ -713,7 +713,7 @@
             },
             "_valueUnsignedInt": {
               "description": "Extensions for valueUnsignedInt",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valuePositiveInt": {
               "description": "The value of the Output parameter as a basic type.",
@@ -722,7 +722,7 @@
             },
             "_valuePositiveInt": {
               "description": "Extensions for valuePositiveInt",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueMarkdown": {
               "description": "The value of the Output parameter as a basic type.",
@@ -730,11 +730,11 @@
             },
             "_valueMarkdown": {
               "description": "Extensions for valueMarkdown",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueElement": {
               "description": "The value of the Output parameter as a basic type.",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueExtension": {
               "description": "The value of the Output parameter as a basic type.",

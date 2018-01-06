@@ -54,7 +54,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "notDone": {
               "description": "If true, indicates that the described communication event did not actually occur.",
@@ -62,7 +62,7 @@
             },
             "_notDone": {
               "description": "Extensions for notDone",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "notDoneReason": {
               "description": "Describes why the communication event did not occur in coded and/or textual form.",
@@ -111,7 +111,7 @@
             },
             "_sent": {
               "description": "Extensions for sent",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "received": {
               "description": "The time when this communication arrived at the destination.",
@@ -120,7 +120,7 @@
             },
             "_received": {
               "description": "Extensions for received",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "sender": {
               "description": "The entity (e.g. person, organization, clinical information system, or device) which was the source of the communication.",
@@ -175,7 +175,7 @@
             },
             "_contentString": {
               "description": "Extensions for contentString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "contentAttachment": {
               "description": "A communicated content (or for multi-part communications, one portion of the communication).",

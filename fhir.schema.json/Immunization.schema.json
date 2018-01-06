@@ -33,7 +33,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "notGiven": {
               "description": "Indicates if the vaccination was or was not given.",
@@ -41,7 +41,7 @@
             },
             "_notGiven": {
               "description": "Extensions for notGiven",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "vaccineCode": {
               "description": "Vaccine that was administered or was to be administered.",
@@ -62,7 +62,7 @@
             },
             "_date": {
               "description": "Extensions for date",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "primarySource": {
               "description": "An indication that the content of the record is based on information from the person who administered the vaccine. This reflects the context under which the data was originally recorded.",
@@ -70,7 +70,7 @@
             },
             "_primarySource": {
               "description": "Extensions for primarySource",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "reportOrigin": {
               "description": "The source of the data when the report of the immunization event is not based on information from the person who administered the vaccine.",
@@ -90,7 +90,7 @@
             },
             "_lotNumber": {
               "description": "Extensions for lotNumber",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "expirationDate": {
               "description": "Date vaccine batch expires.",
@@ -99,7 +99,7 @@
             },
             "_expirationDate": {
               "description": "Extensions for expirationDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "site": {
               "description": "Body site where vaccine was administered.",
@@ -218,7 +218,7 @@
             },
             "_date": {
               "description": "Extensions for date",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "detail": {
               "description": "Details of the reaction.",
@@ -230,7 +230,7 @@
             },
             "_reported": {
               "description": "Extensions for reported",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -251,7 +251,7 @@
             },
             "_doseSequence": {
               "description": "Extensions for doseSequence",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "description": {
               "description": "Contains the description about the protocol under which the vaccine was administered.",
@@ -259,7 +259,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "authority": {
               "description": "Indicates the authority who published the protocol.  E.g. ACIP.",
@@ -271,7 +271,7 @@
             },
             "_series": {
               "description": "Extensions for series",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "seriesDoses": {
               "description": "The recommended number of doses to achieve immunity.",
@@ -280,7 +280,7 @@
             },
             "_seriesDoses": {
               "description": "Extensions for seriesDoses",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "targetDisease": {
               "description": "The targeted disease.",

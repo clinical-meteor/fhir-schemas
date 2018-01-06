@@ -37,7 +37,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "operationalStatus": {
               "description": "The Operational status covers operation values most relevant to beds (but can also apply to rooms/units/chair/etc such as an isolation unit/dialisys chair). This typically covers concepts such as contamination, housekeeping and other activities like maintenance.",
@@ -49,7 +49,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "alias": {
               "description": "A list of alternate names that the location is known as, or was known as in the past.",
@@ -62,7 +62,7 @@
               "description": "Extensions for alias",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "description": {
@@ -71,7 +71,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "mode": {
               "description": "Indicates whether a resource instance represents a specific location or a class of locations.",
@@ -83,7 +83,7 @@
             },
             "_mode": {
               "description": "Extensions for mode",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "Indicates the type of function performed at the location.",
@@ -145,7 +145,7 @@
             },
             "_longitude": {
               "description": "Extensions for longitude",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "latitude": {
               "description": "Latitude. The value domain and the interpretation are the same as for the text of the latitude element in KML (see notes below).",
@@ -154,7 +154,7 @@
             },
             "_latitude": {
               "description": "Extensions for latitude",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "altitude": {
               "description": "Altitude. The value domain and the interpretation are the same as for the text of the altitude element in KML (see notes below).",
@@ -163,7 +163,7 @@
             },
             "_altitude": {
               "description": "Extensions for altitude",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

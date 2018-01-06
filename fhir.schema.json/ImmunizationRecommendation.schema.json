@@ -61,7 +61,7 @@
             },
             "_date": {
               "description": "Extensions for date",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "vaccineCode": {
               "description": "Vaccine that pertains to the recommendation.",
@@ -78,7 +78,7 @@
             },
             "_doseNumber": {
               "description": "Extensions for doseNumber",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "forecastStatus": {
               "description": "Vaccine administration status.",
@@ -135,7 +135,7 @@
             },
             "_value": {
               "description": "Extensions for value",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           },
           "required": [
@@ -159,7 +159,7 @@
             },
             "_doseSequence": {
               "description": "Extensions for doseSequence",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "description": {
               "description": "Contains the description about the protocol under which the vaccine was administered.",
@@ -167,7 +167,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "authority": {
               "description": "Indicates the authority who published the protocol.  For example, ACIP.",
@@ -179,7 +179,7 @@
             },
             "_series": {
               "description": "Extensions for series",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

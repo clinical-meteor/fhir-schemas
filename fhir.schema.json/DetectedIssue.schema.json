@@ -30,7 +30,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "category": {
               "description": "Identifies the general type of issue identified.",
@@ -47,7 +47,7 @@
             },
             "_severity": {
               "description": "Extensions for severity",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patient": {
               "description": "Indicates the patient whose record the detected issue is associated with.",
@@ -60,7 +60,7 @@
             },
             "_date": {
               "description": "Extensions for date",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "author": {
               "description": "Individual or device responsible for the issue being raised.  For example, a decision support application or a pharmacist conducting a medication review.",
@@ -79,7 +79,7 @@
             },
             "_detail": {
               "description": "Extensions for detail",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "reference": {
               "description": "The literature, knowledge-base or similar reference that describes the propensity for the detected issue identified.",
@@ -87,7 +87,7 @@
             },
             "_reference": {
               "description": "Extensions for reference",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "mitigation": {
               "description": "Indicates an action that has been taken or is committed to to reduce or eliminate the likelihood of the risk identified by the detected issue from manifesting.  Can also reflect an observation of known mitigating factors that may reduce/eliminate the need for any action.",
@@ -122,7 +122,7 @@
             },
             "_date": {
               "description": "Extensions for date",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "author": {
               "description": "Identifies the practitioner who determined the mitigation and takes responsibility for the mitigation step occurring.",

@@ -38,7 +38,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "The category of claim, eg, oral, pharmacy, vision, insitutional, professional.",
@@ -66,7 +66,7 @@
             },
             "_created": {
               "description": "Extensions for created",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "enterer": {
               "description": "The person who created the explanation of benefit.",
@@ -110,7 +110,7 @@
             },
             "_disposition": {
               "description": "Extensions for disposition",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "related": {
               "description": "Other claims which are related to this claim such as prior claim versions or for related services.",
@@ -166,7 +166,7 @@
             },
             "_precedence": {
               "description": "Extensions for precedence",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "insurance": {
               "description": "Financial instrument by which payment information for health care.",
@@ -302,7 +302,7 @@
             },
             "_sequence": {
               "description": "Extensions for sequence",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "category": {
               "description": "The general class of the information supplied: information; exception; accident, employment; onset, etc.",
@@ -319,7 +319,7 @@
             },
             "_timingDate": {
               "description": "Extensions for timingDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "timingPeriod": {
               "description": "The date when or period to which this information refers.",
@@ -331,7 +331,7 @@
             },
             "_valueString": {
               "description": "Extensions for valueString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "valueQuantity": {
               "description": "Additional data or information such as resources, documents, images etc. including references to the data or the actual inclusion of the data.",
@@ -371,7 +371,7 @@
             },
             "_sequence": {
               "description": "Extensions for sequence",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "provider": {
               "description": "The members of the team who provided the overall service.",
@@ -383,7 +383,7 @@
             },
             "_responsible": {
               "description": "Extensions for responsible",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "role": {
               "description": "The lead, assisting or supervising practitioner and their discipline if a multidisiplinary team.",
@@ -415,7 +415,7 @@
             },
             "_sequence": {
               "description": "Extensions for sequence",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "diagnosisCodeableConcept": {
               "description": "The diagnosis.",
@@ -455,7 +455,7 @@
             },
             "_sequence": {
               "description": "Extensions for sequence",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "date": {
               "description": "Date and optionally time the procedure was performed .",
@@ -464,7 +464,7 @@
             },
             "_date": {
               "description": "Extensions for date",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "procedureCodeableConcept": {
               "description": "The procedure code.",
@@ -501,7 +501,7 @@
               "description": "Extensions for preAuthRef",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             }
           }
@@ -523,7 +523,7 @@
             },
             "_date": {
               "description": "Extensions for date",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "Type of accident: work, auto, etc.",
@@ -556,7 +556,7 @@
             },
             "_sequence": {
               "description": "Extensions for sequence",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "careTeamLinkId": {
               "description": "Careteam applicable for this service or product line.",
@@ -570,7 +570,7 @@
               "description": "Extensions for careTeamLinkId",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "diagnosisLinkId": {
@@ -585,7 +585,7 @@
               "description": "Extensions for diagnosisLinkId",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "procedureLinkId": {
@@ -600,7 +600,7 @@
               "description": "Extensions for procedureLinkId",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "informationLinkId": {
@@ -615,7 +615,7 @@
               "description": "Extensions for informationLinkId",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "revenue": {
@@ -651,7 +651,7 @@
             },
             "_servicedDate": {
               "description": "Extensions for servicedDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "servicedPeriod": {
               "description": "The date or dates when the enclosed suite of services were performed or completed.",
@@ -684,7 +684,7 @@
             },
             "_factor": {
               "description": "Extensions for factor",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "net": {
               "description": "The quantity times the unit price for an addittional service or product or charge. For example, the formula: unit Quantity * unit Price (Cost per Point) * factor Number  * points \u003d net Amount. Quantity, factor and points are assumed to be 1 if not supplied.",
@@ -727,7 +727,7 @@
               "description": "Extensions for noteNumber",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "adjudication": {
@@ -775,7 +775,7 @@
             },
             "_value": {
               "description": "Extensions for value",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           },
           "required": [
@@ -799,7 +799,7 @@
             },
             "_sequence": {
               "description": "Extensions for sequence",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "The type of product or service.",
@@ -846,7 +846,7 @@
             },
             "_factor": {
               "description": "Extensions for factor",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "net": {
               "description": "The quantity times the unit price for an addittional service or product or charge. For example, the formula: unit Quantity * unit Price (Cost per Point) * factor Number  * points \u003d net Amount. Quantity, factor and points are assumed to be 1 if not supplied.",
@@ -871,7 +871,7 @@
               "description": "Extensions for noteNumber",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "adjudication": {
@@ -910,7 +910,7 @@
             },
             "_sequence": {
               "description": "Extensions for sequence",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "The type of product or service.",
@@ -957,7 +957,7 @@
             },
             "_factor": {
               "description": "Extensions for factor",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "net": {
               "description": "The quantity times the unit price for an addittional service or product or charge. For example, the formula: unit Quantity * unit Price (Cost per Point) * factor Number  * points \u003d net Amount. Quantity, factor and points are assumed to be 1 if not supplied.",
@@ -982,7 +982,7 @@
               "description": "Extensions for noteNumber",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "adjudication": {
@@ -1019,7 +1019,7 @@
               "description": "Extensions for sequenceLinkId",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "revenue": {
@@ -1057,7 +1057,7 @@
               "description": "Extensions for noteNumber",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "adjudication": {
@@ -1121,7 +1121,7 @@
               "description": "Extensions for noteNumber",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "adjudication": {
@@ -1162,7 +1162,7 @@
             },
             "_date": {
               "description": "Extensions for date",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "amount": {
               "description": "Payable less any payment adjustment.",
@@ -1191,7 +1191,7 @@
             },
             "_number": {
               "description": "Extensions for number",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "The note purpose: Print/Display.",
@@ -1203,7 +1203,7 @@
             },
             "_text": {
               "description": "Extensions for text",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "language": {
               "description": "The ISO-639-1 alpha 2 code in lower case for the language, optionally followed by a hyphen and the ISO-3166-1 alpha 2 code for the region in upper case; e.g. \"en\" for English, or \"en-US\" for American English versus \"en-EN\" for England English.",
@@ -1235,7 +1235,7 @@
             },
             "_excluded": {
               "description": "Extensions for excluded",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "name": {
               "description": "A short name or tag for the benefit, for example MED01, or DENT2.",
@@ -1243,7 +1243,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "description": {
               "description": "A richer description of the benefit, for example \u0027DENT2 covers 100% of basic, 50% of major but exclused Ortho, Implants and Costmetic services\u0027.",
@@ -1251,7 +1251,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "network": {
               "description": "Network designation.",
@@ -1298,7 +1298,7 @@
             },
             "_allowedUnsignedInt": {
               "description": "Extensions for allowedUnsignedInt",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "allowedString": {
               "description": "Benefits allowed.",
@@ -1306,7 +1306,7 @@
             },
             "_allowedString": {
               "description": "Extensions for allowedString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "allowedMoney": {
               "description": "Benefits allowed.",
@@ -1319,7 +1319,7 @@
             },
             "_usedUnsignedInt": {
               "description": "Extensions for usedUnsignedInt",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "usedMoney": {
               "description": "Benefits used.",

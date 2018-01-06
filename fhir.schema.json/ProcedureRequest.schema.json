@@ -58,7 +58,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "intent": {
               "description": "Whether the request is a proposal, plan, an original order or a reflex order.",
@@ -67,7 +67,7 @@
             },
             "_intent": {
               "description": "Extensions for intent",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "priority": {
               "description": "Indicates how quickly the ProcedureRequest should be addressed with respect to other requests.",
@@ -76,7 +76,7 @@
             },
             "_priority": {
               "description": "Extensions for priority",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "doNotPerform": {
               "description": "Set this to true if the record is saying that the procedure should NOT be performed.",
@@ -84,7 +84,7 @@
             },
             "_doNotPerform": {
               "description": "Extensions for doNotPerform",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "category": {
               "description": "A code that classifies the procedure for searching, sorting and display purposes (e.g. \"Surgical Procedure\").",
@@ -112,7 +112,7 @@
             },
             "_occurrenceDateTime": {
               "description": "Extensions for occurrenceDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "occurrencePeriod": {
               "description": "The date/time at which the diagnostic testing should occur.",
@@ -128,7 +128,7 @@
             },
             "_asNeededBoolean": {
               "description": "Extensions for asNeededBoolean",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "asNeededCodeableConcept": {
               "description": "If a CodeableConcept is present, it indicates the pre-condition for performing the procedure.  For example \"pain\", \"on flare-up\", etc.",
@@ -141,7 +141,7 @@
             },
             "_authoredOn": {
               "description": "Extensions for authoredOn",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "requester": {
               "description": "The individual who initiated the request and has responsibility for its activation.",

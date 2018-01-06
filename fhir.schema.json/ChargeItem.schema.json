@@ -34,7 +34,7 @@
               "description": "Extensions for definition",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "status": {
@@ -52,7 +52,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "partOf": {
               "description": "ChargeItems can be grouped to larger ChargeItems covering the whole set.",
@@ -80,7 +80,7 @@
             },
             "_occurrenceDateTime": {
               "description": "Extensions for occurrenceDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "occurrencePeriod": {
               "description": "Date/time(s) or duration when the charged service was applied.",
@@ -123,7 +123,7 @@
             },
             "_factorOverride": {
               "description": "Extensions for factorOverride",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "priceOverride": {
               "description": "Total price of the charge overriding the list price associated with the code.",
@@ -135,7 +135,7 @@
             },
             "_overrideReason": {
               "description": "Extensions for overrideReason",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "enterer": {
               "description": "The device, practitioner, etc. who entered the charge item.",
@@ -148,7 +148,7 @@
             },
             "_enteredDate": {
               "description": "Extensions for enteredDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "reason": {
               "description": "Describes why the event occurred in coded or textual form.",

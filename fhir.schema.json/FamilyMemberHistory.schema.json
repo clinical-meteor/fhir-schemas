@@ -45,7 +45,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "notDone": {
               "description": "If true, indicates the taking of an individual family member\u0027s history did not occur. The notDone element should not be used to document negated conditions, such as a family member that did not have a condition.",
@@ -53,7 +53,7 @@
             },
             "_notDone": {
               "description": "Extensions for notDone",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "notDoneReason": {
               "description": "Describes why the family member\u0027s history is absent.",
@@ -70,7 +70,7 @@
             },
             "_date": {
               "description": "Extensions for date",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "name": {
               "description": "This will either be a name or a description; e.g. \"Aunt Susan\", \"my cousin with the red hair\".",
@@ -78,7 +78,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "relationship": {
               "description": "The type of relationship this person has to the patient (father, mother, brother etc.).",
@@ -96,7 +96,7 @@
             },
             "_gender": {
               "description": "Extensions for gender",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "bornPeriod": {
               "description": "The actual or approximate date of birth of the relative.",
@@ -109,7 +109,7 @@
             },
             "_bornDate": {
               "description": "Extensions for bornDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "bornString": {
               "description": "The actual or approximate date of birth of the relative.",
@@ -117,7 +117,7 @@
             },
             "_bornString": {
               "description": "Extensions for bornString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "ageAge": {
               "description": "The age of the relative at the time the family member history is recorded.",
@@ -133,7 +133,7 @@
             },
             "_ageString": {
               "description": "Extensions for ageString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "estimatedAge": {
               "description": "If true, indicates that the age value specified is an estimated value.",
@@ -141,7 +141,7 @@
             },
             "_estimatedAge": {
               "description": "Extensions for estimatedAge",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "deceasedBoolean": {
               "description": "Deceased flag or the actual or approximate age of the relative at the time of death for the family member history record.",
@@ -149,7 +149,7 @@
             },
             "_deceasedBoolean": {
               "description": "Extensions for deceasedBoolean",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "deceasedAge": {
               "description": "Deceased flag or the actual or approximate age of the relative at the time of death for the family member history record.",
@@ -166,7 +166,7 @@
             },
             "_deceasedDate": {
               "description": "Extensions for deceasedDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "deceasedString": {
               "description": "Deceased flag or the actual or approximate age of the relative at the time of death for the family member history record.",
@@ -174,7 +174,7 @@
             },
             "_deceasedString": {
               "description": "Extensions for deceasedString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "reasonCode": {
               "description": "Describes why the family member history occurred in coded or textual form.",
@@ -247,7 +247,7 @@
             },
             "_onsetString": {
               "description": "Extensions for onsetString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "note": {
               "description": "An area where general notes can be placed about this specific condition.",

@@ -33,7 +33,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "action": {
               "description": "The type of processing action being requested, for example Reversal, Readjudication, StatusRequest,PendedRequest.",
@@ -47,7 +47,7 @@
             },
             "_action": {
               "description": "Extensions for action",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "target": {
               "description": "The organization which is the target of the request.",
@@ -60,7 +60,7 @@
             },
             "_created": {
               "description": "Extensions for created",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "provider": {
               "description": "The practitioner who is responsible for the action specified in this request.",
@@ -84,7 +84,7 @@
             },
             "_nullify": {
               "description": "Extensions for nullify",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "reference": {
               "description": "A reference to supply which authenticates the process.",
@@ -92,7 +92,7 @@
             },
             "_reference": {
               "description": "Extensions for reference",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "item": {
               "description": "List of top level items to be re-adjudicated, if none specified then the entire submission is re-adjudicated.",
@@ -112,7 +112,7 @@
               "description": "Extensions for include",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "exclude": {
@@ -126,7 +126,7 @@
               "description": "Extensions for exclude",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "period": {
@@ -155,7 +155,7 @@
             },
             "_sequenceLinkId": {
               "description": "Extensions for sequenceLinkId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

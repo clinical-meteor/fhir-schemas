@@ -23,7 +23,7 @@
             },
             "_period": {
               "description": "Extensions for period",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "factor": {
               "description": "A correction factor that is applied to the sampled data points before they are added to the origin.",
@@ -32,7 +32,7 @@
             },
             "_factor": {
               "description": "Extensions for factor",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "lowerLimit": {
               "description": "The lower limit of detection of the measured points. This is needed if any of the data points have the value \"L\" (lower than detection limit).",
@@ -41,7 +41,7 @@
             },
             "_lowerLimit": {
               "description": "Extensions for lowerLimit",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "upperLimit": {
               "description": "The upper limit of detection of the measured points. This is needed if any of the data points have the value \"U\" (higher than detection limit).",
@@ -50,7 +50,7 @@
             },
             "_upperLimit": {
               "description": "Extensions for upperLimit",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "dimensions": {
               "description": "The number of sample points at each time point. If this value is greater than one, then the dimensions will be interlaced - all the sample points for a point in time will be recorded at once.",
@@ -59,7 +59,7 @@
             },
             "_dimensions": {
               "description": "Extensions for dimensions",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "data": {
               "description": "A series of data points which are decimal values separated by a single space (character u20). The special values \"E\" (error), \"L\" (below detection limit) and \"U\" (above detection limit) can also be used in place of a decimal value.",
@@ -67,7 +67,7 @@
             },
             "_data": {
               "description": "Extensions for data",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           },
           "required": [

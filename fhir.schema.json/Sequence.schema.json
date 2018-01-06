@@ -37,7 +37,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "coordinateSystem": {
               "description": "Whether the sequence is numbered starting at 0 (0-based numbering or coordinates, inclusive start, exclusive end) or starting at 1 (1-based numbering, inclusive start and inclusive end).",
@@ -46,7 +46,7 @@
             },
             "_coordinateSystem": {
               "description": "Extensions for coordinateSystem",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patient": {
               "description": "The patient whose sequencing results are described by this resource.",
@@ -85,7 +85,7 @@
             },
             "_observedSeq": {
               "description": "Extensions for observedSeq",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "quality": {
               "description": "An experimental feature attribute that defines the quality of the feature in a quantitative way, such as a phred quality score ([SO:0001686](http://www.sequenceontology.org/browser/current_svn/term/SO:0001686)).",
@@ -101,7 +101,7 @@
             },
             "_readCoverage": {
               "description": "Extensions for readCoverage",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "repository": {
               "description": "Configurations of the external repository. The repository shall store target\u0027s observedSeq or records related with target\u0027s observedSeq.",
@@ -142,7 +142,7 @@
             },
             "_genomeBuild": {
               "description": "Extensions for genomeBuild",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "referenceSeqId": {
               "description": "Reference identifier of reference sequence submitted to NCBI. It must match the type in the Sequence.type field. For example, the prefix, “NG_” identifies reference sequence for genes, “NM_” for messenger RNA transcripts, and “NP_” for amino acid sequences.",
@@ -158,7 +158,7 @@
             },
             "_referenceSeqString": {
               "description": "Extensions for referenceSeqString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "strand": {
               "description": "Directionality of DNA sequence. Available values are \"1\" for the plus strand (5\u0027 to 3\u0027)/Watson/Sense/positive  and \"-1\" for the minus strand(3\u0027 to 5\u0027)/Crick/Antisense/negative.",
@@ -167,7 +167,7 @@
             },
             "_strand": {
               "description": "Extensions for strand",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "windowStart": {
               "description": "Start position of the window on the reference sequence. If the coordinate system is either 0-based or 1-based, then start position is inclusive.",
@@ -176,7 +176,7 @@
             },
             "_windowStart": {
               "description": "Extensions for windowStart",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "windowEnd": {
               "description": "End position of the window on the reference sequence. If the coordinate system is 0-based then end is is exclusive and does not include the last position. If the coordinate system is 1-base, then end is inclusive and includes the last position.",
@@ -185,7 +185,7 @@
             },
             "_windowEnd": {
               "description": "Extensions for windowEnd",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -206,7 +206,7 @@
             },
             "_start": {
               "description": "Extensions for start",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "end": {
               "description": "End position of the variant on the reference sequence.If the coordinate system is 0-based then end is is exclusive and does not include the last position. If the coordinate system is 1-base, then end is inclusive and includes the last position.",
@@ -215,7 +215,7 @@
             },
             "_end": {
               "description": "Extensions for end",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "observedAllele": {
               "description": "An allele is one of a set of coexisting sequence variants of a gene ([SO:0001023](http://www.sequenceontology.org/browser/current_svn/term/SO:0001023)).  Nucleotide(s)/amino acids from start position of sequence to stop position of sequence on the positive (+) strand of the observed  sequence. When the sequence  type is DNA, it should be the sequence on the positive (+) strand. This will lay in the range between variant.start and variant.end.",
@@ -223,7 +223,7 @@
             },
             "_observedAllele": {
               "description": "Extensions for observedAllele",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "referenceAllele": {
               "description": "An allele is one of a set of coexisting sequence variants of a gene ([SO:0001023](http://www.sequenceontology.org/browser/current_svn/term/SO:0001023)). Nucleotide(s)/amino acids from start position of sequence to stop position of sequence on the positive (+) strand of the reference sequence. When the sequence  type is DNA, it should be the sequence on the positive (+) strand. This will lay in the range between variant.start and variant.end.",
@@ -231,7 +231,7 @@
             },
             "_referenceAllele": {
               "description": "Extensions for referenceAllele",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "cigar": {
               "description": "Extended CIGAR string for aligning the sequence with reference bases. See detailed documentation [here](http://support.illumina.com/help/SequencingAnalysisWorkflow/Content/Vault/Informatics/Sequencing_Analysis/CASAVA/swSEQ_mCA_ExtendedCIGARFormat.htm).",
@@ -239,7 +239,7 @@
             },
             "_cigar": {
               "description": "Extensions for cigar",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "variantPointer": {
               "description": "A pointer to an Observation containing variant information.",
@@ -268,7 +268,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "standardSequence": {
               "description": "Gold standard sequence used for comparing against.",
@@ -281,7 +281,7 @@
             },
             "_start": {
               "description": "Extensions for start",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "end": {
               "description": "End position of the sequence.If the coordinate system is 0-based then end is is exclusive and does not include the last position. If the coordinate system is 1-base, then end is inclusive and includes the last position.",
@@ -290,7 +290,7 @@
             },
             "_end": {
               "description": "Extensions for end",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "score": {
               "description": "The score of an experimentally derived feature such as a p-value ([SO:0001685](http://www.sequenceontology.org/browser/current_svn/term/SO:0001685)).",
@@ -307,7 +307,7 @@
             },
             "_truthTP": {
               "description": "Extensions for truthTP",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "queryTP": {
               "description": "True positives, from the perspective of the query data, i.e. the number of sites in the Query Call Set for which there are paths through the Truth Call Set that are consistent with all of the alleles at this site, and for which there is an accurate genotype call for the event.",
@@ -316,7 +316,7 @@
             },
             "_queryTP": {
               "description": "Extensions for queryTP",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "truthFN": {
               "description": "False negatives, i.e. the number of sites in the Truth Call Set for which there is no path through the Query Call Set that is consistent with all of the alleles at this site, or sites for which there is an inaccurate genotype call for the event. Sites with correct variant but incorrect genotype are counted here.",
@@ -325,7 +325,7 @@
             },
             "_truthFN": {
               "description": "Extensions for truthFN",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "queryFP": {
               "description": "False positives, i.e. the number of sites in the Query Call Set for which there is no path through the Truth Call Set that is consistent with this site. Sites with correct variant but incorrect genotype are counted here.",
@@ -334,7 +334,7 @@
             },
             "_queryFP": {
               "description": "Extensions for queryFP",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "gtFP": {
               "description": "The number of false positives where the non-REF alleles in the Truth and Query Call Sets match (i.e. cases where the truth is 1/1 and the query is 0/1 or similar).",
@@ -343,7 +343,7 @@
             },
             "_gtFP": {
               "description": "Extensions for gtFP",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "precision": {
               "description": "QUERY.TP / (QUERY.TP + QUERY.FP).",
@@ -352,7 +352,7 @@
             },
             "_precision": {
               "description": "Extensions for precision",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "recall": {
               "description": "TRUTH.TP / (TRUTH.TP + TRUTH.FN).",
@@ -361,7 +361,7 @@
             },
             "_recall": {
               "description": "Extensions for recall",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "fScore": {
               "description": "Harmonic mean of Recall and Precision, computed as: 2 * precision * recall / (precision + recall).",
@@ -370,7 +370,7 @@
             },
             "_fScore": {
               "description": "Extensions for fScore",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -397,7 +397,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "url": {
               "description": "URI of an external repository which contains further details about the genetics data.",
@@ -405,7 +405,7 @@
             },
             "_url": {
               "description": "Extensions for url",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "name": {
               "description": "URI of an external repository which contains further details about the genetics data.",
@@ -413,7 +413,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "datasetId": {
               "description": "Id of the variant in this external repository. The server will understand how to use this id to call for more info about datasets in external repository.",
@@ -421,7 +421,7 @@
             },
             "_datasetId": {
               "description": "Extensions for datasetId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "variantsetId": {
               "description": "Id of the variantset in this external repository. The server will understand how to use this id to call for more info about variantsets in external repository.",
@@ -429,7 +429,7 @@
             },
             "_variantsetId": {
               "description": "Extensions for variantsetId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "readsetId": {
               "description": "Id of the read in this external repository.",
@@ -437,7 +437,7 @@
             },
             "_readsetId": {
               "description": "Extensions for readsetId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

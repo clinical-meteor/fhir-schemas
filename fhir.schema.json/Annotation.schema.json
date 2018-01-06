@@ -22,7 +22,7 @@
             },
             "_authorString": {
               "description": "Extensions for authorString",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "time": {
               "description": "Indicates when this particular annotation was made.",
@@ -31,7 +31,7 @@
             },
             "_time": {
               "description": "Extensions for time",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "text": {
               "description": "The text of the annotation.",
@@ -39,7 +39,7 @@
             },
             "_text": {
               "description": "Extensions for text",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

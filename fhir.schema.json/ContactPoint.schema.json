@@ -27,7 +27,7 @@
             },
             "_system": {
               "description": "Extensions for system",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "value": {
               "description": "The actual contact point details, in a form that is meaningful to the designated communication system (i.e. phone number or email address).",
@@ -35,7 +35,7 @@
             },
             "_value": {
               "description": "Extensions for value",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "use": {
               "description": "Identifies the purpose for the contact point.",
@@ -50,7 +50,7 @@
             },
             "_use": {
               "description": "Extensions for use",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "rank": {
               "description": "Specifies a preferred order in which to use a set of contacts. Contacts are ranked with lower values coming before higher values.",
@@ -59,7 +59,7 @@
             },
             "_rank": {
               "description": "Extensions for rank",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "period": {
               "description": "Time period when the contact point was/is in use.",

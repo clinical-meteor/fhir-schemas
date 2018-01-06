@@ -35,7 +35,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "Specifies the particular kind of composition (e.g. History and Physical, Discharge Summary, Progress Note). This usually equates to the purpose of making the composition.",
@@ -60,7 +60,7 @@
             },
             "_date": {
               "description": "Extensions for date",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "author": {
               "description": "Identifies who is responsible for the information in the composition, not necessarily who typed it in.",
@@ -75,7 +75,7 @@
             },
             "_title": {
               "description": "Extensions for title",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "confidentiality": {
               "description": "The code specifying the level of confidentiality of the Composition.",
@@ -84,7 +84,7 @@
             },
             "_confidentiality": {
               "description": "Extensions for confidentiality",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "attester": {
               "description": "A participant who has attested to the accuracy of the composition/document.",
@@ -153,7 +153,7 @@
               "description": "Extensions for mode",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "time": {
@@ -163,7 +163,7 @@
             },
             "_time": {
               "description": "Extensions for time",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "party": {
               "description": "Who attested the composition in the specified way.",
@@ -188,7 +188,7 @@
             },
             "_code": {
               "description": "Extensions for code",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "targetIdentifier": {
               "description": "The target composition/document of this relationship.",
@@ -246,7 +246,7 @@
             },
             "_title": {
               "description": "Extensions for title",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "code": {
               "description": "A code identifying the kind of content contained within the section. This must be consistent with the section title.",
@@ -263,7 +263,7 @@
             },
             "_mode": {
               "description": "Extensions for mode",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "orderedBy": {
               "description": "Specifies the order applied to the items in the section entries.",

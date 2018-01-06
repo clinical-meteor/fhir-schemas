@@ -34,7 +34,7 @@
             },
             "_authoringTime": {
               "description": "Extensions for authoringTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "author": {
               "description": "Author of ImagingManifest. It can be a human author or a device which made the decision of the SOP instances selected. For example, a radiologist selected a set of imaging SOP instances to attach in a diagnostic report, and a CAD application may author a selection to describe SOP instances it used to generate a detection conclusion.",
@@ -46,7 +46,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "study": {
               "description": "Study identity and locating information of the DICOM SOP instances in the selection.",
@@ -79,7 +79,7 @@
             },
             "_uid": {
               "description": "Extensions for uid",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "imagingStudy": {
               "description": "Reference to the Imaging Study in FHIR form.",
@@ -121,7 +121,7 @@
             },
             "_uid": {
               "description": "Extensions for uid",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "endpoint": {
               "description": "The network service providing access (e.g., query, view, or retrieval) for this series. See implementation notes for information about using DICOM endpoints. A series-level endpoint, if present, has precedence over a study-level endpoint with the same Endpoint.type.",
@@ -159,7 +159,7 @@
             },
             "_sopClass": {
               "description": "Extensions for sopClass",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "uid": {
               "description": "SOP Instance UID of the selected instance.",
@@ -168,7 +168,7 @@
             },
             "_uid": {
               "description": "Extensions for uid",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

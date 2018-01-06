@@ -37,7 +37,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "category": {
               "description": "A classification of the type of consents found in the statement. This element supports indexing and retrieval of consent statements.",
@@ -61,7 +61,7 @@
             },
             "_dateTime": {
               "description": "Extensions for dateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "consentingParty": {
               "description": "Either the Grantor, which is the entity responsible for granting the rights listed in a Consent Directive or the Grantee, which is the entity responsible for complying with the Consent Directive, including any obligations or limitations on authorizations and enforcement of prohibitions.",
@@ -116,7 +116,7 @@
             },
             "_policyRule": {
               "description": "Extensions for policyRule",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "securityLabel": {
               "description": "A set of security labels that define which resources are controlled by this consent. If more than one label is specified, all resources must have all the specified labels.",
@@ -196,7 +196,7 @@
             },
             "_authority": {
               "description": "Extensions for authority",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "uri": {
               "description": "The references to the policies that are included in this consent scope. Policies may be organizational, but are often defined jurisdictionally, or in law.",
@@ -204,7 +204,7 @@
             },
             "_uri": {
               "description": "Extensions for uri",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -230,7 +230,7 @@
             },
             "_meaning": {
               "description": "Extensions for meaning",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "reference": {
               "description": "A reference to a specific resource that defines which resources are covered by this consent.",
@@ -261,7 +261,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "period": {
               "description": "The timeframe in this exception is valid.",
@@ -368,7 +368,7 @@
             },
             "_meaning": {
               "description": "Extensions for meaning",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "reference": {
               "description": "A reference to a specific resource that defines which resources are covered by this consent.",

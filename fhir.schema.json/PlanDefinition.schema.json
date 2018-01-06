@@ -25,7 +25,7 @@
             },
             "_url": {
               "description": "Extensions for url",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "identifier": {
               "description": "A formal identifier that is used to identify this plan definition when it is represented in other formats, or referenced in a specification, model, design or an instance.",
@@ -40,7 +40,7 @@
             },
             "_version": {
               "description": "Extensions for version",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "name": {
               "description": "A natural language name identifying the plan definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
@@ -48,7 +48,7 @@
             },
             "_name": {
               "description": "Extensions for name",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "title": {
               "description": "A short, descriptive, user-friendly title for the plan definition.",
@@ -56,7 +56,7 @@
             },
             "_title": {
               "description": "Extensions for title",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "The type of asset the plan definition represents, e.g. an order set, protocol, or event-condition-action rule.",
@@ -74,7 +74,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "experimental": {
               "description": "A boolean value to indicate that this plan definition is authored for testing purposes (or education/evaluation/marketing), and is not intended to be used for genuine usage.",
@@ -82,7 +82,7 @@
             },
             "_experimental": {
               "description": "Extensions for experimental",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "date": {
               "description": "The date  (and optionally time) when the plan definition was published. The date must change if and when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the plan definition changes.",
@@ -91,7 +91,7 @@
             },
             "_date": {
               "description": "Extensions for date",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "publisher": {
               "description": "The name of the individual or organization that published the plan definition.",
@@ -99,7 +99,7 @@
             },
             "_publisher": {
               "description": "Extensions for publisher",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "description": {
               "description": "A free text natural language description of the plan definition from a consumer\u0027s perspective.",
@@ -107,7 +107,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "purpose": {
               "description": "Explaination of why this plan definition is needed and why it has been designed as it has.",
@@ -115,7 +115,7 @@
             },
             "_purpose": {
               "description": "Extensions for purpose",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "usage": {
               "description": "A detailed description of how the asset is used from a clinical perspective.",
@@ -123,7 +123,7 @@
             },
             "_usage": {
               "description": "Extensions for usage",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "approvalDate": {
               "description": "The date on which the resource content was approved by the publisher. Approval happens once when the content is officially approved for usage.",
@@ -132,7 +132,7 @@
             },
             "_approvalDate": {
               "description": "Extensions for approvalDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "lastReviewDate": {
               "description": "The date on which the resource content was last reviewed. Review happens periodically after approval, but doesn\u0027t change the original approval date.",
@@ -141,7 +141,7 @@
             },
             "_lastReviewDate": {
               "description": "Extensions for lastReviewDate",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "effectivePeriod": {
               "description": "The period during which the plan definition content was or is planned to be in active use.",
@@ -188,7 +188,7 @@
             },
             "_copyright": {
               "description": "Extensions for copyright",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "relatedArtifact": {
               "description": "Related artifacts such as additional documentation, justification, or bibliographic references.",
@@ -323,7 +323,7 @@
             },
             "_label": {
               "description": "Extensions for label",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "title": {
               "description": "The title of the action displayed to a user.",
@@ -331,7 +331,7 @@
             },
             "_title": {
               "description": "Extensions for title",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "description": {
               "description": "A short description of the action used to provide a summary to display to the user.",
@@ -339,7 +339,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "textEquivalent": {
               "description": "A text equivalent of the action to be performed. This provides a human-interpretable description of the action when the definition is consumed by a system that may not be capable of interpreting it dynamically.",
@@ -347,7 +347,7 @@
             },
             "_textEquivalent": {
               "description": "Extensions for textEquivalent",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "code": {
               "description": "A code that provides meaning for the action or action group. For example, a section may have a LOINC code for a the section of a documentation template.",
@@ -382,7 +382,7 @@
               "description": "Extensions for goalId",
               "type": "array",
               "items": {
-                "$ref": "Element.schema.json#/definitions/Element"
+                "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
               }
             },
             "triggerDefinition": {
@@ -427,7 +427,7 @@
             },
             "_timingDateTime": {
               "description": "Extensions for timingDateTime",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "timingPeriod": {
               "description": "An optional value describing when the action should be performed.",
@@ -467,7 +467,7 @@
             },
             "_groupingBehavior": {
               "description": "Extensions for groupingBehavior",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "selectionBehavior": {
               "description": "Defines the selection behavior for the action and its children.",
@@ -483,7 +483,7 @@
             },
             "_selectionBehavior": {
               "description": "Extensions for selectionBehavior",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "requiredBehavior": {
               "description": "Defines the requiredness behavior for the action.",
@@ -496,7 +496,7 @@
             },
             "_requiredBehavior": {
               "description": "Extensions for requiredBehavior",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "precheckBehavior": {
               "description": "Defines whether the action should usually be preselected.",
@@ -508,7 +508,7 @@
             },
             "_precheckBehavior": {
               "description": "Extensions for precheckBehavior",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "cardinalityBehavior": {
               "description": "Defines whether the action can be selected multiple times.",
@@ -520,7 +520,7 @@
             },
             "_cardinalityBehavior": {
               "description": "Extensions for cardinalityBehavior",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "definition": {
               "description": "A reference to an ActivityDefinition that describes the action to be taken in detail, or a PlanDefinition that describes a series of actions to be taken.",
@@ -567,7 +567,7 @@
             },
             "_kind": {
               "description": "Extensions for kind",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "description": {
               "description": "A brief, natural language description of the condition that effectively communicates the intended semantics.",
@@ -575,7 +575,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "language": {
               "description": "The media type of the language for the expression.",
@@ -583,7 +583,7 @@
             },
             "_language": {
               "description": "Extensions for language",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "expression": {
               "description": "An expression that returns true or false, indicating whether or not the condition is satisfied.",
@@ -591,7 +591,7 @@
             },
             "_expression": {
               "description": "Extensions for expression",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -612,7 +612,7 @@
             },
             "_actionId": {
               "description": "Extensions for actionId",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "relationship": {
               "description": "The relationship of this action to the related action.",
@@ -631,7 +631,7 @@
             },
             "_relationship": {
               "description": "Extensions for relationship",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "offsetDuration": {
               "description": "A duration or range of durations to apply to the relationship. For example, 30-60 minutes before.",
@@ -664,7 +664,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "role": {
               "description": "The role the participant should play in performing the described action.",
@@ -688,7 +688,7 @@
             },
             "_description": {
               "description": "Extensions for description",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "path": {
               "description": "The path to the element to be customized. This is the path on the resource that will hold the result of the calculation defined by the expression.",
@@ -696,7 +696,7 @@
             },
             "_path": {
               "description": "Extensions for path",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "language": {
               "description": "The media type of the language for the expression.",
@@ -704,7 +704,7 @@
             },
             "_language": {
               "description": "Extensions for language",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "expression": {
               "description": "An expression specifying the value of the customized element.",
@@ -712,7 +712,7 @@
             },
             "_expression": {
               "description": "Extensions for expression",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }

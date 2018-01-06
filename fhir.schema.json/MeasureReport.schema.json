@@ -34,7 +34,7 @@
             },
             "_status": {
               "description": "Extensions for status",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "type": {
               "description": "The type of measure report. This may be an individual report, which provides a single patient\u0027s score for the measure; a patient listing, which returns the list of patients that meet the various criteria in the measure; or a summary report, which returns a population count for each of the criteria in the measure.",
@@ -47,7 +47,7 @@
             },
             "_type": {
               "description": "Extensions for type",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "measure": {
               "description": "A reference to the Measure that was evaluated to produce this report.",
@@ -64,7 +64,7 @@
             },
             "_date": {
               "description": "Extensions for date",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "reportingOrganization": {
               "description": "Reporting Organization.",
@@ -120,7 +120,7 @@
             },
             "_measureScore": {
               "description": "Extensions for measureScore",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "stratifier": {
               "description": "When a measure includes multiple stratifiers, there will be a stratifier group for each stratifier defined by the measure.",
@@ -159,7 +159,7 @@
             },
             "_count": {
               "description": "Extensions for count",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patients": {
               "description": "This element refers to a List of patient level MeasureReport resources, one for each patient in this population.",
@@ -206,7 +206,7 @@
             },
             "_value": {
               "description": "Extensions for value",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "population": {
               "description": "The populations that make up the stratum, one for each type of population appropriate to the measure.",
@@ -222,7 +222,7 @@
             },
             "_measureScore": {
               "description": "Extensions for measureScore",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             }
           }
         }
@@ -251,7 +251,7 @@
             },
             "_count": {
               "description": "Extensions for count",
-              "$ref": "Element.schema.json#/definitions/Element"
+              "$ref": "http://hl7.org/fhir/json-schema/Element#/definitions/Element"
             },
             "patients": {
               "description": "This element refers to a List of patient level MeasureReport resources, one for each patient in this population in this stratum.",
