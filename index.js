@@ -39,3 +39,4 @@ exports.AnnotationSchema = require('./fhir.schema.json/Annotation.schema.json');
 exports.CodingSchema = require('./fhir.schema.json/Coding.schema.json');
 exports.PeriodSchema = require('./fhir.schema.json/Period.schema.json');
 exports.QuantitySchema = require('./fhir.schema.json/Quantity.schema.json');
+exports.DurationSchema = require('./fhir.schema.json/Duration.schema.json');
