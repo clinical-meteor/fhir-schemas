@@ -34,9 +34,6 @@
       "url": "git+https://github.com/clinical-meteor/fhir-schemas.git"
     },
     "scripts": {
-      "build": "cross-env NODE_ENV=production gulp",
-      "clean": "rimraf ./lib",
-      "prepublish": "npm run build",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "version": "0.0.1"
