@@ -5,7 +5,7 @@ var CodeableConcept = require('../datatypes/CodableConcept');
 var IdentifierSchema = require('../datatypes/Identifier');
 var ReferenceSchema = require('../datatypes/Reference');
 
-export default AuditEventSchema = new SimpleSchema([
+exports.AuditEventSchema = new SimpleSchema([
   BaseSchema,
   DomainResourceSchema,
   {
