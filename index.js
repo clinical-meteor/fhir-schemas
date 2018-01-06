@@ -28,3 +28,6 @@ exports.AddressSchema = require('./fhir.schema.json/Address.schema.json');
 exports.CodeableConceptSchema = require('./fhir.schema.json/CodeableConcept.schema.json');
 exports.AttachmentSchema = require('./fhir.schema.json/Attachment.schema.json');
 exports.ReferenceSchema = require('./fhir.schema.json/Reference.schema.json');
+
+exports.DomainResourceSchema = require('./fhir.schema.json/DomainResource.schema.json');
+exports.MetaSchema = require('./fhir.schema.json/Meta.schema.json');
