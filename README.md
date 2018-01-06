@@ -79,31 +79,13 @@ if(isValid){
 }
 ```
 
-#### Datatypes      
+#### Json Schemas  
 
-[Address](https://www.hl7.org/fhir/datatypes.html#address)  
-[Annotation](https://www.hl7.org/fhir/datatypes.html#annotation)  
-[Attachment](https://www.hl7.org/fhir/datatypes.html#attachment)  
-[Base]()    
-[Coding](https://www.hl7.org/fhir/datatypes.html#codesystem)    
-[CodeableConcept](https://www.hl7.org/fhir/datatypes.html#codeableconcept)  
-[Conformance]()  
-[ContactPoint](https://www.hl7.org/fhir/datatypes.html#contactpoint)    
-[DomainResource](https://www.hl7.org/fhir/domainresource.html)    
-[HumanName](https://www.hl7.org/fhir/datatypes.html#humanname)    
-[Identifier](https://www.hl7.org/fhir/datatypes.html#identifier)    
-[Meta](https://www.hl7.org/fhir/resource.html#meta)    
-[Narrative]()  
-[Period](https://www.hl7.org/fhir/datatypes.html#period)    
-[Quantity](https://www.hl7.org/fhir/datatypes.html#quantity)    
-[Range](https://www.hl7.org/fhir/datatypes.html#range)    
-[Ratio](https://www.hl7.org/fhir/datatypes.html#ratio)    
-[Reference](https://www.hl7.org/fhir/references.html#Reference)    
-[SampledData](https://www.hl7.org/fhir/datatypes.html#sampleddata)    
-[Signature](https://www.hl7.org/fhir/datatypes.html#signature)    
-[Timing](https://www.hl7.org/fhir/datatypes.html#timing)    
+We provide Json Schemas for all of the following resources:   
+[FHIR Resource Index](https://www.hl7.org/fhir/resourcelist.html)        
 
-#### Schemas   
+
+#### SimpleSchemas   
 
 [AuditEvent](https://www.hl7.org/fhir/auditevent.html)    
 [CarePlan](https://www.hl7.org/fhir/careplan.html)    
