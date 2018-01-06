@@ -89,7 +89,7 @@
             },
             "photo": {
               "description": "If there is a photo/symbol associated with this HealthcareService, it may be included here to facilitate quick identification of the service in a list.",
-              "$ref": "Attachment.schema.json#/definitions/Attachment"
+              "$ref": "http://hl7.org/fhir/json-schema/Attachment#/definitions/Attachment"
             },
             "telecom": {
               "description": "List of contacts related to this specific healthcare service.",

@@ -319,7 +319,7 @@
             },
             "defaultValueAttachment": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
-              "$ref": "Attachment.schema.json#/definitions/Attachment"
+              "$ref": "http://hl7.org/fhir/json-schema/Attachment#/definitions/Attachment"
             },
             "defaultValueIdentifier": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
@@ -626,7 +626,7 @@
             },
             "fixedAttachment": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
-              "$ref": "Attachment.schema.json#/definitions/Attachment"
+              "$ref": "http://hl7.org/fhir/json-schema/Attachment#/definitions/Attachment"
             },
             "fixedIdentifier": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -917,7 +917,7 @@
             },
             "patternAttachment": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
-              "$ref": "Attachment.schema.json#/definitions/Attachment"
+              "$ref": "http://hl7.org/fhir/json-schema/Attachment#/definitions/Attachment"
             },
             "patternIdentifier": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -1639,7 +1639,7 @@
             },
             "valueAttachment": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
-              "$ref": "Attachment.schema.json#/definitions/Attachment"
+              "$ref": "http://hl7.org/fhir/json-schema/Attachment#/definitions/Attachment"
             },
             "valueIdentifier": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",

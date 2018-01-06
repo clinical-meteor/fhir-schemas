@@ -82,7 +82,7 @@
               "description": "Image of the person.",
               "type": "array",
               "items": {
-                "$ref": "Attachment.schema.json#/definitions/Attachment"
+                "$ref": "http://hl7.org/fhir/json-schema/Attachment#/definitions/Attachment"
               }
             },
             "qualification": {

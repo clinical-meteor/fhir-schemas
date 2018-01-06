@@ -122,7 +122,7 @@
           "properties": {
             "pAttachment": {
               "description": "The list of references to document content, or Attachment that consist of the parts of this document manifest. Usually, these would be document references, but direct references to Media or Attachments are also allowed.",
-              "$ref": "Attachment.schema.json#/definitions/Attachment"
+              "$ref": "http://hl7.org/fhir/json-schema/Attachment#/definitions/Attachment"
             },
             "pReference": {
               "description": "The list of references to document content, or Attachment that consist of the parts of this document manifest. Usually, these would be document references, but direct references to Media or Attachments are also allowed.",

@@ -143,7 +143,7 @@
             },
             "bindingAttachment": {
               "description": "Legally binding Contract: This is the signed and legally recognized representation of the Contract, which is considered the \"source of truth\" and which would be the basis for legal action related to enforcement of this Contract.",
-              "$ref": "Attachment.schema.json#/definitions/Attachment"
+              "$ref": "http://hl7.org/fhir/json-schema/Attachment#/definitions/Attachment"
             },
             "bindingReference": {
               "description": "Legally binding Contract: This is the signed and legally recognized representation of the Contract, which is considered the \"source of truth\" and which would be the basis for legal action related to enforcement of this Contract.",
@@ -491,7 +491,7 @@
           "properties": {
             "contentAttachment": {
               "description": "Human readable rendering of this Contract in a format and representation intended to enhance comprehension and ensure understandability.",
-              "$ref": "Attachment.schema.json#/definitions/Attachment"
+              "$ref": "http://hl7.org/fhir/json-schema/Attachment#/definitions/Attachment"
             },
             "contentReference": {
               "description": "Human readable rendering of this Contract in a format and representation intended to enhance comprehension and ensure understandability.",
@@ -511,7 +511,7 @@
           "properties": {
             "contentAttachment": {
               "description": "Contract legal text in human renderable form.",
-              "$ref": "Attachment.schema.json#/definitions/Attachment"
+              "$ref": "http://hl7.org/fhir/json-schema/Attachment#/definitions/Attachment"
             },
             "contentReference": {
               "description": "Contract legal text in human renderable form.",
@@ -531,7 +531,7 @@
           "properties": {
             "contentAttachment": {
               "description": "Computable Contract conveyed using a policy rule language (e.g. XACML, DKAL, SecPal).",
-              "$ref": "Attachment.schema.json#/definitions/Attachment"
+              "$ref": "http://hl7.org/fhir/json-schema/Attachment#/definitions/Attachment"
             },
             "contentReference": {
               "description": "Computable Contract conveyed using a policy rule language (e.g. XACML, DKAL, SecPal).",

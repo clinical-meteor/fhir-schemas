@@ -181,7 +181,7 @@
           "properties": {
             "attachment": {
               "description": "The document or URL of the document along with critical metadata to prove content has integrity.",
-              "$ref": "Attachment.schema.json#/definitions/Attachment"
+              "$ref": "http://hl7.org/fhir/json-schema/Attachment#/definitions/Attachment"
             },
             "format": {
               "description": "An identifier of the document encoding, structure, and template that the document conforms to beyond the base format indicated in the mimeType.",

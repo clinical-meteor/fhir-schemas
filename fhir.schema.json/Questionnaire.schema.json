@@ -395,7 +395,7 @@
             },
             "initialAttachment": {
               "description": "The value that should be defaulted when initially rendering the questionnaire for user input.",
-              "$ref": "Attachment.schema.json#/definitions/Attachment"
+              "$ref": "http://hl7.org/fhir/json-schema/Attachment#/definitions/Attachment"
             },
             "initialCoding": {
               "description": "The value that should be defaulted when initially rendering the questionnaire for user input.",
@@ -515,7 +515,7 @@
             },
             "answerAttachment": {
               "description": "An answer that the referenced question must match in order for the item to be enabled.",
-              "$ref": "Attachment.schema.json#/definitions/Attachment"
+              "$ref": "http://hl7.org/fhir/json-schema/Attachment#/definitions/Attachment"
             },
             "answerCoding": {
               "description": "An answer that the referenced question must match in order for the item to be enabled.",

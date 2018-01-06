@@ -56,7 +56,7 @@
             },
             "document": {
               "description": "The document being referenced, represented as an attachment. This is exclusive with the resource element.",
-              "$ref": "Attachment.schema.json#/definitions/Attachment"
+              "$ref": "http://hl7.org/fhir/json-schema/Attachment#/definitions/Attachment"
             },
             "resource": {
               "description": "The related resource, such as a library, value set, profile, or other knowledge resource.",

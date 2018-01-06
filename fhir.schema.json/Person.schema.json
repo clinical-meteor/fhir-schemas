@@ -72,7 +72,7 @@
             },
             "photo": {
               "description": "An image that can be displayed as a thumbnail of the person to enhance the identification of the individual.",
-              "$ref": "Attachment.schema.json#/definitions/Attachment"
+              "$ref": "http://hl7.org/fhir/json-schema/Attachment#/definitions/Attachment"
             },
             "managingOrganization": {
               "description": "The organization that is the custodian of the person record.",

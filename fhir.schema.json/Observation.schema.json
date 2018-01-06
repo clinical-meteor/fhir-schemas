@@ -136,7 +136,7 @@
             },
             "valueAttachment": {
               "description": "The information determined as a result of making the observation, if the information has a simple value.",
-              "$ref": "Attachment.schema.json#/definitions/Attachment"
+              "$ref": "http://hl7.org/fhir/json-schema/Attachment#/definitions/Attachment"
             },
             "valueTime": {
               "description": "The information determined as a result of making the observation, if the information has a simple value.",
@@ -341,7 +341,7 @@
             },
             "valueAttachment": {
               "description": "The information determined as a result of making the observation, if the information has a simple value.",
-              "$ref": "Attachment.schema.json#/definitions/Attachment"
+              "$ref": "http://hl7.org/fhir/json-schema/Attachment#/definitions/Attachment"
             },
             "valueTime": {
               "description": "The information determined as a result of making the observation, if the information has a simple value.",

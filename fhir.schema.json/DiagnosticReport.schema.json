@@ -144,7 +144,7 @@
               "description": "Rich text representation of the entire result as issued by the diagnostic service. Multiple formats are allowed but they SHALL be semantically equivalent.",
               "type": "array",
               "items": {
-                "$ref": "Attachment.schema.json#/definitions/Attachment"
+                "$ref": "http://hl7.org/fhir/json-schema/Attachment#/definitions/Attachment"
               }
             }
           },
