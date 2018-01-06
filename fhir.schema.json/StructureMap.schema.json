@@ -609,7 +609,7 @@
             },
             "defaultValueNarrative": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Narrative.schema.json#/definitions/Narrative"
+              "$ref": "http://hl7.org/fhir/json-schema/Narrative#/definitions/Narrative"
             },
             "defaultValueAnnotation": {
               "description": "A value to use if there is no existing value in the source object.",

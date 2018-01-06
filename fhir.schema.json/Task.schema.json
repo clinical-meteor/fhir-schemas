@@ -436,7 +436,7 @@
             },
             "valueNarrative": {
               "description": "The value of the input parameter as a basic type.",
-              "$ref": "Narrative.schema.json#/definitions/Narrative"
+              "$ref": "http://hl7.org/fhir/json-schema/Narrative#/definitions/Narrative"
             },
             "valueAnnotation": {
               "description": "The value of the input parameter as a basic type.",
@@ -746,7 +746,7 @@
             },
             "valueNarrative": {
               "description": "The value of the Output parameter as a basic type.",
-              "$ref": "Narrative.schema.json#/definitions/Narrative"
+              "$ref": "http://hl7.org/fhir/json-schema/Narrative#/definitions/Narrative"
             },
             "valueAnnotation": {
               "description": "The value of the Output parameter as a basic type.",

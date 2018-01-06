@@ -200,7 +200,7 @@
             },
             "valueNarrative": {
               "description": "If the parameter is a data type.",
-              "$ref": "Narrative.schema.json#/definitions/Narrative"
+              "$ref": "http://hl7.org/fhir/json-schema/Narrative#/definitions/Narrative"
             },
             "valueAnnotation": {
               "description": "If the parameter is a data type.",
