@@ -657,7 +657,7 @@
             },
             "defaultValueAge": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Age.schema.json#/definitions/Age"
+              "$ref": "http://hl7.org/fhir/json-schema/Age#/definitions/Age"
             },
             "defaultValueRange": {
               "description": "A value to use if there is no existing value in the source object.",

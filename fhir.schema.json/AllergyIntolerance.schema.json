@@ -117,7 +117,7 @@
             },
             "onsetAge": {
               "description": "Estimated or actual date,  date-time, or age when allergy or intolerance was identified.",
-              "$ref": "Age.schema.json#/definitions/Age"
+              "$ref": "http://hl7.org/fhir/json-schema/Age#/definitions/Age"
             },
             "onsetPeriod": {
               "description": "Estimated or actual date,  date-time, or age when allergy or intolerance was identified.",

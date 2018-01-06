@@ -484,7 +484,7 @@
             },
             "valueAge": {
               "description": "The value of the input parameter as a basic type.",
-              "$ref": "Age.schema.json#/definitions/Age"
+              "$ref": "http://hl7.org/fhir/json-schema/Age#/definitions/Age"
             },
             "valueRange": {
               "description": "The value of the input parameter as a basic type.",
@@ -794,7 +794,7 @@
             },
             "valueAge": {
               "description": "The value of the Output parameter as a basic type.",
-              "$ref": "Age.schema.json#/definitions/Age"
+              "$ref": "http://hl7.org/fhir/json-schema/Age#/definitions/Age"
             },
             "valueRange": {
               "description": "The value of the Output parameter as a basic type.",

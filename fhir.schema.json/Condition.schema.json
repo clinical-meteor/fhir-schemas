@@ -92,7 +92,7 @@
             },
             "onsetAge": {
               "description": "Estimated or actual date or date-time  the condition began, in the opinion of the clinician.",
-              "$ref": "Age.schema.json#/definitions/Age"
+              "$ref": "http://hl7.org/fhir/json-schema/Age#/definitions/Age"
             },
             "onsetPeriod": {
               "description": "Estimated or actual date or date-time  the condition began, in the opinion of the clinician.",
@@ -121,7 +121,7 @@
             },
             "abatementAge": {
               "description": "The date or estimated date that the condition resolved or went into remission. This is called \"abatement\" because of the many overloaded connotations associated with \"remission\" or \"resolution\" - Conditions are never really resolved, but they can abate.",
-              "$ref": "Age.schema.json#/definitions/Age"
+              "$ref": "http://hl7.org/fhir/json-schema/Age#/definitions/Age"
             },
             "abatementBoolean": {
               "description": "The date or estimated date that the condition resolved or went into remission. This is called \"abatement\" because of the many overloaded connotations associated with \"remission\" or \"resolution\" - Conditions are never really resolved, but they can abate.",

@@ -248,7 +248,7 @@
             },
             "valueAge": {
               "description": "If the parameter is a data type.",
-              "$ref": "Age.schema.json#/definitions/Age"
+              "$ref": "http://hl7.org/fhir/json-schema/Age#/definitions/Age"
             },
             "valueRange": {
               "description": "If the parameter is a data type.",
