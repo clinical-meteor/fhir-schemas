@@ -164,3 +164,10 @@ https://scotch.io/bar-talk/how-to-build-and-publish-a-npm-package
 https://codeburst.io/how-to-create-and-publish-your-first-node-js-module-444e7585b738  
 http://blog.teamtreehouse.com/build-npm-package  
 https://www.guru99.com/node-js-modules-create-publish.html  
+
+https://github.com/bshamblen/meteor-json-simple-schema  
+
+https://docs.mongodb.com/manual/core/schema-validation/#json-schema  
+https://docs.mongodb.com/manual/reference/command/collMod/#dbcmd.collMod  
+https://github.com/mozilla-services/react-jsonschema-form  
+https://tools.ietf.org/html/draft-zyp-json-schema-04  
