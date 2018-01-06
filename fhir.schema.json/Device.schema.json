@@ -129,7 +129,7 @@
               "description": "Descriptive information, usage information or implantation information that is not captured in an existing element.",
               "type": "array",
               "items": {
-                "$ref": "Annotation.schema.json#/definitions/Annotation"
+                "$ref": "http://hl7.org/fhir/json-schema/Annotation#/definitions/Annotation"
               }
             },
             "safety": {

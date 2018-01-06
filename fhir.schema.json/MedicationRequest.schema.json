@@ -152,7 +152,7 @@
               "description": "Extra information about the prescription that could not be conveyed by the other attributes.",
               "type": "array",
               "items": {
-                "$ref": "Annotation.schema.json#/definitions/Annotation"
+                "$ref": "http://hl7.org/fhir/json-schema/Annotation#/definitions/Annotation"
               }
             },
             "dosageInstruction": {

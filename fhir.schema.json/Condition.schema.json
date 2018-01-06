@@ -175,7 +175,7 @@
               "description": "Additional information about the Condition. This is a general notes/comments entry  for description of the Condition, its diagnosis and prognosis.",
               "type": "array",
               "items": {
-                "$ref": "Annotation.schema.json#/definitions/Annotation"
+                "$ref": "http://hl7.org/fhir/json-schema/Annotation#/definitions/Annotation"
               }
             }
           },

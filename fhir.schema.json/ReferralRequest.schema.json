@@ -167,7 +167,7 @@
               "description": "Comments made about the referral request by any of the participants.",
               "type": "array",
               "items": {
-                "$ref": "Annotation.schema.json#/definitions/Annotation"
+                "$ref": "http://hl7.org/fhir/json-schema/Annotation#/definitions/Annotation"
               }
             },
             "relevantHistory": {

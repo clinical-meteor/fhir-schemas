@@ -613,7 +613,7 @@
             },
             "defaultValueAnnotation": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Annotation.schema.json#/definitions/Annotation"
+              "$ref": "http://hl7.org/fhir/json-schema/Annotation#/definitions/Annotation"
             },
             "defaultValueAttachment": {
               "description": "A value to use if there is no existing value in the source object.",

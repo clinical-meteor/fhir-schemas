@@ -166,7 +166,7 @@
               "description": "General notes about the care plan not covered elsewhere.",
               "type": "array",
               "items": {
-                "$ref": "Annotation.schema.json#/definitions/Annotation"
+                "$ref": "http://hl7.org/fhir/json-schema/Annotation#/definitions/Annotation"
               }
             }
           },
@@ -203,7 +203,7 @@
               "description": "Notes about the adherence/status/progress of the activity.",
               "type": "array",
               "items": {
-                "$ref": "Annotation.schema.json#/definitions/Annotation"
+                "$ref": "http://hl7.org/fhir/json-schema/Annotation#/definitions/Annotation"
               }
             },
             "reference": {

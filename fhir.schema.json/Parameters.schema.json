@@ -204,7 +204,7 @@
             },
             "valueAnnotation": {
               "description": "If the parameter is a data type.",
-              "$ref": "Annotation.schema.json#/definitions/Annotation"
+              "$ref": "http://hl7.org/fhir/json-schema/Annotation#/definitions/Annotation"
             },
             "valueAttachment": {
               "description": "If the parameter is a data type.",

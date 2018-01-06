@@ -165,7 +165,7 @@
               "description": "Additional narrative about the propensity for the Adverse Reaction, not captured in other fields.",
               "type": "array",
               "items": {
-                "$ref": "Annotation.schema.json#/definitions/Annotation"
+                "$ref": "http://hl7.org/fhir/json-schema/Annotation#/definitions/Annotation"
               }
             },
             "reaction": {
@@ -240,7 +240,7 @@
               "description": "Additional text about the adverse reaction event not captured in other fields.",
               "type": "array",
               "items": {
-                "$ref": "Annotation.schema.json#/definitions/Annotation"
+                "$ref": "http://hl7.org/fhir/json-schema/Annotation#/definitions/Annotation"
               }
             }
           },

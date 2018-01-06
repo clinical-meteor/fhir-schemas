@@ -151,7 +151,7 @@
               "description": "Additional notes or commentary about the communication by the sender, receiver or other interested parties.",
               "type": "array",
               "items": {
-                "$ref": "Annotation.schema.json#/definitions/Annotation"
+                "$ref": "http://hl7.org/fhir/json-schema/Annotation#/definitions/Annotation"
               }
             }
           },

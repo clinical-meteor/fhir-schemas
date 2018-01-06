@@ -148,7 +148,7 @@
               "description": "Provides extra information about the medication statement that is not conveyed by the other attributes.",
               "type": "array",
               "items": {
-                "$ref": "Annotation.schema.json#/definitions/Annotation"
+                "$ref": "http://hl7.org/fhir/json-schema/Annotation#/definitions/Annotation"
               }
             },
             "dosage": {

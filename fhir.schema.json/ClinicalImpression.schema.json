@@ -157,7 +157,7 @@
               "description": "Commentary about the impression, typically recorded after the impression itself was made, though supplemental notes by the original author could also appear.",
               "type": "array",
               "items": {
-                "$ref": "Annotation.schema.json#/definitions/Annotation"
+                "$ref": "http://hl7.org/fhir/json-schema/Annotation#/definitions/Annotation"
               }
             }
           },

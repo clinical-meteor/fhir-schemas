@@ -194,7 +194,7 @@
               "description": "Any other notes and comments made about the service request. For example, letting provider know that \"patient hates needles\" or other provider instructions.",
               "type": "array",
               "items": {
-                "$ref": "Annotation.schema.json#/definitions/Annotation"
+                "$ref": "http://hl7.org/fhir/json-schema/Annotation#/definitions/Annotation"
               }
             },
             "relevantHistory": {

@@ -185,7 +185,7 @@
             },
             "valueAnnotation": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-              "$ref": "Annotation.schema.json#/definitions/Annotation"
+              "$ref": "http://hl7.org/fhir/json-schema/Annotation#/definitions/Annotation"
             },
             "valueAttachment": {
               "description": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",

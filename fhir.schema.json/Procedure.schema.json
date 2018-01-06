@@ -165,7 +165,7 @@
               "description": "Any other notes about the procedure.  E.g. the operative notes.",
               "type": "array",
               "items": {
-                "$ref": "Annotation.schema.json#/definitions/Annotation"
+                "$ref": "http://hl7.org/fhir/json-schema/Annotation#/definitions/Annotation"
               }
             },
             "focalDevice": {

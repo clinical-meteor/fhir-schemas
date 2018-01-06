@@ -135,7 +135,7 @@
               "description": "Extra information about the dispense that could not be conveyed in the other attributes.",
               "type": "array",
               "items": {
-                "$ref": "Annotation.schema.json#/definitions/Annotation"
+                "$ref": "http://hl7.org/fhir/json-schema/Annotation#/definitions/Annotation"
               }
             },
             "dosageInstruction": {

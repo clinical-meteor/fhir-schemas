@@ -173,7 +173,7 @@
               "description": "Free-text information captured about the task as it progresses.",
               "type": "array",
               "items": {
-                "$ref": "Annotation.schema.json#/definitions/Annotation"
+                "$ref": "http://hl7.org/fhir/json-schema/Annotation#/definitions/Annotation"
               }
             },
             "relevantHistory": {
@@ -440,7 +440,7 @@
             },
             "valueAnnotation": {
               "description": "The value of the input parameter as a basic type.",
-              "$ref": "Annotation.schema.json#/definitions/Annotation"
+              "$ref": "http://hl7.org/fhir/json-schema/Annotation#/definitions/Annotation"
             },
             "valueAttachment": {
               "description": "The value of the input parameter as a basic type.",
@@ -750,7 +750,7 @@
             },
             "valueAnnotation": {
               "description": "The value of the Output parameter as a basic type.",
-              "$ref": "Annotation.schema.json#/definitions/Annotation"
+              "$ref": "http://hl7.org/fhir/json-schema/Annotation#/definitions/Annotation"
             },
             "valueAttachment": {
               "description": "The value of the Output parameter as a basic type.",
