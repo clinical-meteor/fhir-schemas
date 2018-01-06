@@ -31,3 +31,4 @@ exports.ReferenceSchema = require('./fhir.schema.json/Reference.schema.json');
 
 exports.DomainResourceSchema = require('./fhir.schema.json/DomainResource.schema.json');
 exports.MetaSchema = require('./fhir.schema.json/Meta.schema.json');
+exports.ResourceSchema = require('./fhir.schema.json/Resource.schema.json');
