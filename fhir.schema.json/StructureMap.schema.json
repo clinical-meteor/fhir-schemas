@@ -601,7 +601,7 @@
             },
             "defaultValueExtension": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Extension.schema.json#/definitions/Extension"
+              "$ref": "http://hl7.org/fhir/json-schema/Extension#/definitions/Extension"
             },
             "defaultValueBackboneElement": {
               "description": "A value to use if there is no existing value in the source object.",

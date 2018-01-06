@@ -303,7 +303,7 @@
             },
             "defaultValueExtension": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
-              "$ref": "Extension.schema.json#/definitions/Extension"
+              "$ref": "http://hl7.org/fhir/json-schema/Extension#/definitions/Extension"
             },
             "defaultValueBackboneElement": {
               "description": "The value that should be used if there is no value stated in the instance (e.g. \u0027if not otherwise specified, the abstract is false\u0027).",
@@ -610,7 +610,7 @@
             },
             "fixedExtension": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
-              "$ref": "Extension.schema.json#/definitions/Extension"
+              "$ref": "http://hl7.org/fhir/json-schema/Extension#/definitions/Extension"
             },
             "fixedBackboneElement": {
               "description": "Specifies a value that SHALL be exactly the value  for this element in the instance. For purposes of comparison, non-significant whitespace is ignored, and all values must be an exact match (case and accent sensitive). Missing elements/attributes must also be missing.",
@@ -901,7 +901,7 @@
             },
             "patternExtension": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
-              "$ref": "Extension.schema.json#/definitions/Extension"
+              "$ref": "http://hl7.org/fhir/json-schema/Extension#/definitions/Extension"
             },
             "patternBackboneElement": {
               "description": "Specifies a value that the value in the instance SHALL follow - that is, any value in the pattern must be found in the instance. Other additional values may be found too. This is effectively constraint by example.  The values of elements present in the pattern must match exactly (case-sensitive, accent-sensitive, etc.).",
@@ -1623,7 +1623,7 @@
             },
             "valueExtension": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",
-              "$ref": "Extension.schema.json#/definitions/Extension"
+              "$ref": "http://hl7.org/fhir/json-schema/Extension#/definitions/Extension"
             },
             "valueBackboneElement": {
               "description": "The actual value for the element, which must be one of the types allowed for this element.",

@@ -192,7 +192,7 @@
             },
             "valueExtension": {
               "description": "If the parameter is a data type.",
-              "$ref": "Extension.schema.json#/definitions/Extension"
+              "$ref": "http://hl7.org/fhir/json-schema/Extension#/definitions/Extension"
             },
             "valueBackboneElement": {
               "description": "If the parameter is a data type.",

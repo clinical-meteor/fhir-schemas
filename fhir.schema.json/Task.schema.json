@@ -428,7 +428,7 @@
             },
             "valueExtension": {
               "description": "The value of the input parameter as a basic type.",
-              "$ref": "Extension.schema.json#/definitions/Extension"
+              "$ref": "http://hl7.org/fhir/json-schema/Extension#/definitions/Extension"
             },
             "valueBackboneElement": {
               "description": "The value of the input parameter as a basic type.",
@@ -738,7 +738,7 @@
             },
             "valueExtension": {
               "description": "The value of the Output parameter as a basic type.",
-              "$ref": "Extension.schema.json#/definitions/Extension"
+              "$ref": "http://hl7.org/fhir/json-schema/Extension#/definitions/Extension"
             },
             "valueBackboneElement": {
               "description": "The value of the Output parameter as a basic type.",
