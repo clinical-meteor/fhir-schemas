@@ -332,7 +332,7 @@
             },
             "resource": {
               "description": "If the parameter is a whole resource.",
-              "$ref": "ResourceList.schema.json#/definitions/ResourceList"
+              "$ref": "http://hl7.org/fhir/json-schema/ResourceList#/definitions/ResourceList"
             },
             "part": {
               "description": "A named part of a multi-part parameter.",

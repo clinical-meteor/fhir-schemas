@@ -129,7 +129,7 @@
             },
             "resource": {
               "description": "The Resources for the entry.",
-              "$ref": "ResourceList.schema.json#/definitions/ResourceList"
+              "$ref": "http://hl7.org/fhir/json-schema/ResourceList#/definitions/ResourceList"
             },
             "search": {
               "description": "Information about the search process that lead to the creation of this entry.",
@@ -289,7 +289,7 @@
             },
             "outcome": {
               "description": "An OperationOutcome containing hints and warnings produced as part of processing this entry in a batch or transaction.",
-              "$ref": "ResourceList.schema.json#/definitions/ResourceList"
+              "$ref": "http://hl7.org/fhir/json-schema/ResourceList#/definitions/ResourceList"
             }
           }
         }
