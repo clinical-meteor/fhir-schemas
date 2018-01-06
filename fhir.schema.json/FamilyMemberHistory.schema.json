@@ -125,7 +125,7 @@
             },
             "ageRange": {
               "description": "The age of the relative at the time the family member history is recorded.",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             },
             "ageString": {
               "description": "The age of the relative at the time the family member history is recorded.",
@@ -157,7 +157,7 @@
             },
             "deceasedRange": {
               "description": "Deceased flag or the actual or approximate age of the relative at the time of death for the family member history record.",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             },
             "deceasedDate": {
               "description": "Deceased flag or the actual or approximate age of the relative at the time of death for the family member history record.",
@@ -235,7 +235,7 @@
             },
             "onsetRange": {
               "description": "Either the age of onset, range of approximate age or descriptive string can be recorded.  For conditions with multiple occurrences, this describes the first known occurrence.",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             },
             "onsetPeriod": {
               "description": "Either the age of onset, range of approximate age or descriptive string can be recorded.  For conditions with multiple occurrences, this describes the first known occurrence.",

@@ -215,7 +215,7 @@
             },
             "timingRange": {
               "description": "An optional value describing when the action should be performed.",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             },
             "timingTiming": {
               "description": "An optional value describing when the action should be performed.",
@@ -369,7 +369,7 @@
             },
             "offsetRange": {
               "description": "A duration or range of durations to apply to the relationship. For example, 30-60 minutes before.",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             }
           }
         }

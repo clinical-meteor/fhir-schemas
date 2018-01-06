@@ -74,7 +74,7 @@
             },
             "doseRange": {
               "description": "Amount of medication per dose.",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             },
             "doseSimpleQuantity": {
               "description": "Amount of medication per dose.",
@@ -98,7 +98,7 @@
             },
             "rateRange": {
               "description": "Amount of medication per unit of time.",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             },
             "rateSimpleQuantity": {
               "description": "Amount of medication per unit of time.",

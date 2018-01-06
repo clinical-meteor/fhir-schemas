@@ -130,7 +130,7 @@
             },
             "valueRange": {
               "description": "The value of the trait that holds (or does not hold - see \u0027exclude\u0027) for members of the group.",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             },
             "exclude": {
               "description": "If true, indicates the characteristic is one that is NOT held by members of the group.",

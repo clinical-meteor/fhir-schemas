@@ -232,7 +232,7 @@
             },
             "timingRange": {
               "description": "The period, timing or frequency upon which the described activity is to occur.",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             },
             "location": {
               "description": "Identifies the facility where the activity will occur; e.g. home, hospital, specific clinic, etc.",

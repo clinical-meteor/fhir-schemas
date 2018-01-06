@@ -488,7 +488,7 @@
             },
             "valueRange": {
               "description": "The value of the input parameter as a basic type.",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             },
             "valuePeriod": {
               "description": "The value of the input parameter as a basic type.",
@@ -798,7 +798,7 @@
             },
             "valueRange": {
               "description": "The value of the Output parameter as a basic type.",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             },
             "valuePeriod": {
               "description": "The value of the Output parameter as a basic type.",

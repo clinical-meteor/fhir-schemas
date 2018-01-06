@@ -100,7 +100,7 @@
             },
             "onsetRange": {
               "description": "Estimated or actual date or date-time  the condition began, in the opinion of the clinician.",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             },
             "onsetString": {
               "description": "Estimated or actual date or date-time  the condition began, in the opinion of the clinician.",
@@ -137,7 +137,7 @@
             },
             "abatementRange": {
               "description": "The date or estimated date that the condition resolved or went into remission. This is called \"abatement\" because of the many overloaded connotations associated with \"remission\" or \"resolution\" - Conditions are never really resolved, but they can abate.",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             },
             "abatementString": {
               "description": "The date or estimated date that the condition resolved or went into remission. This is called \"abatement\" because of the many overloaded connotations associated with \"remission\" or \"resolution\" - Conditions are never really resolved, but they can abate.",

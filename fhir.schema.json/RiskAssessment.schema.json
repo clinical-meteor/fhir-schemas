@@ -145,7 +145,7 @@
             },
             "probabilityRange": {
               "description": "How likely is the outcome (in the specified timeframe).",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             },
             "qualitativeRisk": {
               "description": "How likely is the outcome (in the specified timeframe), expressed as a qualitative value (e.g. low, medium, high).",
@@ -166,7 +166,7 @@
             },
             "whenRange": {
               "description": "Indicates the period of time or age range of the subject to which the specified probability applies.",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             },
             "rationale": {
               "description": "Additional information explaining the basis for the prediction.",

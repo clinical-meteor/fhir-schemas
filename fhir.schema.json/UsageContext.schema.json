@@ -26,7 +26,7 @@
             },
             "valueRange": {
               "description": "A value that defines the context specified in this context of use. The interpretation of the value is defined by the code.",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             }
           },
           "required": [

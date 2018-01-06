@@ -661,7 +661,7 @@
             },
             "defaultValueRange": {
               "description": "A value to use if there is no existing value in the source object.",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             },
             "defaultValuePeriod": {
               "description": "A value to use if there is no existing value in the source object.",

@@ -252,7 +252,7 @@
             },
             "valueRange": {
               "description": "If the parameter is a data type.",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             },
             "valuePeriod": {
               "description": "If the parameter is a data type.",

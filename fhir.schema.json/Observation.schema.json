@@ -124,7 +124,7 @@
             },
             "valueRange": {
               "description": "The information determined as a result of making the observation, if the information has a simple value.",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             },
             "valueRatio": {
               "description": "The information determined as a result of making the observation, if the information has a simple value.",
@@ -250,7 +250,7 @@
             },
             "age": {
               "description": "The age at which this reference range is applicable. This is a neonatal age (e.g. number of weeks at term) if the meaning says so.",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             },
             "text": {
               "description": "Text based reference range in an observation which may be used when a quantitative range is not appropriate for an observation.  An example would be a reference value of \"Negative\" or a list or table of \u0027normals\u0027.",
@@ -329,7 +329,7 @@
             },
             "valueRange": {
               "description": "The information determined as a result of making the observation, if the information has a simple value.",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             },
             "valueRatio": {
               "description": "The information determined as a result of making the observation, if the information has a simple value.",

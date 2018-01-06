@@ -125,7 +125,7 @@
             },
             "onsetRange": {
               "description": "Estimated or actual date,  date-time, or age when allergy or intolerance was identified.",
-              "$ref": "Range.schema.json#/definitions/Range"
+              "$ref": "http://hl7.org/fhir/json-schema/Range#/definitions/Range"
             },
             "onsetString": {
               "description": "Estimated or actual date,  date-time, or age when allergy or intolerance was identified.",
