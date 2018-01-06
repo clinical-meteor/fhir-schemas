@@ -5,18 +5,18 @@ Object.defineProperty(exports, '__esModule', {
 });
 
 
-const AuditEventSchema = require('./simple-schemas/AuditEvent');
-const CarePlanSchema = require('./simple-schemas/CarePlan');
-const DeviceSchema = require('./simple-schemas/Device');
-const EndpointSchema = require('./simple-schemas/Endpoint');
-const LocationSchema = require('./simple-schemas/Location');
-const MedicationSchema = require('./simple-schemas/Medication');
-const ObservationSchema = require('./simple-schemas/Observation');
-const OrganizationSchema = require('./simple-schemas/Organization');
-const PatientSchema = require('./simple-schemas/Patient');
-const PractitionerSchema = require('./simple-schemas/Practitioner');
-const QuestionnaireSchema = require('./simple-schemas/Questionnaire');
-const QuestionnaireResponseSchema = require('./simple-schemas/QuestionnaireResponse');
+const AuditEventSchema = require('./simple-schemas/AuditEvent.js');
+const CarePlanSchema = require('./simple-schemas/CarePlan.js');
+const DeviceSchema = require('./simple-schemas/Device.js');
+const EndpointSchema = require('./simple-schemas/Endpoint.js');
+const LocationSchema = require('./simple-schemas/Location.js');
+const MedicationSchema = require('./simple-schemas/Medication.js');
+const ObservationSchema = require('./simple-schemas/Observation.js');
+const OrganizationSchema = require('./simple-schemas/Organization.js');
+const PatientSchema = require('./simple-schemas/Patient.js');
+const PractitionerSchema = require('./simple-schemas/Practitioner.js');
+const QuestionnaireSchema = require('./simple-schemas/Questionnaire.js');
+const QuestionnaireResponseSchema = require('./simple-schemas/QuestionnaireResponse.js');
 
 var _SimpleSchemas = {
   AuditEventSchema, 
