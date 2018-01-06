@@ -33,33 +33,33 @@ Object.defineProperty(exports, '__esModule', {
 //   QuestionnaireResponseSchema
 // }
 
-const _AuditEvent = require('./fhir.schema.json/AuditEvent.schema.json');
-const _CarePlan = require('./fhir.schema.json/CarePlan.schema.json');
-const _Device = require('./fhir.schema.json/Device.schema.json');
-const _Endpoint = require('./fhir.schema.json/Endpoint.schema.json');
-const _Location = require('./fhir.schema.json/Location.schema.json');
-const _Medication = require('./fhir.schema.json/Medication.schema.json');
-const _Observation = require('./fhir.schema.json/Observation.schema.json');
-const _Organization = require('./fhir.schema.json/Organization.schema.json');
-const _Patient = require('./fhir.schema.json/Patient.schema.json');
-const _Practitioner = require('./fhir.schema.json/Practitioner.schema.json');
-const _Questionnaire = require('./fhir.schema.json/Questionnaire.schema.json');
-const _QuestionnaireResponse = require('./fhir.schema.json/QuestionnaireResponse.schema.json');
+// const _AuditEvent = require('./fhir.schema.json/AuditEvent.schema.json');
+// const _CarePlan = require('./fhir.schema.json/CarePlan.schema.json');
+// const _Device = require('./fhir.schema.json/Device.schema.json');
+// const _Endpoint = require('./fhir.schema.json/Endpoint.schema.json');
+// const _Location = require('./fhir.schema.json/Location.schema.json');
+// const _Medication = require('./fhir.schema.json/Medication.schema.json');
+// const _Observation = require('./fhir.schema.json/Observation.schema.json');
+// const _Organization = require('./fhir.schema.json/Organization.schema.json');
+// const _Patient = require('./fhir.schema.json/Patient.schema.json');
+// const _Practitioner = require('./fhir.schema.json/Practitioner.schema.json');
+// const _Questionnaire = require('./fhir.schema.json/Questionnaire.schema.json');
+// const _QuestionnaireResponse = require('./fhir.schema.json/QuestionnaireResponse.schema.json');
 
 
 // exports.SimpleSchemas = _SimpleSchemas;
-exports.AuditEvent = require('./fhir.schema.json/AuditEvent.schema.json')._AuditEvent;
-exports.CarePlan = require('./fhir.schema.json/CarePlan.schema.json')._CarePlan;
-exports.Device = require('./fhir.schema.json/Device.schema.json')._Device;
-exports.Endpoint = require('./fhir.schema.json/Endpoint.schema.json')._Endpoint;
-exports.Location = require('./fhir.schema.json/Location.schema.json')._Location;
-exports.Medication = require('./fhir.schema.json/Medication.schema.json')._Medication;
-exports.Observation = require('./fhir.schema.json/Observation.schema.json')._Observation;
-exports.Organization = require('./fhir.schema.json/Organization.schema.json')._Organization;
-exports.Patient = require('./fhir.schema.json/Patient.schema.json')._Patient;
-exports.Practitioner = require('./fhir.schema.json/Practitioner.schema.json')._Practitioner;
-exports.Questionnaire = require('./fhir.schema.json/Questionnaire.schema.json')._Questionnaire;
-exports.QuestionnaireResponse = require('./fhir.schema.json/QuestionnaireResponse.schema.json')._QuestionnaireResponse;
+exports.AuditEventSchema = require('./fhir.schema.json/AuditEvent.schema.json').AuditEventSchema;
+exports.CarePlanSchema = require('./fhir.schema.json/CarePlan.schema.json').CarePlanSchema;
+exports.DeviceSchema = require('./fhir.schema.json/Device.schema.json').DeviceSchema;
+exports.EndpointSchema = require('./fhir.schema.json/Endpoint.schema.json').EndpointSchema;
+exports.LocationSchema = require('./fhir.schema.json/Location.schema.json').LocationSchema;
+exports.MedicationSchema = require('./fhir.schema.json/Medication.schema.json').MedicationSchema;
+exports.ObservationSchema = require('./fhir.schema.json/Observation.schema.json').ObservationSchema;
+exports.OrganizationSchema = require('./fhir.schema.json/Organization.schema.json').OrganizationSchema;
+exports.PatientSchema = require('./fhir.schema.json/Patient.schema.json').PatientSchema;
+exports.PractitionerSchema = require('./fhir.schema.json/Practitioner.schema.json').PractitionerSchema;
+exports.QuestionnaireSchema = require('./fhir.schema.json/Questionnaire.schema.json').QuestionnaireSchema;
+exports.QuestionnaireResponseSchema = require('./fhir.schema.json/QuestionnaireResponse.schema.json').QuestionnaireResponseSchema;
 
 // // exports.SimpleSchemas = _SimpleSchemas;
 // exports.AuditEvent = _AuditEvent['default'];
