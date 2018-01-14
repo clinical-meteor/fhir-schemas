@@ -19,6 +19,219 @@ Going forward, we recommend the Json Schama format, which is the official schema
 
 
 
+
+
+**Client**  
+```js
+//-------------------------------------------------------------
+// Auto Forms
+
+import React, { Component } from "react";
+import { render } from "react-dom";
+
+import Form from "react-jsonschema-form";
+
+import { PatientSchema } from 'fhir-schemas';
+
+const log = (type) => console.log.bind(console, type);
+
+render((
+  <Form schema={PatientSchema}
+        onChange={log("changed")}
+        onSubmit={log("submitted")}
+        onError={log("errors")} />
+), document.getElementById("app"));
+
+
+var simpleSchema = jsonSchema.toSimpleSchema();
+
+
+//-------------------------------------------------------------
+// Schema Validation
+
+// The following is really annoying, and we're working on a way to improve it.
+// The FHIR schemas have circular dependencies, which requires that we load the entire API 
+// into the validator so it can parse across the entire dependency graph.
+
+import { 
+  IdentifierSchema,
+  ElementSchema,
+  HumanNameSchema,
+  ContactPointSchema,
+  AddressSchema,
+  CodeableConceptSchema,
+  AttachmentSchema,
+  ReferenceSchema,
+  MetaSchema,
+  ExtensionSchema,
+  BackboneElementSchema,
+  NarrativeSchema,
+  AnnotationSchema,
+  CodingSchema,
+  PeriodSchema,
+  QuantitySchema,
+  DurationSchema,
+  DistanceSchema,
+  CountSchema,
+  MoneySchema,
+  AgeSchema,
+  RangeSchema,
+  RatioSchema,
+  SampledDataSchema,
+  SignatureSchema,
+  TimingSchema,
+  ElementDefinitionSchema,
+  ContactDetailSchema,
+  ContributorSchema,
+  DosageSchema,
+  RelatedArtifactSchema,
+  UsageContextSchema,
+  DataRequirementSchema,
+  ParameterDefinitionSchema,
+  TriggerDefinitionSchema,
+  ResourceListSchema,
+
+  AccountSchema,
+  ActivityDefinitionSchema,
+  AdverseEventSchema,
+  AllergyIntoleranceSchema,
+  AppointmentSchema,
+  AppointmentResponseSchema,
+  AuditEventSchema,
+  BasicSchema,
+  BinarySchema,
+  BodySiteSchema,
+  BundleSchema,
+  CapabilityStatementSchema,
+  CarePlanSchema,
+  CareTeamSchema,
+  ChargeItemSchema,
+  ClaimSchema,
+  ClaimResponseSchema,
+  ClinicalImpressionSchema,
+  CodeSystemSchema,
+  CommunicationSchema,
+  CommunicationRequestSchema,
+  CompartmentDefinitionSchema,
+  CompositionSchema,
+  ConceptMapSchema,
+  ConditionSchema,
+  ConsentSchema,
+  ContractSchema,
+  CoverageSchema,
+  DataElementSchema,
+  DetectedIssueSchema,
+  DeviceSchema,
+  DeviceComponentSchema,
+  DeviceMetricSchema,
+  DeviceRequestSchema,
+  DeviceUseStatementSchema,
+  DiagnosticReportSchema,
+  DocumentManifestSchema,
+  DocumentReferenceSchema,
+  DomainResourceSchema,
+  EligibilityRequestSchema,
+  EligibilityResponseSchema,
+  EncounterSchema,
+  EndpointSchema,
+  EnrollmentRequestSchema,
+  EnrollmentResponseSchema,
+  EpisodeOfCareSchema,
+  ExpansionProfileSchema,
+  ExplanationOfBenefitSchema,
+  FamilyMemberHistorySchema,
+  FlagSchema,
+  GoalSchema,
+  GraphDefinitionSchema,
+  GroupSchema,
+  GuidanceResponseSchema,
+  HealthcareServiceSchema,
+  ImagingManifestSchema,
+  ImagingStudySchema,
+  ImmunizationSchema,
+  ImmunizationRecommendationSchema,
+  ImplementationGuideSchema,
+  LibrarySchema,
+  LinkageSchema,
+  ListSchema,
+  LocationSchema,
+  MeasureSchema,
+  MeasureReportSchema,
+  MediaSchema,
+  MedicationSchema,
+  MedicationAdministrationSchema,
+  MedicationDispenseSchema,
+  MedicationRequestSchema,
+  MedicationStatementSchema,
+  MessageDefinitionSchema,
+  MessageHeaderSchema,
+  NamingSystemSchema,
+  NutritionOrderSchema,
+  ObservationSchema,
+  OperationDefinitionSchema,
+  OperationOutcomeSchema,
+  OrganizationSchema,
+  ParametersSchema,
+  PatientSchema,
+  PaymentNoticeSchema,
+  PaymentReconciliationSchema,
+  PersonSchema,
+  PlanDefinitionSchema,
+  PractitionerSchema,
+  PractitionerRoleSchema,
+  ProcedureSchema,
+  ProcedureRequestSchema,
+  ProcessRequestSchema,
+  ProcessResponseSchema,
+  ProvenanceSchema,
+  QuestionnaireSchema,
+  QuestionnaireResponseSchema,
+  ReferralRequestSchema,
+  RelatedPersonSchema,
+  RequestGroupSchema,
+  ResearchStudySchema,
+  ResearchSubjectSchema,
+  ResourceSchema,
+  RiskAssessmentSchema,
+  ScheduleSchema,
+  SearchParameterSchema,
+  SequenceSchema,
+  ServiceDefinitionSchema,
+  SlotSchema,
+  SpecimenSchema,
+  StructureDefinitionSchema,
+  StructureMapSchema,
+  SubscriptionSchema,
+  SubstanceSchema,
+  SupplyDeliverySchema,
+  SupplyRequestSchema,
+  TaskSchema,
+  TestReportSchema,
+  TestScriptSchema,
+  ValueSetSchema,
+  VisionPrescriptionSchema,
+} from 'fhir-schemas';
+
+import Ajv from 'ajv';
+var ajv = new Ajv(); // options can be passed, e.g. {allErrors: true}
+var validate = ajv.compile(PatientSchema);
+
+var newPatient = {
+    "name": {
+        "family": 'Doe',
+        "given": ['Jane']
+    },
+    "identifier": [{
+        "value": 123
+    }]
+};
+
+var isValid = validate(newPatient);
+if(isValid){
+    CurrentPatients.insert(newPatient);
+}
+```
+
 **Server - Node**  
 ```js
 import MongoClient from 'mongodb';
@@ -48,7 +261,7 @@ MongoClient.connect(url, function(err, client) {
 
 The following is an example for Meteor apps.  
 ```js
-import { PatientSchema } from 'fhir-simple-schemas';
+import { PatientSchema } from 'fhir-schemas';
 
 // JSONSchema is provided as a global, since it's loaded from Atmosphere package repository
 var jsonSchema = new JSONSchema(PatientSchema);
@@ -66,55 +279,6 @@ CurrentPatients.attachSchema(SimpleSchemas.PatientSchema);
 var props = jsonSchema.toSimpleSchemaProps();
 console.log('props', props)
 ```
-
-**Client**  
-```js
-//-------------------------------------------------------------
-// Auto Forms
-
-import React, { Component } from "react";
-import { render } from "react-dom";
-
-import Form from "react-jsonschema-form";
-
-import { PatientSchema } from 'fhir-simple-schemas';
-
-const log = (type) => console.log.bind(console, type);
-
-render((
-  <Form schema={PatientSchema}
-        onChange={log("changed")}
-        onSubmit={log("submitted")}
-        onError={log("errors")} />
-), document.getElementById("app"));
-
-
-var simpleSchema = jsonSchema.toSimpleSchema();
-
-
-//-------------------------------------------------------------
-// Schema Validation
-
-import Ajv from 'ajv';
-var ajv = new Ajv(); // options can be passed, e.g. {allErrors: true}
-var validate = ajv.compile(PatientSchema);
-
-var newPatient = {
-    "name": {
-        "family": 'Doe',
-        "given": ['Jane']
-    },
-    "identifier": [{
-        "value": 123
-    }]
-};
-
-var isValid = validate(newPatient);
-if(isValid){
-    CurrentPatients.insert(newPatient);
-}
-```
-
 
 #### Json Schemas  
 
