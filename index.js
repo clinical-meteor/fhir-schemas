@@ -182,7 +182,7 @@ exports.TestScriptSchema = require('./fhir.schema.json/TestScript.schema.json');
 exports.ValueSetSchema = require('./fhir.schema.json/ValueSet.schema.json');
 exports.VisionPrescriptionSchema = require('./fhir.schema.json/VisionPrescription.schema.json');
 
-exports.FhirApi =[         
+exports.FhirApi = [         
   exports.IdentifierSchema,
   exports.ElementSchema,
   exports.HumanNameSchema,
