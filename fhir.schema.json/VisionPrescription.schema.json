@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
+  "schema": "http://json-schema.org/draft-04/schema#",
   "$id": "http://hl7.org/fhir/json-schema/VisionPrescription",
   "$ref": "#/definitions/VisionPrescription",
   "description": "see http://hl7.org/fhir/json.html#schema for information about the FHIR Json Schemas",

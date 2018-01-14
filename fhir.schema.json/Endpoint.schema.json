@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
+  "schema": "http://json-schema.org/draft-04/schema#",
   "$id": "http://hl7.org/fhir/json-schema/Endpoint",
   "$ref": "#/definitions/Endpoint",
   "description": "see http://hl7.org/fhir/json.html#schema for information about the FHIR Json Schemas",
