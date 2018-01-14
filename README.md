@@ -1,6 +1,6 @@
 
 # fhir-schemas
-FHIR Resources implemented with `json-schemas` and `node-simple-schemas`.  The purpose of this package is to a) make the HL7 FHIR json-schemas available on NPM, and b) start migrating Meteor apps off of `meteor-simple-schema`.  Roughly speaking, the SimpleSchemas correspond to either `v1.6.0` of DST2, and the JsonSchemas correspond to `v3.0.1` or `STU3`.  
+FHIR Resources implemented with `json-schemas` and some backwards support for `simpl-schema`.  The purpose of this package is to a) make the HL7 FHIR json-schemas available on NPM, and b) start migrating Meteor apps off of `meteor-simple-schema`.  Roughly speaking, the SimpleSchemas correspond to either `v1.6.0` of DST2, and the JsonSchemas correspond to `v3.0.1` or `STU3`.  
 
 
 ### Installation  
@@ -10,14 +10,13 @@ FHIR Resources implemented with `json-schemas` and `node-simple-schemas`.  The p
 npm install -save fhir-schemas
 
 # if you're running a Meteor app, you'll also want to install the following conversion utility
+meteor npm install -save fhir-schemas
 meteor add bshamblen:json-simple-schema
 ```
 
 
 ### JsonSchema Usage    
 Going forward, we recommend the Json Schama format, which is the official schema published by the HL7 FHIR working groups, has [low-level Mongo support](https://docs.mongodb.com/manual/core/schema-validation/#json-schema), and has cross-platform support across a wide rage of Node/NPM apps.  
-
-
 
 
 
@@ -135,14 +134,7 @@ We provide Json Schemas for all of the following resources.
 
 
 
-#### Notes & References (Delete Eventually)    
-https://www.npmjs.com/package/node-simple-schema  
-https://docs.npmjs.com/getting-started/creating-node-modules  
-https://scotch.io/bar-talk/how-to-build-and-publish-a-npm-package  
-https://codeburst.io/how-to-create-and-publish-your-first-node-js-module-444e7585b738  
-http://blog.teamtreehouse.com/build-npm-package  
-https://www.guru99.com/node-js-modules-create-publish.html  
-
+#### Notes & References 
 https://github.com/bshamblen/meteor-json-simple-schema  
 
 https://docs.mongodb.com/manual/core/schema-validation/#json-schema  
