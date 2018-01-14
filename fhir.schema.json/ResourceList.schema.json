@@ -43,7 +43,7 @@
           "$ref": "http://hl7.org/fhir/json-schema/CapabilityStatement#/definitions/CapabilityStatement"
         },
         {
-          "$ref": "http://hl7.org/fhir/json-schema/CarePlan#/definitions/CarePlan"
+          "$ref": "http://hl7.org/fhir/json-schema/CarePlan#/definitions/CarePlan"vf
         },
         {
           "$ref": "http://hl7.org/fhir/json-schema/CareTeam#/definitions/CareTeam"

@@ -9,7 +9,7 @@
       "email": "support@symptomatic.io"
     },
     "dependencies": {
-      "node-simple-schema": "0.0.4"
+      "simpl-schema": "1.4.1"
     },
     "description": "Schemas for Fast Healthcare Interoperability Resources.  Supports json-schemas and node-simple-schemas",
     "devDependencies": {
