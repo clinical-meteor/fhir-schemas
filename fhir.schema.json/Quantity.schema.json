@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://hl7.org/fhir/json-schema/Quantity",
+  "$id": "http://hl7.org/fhir/json-schema/Quantity",
   "$ref": "#/definitions/Quantity",
   "description": "see http://hl7.org/fhir/json.html#schema for information about the FHIR Json Schemas",
   "definitions": {

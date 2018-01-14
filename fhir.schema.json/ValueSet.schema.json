@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://hl7.org/fhir/json-schema/ValueSet",
+  "$id": "http://hl7.org/fhir/json-schema/ValueSet",
   "$ref": "#/definitions/ValueSet",
   "description": "see http://hl7.org/fhir/json.html#schema for information about the FHIR Json Schemas",
   "definitions": {

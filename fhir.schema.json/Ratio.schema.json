@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://hl7.org/fhir/json-schema/Ratio",
+  "$id": "http://hl7.org/fhir/json-schema/Ratio",
   "$ref": "#/definitions/Ratio",
   "description": "see http://hl7.org/fhir/json.html#schema for information about the FHIR Json Schemas",
   "definitions": {
