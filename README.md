@@ -31,12 +31,12 @@ import { render } from "react-dom";
 
 import Form from "react-jsonschema-form";
 
-import { PatientSchema } from 'fhir-schemas';
+import { FhirApi, PatientSchema } from 'fhir-schemas';
 
 const log = (type) => console.log.bind(console, type);
 
 render((
-  <Form schema={PatientSchema}
+  <Form schema={ PatientSchema }
         onChange={log("changed")}
         onSubmit={log("submitted")}
         onError={log("errors")} />
@@ -49,172 +49,11 @@ var simpleSchema = jsonSchema.toSimpleSchema();
 //-------------------------------------------------------------
 // Schema Validation
 
-// The following is really annoying, and we're working on a way to improve it.
-// The FHIR schemas have circular dependencies, which requires that we load the entire API 
-// into the validator so it can parse across the entire dependency graph.
+var ajv = new Ajv({schemas: FhirApi });
 
-var ajv = new Ajv({schemas: [         
-    IdentifierSchema,
-    ElementSchema,
-    HumanNameSchema,
-    ContactPointSchema,
-    AddressSchema,
-    CodeableConceptSchema,
-    AttachmentSchema,
-    ReferenceSchema,
-    MetaSchema,
-    ExtensionSchema,
-    BackboneElementSchema,
-    NarrativeSchema,
-    AnnotationSchema,
-    CodingSchema,
-    PeriodSchema,
-    QuantitySchema,
-    DurationSchema,
-    DistanceSchema,
-    CountSchema,
-    MoneySchema,
-    AgeSchema,
-    RangeSchema,
-    RatioSchema,
-    SampledDataSchema,
-    SignatureSchema,
-    TimingSchema,
-    ElementDefinitionSchema,
-    ContactDetailSchema,
-    ContributorSchema,
-    DosageSchema,
-    RelatedArtifactSchema,
-    UsageContextSchema,
-    DataRequirementSchema,
-    ParameterDefinitionSchema,
-    TriggerDefinitionSchema,
-    ResourceListSchema,
+var validate = ajv.getSchema('http://hl7.org/fhir/json-schema/Patient');
 
-    AccountSchema,
-    ActivityDefinitionSchema,
-    AdverseEventSchema,
-    AllergyIntoleranceSchema,
-    AppointmentSchema,
-    AppointmentResponseSchema,
-    AuditEventSchema,
-    BasicSchema,
-    BinarySchema,
-    BodySiteSchema,
-    BundleSchema,
-    CapabilityStatementSchema,
-    CarePlanSchema,
-    CareTeamSchema,
-    ChargeItemSchema,
-    ClaimSchema,
-    ClaimResponseSchema,
-    ClinicalImpressionSchema,
-    CodeSystemSchema,
-    CommunicationSchema,
-    CommunicationRequestSchema,
-    CompartmentDefinitionSchema,
-    CompositionSchema,
-    ConceptMapSchema,
-    ConditionSchema,
-    ConsentSchema,
-    ContractSchema,
-    CoverageSchema,
-    DataElementSchema,
-    DetectedIssueSchema,
-    DeviceSchema,
-    DeviceComponentSchema,
-    DeviceMetricSchema,
-    DeviceRequestSchema,
-    DeviceUseStatementSchema,
-    DiagnosticReportSchema,
-    DocumentManifestSchema,
-    DocumentReferenceSchema,
-    DomainResourceSchema,
-    EligibilityRequestSchema,
-    EligibilityResponseSchema,
-    EncounterSchema,
-    EndpointSchema,
-    EnrollmentRequestSchema,
-    EnrollmentResponseSchema,
-    EpisodeOfCareSchema,
-    ExpansionProfileSchema,
-    ExplanationOfBenefitSchema,
-    FamilyMemberHistorySchema,
-    FlagSchema,
-    GoalSchema,
-    GraphDefinitionSchema,
-    GroupSchema,
-    GuidanceResponseSchema,
-    HealthcareServiceSchema,
-    ImagingManifestSchema,
-    ImagingStudySchema,
-    ImmunizationSchema,
-    ImmunizationRecommendationSchema,
-    ImplementationGuideSchema,
-    LibrarySchema,
-    LinkageSchema,
-    ListSchema,
-    LocationSchema,
-    MeasureSchema,
-    MeasureReportSchema,
-    MediaSchema,
-    MedicationSchema,
-    MedicationAdministrationSchema,
-    MedicationDispenseSchema,
-    MedicationRequestSchema,
-    MedicationStatementSchema,
-    MessageDefinitionSchema,
-    MessageHeaderSchema,
-    NamingSystemSchema,
-    NutritionOrderSchema,
-    ObservationSchema,
-    OperationDefinitionSchema,
-    OperationOutcomeSchema,
-    OrganizationSchema,
-    ParametersSchema,
-    PatientSchema,
-    PaymentNoticeSchema,
-    PaymentReconciliationSchema,
-    PersonSchema,
-    PlanDefinitionSchema,
-    PractitionerSchema,
-    PractitionerRoleSchema,
-    ProcedureSchema,
-    ProcedureRequestSchema,
-    ProcessRequestSchema,
-    ProcessResponseSchema,
-    ProvenanceSchema,
-    QuestionnaireSchema,
-    QuestionnaireResponseSchema,
-    ReferralRequestSchema,
-    RelatedPersonSchema,
-    RequestGroupSchema,
-    ResearchStudySchema,
-    ResearchSubjectSchema,
-    ResourceSchema,
-    RiskAssessmentSchema,
-    ScheduleSchema,
-    SearchParameterSchema,
-    SequenceSchema,
-    ServiceDefinitionSchema,
-    SlotSchema,
-    SpecimenSchema,
-    StructureDefinitionSchema,
-    StructureMapSchema,
-    SubscriptionSchema,
-    SubstanceSchema,
-    SupplyDeliverySchema,
-    SupplyRequestSchema,
-    TaskSchema,
-    TestReportSchema,
-    TestScriptSchema,
-    ValueSetSchema,
-    VisionPrescriptionSchema,
-    ]});
-
-    var validate = ajv.getSchema('http://hl7.org/fhir/json-schema/Patient');
-
-    var newPatient = {
+var newPatient = {
     "resourceType": "Patient",
     "name": [{
         "family": 'Doe',
@@ -223,21 +62,22 @@ var ajv = new Ajv({schemas: [
     "identifier": [{
         "value": '123'
     }]
-    };
+};
 
-    var isValid = validate(newPatient);
-    if(isValid){
+var isValid = validate(newPatient);
+if(isValid){
+    console.log("newPatient is valid...");
+
     // Insert some documents
     db.collection('CurrentPatients').insertMany([
         newPatient
     ], function(err, result) {
         console.log("Inserted newPatient into the CurrentPatients collection");
     });
-    } else {
+} else {
     console.log("newPatient isn't valid...");
     console.log(validate.errors);
-    }
-
+}
 ```
 
 **Server - Node**  
