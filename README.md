@@ -23,29 +23,6 @@ Going forward, we recommend the Json Schama format, which is the official schema
 **Client**  
 ```js
 //-------------------------------------------------------------
-// Auto Forms
-
-import React, { Component } from "react";
-import { render } from "react-dom";
-
-import Form from "react-jsonschema-form";
-
-import { FhirApi, PatientSchema } from 'fhir-schemas';
-
-const log = (type) => console.log.bind(console, type);
-
-render((
-  <Form schema={ PatientSchema }
-        onChange={log("changed")}
-        onSubmit={log("submitted")}
-        onError={log("errors")} />
-), document.getElementById("app"));
-
-
-var simpleSchema = jsonSchema.toSimpleSchema();
-
-
-//-------------------------------------------------------------
 // Schema Validation
 
 var ajv = new Ajv({schemas: FhirApi });
@@ -77,6 +54,29 @@ if(isValid){
     console.log("newPatient isn't valid...");
     console.log(validate.errors);
 }
+
+//-------------------------------------------------------------
+// Auto Forms 
+// This is still experimental, and may not work.  
+
+import React, { Component } from "react";
+import { render } from "react-dom";
+
+import Form from "react-jsonschema-form";
+
+import { FhirApi, PatientSchema } from 'fhir-schemas';
+
+const log = (type) => console.log.bind(console, type);
+
+render((
+  <Form schema={ PatientSchema }
+        onChange={log("changed")}
+        onSubmit={log("submitted")}
+        onError={log("errors")} />
+), document.getElementById("app"));
+
+
+var simpleSchema = jsonSchema.toSimpleSchema();
 ```
 
 **Server - Node**  
