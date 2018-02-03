@@ -25,6 +25,9 @@ Going forward, we recommend the Json Schama format, which is the official schema
 //-------------------------------------------------------------
 // Schema Validation
 
+import { FhirApi } from 'fhir-schemas';
+import { Ajv } from 'ajv';
+
 var ajv = new Ajv({schemas: FhirApi });
 
 var validate = ajv.getSchema('http://hl7.org/fhir/json-schema/Patient');
@@ -41,19 +44,48 @@ var newPatient = {
 };
 
 var isValid = validate(newPatient);
-if(isValid){
-    console.log("newPatient is valid...");
 
-    // Insert some documents
-    db.collection('CurrentPatients').insertMany([
-        newPatient
-    ], function(err, result) {
-        console.log("Inserted newPatient into the CurrentPatients collection");
+//-------------------------------------------------------------
+// Server
+
+
+import MongoClient from 'mongodb';
+import { PatientSchema } from 'fhir-schemas';
+
+// Connection URL
+const url = 'mongodb://localhost:27017';
+ 
+// Database Name
+const dbName = 'myproject';
+ 
+// Use connect method to connect to the server
+MongoClient.connect(url, function(err, client) { 
+    const db = client.db(dbName);
+ 
+    db.createCollection("Patients", {
+        validator: {
+            $jsonSchema: PatientSchema
+        }
     });
-} else {
-    console.log("newPatient isn't valid...");
-    console.log(validate.errors);
-}
+
+    if(isValid){
+        console.log("newPatient is valid...");
+
+        // Insert some documents
+        db.collection('CurrentPatients').insertMany([
+            newPatient
+        ], function(err, result) {
+            console.log("Inserted newPatient into the CurrentPatients collection");
+        });
+    } else {
+        console.log("newPatient isn't valid...");
+        console.log(validate.errors);
+    }
+
+    client.close();
+});
+
+
 
 //-------------------------------------------------------------
 // Auto Forms 
@@ -79,30 +111,6 @@ render((
 var simpleSchema = jsonSchema.toSimpleSchema();
 ```
 
-**Server - Node**  
-```js
-import MongoClient from 'mongodb';
-import { PatientSchema } from 'fhir-schemas';
-
-// Connection URL
-const url = 'mongodb://localhost:27017';
- 
-// Database Name
-const dbName = 'myproject';
- 
-// Use connect method to connect to the server
-MongoClient.connect(url, function(err, client) { 
-    const db = client.db(dbName);
- 
-    db.createCollection("Patients", {
-        validator: {
-            $jsonSchema: PatientSchema
-        }
-    });
-
-    client.close();
-});
-```
 
 **Server - Meteor**  
 
