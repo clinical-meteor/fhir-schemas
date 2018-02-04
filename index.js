@@ -342,7 +342,7 @@ exports.FhirApi = [
   exports.VisionPrescriptionSchema,
   ];
 
-  exports.FhirApi2 = require('./fhir.schema.s.json');
+  exports.FhirApi2 = require('./fhir.schemas.2.json');
 
 
 
