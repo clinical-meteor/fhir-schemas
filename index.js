@@ -183,7 +183,7 @@ exports.ValueSetSchema = require('./fhir.schema.json/ValueSet.schema.json');
 exports.VisionPrescriptionSchema = require('./fhir.schema.json/VisionPrescription.schema.json');
 
 
-exports.FhirApi = [         
+exports.FhirApiLegacy = [         
   exports.IdentifierSchema,
   exports.ElementSchema,
   exports.HumanNameSchema,
@@ -342,7 +342,7 @@ exports.FhirApi = [
   exports.VisionPrescriptionSchema,
   ];
 
-  exports.FhirApi2 = require('./fhir.schema.2.json');
+  exports.FhirApi = require('./fhir.schema.2.json');
 
 
 
