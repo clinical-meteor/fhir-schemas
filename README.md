@@ -26,11 +26,10 @@ Going forward, we recommend the Json Schama format, which is the official schema
 // Schema Validation
 
 import { FhirApi } from 'fhir-schemas';
-import { Ajv } from 'ajv';
+import Ajv from 'ajv';
 
-var ajv = new Ajv({schemas: FhirApi });
-
-var validate = ajv.getSchema('http://hl7.org/fhir/json-schema/Patient');
+var ajv = new Ajv;    
+var validate = ajv.addSchema(FhirApi).getSchema('http://hl7.org/fhir/json-schema/Patient');
 
 var newPatient = {
     "resourceType": "Patient",
@@ -50,6 +49,9 @@ var isValid = validate(newPatient);
 
 
 import MongoClient from 'mongodb';
+
+// this is a legacy API; based on the FHIR schemas shipping in different files
+// will probably be deprecated in the future
 import { PatientSchema } from 'fhir-schemas';
 
 // Connection URL
@@ -62,6 +64,9 @@ const dbName = 'myproject';
 MongoClient.connect(url, function(err, client) { 
     const db = client.db(dbName);
  
+    // we're hoping to have something like the following in the future
+    // var PatientSchema = ajv.addSchema(FhirApi).getSchema('http://hl7.org/fhir/json-schema/Patient');
+
     db.createCollection("Patients", {
         validator: {
             $jsonSchema: PatientSchema
